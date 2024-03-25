@@ -1,24 +1,35 @@
-# Informe del Trabajo Final
+<center>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="upc logo">
+# Universidad Peruana De Ciencas Aplicadas
+## Desarrollo de Aplicaciones Open Source SW53
 
-## Universidad Peruana de Ciencias Aplicadas
-#### Ingeniería de Software
-#### Desarrollo de Aplicaciones Open Source - SW53
-#### Elio Jefferrson Navarrete Vilca
-#### Startup: MetaSoft
-#### Producto: ReStyle
-#### Integrantes 
+</center>
 
-| Nombre                         | Código     |
-|--------------------------------|------------|
-| Josue Daniel Valverde Lopez    | U202121440 |
-| Maria Alejandra Díaz Villacrez | U202118315 |
-| Janover Gonzalo Saldaña Vela   | U20201B510 |
-| Ariana Vargas Revollé          | U20221A928 |
-| Josten Marc Huaman Bellido     | U201617624 |
+<p align = "center"> <img src = "https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img> </p>
 
-### Marzo - 2024 
+<center>
+
+# Informe Trabajo Final
+## Docente: Elio Jefferrson Navarrete Vilca
+## Startup: MetaSoft
+## Producto: ReStyle
+## Integrantes 
+
+ </center> 
+
+* **Josue Daniel Valverde Lopez     U202121440**
+* **Maria Alejandra Díaz Villacrez  U202118315**
+* **Janover Gonzalo Saldaña Vela    U20201B510**
+* **Ariana Vargas Revollé           U20221A928** 
+* **Josten Marc Huaman Bellido      U201617624** 
+
+<center>
+
+### 2024 - 01
+
+</center>
+
+---
 
 <br>
 
