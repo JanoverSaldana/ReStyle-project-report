@@ -46,7 +46,7 @@ Gracias a los avances tecnológicos las personas poseen un fácil acceso a las �
 
 La INEI muestra estadísticas de aumento de la cantidad de viviendas que hay entre 2007 y 2017.  
 
-“En relación al Censo de 2007, las viviendas particulares se incrementaron en 2 millones 536 mil 707 viviendas, lo que representa una variación intercensal de 33,5% y una tasa de crecimiento promedio anual de 2,9% para el periodo 2007 – 2017” (INEI, 2017)  
+> "En relación al Censo de 2007, las viviendas particulares se incrementaron en 2 millones 536 mil 707 viviendas, lo que representa una variación intercensal de 33,5% y una tasa de crecimiento promedio anual de 2,9% para el periodo 2007 – 2017" (INEI, 2017)  
 
 Esto muestra que continuamente en el Perú existe una gran cantidad de personas que buscan renovar o construir sus hogares con el objetivo de poseer un mejor estilo de vida. 
 
