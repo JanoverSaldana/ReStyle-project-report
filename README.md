@@ -38,7 +38,7 @@
 | Versión | Fecha      | Autor    | Descripción de modificación           |
 |---------|------------|----------|---------------------------------------|
 | 1.0     | 24/03/2024 | Gonzalo Saldaña | Se creo la ramificación del repositorio y adicionó los documentos en su versión inicial previa a la investigacón |
-| 1.1     | ---------- | ------- | -------------------------------------- |
+| 1.1     | 24/03/2024 | Alejandra Diaz  | Se comenzó la redacción del capítulo 1 "Introducción" |
 
 
 
