@@ -120,7 +120,9 @@ Según el estudio Construcción 2018, de Ipsos Perú, refiere que el 34% de lime
 
 <p align = "center"> <img src = "https://www.ipsos.com/sites/default/files/styles/max_1300x1300/public/ct/publication/2019-09/portada.png?itok=_7UcjCwE" width="350"></img> </p>
 
-*Fuente: Estudio Construcción 2018 de Ipsos Perú en Lima.* 
+<p align = "center">
+ <em> Fuente: Estudio Construcción 2018 de Ipsos Perú en Lima. </em>
+</p>
 
 ### 1.2.2. Lean UX Process
 
