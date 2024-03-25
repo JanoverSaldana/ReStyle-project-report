@@ -17,7 +17,7 @@ Ser líderes en innovaciones tecnológicas, elevando la eficiencia de las indust
 
 | **Integrantes** | **Descripción** | **Conocimientos** |
 | --------------- | --------------- | ----------------- |
-| María Alejandra Díaz Villacrez *u202118315* | ![alt](https://github.com/sw53-metasoft/ReStyle-project-report/assets/91510417/decfd1b2-3215-47ae-aeb7-8c59b2267e5b) Soy estudiante de la carrera de Ingeniería de Software| Poseo conocimientos en los lenguajes de programación: C++, Python, JavaScript y C#. Puedo aportar mis habilidades técnicas y blandas para mejorar la eficacia de mi equipo|
+| María Alejandra Díaz Villacrez *u202118315* | ![alt](https://github.com/sw53-metasoft/ReStyle-project-report/assets/91510417/decfd1b2-3215-47ae-aeb7-8c59b2267e5b) Soy estudiante de 5to ciclo de la carrera de Ingeniería de Software| Poseo conocimientos en los lenguajes de programación: C++, Python, JavaScript y C#. Me apasiona el trabajo en equipo y soy una persona responsable, lista para ayudar a los que lo necesiten. Puedo aportar mis habilidades técnicas y blandas para mejorar la eficacia de mi equipo|
 |                 |                 |                   |
 |                 |                 |                   |
 |                 |                 |                   |
@@ -118,9 +118,9 @@ Puede ser el deterioro de su propiedad o querer cambiar el estilo de la misma. P
 
 Según el estudio Construcción 2018, de Ipsos Perú, refiere que el 34% de limeños planeaba construir una vivienda hacia el 2020. (IPSOS, 2018) 
 
-![](https://github.com/sw53-metasoft/ReStyle-project-report/assets/91510417/b856e421-064f-44a9-a6d9-5a86188447c7)
+![](https://www.ipsos.com/sites/default/files/styles/max_1300x1300/public/ct/publication/2019-09/portada.png?itok=_7UcjCwE)
 
-Fuente: Estudio Construcción 2018 de Ipsos Perú en Lima. 
+*Fuente: Estudio Construcción 2018 de Ipsos Perú en Lima.* 
 
 ### 1.2.2. Lean UX Process
 
