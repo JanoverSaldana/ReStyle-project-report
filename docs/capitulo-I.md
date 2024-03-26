@@ -158,11 +158,49 @@ Sabremos que tenemos éxito cuando veamos **el cumplimiento de nuestras metas en
  
 #### 1.2.2.2. Lean UX Assumptions.
 
-Contenido
+-Who are our users?
+Mis clientes iniciales del segmento contratador serán personas naturales o jurídicas que poseen o residen en una propiedad en Perú y mis clientes del segmento remodelador serán empresas que ofrecen servicios de remodelación en Perú. 
+-What is the product used for?
+Asumimos que existe una demanda creciente de servicios de remodelación de propiedades en Perú.
+Creemos que los clientes del segmento remodelador necesitan una plataforma que les permita promocionar sus servicios de remodelación o construcción. 
+-When is it used?
+Asumimos que los clientes contratadores estarán dispuestos a realizar proyectos con remodeladores mediante nuestra plataforma.
+Asumimos que los clientes remodeladores estarán dispuestos a registrarse en la plataforma y suscribirse para poder ofrecer sus servicios mediante ReStyle.
+-What situations is it used in?
+Creemos que los clientes valoran la transparencia en términos de precios y resultados, así como la capacidad de confiar en los remodeladores que eligen a través de la plataforma. 
+-What will be the most important functionality?
+Asumimos que los clientes como los remodeladores valoran una plataforma fácil de usar y navegar que satisface las necesidades de nuestros dos segementos objetivos.
+-What’s the biggest risk to product delivery?
+Creemos que nuestro mayor riesgo será la competencia ya existente en el mercado. Por ejemplo, otras plataformas que conecten clientes y remodeladores que ofrecen servicios en Perú, que cuentan con una base estable clientes recurrentes. 
+Creemos que los costos iniciales para el despliegue de la plataforma podrán retrazar la ganancias en el primer año de lanzamiento.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
+Para la elaboración de los Hypothesis Statements se utilizó el formato Lean UX: **[We believe that]**, **[This will achieve]** y **[We will have demonstrated this when]**
 
-Contenido
+-Hipótesis 1: 
+**Creemos que** si somos excitosos en facilitar el proceso de búsqueda y comparación de remodeladores en nuestra plataforma, entonces **esto logrará** aumentar la cantidad de clientes recurrentes.
+**Sabremos que** estamos en lo cierto. 
+**Cuando** los clientes visitantes generen contratos con remodeladores dentro de nuestra plataforma. 
+
+-Hipótesis 2: 
+**Creemos que** si facilitamos la comunicación y transparencia de procesos entre clientes y remodeladores a lo largo de todo el proyecto de remodelación en nuestra plataforma, entonces **esto logrará** aumentar la satisfacción del cliente y la retención de los remodeladores a nuestro servicio.
+**Sabremos que** estamos en lo cierto. 
+**Cuando** la satisfacción de los clientes se vea reflejada en las encuentas y reviews positivas de los mismos. 
+
+-Hipótesis 3: 
+**Creemos que** si ofrecemos una plataforma simple y accesible para cualquier tipo de usuario, entonces **esto logrará** aumentar la cantidad de clientes visitantes y potenciales remodeladores que deseen ofrecer sus servicios mediante nosotros.
+**Sabremos que** estamos en lo cierto. 
+**Cuando** observemos una curva corta de aprendizaje por parte de nuevos clientes para navegar dentro de nuestra plataforma.
+
+-Hipótesis 4: 
+**Creemos que** si implementamos un sistema de retroalimentación y reviews en nuestra plataforma, entonces **esto logrará** reflejar de mejor manera la reputación de los remodeladores y aumentará la confianza de los clientes con respecto a la calidad del servicio ofrecido.
+**Sabremos que** estamos en lo cierto. 
+**Cuando** los remodeladores con mejores calificaciones posean un aumento en la contratación de sus servicios a través de nuestra plataforma.
+
+-Hipótesis 5: 
+**Creemos que** si ofrecemos servicios de suscripciones mensuales y anuales premium para nuestros clientes remodeladores, entonces **esto logrará** generar ingresos recurrentes a nuestra empresa y poder ofrecer mejores herramientas dentro de nuestra plataforma.
+**Sabremos que** estamos en lo cierto. 
+**Cuando** los remodeladores opten por suscribirse a los planes premium de ReStyle dentro del primer año de lanzamiento.
 
 #### 1.2.2.4. Lean UX Canvas
 
