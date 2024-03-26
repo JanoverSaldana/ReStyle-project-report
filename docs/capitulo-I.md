@@ -126,10 +126,36 @@ Según el estudio Construcción 2018, de Ipsos Perú, refiere que el 34% de lime
 
 ### 1.2.2. Lean UX Process
 
+En esta sección inicia el proceso de Lean UX en donde se abarca la visión del modelo de negocio que será soportado por nuestro producto de software. Gracias a esta metodología podemos enfocarnos en el diseño de nuestra solución y problemas de Design Thinking.  
+
 #### 1.2.2.1. Lean UX Problem Statements.
 
-Contenido
+A continuación, utilizamos la plantilla de Business Opportunity Statements (Gothelf, 2022) para que nuestro equipo empiece a crear un servicio sin percepciones que limiten la creatividad y agilidad. Gracias a este enfoque nos obligamos a pensar en nuestro trabajo en términos que satisfagan las necesidades de los clientes y tener un lanzamiento exitoso de nuestra idea.  
 
+- La plantilla de Business Opportunity Statement:  
+
+El estado actual de **[domain]** se ha centrado principalmente en **[segments, pain points, etc.]** 
+ 
+Lo que los productos/servicios existentes no logran abordar es **[this gap]**. 
+ 
+Nuestro producto/servicio abordará esta brecha mediante **[vision / strategy]**. 
+ 
+Nuestro enfoque inicial será **[this segment]**. 
+ 
+Sabremos que tenemos éxito cuando veamos **[these behaviors in our target audience]**. 
+
+- ReStyle Lean UX Problem Statements:
+
+El estado actual de **nuestro servicio de plataforma web para remodeladores y personas que deseen remodelar sus propiedades** se ha centrado principalmente en **ofrecer una amplia cartera de clientes y remodeladores, permitiendoles crear, manejar y realizar seguimientos en tiempo real sobre sus proyectos de diseño.** 
+ 
+Lo que los productos/servicios existentes no logran abordar es **abarcar la conexión con posibles clientes y a la misma vez ofrecer herramientas que acompañen a los remodeladores durante el desarrollo del proyecto de diseño.**
+ 
+Nuestro producto/servicio abordará esta brecha mediante **el desarrollo e implementación de una plataforma web, que pueda ser modificada fácilmente mediante soluciones tecnológicas óptimas, gracias a nuestros programadores.**
+ 
+Nuestro enfoque inicial será **abarcar el mercado de remodelaciones en Perú.**
+ 
+Sabremos que tenemos éxito cuando veamos **el cumplimiento de nuestras metas en suscripciones y alcance de clientes dentro de los primeros años de lanzamiento de nuestro servicio.**
+ 
 #### 1.2.2.2. Lean UX Assumptions.
 
 Contenido
