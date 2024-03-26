@@ -208,4 +208,22 @@ Contenido
 
 ## 1.3. Segmentos Objetivos
 
-Contenido
+Nuestro dominio se centra en atender las necesidades de dos segmentos objetivos. Personas que desean remodelar sus propiedades y empresas que brindan servicios de remodelación. Todos nuestros usuarios deben ser personas naturales o jurídicas mayores de edad y que residan o sean dueños de propiedades en Perú.
+
+Según el estudio elaborado por IPSOS al menos un 7% de personas tienen planes de remodelación en su vivienda y un 5% tiene planes de redecorar su hogar.
+> “Este estudio tiene como objetivo conocer las características de las viviendas y los hogares limeños, así como sus planes para construir, remodelar, ampliar, decorar y redecorar en los próximos 12 meses. Para ello, se entrevistaron a 594 jefes del hogar de todos los niveles socioeconómicos de Lima Metropolitana.” (IPSOS, 2019).
+<p align = "center"> <img src = "https://github.com/sw53-metasoft/ReStyle-project-report/assets/91510417/ae6a7d8f-6444-4efc-b726-aad421531ac4" width="375"></img> </p>
+<p align = "center">
+ <em> Fuente: Planes para la vivienda y el mejoramiento del hogar 2019. </em>
+</p>
+
+Según el informe técnico de demografía empresarial en el Perú, elaborado por el Instituto Nacional de Estadística e Informática, el rubro de construcción posee un 1,8% en tasa de crecimiento de empresas.
+> La tasa neta de crecimiento fue de 1,2% para el I Trimestre del 2018, significando un incremento de empresas. Según actividad económica los salones de belleza y las actividades de servicio de comidas y bebidas tuvieron la mayor tasa neta con el 2,5% cada una, seguido de construcción con 1,8%, y transporte y almacenamiento con 1,5%, entre las más representativas.
+
+<p align = "center"> <img src = "https://github.com/sw53-metasoft/ReStyle-project-report/assets/91510417/a5b72e52-7ce6-470e-8d45-98270a9ec056" width="500"></img> </p>
+<p align = "center">
+ <em> Fuente: Informe técnico de demografía empresarial en el Perú. </em>
+</p>
+
+
+
