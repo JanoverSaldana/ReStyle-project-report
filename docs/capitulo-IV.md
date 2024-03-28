@@ -2,12 +2,10 @@
 
 ## 4.1. Style Guidelines. Josten
 
-Contenido
 El estilo de un producto es fundamental para crear una experiencia visual coherente y atractiva para los usuarios. Las directrices de estilo que proporcionan un marco para garantizar que todos los aspectos del diseño, desde el tipo de tipografía hasta los colores que presenta, se mantengan consistentes en todas las plataformas y dispositivos. A continuación, se detallará las directrices de estilo de nuestro proyecto.
 
 ### 4.1.1. General Style Guidelines.
 
-Contenido
 Presentaremos directrices de estilo general que proporcionan un marco sólido para el diseño dinámico y efectivo de nuestro producto, brindando una experiencia de usuario satisfactoria y alianada con los objetivos de la marca.
 
 Consistencia Visual: Mantener una apariencia coherente en todo el producto, desde el diseño de la interfaz de usuario hasta los elementos visuales. Esto abarca la elección de colores, el tipo de tipografía, estilos y la usabilidad de nuestra página web.
@@ -19,8 +17,6 @@ Legibilidad: Utilizar fuentes legibles y un tamaño adecuado para garantizar que
 Identidad de Marca: Reflejar la esencia de la marca en el diseño del producto, utilizando colores, tipografías, y estilos visuales que sea consistentes con la personalidad de la marca. Esto nos ayuda a fortalecer la identidad visual de la marca y a conectar con los usuarios.
 
 ### 4.1.2. Web Style Guidelines.
-
-Contenido
 
 Responsive Design: Es fundamental que el diseño del producto sea adaptable y responda correctamente a diferentes tamaños de pantalla y dispositivos. Se debe garantizar una experiencia de usuario óptima tanto en dispositivos móviles como en escritorio.
 
@@ -34,78 +30,71 @@ Seguridad y Privacidad: Incorporar medidas de seguridad y privacidad en el dise�
 
 ## 4.2. Information Architecture.
 
-Contenido
 La arquitectura de información es esencial para organizar y estructurar el contenido de manera que sea fácilmente accesible y comprensible para los usuarios. En este apartado, se abordarán los sistema de organización, etiquetado, etiquetas SEO y metaetiquetas, sistema de búsqueda y sistemas de navegación que conforman la arquitectura de la información de nuestro producto. Estas directrices asegurarán una experiencia de usuario fluida y eficiente, facilitando la búsqueda y el acceso a la información relevante.
 
 ### 4.2.1. Organization Systems.
 
-Contenido
 Los sistemas de organización son fundamentales para estructurar el contenido de manera lógica y coherente, facilitando la navegación y la compresión para los usuarios. Los métodos utilizados para organizar y clasificar el contenido dentro del producto.
 
-    Jerarquia de información: Organizar el contenido en una estructura de jerarquía, donde los elementos principales se subidividen en categorias y subcategorías. Esto facilita la navegación progresiva a través del contenido, permitiendo a los usuarios explorar de manera sistemática.
+Jerarquia de información: Organizar el contenido en una estructura de jerarquía, donde los elementos principales se subidividen en categorias y subcategorías. Esto facilita la navegación progresiva a través del contenido, permitiendo a los usuarios explorar de manera sistemática.
 
-    Categorización Temática: Agrugar el contenido en función de temas o categorías relacionadas entre sí. Esto permite a los usuarios encontrar fácilmente la información. 
+Categorización Temática: Agrugar el contenido en función de temas o categorías relacionadas entre sí. Esto permite a los usuarios encontrar fácilmente la información. 
 
-    Orden de Prioridad: Priorizar el contenido en función de su importancia o relevancia para los usuarios. Esto asegura que el contenido más relevante o importante esté destacado y sea fácilmente accesible.
+Orden de Prioridad: Priorizar el contenido en función de su importancia o relevancia para los usuarios. Esto asegura que el contenido más relevante o importante esté destacado y sea fácilmente accesible.
 
-    Etiquetado por Etiquetas: Etiquetar el contenido con palabras clave o etiquetas descriptivas que faciliten la búsqueda y la recuperacion de información. Esto permite a los usuarios encontrar contenido relacionado mediante la búsqueda o la navegación por etiquetas. 
+Etiquetado por Etiquetas: Etiquetar el contenido con palabras clave o etiquetas descriptivas que faciliten la búsqueda y la recuperacion de información. Esto permite a los usuarios encontrar contenido relacionado mediante la búsqueda o la navegación por etiquetas. 
 
 ### 4.2.2. Labeling Systems.
 
-Contenido
 Los sistemas de etiquetado son fundamentales para facilitar la navegación y la búsqueda de información dentro del producto. Existen varios métodos para etiquetar el contenido dentro de un productos y la elección de ellos depende de las necesidades específicas del usuario.
 
-    Etiquetado Descriptivo: Utilizar palabras o frases que describen el contenido de manera clara y precisa. Este método ayuda a los usuarios a entender rápidamente de que se trata el contenido y a encontrar información relevante mediante la busqueda.
+Etiquetado Descriptivo: Utilizar palabras o frases que describen el contenido de manera clara y precisa. Este método ayuda a los usuarios a entender rápidamente de que se trata el contenido y a encontrar información relevante mediante la busqueda.
 
-    Etiquetado por Audiencia: Personalizar las etiquetas según el perfil del usuario o tu segmento objetivo.Esto permite ofrece contenido relevante y adaptado a las necesidades especificas de cada usuario.
+Etiquetado por Audiencia: Personalizar las etiquetas según el perfil del usuario o tu segmento objetivo.Esto permite ofrece contenido relevante y adaptado a las necesidades especificas de cada usuario.
 
-    Etiquetado por Popularidad o Relevancia: Asigna etiqueetas basadas en la popularidad o relevancia del contenido.Esto puede incluir etiquetas generadas automáticamente a partir del análisis de datos o etiquetas asignadas por los usuarios mediante votación o interacción.
+Etiquetado por Popularidad o Relevancia: Asigna etiqueetas basadas en la popularidad o relevancia del contenido.Esto puede incluir etiquetas generadas automáticamente a partir del análisis de datos o etiquetas asignadas por los usuarios mediante votación o interacción.
 
 ### 4.2.3. SEO Tags and Meta Tags
 
-Contenido
 Las etiquetas SEO (Search Engine Optimization) y las metaetiquetas desempeñan un papel crucial en la visibilidad y el posicionamiento del contenido en los motores de búsqueda. Existen varios tipos de etiquetas SEO y metaetiquetas, se presentarán algunos de los más importantes:
 
-    Etiqueta de Título (Title Tag): Esta es una de las etiquetas más importantes para SEO. Define el título de una página web y aparece como el título principal en los resultado de búsqueda. Es importante que el título sea descriptivo, relevante y contenga palabras claves relacionadas con el contenido de la página.
+Etiqueta de Título (Title Tag): Esta es una de las etiquetas más importantes para SEO. Define el título de una página web y aparece como el título principal en los resultado de búsqueda. Es importante que el título sea descriptivo, relevante y contenga palabras claves relacionadas con el contenido de la página.
 
-    Metaetiqueta de Descripción (Meta Description Tag): Esta etiqueta proporciona una descripción breve del contenido de la pagina. Aunque no tiene un impacto directo en el ranking de búsqueda, una meta descripción bien redactada puede influir en la tada de click (CTR) al proporcionar a los usuarios uan idea clara del contenido de la página.
+Metaetiqueta de Descripción (Meta Description Tag): Esta etiqueta proporciona una descripción breve del contenido de la pagina. Aunque no tiene un impacto directo en el ranking de búsqueda, una meta descripción bien redactada puede influir en la tada de click (CTR) al proporcionar a los usuarios uan idea clara del contenido de la página.
 
-    Etiqueta de Encabeza (Header Tags): Estas etiquetas como H1,H2,H3, etc, se utilizar para definir la estructura y jerarquía del contenido de una página. Los motores de búsqueda utilizan los encabezados para entender la organizacón del contenido y su relevancia para los usuarios.
+Etiqueta de Encabeza (Header Tags): Estas etiquetas como H1,H2,H3, etc, se utilizar para definir la estructura y jerarquía del contenido de una página. Los motores de búsqueda utilizan los encabezados para entender la organizacón del contenido y su relevancia para los usuarios.
 
-    Etiqueta de Idioma (Language Tag): Esta etiqueta se utiliza para especificar el idioma principal del contenido de la página. Es útil para la clasificación en búsquedas locales y para ayudar a los motores de búsquedas a comprender el idioma del contenido
+Etiqueta de Idioma (Language Tag): Esta etiqueta se utiliza para especificar el idioma principal del contenido de la página. Es útil para la clasificación en búsquedas locales y para ayudar a los motores de búsquedas a comprender el idioma del contenido
 
-    Metaetiqueta de Robots (Meta Robots Tag): Esta etiqueta indica a los motores de búsuqueda cómo indexar y rastrear la página. Puede especificar si se debe indexar la página, seguir los enlaces o si se deben seguires ciertas instrucciones específicas.
+Metaetiqueta de Robots (Meta Robots Tag): Esta etiqueta indica a los motores de búsuqueda cómo indexar y rastrear la página. Puede especificar si se debe indexar la página, seguir los enlaces o si se deben seguires ciertas instrucciones específicas.
 
 
 ### 4.2.4. Searching Systems.
 
-Contenido
 Los sistemas de búsqueda son componentes esenciales en un producto que permiten a los usuarios encontrar rápidamente la información que están buscando. En esta sección, se describirán los diferentes tipos de sistemas de búsqueda utilizados, asi como las mejores prácticas para mejorar la eficiencia y la precisión de la búsqueda dentro del producto: 
 
-    Búsqueda por Palabras Clave: Este es el tipo más básico de búsqueda, donde los usuarios ingresan palabras o frases clave relacionadas con la información que está buscando. El sistema busca coincidencias exactas o similares en el contenido del producto y devuelve resultados relevantes.
+Búsqueda por Palabras Clave: Este es el tipo más básico de búsqueda, donde los usuarios ingresan palabras o frases clave relacionadas con la información que está buscando. El sistema busca coincidencias exactas o similares en el contenido del producto y devuelve resultados relevantes.
 
-    Búsqueda por Filtros: Los sistemas de búsqueda pueden permitir a los usuarios refirnar sus resultados mediantes el uso de filtros. Estos filtros puedes basarse en diferentes criterios, como la categoría del contenido, la fecha, el tipo de archivo, etc.
+Búsqueda por Filtros: Los sistemas de búsqueda pueden permitir a los usuarios refirnar sus resultados mediantes el uso de filtros. Estos filtros puedes basarse en diferentes criterios, como la categoría del contenido, la fecha, el tipo de archivo, etc.
 
-    Búsqueda por facetas: La búsqueda por facetas permite a los usuarios refinar sus resultados utilizando diferentes dimensiones o caracteristicas del contenido, como la ubicación, el auto, la clasificación, etc. Estoy ayuda a los usuarios a encontrar exactamente lo que están buscando dentro de conjuntos de datos grandes o complejos. 
+Búsqueda por facetas: La búsqueda por facetas permite a los usuarios refinar sus resultados utilizando diferentes dimensiones o caracteristicas del contenido, como la ubicación, el auto, la clasificación, etc. Estoy ayuda a los usuarios a encontrar exactamente lo que están buscando dentro de conjuntos de datos grandes o complejos. 
 
-    Búsqueda por relevancia: Clasifican los resultados en función de su relevancia para el término de búsqueda ingresado por el usuario. Esto puede implicar el uso de algoritmos de clasificación para determinar qué resultados son más relevantes y útiles para el usuario.
+Búsqueda por relevancia: Clasifican los resultados en función de su relevancia para el término de búsqueda ingresado por el usuario. Esto puede implicar el uso de algoritmos de clasificación para determinar qué resultados son más relevantes y útiles para el usuario.
 
 ### 4.2.5. Navigation Systems.
 
-Contenido
 Los sistemas de navegación son fundamentales para permitir a los usuarios explorar y moverse por el contenido del producto de manera efectiva. Existen varios tipos de sistemas de navegación que pueden implementarse para facilitar la exploración y la accesibilidad del contenido, se presentarán alguno de los más comunes:
 
-    Menús de Navegación: Los menús de navegación son una forma estándar dde organizar y presentar las diferentes secciones y páginas del producto. Puedes incluir menús desplegables, menús de navegación en la parte superior o lateral, y enlaces de navegación en el pie de página.
+Menús de Navegación: Los menús de navegación son una forma estándar dde organizar y presentar las diferentes secciones y páginas del producto. Puedes incluir menús desplegables, menús de navegación en la parte superior o lateral, y enlaces de navegación en el pie de página.
 
-    Navegación por Pestañas: Este sistema de navegación utiliza pestañas para organizar el contenido en diferentes secciones o categorias. Los usuarios pueden hacer clic en las pestañas para cambiar entre las secciones de contenido sin tener que cargar nuevas páginas.
+Navegación por Pestañas: Este sistema de navegación utiliza pestañas para organizar el contenido en diferentes secciones o categorias. Los usuarios pueden hacer clic en las pestañas para cambiar entre las secciones de contenido sin tener que cargar nuevas páginas.
 
-    Navegación por Íconos: Algunos productos utilizan íconos o botones visuales para representar diferentes secciones o funciones. Los usuarios pueden hacer click en estos íconoces para acceder al contenido o realizar acciones específicas.
+Navegación por Íconos: Algunos productos utilizan íconos o botones visuales para representar diferentes secciones o funciones. Los usuarios pueden hacer click en estos íconoces para acceder al contenido o realizar acciones específicas.
 
-    Navegación por Scroll Infinito: Este tipo de navegación permite a los usuarios a desplazarse hacia abajo en una sola paágina para cargar contenido adicional a medida que avanza. Es común en sitios web y aplicaciones móviles que tiene una gran cantidad de contenido que mostrar.
+Navegación por Scroll Infinito: Este tipo de navegación permite a los usuarios a desplazarse hacia abajo en una sola paágina para cargar contenido adicional a medida que avanza. Es común en sitios web y aplicaciones móviles que tiene una gran cantidad de contenido que mostrar.
 
 ## 4.3. Landing Page UI Design.
 
-Contenido
 El Landing page es crucail para captar la atención de los usuarios y dirigirlos hacia acciones específicas, como registrarse, comprar un producto o aprender sobre un servicio. En esta sección, se abordará el diseño de la interfaz de usuario del landing page, centrándose en elemenentos clave para mejorar la experiencia del usuario, ofreciendo una página dinámica e intuitiva. 
 
 ### 4.3.1. Landing Page Wireframe.
