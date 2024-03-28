@@ -140,9 +140,13 @@ El esquema de contexto ofrece una perspectiva general de las interacciones entre
 sistema de software ReStyle, los usuarios y sistemas externos.
 
 <p align = "center"> <img  alt="ReStyle Diagram Context" src="https://raw.githubusercontent.com/sw53-metasoft/ReStyle-project-report/capitulo-IV/img/context-diagram-reStyle.png"> </p>
+
 ### 4.6.2. Software Architecture Container Diagrams.
 
-Contenido
+El diagrama de contenedores ofrece una visión general de las conexiones entre aplicaciones
+y fuentes de datos en el sistema ReStyle. Muestra cómo interactúan y dependen entre sí para su funcionamiento.
+<p align = "center"> <img  alt="ReStyle Diagram Context" src="https://raw.githubusercontent.com/sw53-metasoft/ReStyle-project-report/capitulo-IV/img/container-diagram-reStyle.png"> </p>
+
 
 ### 4.6.3. Software Architecture Components Diagrams.
 
