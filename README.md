@@ -231,8 +231,8 @@
   <tbody>
     <tr>
       <td>Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto de ingeniería</td>
-      <td> Estudiante 1 SO TB1</td>
-      <td> Conclusion</td>
+      <td> <b>Díaz Villacrez, María Alejandra TB1</b> Colaboré en la recolección de requisitos para satisfacer la entrega del trabajo. Proporcioné contexto sobre el problema de negocio y las necesidades que se desean satisfacer. Identificamos los segmentos objetivos y utilicé gráficos para representar la información de manera visual y comprensible. </td>
+      <td> Al aplicar una organización correcta pudimos comunicar nuestras ideas de negocio y resultados de manera objetiva y efectiva a una audiencia diversa en el contexto de un proyecto de ingeniería de software.</td>
     </tr>
     <tr> 
         <td></td>
@@ -256,8 +256,8 @@
     </tr>
     <tr>
       <td>Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto de ingeniería</td>
-      <td> Estudiante 1 SO </td>
-      <td>conclusion</td>
+      <td> <b>Díaz Villacrez, María Alejandra TB1</b> Presenté información necesaria para respaldar las estadísiticas y citas proporcionadas en la primera entrega del trabajo. Definí términos técnicos importantes utilizados en el informe. </td>
+      <td>Gracias a las metodologías de Lean UX pudimos comunicar nuestras soluciones de manera objetiva y efectiva a un público diverso en el marco del desarrollo de un proyecto de ingeniería de software a través de un documento escrito.</td>
     </tr>
       <tr> 
         <td></td>
