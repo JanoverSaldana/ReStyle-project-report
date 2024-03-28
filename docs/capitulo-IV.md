@@ -131,12 +131,15 @@ Contenido
 
 ## 4.6. Domain-Driven Software Architecture. 
 
-Contenido
-
+Se trata de un enfoque en el diseño de software que pone énfasis en la comprensión
+y diseño profundo del área de aplicación. Su objetivo es desarrollar software que satisfaga
+las necesidades del negocio de manera precisa.
 ### 4.6.1. Software Architecture Context Diagram.
 
-Contenido
+El esquema de contexto ofrece una perspectiva general de las interacciones entre el 
+sistema de software ReStyle, los usuarios y sistemas externos.
 
+<p align = "center"> <img  alt="ReStyle Diagram Context" src="https://raw.githubusercontent.com/sw53-metasoft/ReStyle-project-report/capitulo-IV/img/context-diagram-reStyle.png"> </p>
 ### 4.6.2. Software Architecture Container Diagrams.
 
 Contenido
