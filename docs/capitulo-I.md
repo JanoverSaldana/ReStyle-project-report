@@ -15,14 +15,72 @@ Ser líderes en innovaciones tecnológicas, elevando la eficiencia de las indust
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| **Integrantes** | **Descripción** | **Conocimientos** |
-| --------------- | --------------- | ----------------- |
-| María Alejandra Díaz Villacrez *u202118315* | <p align = "center"> ![alt](https://github.com/sw53-metasoft/ReStyle-project-report/assets/91510417/decfd1b2-3215-47ae-aeb7-8c59b2267e5b) <br> Soy estudiante de 5to ciclo de la carrera de Ingeniería de Software| Poseo conocimientos en los lenguajes de programación: C++, Python, JavaScript y C#. Me apasiona el trabajo en equipo y soy una persona responsable, lista para ayudar a los que lo necesiten. Puedo aportar mis habilidades técnicas y blandas para mejorar la eficacia de mi equipo|
-|                 |                 |                   |
-|                 |                 |                   |
-|                 |                 |                   |
-|                 |                 |                   |
-
+<table style="text-align:center">
+    <thead>
+        <tr>
+            <th>Integrantes</th>
+            <th>Descripción</th>
+            <th>Conocimientos</th>
+        </tr>
+    </thead>
+    <body >
+        <tr>
+            <!-- DATOS del integrante 1-->
+            <td > 
+            <img src="/assets/img/Maria-Alejandra-Diaz-Vilchez.png"> 
+            <br>María  Alejandra Díaz Villacrez u202118315 
+            </td>
+            <!-- DESCRIPCIÓN del integrante 1-->
+            <td >Soy estudiante de 5to ciclo de la carrera de Ingeniería de Software</td>
+            <!-- CONOCIMIENTOS del integrante 1-->
+            <td>Poseo conocimientos en los lenguajes de programación: C++, Python, JavaScript y C#. Me apasiona el trabajo en equipo y soy una persona responsable, lista para ayudar a los que lo necesiten. Puedo aportar mis habilidades técnicas y blandas para mejorar la eficacia de mi equipo</td>
+        </tr>
+        <tr>
+            <!-- DATOS del integrante 2-->
+            <td>
+            <img src="/assets/img//Janover-Gonzalo-Saldaña-Vela.jpg" height="120">
+            <br>Janover Gonzalo Saldaña Vela - U20201B510
+            </td>
+            <!-- DESCRIPCIÓN del integrante 2-->
+            <td>Estudio la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Elegí la carrera por mi interés en crear nuevas tecnologías que sirvan de apoyo dentro de las empresas, gobiernos, la educación y el entretenimiento. Tengo como intereses viajar y conocer nuevos lugares, realizar deportes de aventura y extremos.</td>
+            <!-- CONOCIMIENTOS del integrante 2-->
+            <td>Nivel Intermedio en C++, Base de datos no relacionales. Nivel Básico en HTML, CSS, JavaScript, Python, C# y tengo concimientos de metodologías ágiles, poseo habilidades de liderazgo de equipo que pueden ser de gran utilidad en el equipo de trabajo.</td>
+        </tr>
+        <tr>
+            <!-- DATOS del integrante 3-->
+            <td> 
+            <img src="">
+            Nombres y Apellidos
+            </td>
+            <!-- DESCRIPCIÓN del integrante 3-->
+            <td> </td>
+            <!-- CONOCIMIENTOS del integrante 3-->
+            <td> </td>
+        </tr>
+        <tr>
+            <!-- DATOS del integrante 4-->
+            <td> 
+            <img src="">
+            Nombres y Apellidos
+            </td>
+            <!-- DESCRIPCIÓN del integrante 4-->
+            <td> </td>
+            <!-- CONOCIMIENTOS del integrante 4-->
+            <td> </td>
+        </tr>
+        <tr>
+            <!-- DATOS del integrante 5-->
+            <td> 
+            <img src="">
+            Nombres y Apellidos
+            </td>
+            <!-- DESCRIPCIÓN del integrante 5-->
+            <td> </td>
+            <!-- CONOCIMIENTOS del integrante 5-->
+            <td> </td>
+        </tr>
+    </body>
+</table>
 
 ## 1.2. Solution Profile
 
@@ -118,7 +176,7 @@ Puede ser el deterioro de su propiedad o querer cambiar el estilo de la misma. P
 
 Según el estudio Construcción 2018, de Ipsos Perú, refiere que el 34% de limeños planeaba construir una vivienda hacia el 2020. (IPSOS, 2018) 
 
-<p align = "center"> <img src = "https://www.ipsos.com/sites/default/files/styles/max_1300x1300/public/ct/publication/2019-09/portada.png?itok=_7UcjCwE" width="350"></img> </p>
+<p align = "center"> <img src="/assets/img/Estudio Construcción 2018 de Ipsos Perú en Lima.png" width="350"></img> </p>
 
 <p align = "center">
  <em> Fuente: Estudio Construcción 2018 de Ipsos Perú en Lima. </em>
@@ -233,7 +291,9 @@ Para la elaboración de los Hypothesis Statements se utilizó el formato Lean UX
 
 #### 1.2.2.4. Lean UX Canvas
 
-<p align = "center"> <img width="800" alt="Lean UX Canvas (v2)" src="https://github.com/sw53-metasoft/ReStyle-project-report/assets/91510417/a4bacbbc-923c-4f7f-be5d-7118e07eb64b"> </p>
+<p align = "center"> <img width="800" alt="Lean UX Canvas (v2)" src="/assets/img/Lean UX Canvas (v2) (Community).png"> </p>
+
+<!-- https://github.com/sw53-metasoft/ReStyle-project-report/assets/91510417/a4bacbbc-923c-4f7f-be5d-7118e07eb64b -->
 
 <p align = "center"> <em> Fuente: Elaboración propia. </em> </p>
 
@@ -243,7 +303,12 @@ Nuestro dominio se centra en atender las necesidades de dos segmentos objetivos.
 
 Según el estudio elaborado por IPSOS al menos un 7% de personas tienen planes de remodelación en su vivienda y un 5% tiene planes de redecorar su hogar.
 > “Este estudio tiene como objetivo conocer las características de las viviendas y los hogares limeños, así como sus planes para construir, remodelar, ampliar, decorar y redecorar en los próximos 12 meses. Para ello, se entrevistaron a 594 jefes del hogar de todos los niveles socioeconómicos de Lima Metropolitana.” (IPSOS, 2019).
-<p align = "center"> <img src = "https://github.com/sw53-metasoft/ReStyle-project-report/assets/91510417/ae6a7d8f-6444-4efc-b726-aad421531ac4" width="375"></img> </p>
+
+
+<p align = "center"> <img src="/assets/img/Planes para la vivienda y el mejoramiento del hogar 2019.png" width="375"></img> </p>
+
+<!-- https://github.com/sw53-metasoft/ReStyle-project-report/assets/91510417/ae6a7d8f-6444-4efc-b726-aad421531ac4 -->
+
 <p align = "center">
  <em> Fuente: Planes para la vivienda y el mejoramiento del hogar 2019. </em>
 </p>
@@ -251,7 +316,10 @@ Según el estudio elaborado por IPSOS al menos un 7% de personas tienen planes d
 Según el informe técnico de demografía empresarial en el Perú, elaborado por el Instituto Nacional de Estadística e Informática, el rubro de construcción posee un 1,8% en tasa de crecimiento de empresas.
 > La tasa neta de crecimiento fue de 1,2% para el I Trimestre del 2018, significando un incremento de empresas. Según actividad económica los salones de belleza y las actividades de servicio de comidas y bebidas tuvieron la mayor tasa neta con el 2,5% cada una, seguido de construcción con 1,8%, y transporte y almacenamiento con 1,5%, entre las más representativas.
 
-<p align = "center"> <img src = "https://github.com/sw53-metasoft/ReStyle-project-report/assets/91510417/a5b72e52-7ce6-470e-8d45-98270a9ec056" width="500"></img> </p>
+<p align = "center"> <img src="/assets/img/Informe técnico de demografía empresarial en el Perú.png" width="500"></img> </p>
+
+<!-- https://github.com/sw53-metasoft/ReStyle-project-report/assets/91510417/a5b72e52-7ce6-470e-8d45-98270a9ec056 -->
+
 <p align = "center">
  <em> Fuente: Informe técnico de demografía empresarial en el Perú. </em>
 </p>
