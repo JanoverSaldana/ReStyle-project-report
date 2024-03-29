@@ -1,8 +1,10 @@
 # Capítulo V: Product Implementation, Validation & Deployment.
 
+## 5.1. Software Configuration Management. 
+
 En este punto del informe se describe las decisiones y los principios que ayudarán al equipo a garantizar la coherencia durante el desarrollo de la solución.
 
-## 5.1. Software Configuration Management. 
+### 5.1.1. Software Development Environment Configuration.
 
 En este apartado se proporcionan los enlaces a las aplicaciones y productos de software creados durante el ciclo del proyecto utilizando los programas correspondientes.
 
@@ -75,17 +77,89 @@ Se trata de la acción de evaluar los elementos y el funcionamiento del software
 
 Se refiere a textos escritos o ilustraciones que acompañan al software de computadora o están integrados en su código fuente. Esta documentación tiene como objetivo explicar cómo funciona el software o cómo utilizarlo.
 
-### 5.1.1. Software Development Environment Configuration.
-
-Contenido
-
 ### 5.1.2. Source Code Management.
 
-Contenido
+A continuación se describe la gestión del código fuente, también conocida por las siglas SCM (Source Code Management). Su función principal es rastrear los cambios que realizará el equipo durante el desarrollo de su proyecto en el repositorio de código fuente. Se utilizará como un sistema de control de versiones que le permitirá realizar un seguimiento de los cambios realizados por miembros o desarrolladores individuales del proyecto. Además, es importante tener en cuenta que usaremos GitHub como nuestro sistema de control de versiones.
+
+* **URL de la organización:** sw53-metasoft - https://github.com/sw53-metasoft
+
+* **URL del repositorio de la Landing Page:** ReStyle-landing-page https://github.com/sw53-metasoft/ReStyle-landing-page
+
+* **URL del repositorio del Front-End:** ReStyle-frontend - https://github.com/sw53-metasoft/ReStyle-frontend
+
+* **URL del repositorio del Back-End:** ReStyle-backend - https://github.com/sw53-metasoft/ReStyle-backend 
+
+**GitFlow**
+
+GitFlow es un modelo alternativo para la creación de ramas en Git que se ha convertido en una herramienta esencial para muchos desarrolladores en los últimos años. Este flujo de trabajo de control de versiones, desarrollado y popularizado por Vicent Driessen, desempeña un papel crucial en la gestión de las versiones de un código, facilitando la creación ordenada de nuevas características (Features) y correcciones de problemas urgentes (Hotfixes).
+
+![ GitFlow.png](/assets/img/sprint-1/Gitflow.png)
+
+Como se mencionó previamente, GitFlow opera con ramas o "branches". A continuación, se detallan las ramas que se utilizarán en el flujo de trabajo de nuestro proyecto.
+
+* **Main Branches:**
+    * **Master:** Esta es la rama principal desde la cual se ramifican todas las demás. Contendrá la versión más reciente junto con las versiones anteriores creadas por los desarrolladores. Aquí se mantendrá el historial oficial de las versiones publicadas.
+    * **Develop:** Esta rama puede ser creada a partir de la rama principal (Master) y contendrá todas las características (Features) estables. A través de esta rama, el equipo podrá integrar las funcionalidades de manera efectiva.
+
+* **Support Branches**
+A diferencia de las ramas principales, estas ramas secundarias tienen una vida útil limitada, ya que se eliminan al fusionarse con sus ramas primarias.
+    * **Feature:**
+        * Se ramifica de: develop
+        * Debe fusionarse de nuevo en: develop
+        * Se utilizan para desarrollar las nuevas funciones que se integrarán en la próxima versión. Es importante destacar que esta rama existe únicamente mientras está en proceso de desarrollo. Sin embargo, una vez que el desarrollador haya completado esa función, se fusionará nuevamente con la rama "develop".
+
+* **Convenciones para nombrar los Features:**
+    * **Feture Branch:** feature/name
+    **Example:**
+        1. feature/welcome
+        2. feature/about
+        3. feture/myfeture
+    * **Conventional Commits**
+    El commit debe seguir la siguiente estructura:
+    **\<type> [optional scope]: \<description>**
+    **[optional body]**
+    **[optional footer(s)]**
+        * **Type:**
+        **1\. feat:** Cuando se agrega un nuevo feature.
+        **2\. fix:** cuando corriges un error.
+        **3\. build:** cuando afectan los componentes de compilación como la herramienta de compilación, las dependencias o la version del proyecto.
+        **4\. chore:** modificaciones privadas del código.
+        **5\. docs:** commits que afectan solo a la documentación.
+        **6\. refractor:** commits que reescriben o reestructura el código, pero no cambia el comportamiento.
+        **7\. perf:** commits especiales que mejoran el rendimiento.
+        **8\. style:** commits que no afectan el programa. (espacios en blanco, formato, puntos o comas faltantes).
+        **9\. test:** commits que agregan pruebas.
+        * **Scope**
+        Ofrece información contextual adicional. Aunque es opcional, es beneficioso incluirlo para proporcionar a los desarrolladores una descripción más detallada del commit.
+        **\<description>**
+        Es una parte obligatoria del formato de los commits. Siempre debemos usar lenguaje en modo imperativo y evitar escribir en mayúsculas
+        **[optional body]**
+        El cuerpo es opcional y, cuando se utiliza, debe explicar la motivación detrás del cambio y contrastarlo con el comportamiento anterior. Es ideal para mencionar identificadores de problemas y sus relaciones.
+        **[optional footer(s)]**
+        Esta sección es opcional y puede incluir información sobre cambios significativos. Puede hacer referencia al problema por su identificación y, en esta sección, se incluyen los cambios importantes precedidos por "BREAKING CHANGES:" seguido de uno o dos saltos de línea.
+        **Ejemplos:**
+            1. feat(welcome): add welcome section
+            2. build(release): bump version to 1.0.0
+            3. style: remove empty line
+            4. feat(sign up): add the button to sign up
+            5. feat!: send an email to the costumer when product is shipped
+            6. feat: remove ticket list endpoint
+            refers to JIRA-1337
+            BREAKING CHANGES: ticket enpoints no longer supports list all entites.
+
+Como se mencionó previamente, la gestión de nuestro código fuente se llevará a cabo mediante GitHub. El IDE utilizado en este caso, WebStorm, debe estar vinculado directamente al repositorio creado por nuestra empresa MIRAI. De esta manera, cada commit realizado por un miembro del equipo se subirá automáticamente y se cargará en el GitHub de la organización. Las instrucciones para completar con éxito este proceso de emparejamiento se detallan a continuación:
+
+* **Activar el controlador de versiones del IDE**
+Dado que utilizaremos GitHub para gestionar nuestro código, la opción que debe estar habilitada o seleccionada es aquella que indique que el sistema de control se realizará mediante Git. Para hacer esto, siga los siguientes pasos:
+    1. Diríjase a la pestaña "VCS" en WebStorm.
+    2. Luego, seleccione la opción "Enable Version Control Integration".
+
+**FALTA CONTENIDO**
+
 
 ### 5.1.3. Source Code Style Guide & Conventions.
 
-Contenido
+
 
 ### 5.1.4. Software Deployment Configuration.
 
