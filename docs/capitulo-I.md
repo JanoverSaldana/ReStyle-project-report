@@ -31,7 +31,7 @@ Ser líderes en innovaciones tecnológicas, elevando la eficiencia de las indust
             <br>María  Alejandra Díaz Villacrez u202118315 
             </td>
             <!-- DESCRIPCIÓN del integrante 1-->
-            <td >Soy estudiante de 5to ciclo de la carrera de Ingeniería de Software</td>
+            <td >Soy estudiante de 5to ciclo de la carrera de Ingeniería de Software. Mis intereses son aprender nuevas tecnologías, desarrollo de videojuegos y asistir a conciertos.</td>
             <!-- CONOCIMIENTOS del integrante 1-->
             <td>Poseo conocimientos en los lenguajes de programación: C++, Python, JavaScript y C#. Me apasiona el trabajo en equipo y soy una persona responsable, lista para ayudar a los que lo necesiten. Puedo aportar mis habilidades técnicas y blandas para mejorar la eficacia de mi equipo</td>
         </tr>
@@ -84,9 +84,12 @@ Ser líderes en innovaciones tecnológicas, elevando la eficiencia de las indust
 
 ## 1.2. Solution Profile
 
+En esta sección se detallan los segmentos de descripición de nuestra solución de software, sus características de valor y las estrategias de monetización.
+
 **Product Name:**
 
 ReStyle
+Optamos por este nombre ya que por su traducción al español significa "Remodelar". Es corto, fácil de recordar y describe de manera concisa nuestro rubro.
 
 **Product Description:**
 
@@ -94,7 +97,7 @@ Nuestra solución tecnológica busca transformar y simplificar el proceso de rem
 
 **Monetización:**
 
-Buscamos generar dinero por medio de subscripciones premium para los usuarios que desean publicar sus servicios y proyectos mediante ReStyle.
+Buscamos generar ingresos por medio de subscripciones premium para los usuarios remodeladores que desean publicar sus servicios y proyectos mediante ReStyle. Esto les permite acceder a todas las herramientas disponibles para manejo de proyectos. Sin embargo, para el segmento objetivo de clientes contratistas la plataforma no contará con un costo adicional para ser utilizada.
 
 ### 1.2.1. Antecedentes y problemática
 
@@ -216,46 +219,70 @@ Sabremos que tenemos éxito cuando veamos **el cumplimiento de nuestras metas en
  
 #### 1.2.2.2. Lean UX Assumptions.
 
-- Who are our users?
+- Users:
   
-Mis clientes iniciales del segmento contratador serán personas naturales o jurídicas que poseen o residen en una propiedad en Perú y mis clientes del segmento remodelador serán empresas que ofrecen servicios de remodelación en Perú. 
+Personas que requieren contratar servicios de remodelación para sus propiedades dentro del Perú.
 
-- What is the product used for?
-  
-Asumimos que existe una demanda creciente de servicios de remodelación de propiedades en Perú.
+Empresas remodeladoras que buscan tener un manejo de sus proyectos de diseño, acceder a un marketplace de materiales y herramientas y ofrecer sus servicios a una amplia gama de posibles clientes.
 
-Creemos que los clientes del segmento remodelador necesitan una plataforma que les permita promocionar sus servicios de remodelación o construcción. 
+- User Outcomes:
 
-- When is it used?
-  
-Asumimos que los clientes contratadores estarán dispuestos a realizar proyectos con remodeladores mediante nuestra plataforma.
+Segmento contratista:
 
-Asumimos que los clientes remodeladores estarán dispuestos a registrarse en la plataforma y suscribirse para poder ofrecer sus servicios mediante ReStyle.
+Recurrir a una plataforma online que le permita comunicarse con múltiples empresas remodeladoras dentro del Perú.
 
-- What situations is it used in?
-  
-Creemos que los clientes valoran la transparencia en términos de precios y resultados, así como la capacidad de confiar en los remodeladores que eligen a través de la plataforma. 
+Buscar mediante filtros y palabras claves a remodeladoras.
 
-- What will be the most important functionality?
-  
-Asumimos que los clientes como los remodeladores valoran una plataforma fácil de usar y navegar que satisface las necesidades de nuestros dos segementos objetivos.
+Acceder a las calificaciones y portafolios de las remodeladoras para poder tomar decisiones informadas sobre cual empresa contratar.
 
-- What’s the biggest risk to product delivery?
-  
-Creemos que nuestro mayor riesgo será la competencia ya existente en el mercado. Por ejemplo, otras plataformas que conecten clientes y remodeladores que ofrecen servicios en Perú, que cuentan con una base estable clientes recurrentes. 
+Segmento remodelador:
 
-Creemos que los costos iniciales para el despliegue de la plataforma podrán retrazar la ganancias en el primer año de lanzamiento.
+Permitirse promocionar sus servicios a más clientes.
+
+Manejar sus proyectos de diseños dentro de una misma plataforma.
+
+Comunicarse con sus clientes y mantenerlos informados sobre el proceso de su remodelación.
+
+- Suposiciones de negocio:
+
+Creemos que existe una demanda en aumento en el mercado de servicios de remodelación del hogar. Observamos que numerosos propietarios de viviendas desean mejorar y renovar sus espacios, lo que representa una gran oportunidad para nuestra plataforma.
+
+Somos conscientes de que hay una competencia en el sector de remodelación. Sin embargo, estamos seguros de que podemos destacarnos ofreciendo una plataforma en línea que simplifique y mejore la experiencia tanto para los clientes contratistas como para los remodeladores.
+
+Creemos que los usuarios tienen la capacidad técnica y la disposición para utilizar una plataforma en línea para buscar y contratar servicios de remodelación. Nuestro objetivo es hacer que la experiencia sea lo más fácil y accesible posible para todos los usuarios.
+
+Creemos que los clientes valorarán la conveniencia, transparencia y calidad de servicio que ofrecerá nuestra plataforma. 
+
+- Suposiciones de usuario:
+
+¿Quién utiliza nuestra plataforma? 
+Nuestra plataforma es utilizada por propietarios de viviendas que buscan servicios de remodelación del hogar, así como por remodeladores interesados en ofrecer sus servicios.
+
+¿Cómo se integra nuestro producto en la rutina laboral o cotidiana?
+Nuestro producto se integra en la rutina laboral o cotidiana al proporcionar una solución conveniente y centralizada para buscar, contratar y gestionar proyectos de remodelación del hogar. Tanto para los propietarios de viviendas como para los remodeladores, nuestra plataforma simplifica el proceso, permitiéndoles acceder a servicios y proyectos desde cualquier lugar y en cualquier momento.
+
+¿Cuáles son los desafíos que aborda nuestro producto?
+Nuestro servicio se enfrenta a los desafíos asociados con la búsqueda y contratación de servicios de remodelación, como la dificultad para encontrar remodeladores confiables, la falta de transparencia en los procesos de contratación y la gestión manual de proyectos. También aborda los desafíos para los remodeladores al proporcionarles una fuente constante de clientes potenciales y herramientas para gestionar eficazmente sus proyectos.
+
+¿Cuál es la imagen que deseamos proyectar con nuestro producto?
+Deseamos proyectar una imagen de confianza, transparencia, innovación y accesibilidad. Queremos que nuestra plataforma sea vista como la solución líder en la industria de la remodelación del hogar.
+
+¿Cuál es el propósito fundamental de nuestra aplicación?
+El propósito fundamental de nuestra aplicación es facilitar el proceso de búsqueda, contratación y gestión de proyectos de remodelación del hogar para propietarios de viviendas y empresas de remodeladores. 
+
+¿Qué funcionalidades destacan en nuestra aplicación?
+Las funcionalidades destacadas de nuestra aplicación incluyen la búsqueda avanzada de remodeladores basada en ubicación y especialización, la gestión de proyectos en línea que permite a los usuarios monitorear el progreso y comunicarse con los remodeladores, un sistema de retroalimentación y reseñas para garantizar la calidad del servicio, y herramientas de cotización y facturación para remodeladores.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 Para la elaboración de los Hypothesis Statements se utilizó el formato Lean UX: **[We believe that]**, **[This will achieve]** y **[We will have demonstrated this when]**
 
 - Hipótesis 1:
   
-**Creemos que** si somos excitosos en facilitar el proceso de búsqueda y comparación de remodeladores en nuestra plataforma, entonces **esto logrará** aumentar la cantidad de clientes recurrentes.
+**Creemos que** si simplificamos el proceso de búsqueda y comparación de remodeladores en nuestra plataforma, entonces **esto logrará** aumentar significativamente la cantidad de clientes recurrentes, proyectando un aumento del 20% en la tasa de clientes que regresan dentro de los primeros seis meses de implementación de esta mejora.
 
 **Sabremos que** estamos en lo cierto. 
 
-**Cuando** los clientes visitantes generen contratos con remodeladores dentro de nuestra plataforma. 
+**Cuando** observemos un aumento del 25% en la cantidad de contratos generados por los clientes visitantes en nuestra plataforma durante el mismo período.
 
 - Hipótesis 2:
   
@@ -263,7 +290,7 @@ Para la elaboración de los Hypothesis Statements se utilizó el formato Lean UX
 
 **Sabremos que** estamos en lo cierto. 
 
-**Cuando** la satisfacción de los clientes se vea reflejada en las encuentas y reviews positivas de los mismos. 
+**Cuando** la satisfacción de los clientes aumente en un 20% y la retención de los remodeladores se eleve en un 15%. 
 
 - Hipótesis 3:
   
@@ -271,7 +298,7 @@ Para la elaboración de los Hypothesis Statements se utilizó el formato Lean UX
 
 **Sabremos que** estamos en lo cierto. 
 
-**Cuando** observemos una curva corta de aprendizaje por parte de nuevos clientes para navegar dentro de nuestra plataforma.
+**Cuando** observemos una curva de aprendizaje corta por parte de nuevos clientes para navegar dentro de nuestra plataforma, reflejada en una disminución del 30% en las consultas de soporte relacionadas con la usabilidad de la plataforma dentro del mismo período.
 
 - Hipótesis 4:
   
@@ -279,15 +306,15 @@ Para la elaboración de los Hypothesis Statements se utilizó el formato Lean UX
 
 **Sabremos que** estamos en lo cierto. 
 
-**Cuando** los remodeladores con mejores calificaciones posean un aumento en la contratación de sus servicios a través de nuestra plataforma.
+**Cuando** observemos un aumento del 30% en la contratación de servicios de los remodeladores mejor calificados a través de nuestra plataforma.
 
 - Hipótesis 5:
   
-**Creemos que** si ofrecemos servicios de suscripciones mensuales y anuales premium para nuestros clientes remodeladores, entonces **esto logrará** generar ingresos recurrentes a nuestra empresa y poder ofrecer mejores herramientas dentro de nuestra plataforma.
+**Creemos que** si ofrecemos servicios de suscripciones mensuales y anuales premium para los remodeladores, entonces **esto logrará** generar ingresos recurrentes a nuestra empresa y poder permitirnos ofrecer mejores herramientas dentro de nuestra plataforma.
 
 **Sabremos que** estamos en lo cierto. 
 
-**Cuando** los remodeladores opten por suscribirse a los planes premium de ReStyle dentro del primer año de lanzamiento.
+**Cuando** observemos que al menos el 30% de los visitantes del segmento remodelador elija suscribirse a los planes premium de ReStyle dentro del primer año de lanzamiento.
 
 #### 1.2.2.4. Lean UX Canvas
 
