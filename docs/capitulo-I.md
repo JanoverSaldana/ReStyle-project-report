@@ -27,7 +27,7 @@ Ser líderes en innovaciones tecnológicas, elevando la eficiencia de las indust
         <tr>
             <!-- DATOS del integrante 1-->
             <td > 
-            <img src="/assets/img/Maria-Alejandra-Diaz-Vilchez.png"> 
+            <img src="/assets/img/Maria-Alejandra-Diaz-Villacrez.png"> 
             <br>María  Alejandra Díaz Villacrez u202118315 
             </td>
             <!-- DESCRIPCIÓN del integrante 1-->
