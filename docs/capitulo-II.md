@@ -1,13 +1,8 @@
 # Capítulo II: Requirements Elicitation & Analysis.
-
-Contenido
-
 ## 2.1. Competidores. 
-
-Contenido
-
+En este apartado el equipo realizará investigaciones sobre nuestros potenciales competidores en el mercado.
 ### 2.1.1. Análisis competitivo.
-
+En este apartado el equipo realizará un analisis competitivo de nuestras 3 principales competidores identificados para posteriormente identificar y plantear estrategias que habrá que poner en marcha con respecto a nuestros competidrores.
 
 <table>  
     <thead>
@@ -110,7 +105,7 @@ Contenido
         </tr>
         <tr>
             <td>Amenazas</td>
-            <td>Aparición de nuevas plataformas con mejores tecnologias, camnio en las regulaciones legales, posibles fallas en la plataforma </td>
+            <td>Aparición de nuevas plataformas con mejores tecnologías, cambio en las regulaciones legales, posibles fallas en la plataforma </td>
             <td>Politicas del país, aumento de la competencia en el mismo rubro, la innovación tecnológica, falta de financiamiento.</td>
             <td>Politicas del pais, creciente competencia en el rubro, innovación tecnólogica, altos costes de material, inflación, inestabilidad politica.</td>
             <td>Opiniones o reseñas negativas de los clientes y software poco cambiante</td>
@@ -123,14 +118,106 @@ Contenido
 </table>
 
 
-
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
-Contenido
+Luego de haber realizado el análisis de nuestra solución con respecto a soluciones ya existentes, nuestero equipo procederá a planteaer estrategias y tácnicas que debemos poner en marcha para sobresalir de las otras soluciones.
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="3"> Matriz CAME para el desarrollo de estrategias en base al análisis FODA </th>
+        </tr>
+    </thead>
+    <body>
+        <tr>
+            <th rowspan="2"> Análisis FODA cruzado</th>
+            <th> Oportunidades </th>
+            <th> Amenazas </th>
+        </tr>
+        <tr>
+            <td>
+            1.	Mayor demanda de servicios de mejoras para el hogar: el mercado de mejoras para el hogar está en auge, lo que representa una gran oportunidad para la plataforma. <br>
+            2.	Capacidad de expandirse a otras ciudades y países: la plataforma puede expandirse a nuevos mercados, ampliando su alcance y base de clientes.<br>
+            3.	Mejora continua de la tecnología y la experiencia del usuario: La plataforma puede mejorar continuamente la tecnología y la experiencia del usuario para brindar servicios más atractivos y competitivos.<br>
+            4.	Alianza estratégica con empresas de decoración: La plataforma puede establecer alianzas con empresas de decoración para brindar servicios más completos y competitivos.<br>
+            5.	Posicionar la plataforma como la mejor opción para mejoras en el hogar: La plataforma puede desarrollar una estrategia de marketing para posicionarse como la mejor opción para mejoras en el hogar. <br>
+            6. Colaborar con instituciones financieras: La plataforma puede colaborar con instituciones financieras para ofrecer opciones de financiamiento a sus clientes.
+            </td>
+            <td> 
+            1.	Aparición de nuevas plataformas con mejores tecnologías: El mercado es altamente competitivo y pueden surgir nuevas plataformas con mejores tecnologías.<br>
+            2.	Cambios en leyes y regulaciones: Los cambios en leyes y regulaciones pueden afectar el funcionamiento de la plataforma.<br>
+            3.	Posibles fallas de la plataforma: las fallas de la plataforma pueden afectar la confianza del usuario y dañar la imagen de una empresa.<br>
+            4.	Plataformas que ofrecen precios más bajos: La competencia de precios puede ser un factor importante para los clientes, especialmente en un mercado con opciones similares.<br>
+            5.	Ataques cibernéticos: La plataforma puede ser vulnerable a ataques cibernéticos que roben información o afecten su funcionamiento.<br>
+            6.	Problemas de integración con otras plataformas: La plataforma puede tener problemas para integrarse con otras plataformas, como plataformas de pago o sistemas de gestión de proyectos.
+            </td>
+        </tr>
+        <body>
+        <tr>
+            <th>Fortalezas</th>
+            <th>Estrategia (FO) E. Ofensivas</th>
+            <th>Estrategia (FA) E. Defensivas</th>
+        </tr>
+        <tr>
+            <td>
+            7. Conexión directa entre empresa y cliente: Permite una comunicación fluida y transparente, generando confianza y mejorando la experiencia del cliente.<br>
+            8. Brinda transparencia y control sobre el avance del proyecto: El cliente puede seguir en tiempo real el progreso del proyecto, lo que reduce la incertidumbre y aumenta la satisfacción.<br>
+            9. Enfoque en un solo rubro: Permite a la plataforma especializarse en un área específica, ofreciendo un servicio más preciso y eficiente.<br>
+            10. Reduce el tiempo y esfuerzo del cliente en la gestión del proyecto: La plataforma automatiza tareas y simplifica el proceso, liberando tiempo y recursos para el cliente.</td>
+            <td>
+            <strong>Mantener Fortalezas</strong> <br><br>
+            1.	Aprovechar las conexiones directas con los clientes para generar confianza y lealtad.<br>
+            2.	Utilice la transparencia y los controles del proyecto como puntos de diferencia.<br>
+            3.	Aprovechar el auge de la industria de la remodelación para expandirse a nuevos mercados.<br>
+            4.	Establecer alianzas estratégicas con empresas de decoración.<br>
+            5.	Posicionar la plataforma como la mejor opción para reformas en el hogar.<br>
+            6.	Ofrecer precios competitivos: La plataforma debe ofrecer precios competitivos que sean atractivos para los clientes potenciales. <br>
+            </td>
+            <td>
+            <strong>Explotar Oportunidades</strong> <br><br>
+            7. Desarrollar un sistema de control de calidad para garantizar la satisfacción del cliente.<br>
+            8. Implementar medidas de seguridad para evitar fallas en la plataforma.<br>
+            9. Monitorear mercados, leyes y regulaciones para adaptarse a los cambios.<br>
+            10. Implementar programas de innovación: Las plataformas pueden implementar programas de innovación para fomentar la creatividad y el desarrollo de nuevas ideas.<br>
+            11. Implementar una estrategia de marketing digital integral: La plataforma puede implementar una estrategia de marketing digital integral que incluya SEO, SEM, marketing en redes sociales y marketing por correo electrónico.
+            </td>
+        </tr>
+        <tr>
+            <th>Debilidad (D)</th>
+            <th>Estrategia(DO) de Reorientación</th>
+            <th>Estrategia(DA) de Superviciencia</th>
+        </tr>
+        <tr>
+            <td>
+            12. Clientes que desconfían de contratar servicios sin conocer la empresa: La falta de conocimiento sobre la empresa puede generar desconfianza en los clientes potenciales. <br>
+            13. La plataforma no tiene control directo sobre la calidad del proyecto: La plataforma solo facilita la conexión entre empresa y cliente, no tiene control sobre la calidad del trabajo realizado.<br>
+            14. Solo tiene reseñas: Las reseñas son un indicador importante, pero no siempre son confiables.<br>
+            15. Marca poco conocida: La plataforma puede ser una marca poco conocida, lo que puede dificultar generar confianza en los clientes.
+            </td>
+            <td> 
+            <strong>Afrontar Amenazas</strong> <br><br>
+            16. Implementar estrategias de marketing para ganarse la confianza de los clientes potenciales.<br>
+            17. Desarrollar un sistema de evaluación de la empresa para el aseguramiento de la calidad del servicio.<br> 
+            18. Proporcionar un servicio al cliente personal y eficiente.<br>
+            19. Enfocarse en un área específica: Las plataformas pueden enfocarse en áreas específicas del mercado, como remodelación de baños o cocinas o remodelación para personas mayores.<br>
+            20. Integrar nuevas tecnologías en la plataforma: Las plataformas pueden integrar nuevas tecnologías, como inteligencia artificial o realidad virtual, para mejorar la experiencia del usuario.
+            </td>
+            <td>
+            <strong>Corregir debilidades</strong> <br><br>
+            1.	Los servicios de plataforma se diversifican y se reducen los riesgos.<br>
+            2.	Desarrollar planes de contingencia para responder a las amenazas.<br> 
+            3.	Mantener una comunicación periódica con los usuarios para mantener su confianza.<br> 
+            4.	Contratar personas con experiencia en la industria, brindar capacitación al equipo existente y asociarse con empresas o profesionales con experiencia en el mercado.<br> 
+            5.	Diversificar proveedores y planes de contingencia para asegurar estabilidad en la modernización tecnológica y negociar contratos favorables.<br>
+            6.	Establecer un sistema de gestión de quejas y comentarios para mejorar el servicio al cliente y obtener retroalimentación positiva.
+            </td>
+        </tr>
+    </body>
+</table>
 
 ## 2.2. Entrevistas.
 
-Contenido
+En este punto el equipo realizará entrevistas a nuestros segmentos objetivos previamente identificados con el fin de poder conocer y empatizar coon las necesidades de los mismos.
 
 ### 2.2.1. Diseño de entrevistas.
 
