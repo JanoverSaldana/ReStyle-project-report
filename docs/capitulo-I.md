@@ -318,7 +318,7 @@ Para la elaboración de los Hypothesis Statements se utilizó el formato Lean UX
 
 #### 1.2.2.4. Lean UX Canvas
 
-<p align = "center"> <img width="800" alt="Lean UX Canvas (v2)" src="/assets/img/Lean UX Canvas (v2) (Community).png"> </p>
+<p align = "center"> <img width="800" alt="Lean UX Canvas (v2)" src="/assets/img/Lean UX Canvas (v2).png"> </p>
 
 <!-- https://github.com/sw53-metasoft/ReStyle-project-report/assets/91510417/a4bacbbc-923c-4f7f-be5d-7118e07eb64b -->
 
