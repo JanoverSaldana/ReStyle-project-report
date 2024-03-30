@@ -49,13 +49,13 @@ Ser líderes en innovaciones tecnológicas, elevando la eficiencia de las indust
         <tr>
             <!-- DATOS del integrante 3-->
             <td> 
-            <img src="">
-            Nombres y Apellidos
+            <img src="/assets/img/Josten-Huaman-Bellido.jpg" height="120">
+            <br>Josten Marc Huaman Bellido - U201617624
             </td>
             <!-- DESCRIPCIÓN del integrante 3-->
-            <td> </td>
+            <td>Estudiante de la carrera de Ingeniería de Software, cursando el 5to ciclo. Soy una persona responsable, autodidacta. Me gusta trabajar en equipo, aportar ideas y adquirir nuevos conocimientos de parte de mis compañeros. </td>
             <!-- CONOCIMIENTOS del integrante 3-->
-            <td> </td>
+            <td>Conocimiento de Front en lenguaje HTML, CSS, JavaScript. Conocimiento básico de C++, python, base de datos. Habilidades en programas de diseño web.</td>
         </tr>
         <tr>
             <!-- DATOS del integrante 4-->
