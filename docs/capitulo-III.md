@@ -3,18 +3,76 @@
 ## 3.1. To-Be Scenario Mapping.
 
 **Geraldo Colchado Ruiz**
-|Phases|Busqueda cliente|Presentacion de la Propuesta|Ejecucion del Proyecto|Post venta|
-|------|----------------|----------------------------|----------------------|----------|
-|**Acciones**|Geraldo se suscribe a la aplicación y crea un perfil para su negocio. Publica fotos de sus proyectos, recibe reseñas de clientes que lo ayudan a encontrar mas clientes|  Geraldo se comunica con los clientes potenciales a través de la aplicación, les envía mensajes y recibe solicitudes de cotización.  | utiliza la aplicación para gestionar el proyecto y coordina con los proveedores y los clientes  | utiliza la aplicación para enviar recordatorios de mantenimiento a los clientes y para obtener comentarios sobre su trabajo. |
-|**Pensamientos**| Se siente confiado de que la aplicación le ayudará a llegar a un público más amplio y a encontrar más clientes. | Se siente más organizado y eficiente gracias a la aplicación. |  Se siente más tranquilo al tener toda la información del proyecto en la aplicacion, la cual puede referenciar | Se siente agradecido por la fidelidad de sus clientes y por la oportunidad de hacer crecer su negocio. |
-|**Sentimiento**| Optimista, motivado | Seguro, profesional |  En control, confiado | Satisfecho, orgulloso |
+<table>
+  <thead>
+    <tr>
+      <th>Phases</th>
+      <th>Busqueda cliente</th>
+      <th>Presentacion de la Propuesta</th>
+      <th>Ejecucion del Proyecto</th>
+      <th>Post venta</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Acciones</td>
+      <td>Geraldo se suscribe a la aplicación y crea un perfil para su negocio. Publica fotos de sus proyectos, recibe reseñas de clientes que lo ayudan a encontrar mas clientes</td>
+      <td>Geraldo se comunica con los clientes potenciales a través de la aplicación, les envía mensajes y recibe solicitudes de cotización.</td>
+      <td>Utiliza la aplicación para gestionar el proyecto y coordina con los proveedores y los clientes</td>
+      <td>Utiliza la aplicación para enviar recordatorios de mantenimiento a los clientes y para obtener comentarios sobre su trabajo.</td>
+    </tr>
+    <tr>
+      <td>Pensamientos</td>
+      <td>Se siente confiado de que la aplicación le ayudará a llegar a un público más amplio y a encontrar más clientes.</td>
+      <td>Se siente más organizado y eficiente gracias a la aplicación.</td>
+      <td>Se siente más tranquilo al tener toda la información del proyecto en la aplicacion, la cual puede referenciar</td>
+      <td>Se siente agradecido por la fidelidad de sus clientes y por la oportunidad de hacer crecer su negocio.</td>
+    </tr>
+    <tr>
+      <td>Sentimiento</td>
+      <td>Optimista, motivado</td>
+      <td>Seguro, profesional</td>
+      <td>En control, confiado</td>
+      <td>Satisfecho, orgulloso</td>
+    </tr>
+  </tbody>
+</table>
 
 **Cesar Enrique Salas Arbaiza**
-|Phases|Busqueda remodelador|Seleccion de remodelador|Ejecucion del Proyecto|Post venta|
-|------|----------------|----------------------------|----------------------|----------|
-|**Acciones**| Cesar busca un remodelador en la aplicación, utilizando filtros para especificar el tipo de proyecto y la ubicación |  Lee las reseñas de los clientes, compara precios y solicita presupuestos directamente a través de la aplicación  | Utiliza la aplicación para comunicarse con el remodelador, realizar pagos, seguir el progreso del proyecto y recibir notificaciones  | califica al remodelador y deja una reseña en la aplicación. |
-|**Pensamientos**| Se siente confiado de que la aplicación le ayudará a encontrar el remodelador adecuado de forma rápida y sencilla. |  Se siente más informado y seguro de su decisión gracias a la información disponible en la aplicación. | Se siente más tranquilo al tener toda la información del proyecto en un solo lugar. | Se siente satisfecho con la experiencia y con la ayuda que recibió de la aplicación. |
-|**Sentimientos**| Optimista, motivado | Seguro, confiado | En control, satisfecho | Agradecido, satisfecho |
+<table>
+  <thead>
+    <tr>
+      <th>Phases</th>
+      <th>Busqueda remodelador</th>
+      <th>Seleccion de remodelador</th>
+      <th>Ejecucion del Proyecto</th>
+      <th>Post venta</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Acciones</td>
+      <td>Cesar busca un remodelador en la aplicación, utilizando filtros para especificar el tipo de proyecto y la ubicación</td>
+      <td>Lee las reseñas de los clientes, compara precios y solicita presupuestos directamente a través de la aplicación</td>
+      <td>Utiliza la aplicación para comunicarse con el remodelador, realizar pagos, seguir el progreso del proyecto y recibir notificaciones</td>
+      <td>Califica al remodelador y deja una reseña en la aplicación.</td>
+    </tr>
+    <tr>
+      <td>Pensamientos</td>
+      <td>Se siente confiado de que la aplicación le ayudará a encontrar el remodelador adecuado de forma rápida y sencilla.</td>
+      <td>Se siente más informado y seguro de su decisión gracias a la información disponible en la aplicación.</td>
+      <td>Se siente más tranquilo al tener toda la información del proyecto en un solo lugar.</td>
+      <td>Se siente satisfecho con la experiencia y con la ayuda que recibió de la aplicación.</td>
+    </tr>
+    <tr>
+      <td>Sentimientos</td>
+      <td>Optimista, motivado</td>
+      <td>Seguro, confiado</td>
+      <td>En control, satisfecho</td>
+      <td>Agradecido, satisfecho</td>
+    </tr>
+  </tbody>
+</table>
 
 ## 3.2. User Stories. 
 
