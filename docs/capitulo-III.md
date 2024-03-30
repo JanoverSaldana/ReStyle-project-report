@@ -2,7 +2,7 @@
 
 ## 3.1. To-Be Scenario Mapping.
 
-**Geraldo Colchado Ruiz**
+**Henry Silva**
 <table>
   <thead>
     <tr>
@@ -16,8 +16,8 @@
   <tbody>
     <tr>
       <td>Acciones</td>
-      <td>Geraldo se suscribe a la aplicación y crea un perfil para su negocio. Publica fotos de sus proyectos, recibe reseñas de clientes que lo ayudan a encontrar mas clientes</td>
-      <td>Geraldo se comunica con los clientes potenciales a través de la aplicación, les envía mensajes y recibe solicitudes de cotización.</td>
+      <td>Henry se suscribe a la aplicación y crea un perfil para su negocio. Publica fotos de sus proyectos, recibe reseñas de clientes que lo ayudan a encontrar mas clientes</td>
+      <td>Hnery se comunica con los clientes potenciales a través de la aplicación, les envía mensajes y recibe solicitudes de cotización.</td>
       <td>Utiliza la aplicación para gestionar el proyecto y coordina con los proveedores y los clientes</td>
       <td>Utiliza la aplicación para enviar recordatorios de mantenimiento a los clientes y para obtener comentarios sobre su trabajo.</td>
     </tr>
@@ -38,7 +38,7 @@
   </tbody>
 </table>
 
-**Cesar Enrique Salas Arbaiza**
+**Danilo Alvez**
 <table>
   <thead>
     <tr>
@@ -52,7 +52,7 @@
   <tbody>
     <tr>
       <td>Acciones</td>
-      <td>Cesar busca un remodelador en la aplicación, utilizando filtros para especificar el tipo de proyecto y la ubicación</td>
+      <td>Danilo busca un remodelador en la aplicación, utilizando filtros para especificar el tipo de proyecto y la ubicación</td>
       <td>Lee las reseñas de los clientes, compara precios y solicita presupuestos directamente a través de la aplicación</td>
       <td>Utiliza la aplicación para comunicarse con el remodelador, realizar pagos, seguir el progreso del proyecto y recibir notificaciones</td>
       <td>Califica al remodelador y deja una reseña en la aplicación.</td>
