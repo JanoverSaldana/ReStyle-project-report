@@ -300,16 +300,28 @@ Contenido
 Contenido
 
 ### 2.3.3. User Journey Mapping.
-
-Contenido
+![ UserJourneyGColchado.jpg](/assets/img/UserJourneyGColchado.jpg)
+![ UserJourneyCSalas.jpg](/assets/img/UserJourneyCSalas.jpg)
 
 ### 2.3.4. Empathy Mapping.
-
-Contenido
+![ EmpathyMapGColchado.jpg](/assets/img/EmpathyMapGColchado.jpg)
+![ EmpathyMapCSalas.jpg](/assets/img/EmpathyMapCSalas.jpg)
 
 ### 2.3.5. As-is Scenario Mapping.
 
-Contenido
+**Geraldo Colchado Ruiz**
+|Phases|Busqueda cliente|Presentacion de la Propuesta|Ejecucion del Proyecto|Post venta|
+|------|----------------|----------------------------|----------------------|----------|
+|**Acciones**|Geraldo busca clientes potenciales a través de publicidad tradicional (folletos, anuncios en periódicos) y referencias de amigos y familiares.|Geraldo se reúne con los clientes potenciales para discutir sus necesidades y presentarles un presupuesto.|Geraldo y su equipo trabajan en el proyecto, coordinando con los proveedores y los clientes.|Geraldo se asegura de que los clientes estén satisfechos con el trabajo realizado. Ofrece garantías y servicios de mantenimiento|
+|**Pensamientos**|Se preocupa por encontrar suficientes clientes para mantener su negocio a flote. Se siente frustrado por la falta de visibilidad de su negocio en el mercado.|Se preocupa por dar una buena impresión y por ganar el proyecto.|Se preocupa por cumplir con el plazo y el presupuesto, y por mantener la calidad del trabajo.|Se preocupa por mantener una buena relación con los clientes y por obtener recomendaciones|
+|**Sentimiento**|Ansioso, inseguro|Nervioso, esperanzado|Presionado|Aliviado|
+
+**Cesar Enrique Salas Arbaiza**
+|Phases|Busqueda remodelador|Seleccion de remodelador|Ejecucion del Proyecto|Post venta|
+|------|----------------|----------------------------|----------------------|----------|
+|**Acciones**| Cesar busca en Internet, pregunta a amigos y familiares, o visita ferias de construcción para encontrar un remodelador. | Cesar contacta con varios remodeladores, compara precios y solicita presupuestos | Cesar  firma un contrato con el remodelador y supervisa el progreso del proyecto. | Se comunica con el remodelador para solucionar cualquier problema que pueda surgir después de la finalización del proyecto |
+|**Pensamientos**| Se preocupa por encontrar un remodelador confiable, con experiencia y que se ajuste a su presupuesto. |  Se preocupa por tomar la mejor decisión y por no pagar de más. | Se preocupa por que el proyecto se complete a tiempo, dentro del presupuesto y con la calidad esperada  | Se preocupa por obtener un buen servicio post-venta y por no tener que lidiar con problemas inesperados. |
+|**Sentimientos**| Abrumado, inseguro |  Indeciso, confundido | Presionado, ansioso |  satisfecho (si el proyecto se completó satisfactoriamente), decepcionado (si el proyecto no se completó satisfactoriamente) |
 
 ## 2.4. Ubiquitous Language.
 
