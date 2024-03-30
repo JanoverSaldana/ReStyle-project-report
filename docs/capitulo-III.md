@@ -10,7 +10,6 @@ Contenido
 |**Acciones**|Geraldo se suscribe a la aplicación y crea un perfil para su negocio. Publica fotos de sus proyectos, recibe reseñas de clientes que lo ayudan a encontrar mas clientes|  Geraldo se comunica con los clientes potenciales a través de la aplicación, les envía mensajes y recibe solicitudes de cotización.  | utiliza la aplicación para gestionar el proyecto y coordina con los proveedores y los clientes  | utiliza la aplicación para enviar recordatorios de mantenimiento a los clientes y para obtener comentarios sobre su trabajo. |
 |**Pensamientos**| Se siente confiado de que la aplicación le ayudará a llegar a un público más amplio y a encontrar más clientes. | Se siente más organizado y eficiente gracias a la aplicación. |  Se siente más tranquilo al tener toda la información del proyecto en la aplicacion, la cual puede referenciar | Se siente agradecido por la fidelidad de sus clientes y por la oportunidad de hacer crecer su negocio. |
 |**Sentimiento**| Optimista, motivado | Seguro, profesional |  En control, confiado | Satisfecho, orgulloso |
-||
 
 **Cesar Enrique Salas Arbaiza**
 |Phases|Busqueda remodelador|Seleccion de remodelador|Ejecucion del Proyecto|Post venta|
@@ -18,7 +17,6 @@ Contenido
 |**Acciones**| Cesar busca un remodelador en la aplicación, utilizando filtros para especificar el tipo de proyecto y la ubicación |  Lee las reseñas de los clientes, compara precios y solicita presupuestos directamente a través de la aplicación  | Utiliza la aplicación para comunicarse con el remodelador, realizar pagos, seguir el progreso del proyecto y recibir notificaciones  | califica al remodelador y deja una reseña en la aplicación. |
 |**Pensamientos**| Se siente confiado de que la aplicación le ayudará a encontrar el remodelador adecuado de forma rápida y sencilla. |  Se siente más informado y seguro de su decisión gracias a la información disponible en la aplicación. | Se siente más tranquilo al tener toda la información del proyecto en un solo lugar. | Se siente satisfecho con la experiencia y con la ayuda que recibió de la aplicación. |
 |**Sentimientos**| Optimista, motivado | Seguro, confiado | En control, satisfecho | Agradecido, satisfecho |
-||
 
 ## 3.2. User Stories. 
 
