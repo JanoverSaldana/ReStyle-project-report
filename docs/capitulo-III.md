@@ -1,7 +1,5 @@
 # Capítulo III: Requirements Specification.
 
-Contenido
-
 ## 3.1. To-Be Scenario Mapping.
 
 **Geraldo Colchado Ruiz**
@@ -19,6 +17,296 @@ Contenido
 |**Sentimientos**| Optimista, motivado | Seguro, confiado | En control, satisfecho | Agradecido, satisfecho |
 
 ## 3.2. User Stories. 
+
+<table>
+    <thead>
+        <tr>
+            <th>Epic / Story ID</th>
+            <th>Título </th>
+            <th>Descripción</th>
+            <th>Criterios de Aceptación</th>
+            <th>Relacionado con (Epic ID)</th>
+        </tr>
+    </thead>
+    <body  >
+        <tr style="text-align:center">
+            <td>UH01</td>
+            <td>Hipervínculos en el encabezado</td>
+            <!-- Descripción -->
+            <td> 
+            <strong>Como</strong> visitante de la landing page, 
+            <strong>quiero</strong> que las opciones del encabezado me dirijan a las diferentes secciones de la Landing Page 
+            <strong>para</strong>, poder navegar de forma rapida y fluida. 
+            </td>
+            <!-- ---------- -->
+            <!-- Criterios de Aceptación -->
+            <td> 
+            <h5>Escenario 01: Navegación fluida.</h5>
+            <strong>Dado</strong> Un usuario ha navegado a una sección de la Landing Page.
+            <strong>cuando</strong> El usuario hace clic en otra opción del encabezado.
+            <strong>Entonces</strong> La página se desplaza suavemente a la nueva sección seleccionada.
+            <strong>Y</strong> La URL de la página cambia para reflejar la nueva sección.
+            <!-- ---------- -->
+            <h5>Escenario 02: Múltiples Dispositivos</h5>
+            <strong>Dado</strong> Un usuario visita la landing page desde un dispositivo móvil.
+            <strong>cuando</strong> El usuario hace clic en una opción del encabezado.
+            <strong>Entonces</strong> La página se desplaza suavemente a la sección correspondiente, adaptándose al tamaño de la pantalla del dispositivo.
+            </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td>UH02 </td>
+            <td>Información sobre beneficios de la aplicación</td>
+            <!-- Descripción -->
+            <td>
+            <strong>Como</strong> usuario, 
+            <strong>quiero</strong> saber más sobre los beneficios de la aplicación web 
+            <strong>para</strong> considerar ser miembro de la aplicacion. 
+            </td>
+            <!-- Criterios de Aceptación -->
+            <td>
+            <h5>Escenario 01: Navegación a la sección de beneficios</h5>
+            <strong>Dado</strong> Un usuario visita la página de inicio de la aplicación web.
+            <strong>Cuando</strong> El usuario hace clic en la sección "Beneficios".
+            <strong>Entonces</strong> Se muestra una página con información clara y concisa sobre los beneficios de la aplicación.
+            <strong>Y</strong> La información incluye una lista de beneficios, imágenes ilustrativas y ejemplos concretos.
+            <strong>Y</strong> La página ofrece la posibilidad de descargar la aplicación o registrarse para obtener una prueba gratuita. 
+            Dado: Un usuario está leyendo la página de beneficios.
+            <h5>Escenario 02: Información Clara y Concisa</h5>
+            <strong>Dado</strong> Un usuario está leyendo la página de beneficios.
+            <strong>Cuando</strong> El usuario lee la información sobre un beneficio específico.
+            <strong>Entonces</strong> La información es fácil de entender y no contiene lenguaje técnico.
+            <strong>Y</strong> La información se presenta de forma organizada y atractiva.
+            </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td>UH03</td>
+             <td>Mostrar los planes disponibles</td>
+            <!-- Descripción -->
+            <td>
+            <strong>Como</strong> visitante del landing page, 
+            <strong>quiero</strong> saber sobre los planes que tiene, 
+            <strong>para</strong> poder analizar si el plan que me ofrecen se adecua a las necesidades de mi negocio.
+            </td>
+            <!-- Criterios de Aceptación -->
+            <td> 
+            <h5>Escenario 1: Información Clara y Concisa.</h5>
+            <strong>Dado</strong> Un usuario está leyendo la página de un plan específico.
+            <strong>Cuando</strong> El usuario lee la información sobre una función específica del plan.
+            <strong>Entonces</strong> La información es fácil de entender y no contiene lenguaje técnico.
+            <strong>Y</strong> La información se presenta de forma organizada y atractiva.
+            <h5>Escenario 2: Comparación de Planes.</h5>
+            <strong>Dado</strong> Un usuario está leyendo la página de un plan específico.
+            <strong>Cuando</strong> El usuario quiere comparar el plan con otro plan.
+            <strong>Entonces</strong> La página ofrece una herramienta para comparar los planes en paralelo, mostrando las diferencias en precio, funciones, beneficios y limitaciones.
+            </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td>UH04 </td>
+            <td> Información útil en el footer </td>
+            <!-- Descripción -->
+            <td>
+            <strong>Como</strong> usuario que visita la landing page, 
+            <strong>quiero</strong> encontrar información útil en el footer 
+            <strong>para</strong> poder contactarme con la empresa, conocer más sobre ella, leer sus políticas y seguirla en redes sociales.</td>
+            <!-- Criterios de Aceptación -->
+            <td>
+            <h5>Escenario 01: Información de Contacto</h5>
+            <strong>Dado </strong> Un usuario visita la landing page.
+            <strong>Cuando</strong> El usuario busca información de contacto en el footer.
+            <strong>Entonces</strong> El footer muestra la siguiente información de correo electrónico, teléfono y dirección
+            <strong>Y</strong> La información de contacto está resaltada en un color diferente al resto del texto del footer.
+            <h5>Escenario 02: Redes Sociales</h5>
+            <strong>Dado</strong> Un usuario visita la landing page.
+            <strong>Cuando</strong> El usuario busca los iconos de redes sociales en el footer.
+            <strong>Entonces</strong> El footer muestra iconos de las redes sociales Facebook, Twitter e Instagram.
+            <strong>Y</strong> Al hacer clic en un icono de red social, el usuario es dirigido a la página de la empresa en esa red social.
+            <h5>Escenario 03: Navegación</h5>
+            <strong>Dado</strong> Un usuario visita la landing page.
+            <strong>Cuando</strong> El usuario decida visitar otras secciones desde el footer.
+            <strong>Entonces</strong> El footer muestra las opciones de navegación de las secciones de la landing page
+            <strong>Y</strong> Al hacer clic en alguna de las opciones, el usuario es dirigido a la sección correspondiente
+            </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> UH05</td>
+            <td> Información sobre el producto </td>
+            <!-- Descripción -->
+            <td> 
+            <strong>Como</strong> usuario que visita la landing page, 
+            quiero</strong> entender claramente qué ofrece el producto 
+            <strong>para</strong> poder tomar una decisión informada sobre si adquirirlo o no.
+            </td>
+             <!-- Criterios de Aceptación -->
+            <td> 
+            <h5>Escenario 1: Descripción Clara y Concisa</h5>
+            <strong>Dado</strong> Un usuario visita la landing page.
+            <strong>Cuando</strong> El usuario lee y visualiza un video sobre la descripción del producto 
+            <strong>Entonces</strong> La descripción del producto debe ser:
+            clara y concisa, resaltar los beneficios clave del producto, enfatizar las ventajas que ofrece el producto al usuario 
+            <strong>Y</strong> así Motivar al usuario a adquirir el producto.
+            <h5>Escenario 02: Llamado a la Acción</h5>
+            <strong>Dado</strong> un usuario ha leído la información del producto.
+            <strong>Cuando</strong> el usuario decide que quiere adquirir el producto.
+            <strong>Entonces</strong> la sección del producto debe ofrecer un botón claro y visible para descargar e iniciar a utilizar el producto.
+            </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> UH06 </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> UH07 </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> UH08 </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> UH09 </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> UH10 </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> UH11 </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> UH12 </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> UH13 </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> UH14 </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> UH15 </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> UH16 </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> UH17 </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> UH18 </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> UH19 </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center"> 
+            <td> UH20 </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> UH21 </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> UH22 </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> UH23 </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> UH24 </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> UH25 </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+    </body>
+</table>
+
+
+
+
+
+
+
+
+
+
 
 | **Epic / Story ID** | **Título**                                          | **Descripción**                                                                                                                                                                                                                                                                  | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | **Relacionado con (Epic ID)** |
 |---------------------|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
