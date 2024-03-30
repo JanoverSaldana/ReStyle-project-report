@@ -291,7 +291,9 @@ Contenido
 
 ### 2.3.1. User Personas.
 
-Contenido
+![ UserPersonaGColchado.png](/assets/img/UserPersonaGColchado.png)
+
+![ UserPersonaCSalas.png](/assets/img/UserPersonaCSalas.png)
 
 ### 2.3.2. User Task Matrix.
 
