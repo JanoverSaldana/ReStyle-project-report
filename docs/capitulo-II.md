@@ -291,21 +291,17 @@ Contenido
 
 ### 2.3.1. User Personas.
 
-![ UserPersonaGColchado.png](/assets/img/UserPersonaGColchado.png)
 
-![ UserPersonaCSalas.png](/assets/img/UserPersonaCSalas.png)
 
 ### 2.3.2. User Task Matrix.
 
 Contenido
 
 ### 2.3.3. User Journey Mapping.
-![ UserJourneyGColchado.jpg](/assets/img/UserJourneyGColchado.jpg)
-![ UserJourneyCSalas.jpg](/assets/img/UserJourneyCSalas.jpg)
+
 
 ### 2.3.4. Empathy Mapping.
-![ EmpathyMapGColchado.jpg](/assets/img/EmpathyMapGColchado.jpg)
-![ EmpathyMapCSalas.jpg](/assets/img/EmpathyMapCSalas.jpg)
+
 
 ### 2.3.5. As-is Scenario Mapping.
 
