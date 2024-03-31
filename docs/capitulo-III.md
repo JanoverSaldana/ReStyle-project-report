@@ -215,9 +215,30 @@
         </tr>
         <tr style="text-align:center">
             <td> UH06 </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td> Subir contenido a un portafolio </td>
+           <!-- Descripción -->
+            <td> 
+            <strong>Como</strong> usuario remodelador,
+            quiero</strong> poder subir contenido multimedia a mi portafolio online
+            <strong>para</strong> poder promocionar servicios y proyectos pasados a mis posibles clientes.  
+            </td>
+            <!-- Criterios de Aceptación -->
+            <td> 
+            <h5>Escenario 01: </h5>
+            <strong>Dado</strong> que el remodelador se encuentra en su portafolio dentro de su perfil de ReStyle
+            <strong>Cuando</strong> sube contenido a la aplicación
+            <strong>Y</strong> guarda los cambios
+            <strong>Entonces</strong> el sistema muestra los contenidos subidos en la plataforma y le notifica al remodelador sobre los cambios realizados.
+            <h5>Escenario 02: </h5>
+            <strong>Dado</strong> que el remodelador se encuentra en su portafolio dentro de su perfil de ReStyle
+            <strong>Cuando</strong> sube contenido a la aplicación
+            <strong>Y</strong> no guarda los cambios
+            <strong>Entonces</strong> el sistema le notifica al usuario que necesita guardar los cambios para ver los contenidos en la plataforma. 
+            <h5>Escenario 03: </h5>
+            <strong>Dado</strong> que el remodelador se encuentra en su portafolio dentro de su perfil de ReStyle
+            <strong>Cuando</strong> intenta subir contenido a la aplicación que supera los límites de carga
+            <strong>Entonces</strong> el sistema le notifica al usuario que necesita respetar los límites de carga para poder subir los contenidos a la plataforma. 
+            </td>
             <td> </td>
         </tr>
         <tr style="text-align:center">
