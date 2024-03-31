@@ -60,13 +60,13 @@ Ser líderes en innovaciones tecnológicas, elevando la eficiencia de las indust
         <tr>
             <!-- DATOS del integrante 4-->
             <td> 
-            <img src="">
+            <img src="/assets/img/danielfoto.jpg" height="120"">
             Nombres y Apellidos
             </td>
             <!-- DESCRIPCIÓN del integrante 4-->
-            <td> </td>
+            <td> Soy estudiante de la carrera de Ingeniería de Software, actualmente me encuentro en el 6to ciclo. Me interesa muchos los temas relacionados al desarrollo web e  inteligencia artificial. Me considero una persona empática y esto me facilita llevar buenas relaciones con los integrantes del equipo de trabajo  </td>
             <!-- CONOCIMIENTOS del integrante 4-->
-            <td> </td>
+            <td> Poseo conocimientos en lenguajes como: Python, C++. Tencologías frontend: Vue, Html & CSS. Tecnologías Backend y despliegue: MySql y Netlify.</td>
         </tr>
         <tr>
             <!-- DATOS del integrante 5-->
