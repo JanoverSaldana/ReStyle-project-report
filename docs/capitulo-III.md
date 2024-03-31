@@ -427,44 +427,89 @@
         </tr>
         <tr style="text-align:center">
             <td> UH19 </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td>Programar Consulta con un Remodelador</td>
+            <td>
+            <strong>Como</strong> propietario de vivienda interesado en remodelar, quiero poder programar uan consulta con un remodelador a través de la plataforma <strong>para</strong> discutir mis necesidades y obtener recomendaciones.
+            </td>
+            <td>
+            <h5>Esceneario 1:</h5>
+            <strong>Dado</strong> que soy un propietario de vivienda registrado en la plataforma, <strong>Cuando</strong> accedo al perfil de un remodelador. <strong>Entonces</strong> tengo la opción de programar una consulta con ese remodelador, seleccionando una fecha y hora conveniente.
+            <h5>Escenario 2:</h5>
+            <strong>Dado</strong> que he programado una consulta con un remodelador, <strong>Cuando</strong> se confirma la cita. <strong>Entonces</strong> recibo una notificación por correo electrónico y/o mensaje en la plataforma confirmando la fecha, hora y detalles adicionales sobre la consulta.
+            <h5>Escenario 3:</h5>
+            <strong>Dado</strong> que he programado una consulta con un remodelador, <strong>Cuando</strong> se acerca la fecha y hora de la cita. <strong>Entonces</strong> recibo un recordatorio automático por correo electrónico y/o mensaje en la plataforma para asegurarme de no perder la cita.
+            </td>
             <td> </td>
         </tr>
         <tr style="text-align:center"> 
             <td> UH20 </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td>Solicitar Presupuesto de Remodelación</td>
+            <td>
+            <strong>Como</strong> propietario de vivienda interesado en remodelar, quiero poder solicitar presupuestos a múltiples remodeladores a través de la plataforma <strong>para</strong> comparar opciones y tomar decisiones informadas.
+            </td>
+            <td>              
+            <h5>Escenario 1: </h5>
+            <strong>Dado</strong> que soy un propietario de vivienda registrado en la plataforma, <strong>Cuando</strong> accedo a la sección de solicitudes de presupuesto. <strong>Entonces</strong> puedo completar un formulario con detalles sobre mi proyecto de remodelación y enviar la solicitud a los remodeladores disponibles.
+            <h5>Escenario 2:</h5>
+            <strong>Dado</strong> que he enviado una solicitud de presupuesto, <strong>Cuando</strong> los remodeladores interesados reciben mi solicitud. <strong>Entonces</strong> comienzan a enviar sus ofertas y propuestas a través de la plataforma para que yo las revise.
+            <h5>Escenario 3:</h5>
+            <strong>Dado</strong> que he recibido múltiples ofertas de remodeladores, <strong>Cuando</strong> reviso las propuestas y comparo los presupuestos. <strong>Entonces</strong> puedo evaluar factores como el costo, el tiempo de ejecución y la calidad del trabajo para tomar una decisión informada.
+            </td>
             <td> </td>
         </tr>
         <tr style="text-align:center">
             <td> UH21 </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td>Responder Solicitudes de Presupuesto </td>
+            <td>
+            <strong>Como</strong> profesional de remodelación, quiero poder responder rápidamente a las solicitudes de presupuesto de los propietarios de viviendas <strong>para</strong> demostrar profesionalismo y captar nuevos clientes. </td>
+            <td>
+            <h5>Escenario 1: </h5>
+            <strong>Dado</strong> que soy un remodelador registrado en la plataforma, <strong>Cuando</strong> recibo una nueva solicitud de presupuesto. <strong>Entonces</strong> recibo una notificación por correo electrónico y/o mensaje en la plataforma para informarme sobre la solicitud entrante.
+            <h5>Escenario 2: </h5>
+            <strong>Dado</strong> que he recibido una solicitud de presupuesto, <strong>Cuando</strong> reviso los detalles del proyecto proporcionados por el propietario de la vivienda. <strong>Entonces</strong> puedo evaluar la viabilidad del proyecto y preparar una oferta personalizada.
+            <h5>Escenario 3: </h5>
+            <strong>Dado</strong> que he preparado una oferta para un proyecto de remodelación, <strong>Cuando</strong> la envío al propietario de la vivienda a través de la plataforma. <strong>Entonces</strong> proporciono detalles claros sobre el alcance del trabajo, el costo estimado y cualquier término adicional para la consideración del cliente.
+            </td>
             <td> </td>
         </tr>
         <tr style="text-align:center">
             <td> UH22 </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td> Acceso a Herramientas de Gestión </td>
+            <td>
+            <strong>Como</strong> profesional de remodelación, quiero poder acceder a herramientas de gestión de proyectos y clientes dentro de la plataforma <strong>para</strong> optimizar la organización y la comunicación en mi negocio.</td>
+            <td>
+            <h5>Escenario 1:</h5>
+            <strong>Dado</strong> que soy un remodelador registrado en la plataforma, <strong>Cuando</strong> accedo a mi panel de control personalizado. <strong>Entonces</strong> puedo ver un resumen de proyectos activos, solicitudes de presupuesto, citas programadas y otras métricas importantes para mi negocio.
+            <h5>Escenario 2:</h5>
+            <strong>Dado</strong> que necesito comunicarme con un cliente sobre un proyecto en curso, <strong>Cuando</strong> utilizo las funciones de mensajería interna o correo electrónico dentro de la plataforma para enviar actualizaciones, responder preguntas y mantener una comunicación clara y transparente. <strong>Entonces</strong> el cliente recibe mis mensajes y puede responder a ellos directamente desde la plataforma, lo que facilita una comunicación fluida y eficiente entre ambas partes.
+            </td>
             <td> </td>
         </tr>
         <tr style="text-align:center">
             <td> UH23 </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td>Galería de Testimonios </td>
+            <td>
+            <strong>Como</strong> propietario de vivienda en busca de un remodelador confiable, quiero poder acceder a una galería de testimonios y reseñas de clientes anteriores <strong>para</strong> validar la reputación y la calidad del trabajo de los profesionales en la plataforma. </td>
+            <td>
+            <h5>Escenario 1:</h5>
+            <strong>Dado</strong> que soy un propietario de vivienda registrado en la plataforma, <strong>Cuando</strong> accedo a la sección de testimonios desde el menú principal. <strong>Entonces</strong> puedo explorar una variedad de testimonios y reseñas dejados por clientes anteriores, filtrando por ubicación, tipo de proyecto o calificación.
+            <h5>Escenario 2:</h5>
+            <strong>Dado</strong> que estoy revisando testimonios de clientes anteriores, <strong>Cuando</strong> leo las experiencias y comentarios compartidos por propietarios de viviendas que han trabajado con un remodelador específico. <strong>Entonces</strong> puedo obtener una idea de la calidad del servicio, la comunicación y la satisfacción general del cliente.
+            </td>
             <td> </td>
         </tr>
         <tr style="text-align:center">
             <td> UH24 </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td> Programación de Citas</td>
+            <td>
+            <strong>Como</strong> profesional de remodelación, quiero poder programar citas con clientes potenciales a través de la plataforma <strong>para</strong> discutir sus proyectos y evaluar sus necesidades antes de comenzar cualquier trabajo.
+            </td>
+            <td>
+            <h5>Escenario 1:</h5>
+            <strong>Dado</strong> que soy un remodelador registrado en la plataforma, <strong>Cuando</strong> accedo a mi calendario de citas desde mi panel de control. <strong>Entonces</strong> puedo ver mi disponibilidad actual y reservar horarios para reuniones con clientes potenciales.
+            <h5>Esceneario 2:</h5>
+            <strong>Dado</strong> que he programado una cita con un cliente potencial, <strong>Cuando</strong> el cliente recibe una notificación sobre la cita programada y confirma su asistencia. <strong>Entonces</strong> recibo confirmación de la cita y preparo la reunión según lo acordado.
+            </td>
             <td> </td>
         </tr>
         <tr style="text-align:center">
