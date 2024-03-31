@@ -61,7 +61,7 @@ Ser líderes en innovaciones tecnológicas, elevando la eficiencia de las indust
             <!-- DATOS del integrante 4-->
             <td> 
             <img src="/assets/img/danielfoto.jpg" height="120"">
-            Nombres y Apellidos
+            Josue Daniel Valverde Lopez U202121440
             </td>
             <!-- DESCRIPCIÓN del integrante 4-->
             <td> Soy estudiante de la carrera de Ingeniería de Software, actualmente me encuentro en el 6to ciclo. Me interesa muchos los temas relacionados al desarrollo web e  inteligencia artificial. Me considero una persona empática y esto me facilita llevar buenas relaciones con los integrantes del equipo de trabajo  </td>
