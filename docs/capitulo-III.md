@@ -474,6 +474,130 @@
             <td> </td>
             <td> </td>
         </tr>
+        <tr style="text-align:center">
+            <td> TS001 </td>
+            <td> Get Portfolios </td>
+            <td> 
+            <strong> Como </strong> desarrollador backend en reStyle,
+            <strong> quiero </strong> obtener la información del portafolio de los remodeladores
+            a través de una API <strong> para </strong> permitir al equipo de frontend utilizar
+            los datos del portafolio en la interfaz de usuario </td>
+            <td> 
+            <h5>Escenario 01: </h5>
+            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Portfolio,
+            <strong> Cuando </strong> envío una solicitud para la obtención de datos del portafolio 
+            de los usuarios. <strong> Entonces </strong>  recibo la información de los portafolios en un response 
+            de formato JSON. 
+            <h5>Escenario 02: </h5>            
+            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Portfolios,
+            <strong> Cuando </strong> envío una solicitud para la obtención de datos del portafolio de los usuarios
+            <strong> Y </strong> el parámetro es erróneo o no exista <strong> Entonces </strong> 
+            recibo una mensaje de error en la solicitud </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> TS002 </td>
+            <td> Get Portfolio by User </td>
+            <td> 
+            <strong> Como </strong> desarrollador backend en reStyle,
+            <strong> quiero </strong> obtener la información del portafolio  por usuario remodelador a través de una API 
+            <strong> para </strong> permitir al equipo de frontend utilizar
+            los datos del portafolio en la interfaz de usuario </td>
+            <td> 
+            <h5> Escenario 01: </h5>
+            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Portfolio by user,
+            <strong> Cuando </strong> envío una solicitud para la obtención de datos del portafolio de un usuario por id
+            <strong> Entonces </strong>  recibo la información del portafolio en un response de formato JSON. 
+            <h5> Escenario 02: </h5>            
+            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Portfolio by user,
+            <strong> Cuando </strong> envío una solicitud para la obtención de datos del portafolio del usuario
+            <strong> Y </strong> el parámetro de ID es erróneo o no exista <strong> Entonces </strong> 
+            recibo una mensaje de error en la solicitud </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> TS003 </td>
+            <td> Get Project by User </td>
+            <td> 
+            <strong> Como </strong> desarrollador backend en reStyle,
+            <strong> quiero </strong> obtener los datos del proyecto actual de un remodelador a través de una API 
+            <strong> para </strong> permitir al equipo de frontend utilizar
+            los datos del proyecto y mostrarlo a los contratistas  </td>
+            <td> 
+            <h5> Escenario 01: </h5>
+            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Project by user,
+            <strong> Cuando </strong> envío una solicitud para la obtención de datos del proyecto de un usuario por id
+            <strong> Entonces </strong>  recibo la información del portafolio en un response de formato JSON. 
+            <h5> Escenario 02: </h5>            
+            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Project by user,
+            <strong> Cuando </strong> envío una solicitud para la obtención de datos del proyecto del usuario
+            <strong> Y </strong> el parámetro de ID es erróneo o no exista <strong> Entonces </strong> 
+            recibo una mensaje de error en la solicitud </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> TS004 </td>
+            <td> Post Publications </td>
+            <td> 
+            <strong> Como </strong> desarrollador backend en reStyle,
+            <strong> quiero </strong> permitir a los contratistas puedan crear publicaciones de oportunidad laboral 
+            <strong> para </strong>  registrarlas en la base de datos 
+            </td>
+            <td> 
+            <h5>Escenario 01: </h5>
+            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Publications,
+            <strong> Cuando </strong> envío una solicitud envío una solicitud con datos validados para el
+            registro de una nueva publicación. <strong> Entonces </strong> la información de la publicación se
+            almacenará con éxito en la base de datos de la aplicación.
+            <h5>Escenario 02: </h5>            
+            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Publications,
+            <strong> Cuando </strong> envío una solicitud envío una solicitud sin datos validados 
+            <strong> Entonces </strong> recibo una mensaje de error en la solicitud y esta es rechazada.
+            </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> TS005 </td>
+            <td> Post Reviews </td>
+            <td> 
+            <strong> Como </strong> desarrollador backend en reStyle,
+            <strong> quiero </strong> permitir a los contratistas crear reseñas sobre los remodeladores a través de una API 
+            <strong> para </strong> permitir a los contratistas compartir su opinión del trabajador contratado 
+            </td>
+            <td> 
+            <h5>Escenario 01: </h5>
+            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Post Reviews,
+            <strong> Cuando </strong> envío una solicitud envío una solicitud con datos validados para el
+            registro de una nueva reseña. <strong> Entonces </strong> la información de la reseña se
+            almacenará con éxito en la base de datos de la aplicación.
+            <h5>Escenario 02: </h5>            
+            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Post Reviews,
+            <strong> Cuando </strong> envío una solicitud envío una solicitud sin datos validados 
+            <strong> Entonces </strong> recibo una mensaje de error en la solicitud y esta es rechazada.
+            </td>
+            <td> </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> TS006 </td>
+            <td> Get Reviews </td>
+            <td> 
+            <strong> Como </strong> desarrollador backend en reStyle,
+            <strong> quiero </strong> obtener la información del portafolio de las reseñas creadas por los contratistas
+            a través de una API <strong> para </strong> permitir al equipo de frontend utilizar
+            los datos de la reseña. </td>
+            <td> 
+            <h5>Escenario 01: </h5>
+            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Reviews,
+            <strong> Cuando </strong> envío una solicitud para la obtención de datos de las reseñas  
+            de los usuarios. <strong> Entonces </strong>  recibo la información de las reseñas en un response 
+            de formato JSON. 
+            <h5>Escenario 02: </h5>            
+            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Reviews,
+            <strong> Cuando </strong> envío una solicitud para la obtención de datos de las reseñas de los usuarios
+            <strong> Y </strong> el parámetro es erróneo o no exista <strong> Entonces </strong> 
+            recibo una mensaje de error en la solicitud </td>
+            <td> </td>
+        </tr>
     </body>
 </table>
 
@@ -504,12 +628,6 @@
 | US-010              | Crear cuenta contratista                            | **Como** usuario contratista, **quiero** poder crear una cuenta en ReStyle **para** poder acceder al mercado qué provee                                                                                                                                                          | Escenario 01: **Dado** que el usuario contratista se encuentra la pantalla inicial de ReStyle , **Cuando** le de click al boton de Crear cuenta, **Entonces** le aparecera la pantalla de Creacion de Cuenta Nueva. Escenario 02: **Dado** que el usuario contratista se encuentra en la pantalla de Creacion de Cuenta nueva, **Cuando** llene los datos solicitados **Y** le de Click al Boton Aceptar **Entonces** le aparecera la pantalla de Iniciar Sesion. Escenario 03: **Dado** que el usuario contratista se encuentra en la pantalla de Creacion de Cuenta Nueva **Y** no haya llenado los datos solicitados, **Cuando** le de click al boton Aceptar, **Entonces** le aparecera un mensaje de error.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | EPIC-002                      |
 | US-011              | Busqueda remodeladores                              | **Como** usuario contratista, **quiero** poder buscar remodeladores **para** facilitar el proceso de contrato                                                                                                                                                                    | Escenario 01: **Dado** que el usuario contratista se encuentra en la pantalla de busqueda, **Cuando** ingrese el nombre de un remodelador en la barra de busqueda, **Entonces** se mostrara el perfil del remodelador cuyo nombre sea igual al ingresado en la busqueda. Escenario 02: **Dado** que el usuario contratista se encuentra en la pantalla de busqueda, **Cuando** ingrese el nombre de un remodelador en la barra de busqueda **Y** no exista un perfil con un nombre igual al ingresado en la busqueda, **Entonces** se mostraran perfiles con nombres similares a los ingresados en la busqueda                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | EPIC-002                      |
 | US-012              | Busqueda proyectos                                  | **Como** usuario contratista, **quiero** poder buscar proyectos hechos por remodeladores **para** saber qué el remodelador con el qué trabajo puede hacer el proyecto qué me interesa                                                                                            | Escenario 01: **Dado** que el usuario contratista se encuentra en la pantalla de busqueda, **Cuando** ingrese el proyecto que le interesa en la barra de busqueda **Entonces** mostrara todos los proyectos con un nombre igual al ingresado. Escenario 02: **Dado** que el usuario contratista se encuentra en la pantalla de busqueda, **Cuando** ingrese el proyecto que le interesa en la barra de busqueda **Y** no exista un proyecto con un nombre igual **Entonces** se mostraran proyectos con nombres parecidos a los ingresados                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | EPIC-002                      |
-| TS-001              | Get Portfolio                                       | **Como** desarrollador backend en reStyle, **quiero** obtener la información del portafolio de los remodeladores a través de una API **para** permitir al equipo de frontend utilizar los datos del portafolio en la interfaz de usuario                                         | Escenario 01: **Dado** que tengo autorización en el uso de la API y al endpoint de Portfolio, **Cuando** envío una solicitud para la obtención de datos del portafolio de los usuarios. **Entonces** recibo la información de los portafolios en un response de formato JSON. Escenario 02: **Dado** que tengo autorización en el uso de la API y al endpoint de Portfolios, **Cuando** envío una solicitud para la obtención de datos del portafolio de los usuarios **Y** el parámetro no exista o es erróneo **Entonces** recibo una mensaje de error en la solicitud                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |                               |
-| TS-002              | Get Portfolio by User                               | **Como** desarrollador backend en reStyle, **quiero** obtener la información del portafolio por usuario remodelador a través de una API **para** permitir al equipo de frontend utilizar los datos del portafolio en la interfaz de usuario                                      | Escenario 01: **Dado** que tengo autorización en el uso de la API y al endpoint de Portfolio by user, **Cuando** envío una solicitud para la obtención de datos del portafolio de un usuario por id. **Entonces** recibo la información del portafolio en un response de formato JSON. Escenario 02: **Dado** que tengo autorización en el uso de la API y al endpoint de Portfolio by user, **Cuando** envío una solicitud para la obtención de datos del portafolio del usuarios **Y** el parámetro de ID no exista o es erróneo **Entonces** recibo una mensaje de error en la solicitud                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |                               |
-| TS-003              | Get Project by User                                 | **Como** desarrollador backend en reStyle, **quiero** obtener los datos del proyecto actual de un remodelador a través de una API **para** permitir al equipo de frontend utilizar los datos del proyecto y mostrarlo a los contratistas                                         | Escenario 01: **Dado** que tengo autorización en el uso de la API y al endpoint de Project by user, **Cuando** envío una solicitud para la obtención de datos del proyecto de un usuario por id. **Entonces** recibo la información del proyecto en un response de formato JSON. Escenario 02: **Dado** que tengo autorización en el uso de la API y al endpoint de Project by user, **Cuando** envío una solicitud para la obtención de datos del proyectos del usuario **Y** el parámetro no exista o sea erróneo **Entonces** recibo una mensaje de error en la solicitud                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |                               |
-| TS-004              | Post Job Offer                                      | **Como** desarrollador backend en reStyle, **quiero** agregar una funcionalidad para que los contratistas puedan crear anuncios de oportunidad laboral a través una API **para** permitir a los contratistas hacer el registro adecuado de una publicación                       | Escenario 01: **Dado** que tengo autorización en el uso de la API y al endpoint de JobOffer, **Cuando** envío una solicitud con datos validados para el registro de una nueva publicación.  **Entonces** la información de la publicación se guardará con éxito en la base de datos de la aplicación. Escenario 02: **Dado** que tengo autorización en el uso de la API y al endpoint de JobOffer, **Cuando** envío una solicitud para el registro de una nueva publicación sin datos validados. **Entonces** recibo una mensaje de error en la solicitud y se rechaza                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |                               |
-| TS-005              | Post Recommedation                                  | **Como** desarrollador backend en reStyle, **quiero** agregar una funcionalidad para que los contratistas puedan crear reseñas de recomendación sobre los remodeladores a través de  una API **para** permitir a los contratistas compartir su opinión del trabajador contratado | Escenario 01: **Dado** que tengo autorización en el uso de la API y al endpoint de Recommendations, **Cuando** envío una solicitud con datos validados para el registro de una nueva reseña. **Entonces** la información de la reseña se guardará con éxito en la base de datos. Escenario 02: **Dado** que tengo autorización en el uso de la API y al endpoint de Recommendations, **Cuando** envío una solicitud para el registro de una nueva reseña sin datos validados. **Entonces** recibo una mensaje de error en la solicitud y se rechaza                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                               |
-| TS-006              | Get Recommendation                                  | **Como** desarrollador backend en reStyle, **quiero** obtener la información de las reseñas creadas por los contratistas a través de una API **para** permitir al equipo de frontend utilizar los datos de la reseña                                                             | Escenario 01: **Dado** que tengo autorización en el uso de la API y al endpoint de Recommendations, **Cuando** envío una solicitud para la obtención de datos de las reseñas de los usuarios. **Entonces** recibo la información de las reseñas en un response de formato JSON. Escenario 02: **Dado** que tengo autorización en el uso de la API y al endpoint de Recommendations, **Cuando** envío una solicitud para la obtención de datos de las reseñas  **Y** el parámetro no exista o es erróneo **Entonces** recibo una mensaje de error en la solicitud                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |                               |
 
 ## 3.3. Impact Mapping.
 
