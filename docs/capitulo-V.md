@@ -151,10 +151,68 @@ Como se mencionó previamente, la gestión de nuestro código fuente se llevará
 
 * **Activar el controlador de versiones del IDE**
 Dado que utilizaremos GitHub para gestionar nuestro código, la opción que debe estar habilitada o seleccionada es aquella que indique que el sistema de control se realizará mediante Git. Para hacer esto, siga los siguientes pasos:
-    1. Diríjase a la pestaña "VCS" en WebStorm.
-    2. Luego, seleccione la opción "Enable Version Control Integration".
+  1. Diríjase a la pestaña "VCS" en WebStorm.
+  2. Luego, seleccione la opción "Enable Version Control Integration".
 
-**FALTA CONTENIDO**
+![activar-el-controlador-de-versiones-1.png](/assets/img/sprint-1/activar-el-controlador-de-versiones-1.png)
+
+Ahora se debe seleccionar el sistema de control a través de Git y, por último aceptar los cambios.
+
+![activar-el-controlador-de-versiones-2.png](/assets/img/sprint-1/activar-el-controlador-de-versiones-2.png)
+
+* **Aregar una cuenta de GitHub, siga estos pasos:**
+  1. Diríjase a la sección de configuración en su aplicación.
+  2. Dentro de la pestaña 'File', busque y seleccione la opción 'Settings'.
+  3. En la configuración, busque la sección de version control.
+  4. Agregue su cuenta de GitHub para obtener acceso a los repositorios.
+
+![aregar-una-cuenta-de-GitHub-1.png](/assets/img/sprint-1/aregar-una-cuenta-de-GitHub-1.png)
+
+![aregar-una-cuenta-de-GitHub-2.png](/assets/img/sprint-1/aregar-una-cuenta-de-GitHub-2.png)
+
+* **Configurar el nombre de usuario de Git:** Una vez que hayas establecido el sistema de control de versiones que se vinculará con tu IDE, deberás ingresar la cuenta que utilizarás. Para hacerlo, sigue estos pasos:
+  1. Realiza un commit en tu proyecto. Durante este proceso, se te solicitará que ingreses tu nombre de usuario de Git.
+  2. Después de haberlo añadido, todos los cambios se guardarán en el repositorio especificado en esa plataforma, siempre y cuando des la orden correspondiente.
+  3. Para configurar tu nombre de usuario de Git, primero selecciona la opción 'commit' que se encuentra dentro de la pestaña 'Git'.
+
+![configurar-el-nombre-de-usuario-de-Git-1.png](/assets/img/sprint-1/configurar-el-nombre-de-usuario-de-Git-1.png)
+
+
+* **Guardar el progreso en GitHub:** Con todo configurado en WebStorm, ahora puedes subir tu código a GitHub sin problemas. Simplemente dirígete a la opción 'GitHub' que se encuentra en la pestaña 'Git' y comparte el proyecto.
+
+![guardar-el-progreso-en-GitHub-1.png](/assets/img/sprint-1/guardar-el-progreso-en-GitHub-1.png)
+
+![guardar-el-progreso-en-GitHub-2.png](/assets/img/sprint-1/guardar-el-progreso-en-GitHub-2.png)
+
+* **Configurar la propiedad del repositorio en GitHub:** Ahora, solo necesitas configurar la ubicación del repositorio. El código ya debería estar guardado en GitHub, pero solo estará presente en tu propia cuenta. Para cambiar la propiedad y transferirla a la organización deseada, sigue estos pasos:
+  1. Ingresa al repositorio creado en GitHub.
+  2. Selecciona la pestaña 'settings'
+  3. Dirigite al apartado de 'DangerZone'
+  4. Luego da click en 'transfer'
+  5. Finalmente elegimos el nuevo lugar para guardar el repositorio.
+
+![configurar-la-propiedad-del-repositorio-en-GitHub-1.png](/assets/img/sprint-1/configurar-la-propiedad-del-repositorio-en-GitHub-1.png)
+
+![configurar-la-propiedad-del-repositorio-en-GitHub-2.png](/assets/img/sprint-1/configurar-la-propiedad-del-repositorio-en-GitHub-2.png)
+
+![configurar-la-propiedad-del-repositorio-en-GitHub-3.png](/assets/img/sprint-1/configurar-la-propiedad-del-repositorio-en-GitHub-3.png)
+
+![configurar-la-propiedad-del-repositorio-en-GitHub-4.png](/assets/img/sprint-1/configurar-la-propiedad-del-repositorio-en-GitHub-4.png)
+
+
+* **Configurar control remoto en Git:** Por último, dado que el repositorio ahora está bajo la propiedad de la empresa y depende de ella, es necesario acceder al control remoto del código. Para hacerlo, simplemente ingresa al repositorio creado y copia la URL del repositorio.
+
+![configurar-control-remoto-en-Git-1.png](/assets/img/sprint-1/configurar-control-remoto-en-Git-1.png)
+
+Ahora, en el IDE, dirígete a la pestaña 'Git' y elige la opción 'Manage Remotes'.
+
+![configurar-control-remoto-en-Git-2.png](/assets/img/sprint-1/configurar-control-remoto-en-Git-2.png)
+
+Finalmente, como último paso, debes pegar el enlace copiado en el campo de dirección que solicita el IDE para el control remoto en Git.
+
+![configurar-control-remoto-en-Git-3.png](/assets/img/sprint-1/configurar-control-remoto-en-Git-3.png)
+
+Si has seguido correctamente todos los pasos y directrices mencionados, entonces has completado la configuración con éxito. Ahora, solo necesitas realizar un commit y los cambios que hayas efectuado se guardarán en el repositorio de GitHub, ya sea que hayas realizado modificaciones en el código, creado nuevas ramas u otras acciones.
 
 
 ### 5.1.3. Source Code Style Guide & Conventions.
