@@ -243,37 +243,137 @@
         </tr>
         <tr style="text-align:center">
             <td> UH07 </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td> Crear proyecto de diseño </td>
+           <!-- Descripción -->
+            <td> 
+            <strong>Como</strong> usuario remodelador,
+            quiero</strong> poder crear proyectos de diseño dentro de la plataforma
+            <strong>para</strong> poder comenzar el proceso de remodelación.  
+            </td>
+            <!-- Criterios de Aceptación -->
+            <td> 
+            <h5>Escenario 01: </h5>
+            <strong>Dado</strong> que el remodelador se encuentra en sus proyectos dentro de su perfil de ReStyle
+            <strong>Cuando</strong> crea un proyecto de diseño
+            <strong>Y</strong> rellena los campos requeridos
+            <strong>Entonces</strong> el sistema guarda los datos ingresados, genera un nuevo proyecto de diseño
+            <strong>Y</strong> le notifica al remodelador sobre el mismo.
+            <h5>Escenario 02: </h5>
+            <strong>Dado</strong> que el remodelador se encuentra en sus proyectos dentro de su perfil de ReStyle
+            <strong>Cuando</strong> crea un proyecto de diseño
+            <strong>Y</strong> no rellena los campos requeridos
+            <strong>Entonces</strong> el sistema le notifica al remodelador que necesita completar los campos faltantes antes de crear un proyecto de diseño
+            <strong>Y</strong> no realiza ningún cambio.
+            </td>
             <td> </td>
         </tr>
         <tr style="text-align:center">
             <td> UH08 </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td> Búsqueda de empresas remodeladoras </td>
+           <!-- Descripción -->
+            <td> 
+            <strong>Como</strong> visitante del segmento contratista,
+            quiero</strong> poder buscar remodeladoras por ubicación geográfica y estilos de diseño
+            <strong>para</strong> obtener un resultado más personalizado.  
+            </td>
+            <!-- Criterios de Aceptación -->
+            <td> 
+            <h5>Escenario 01: </h5>
+            <strong>Dado</strong> que el visitante del segmento contratista se encuentra en la plataforma de ReStyle
+            <strong>Cuando</strong> realiza una búsqueda
+            <strong>Y</strong> selecciona la ubicación mediante un filtro
+            <strong>Entonces</strong> el sistema solo le muestra las remodeladoras que cumplen con los requisitos.
+            <h5>Escenario 02: </h5>
+            <strong>Dado</strong> que el visitante del segmento contratista se encuentra en la plataforma de ReStyle
+            <strong>Cuando</strong> realiza una búsqueda
+            <strong>Y</strong> selecciona uno o varios estilos de diseño mediante filtros
+            <strong>Entonces</strong> el sistema solo le muestra las remodeladoras que cumplen con los requisitos.
+            <h5>Escenario 03: </h5>
+            <strong>Dado</strong> que el visitante del segmento contratista se encuentra en la plataforma de ReStyle
+            <strong>Cuando</strong> realiza una búsqueda
+            <strong>Y</strong> no selecciona ningún filtro
+            <strong>Entonces</strong> el sistema le muestra todas las remodeladoras disponibles.
+            </td>
             <td> </td>
         </tr>
         <tr style="text-align:center">
             <td> UH09 </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td> Revisar críticas y opiniones </td>
+           <!-- Descripción -->
+            <td> 
+            <strong>Como</strong> visitante del segmento contratista,
+            quiero</strong> ver las opiniones de otros clientes
+            <strong>para</strong> tener una idea de la calidad del trabajo del remodelador.  
+            </td>
+            <!-- Criterios de Aceptación -->
+            <td> 
+            <h5>Escenario 01: </h5>
+            <strong>Dado</strong> que el visitante del segmento contratista se encuentra el perfil de un remodelador en la plataforma de ReStyle
+            <strong>Cuando</strong> accede a la sección de reviews
+            <strong>Y</strong> no selecciona ningún filtro
+            <strong>Entonces</strong> el sistema le muestra en orden cronológico todas las reviews hechas al remodelador escogido.
+            <h5>Escenario 02: </h5>
+            <strong>Dado</strong> que el visitante del segmento contratista se encuentra el perfil de un remodelador en la plataforma de ReStyle
+            <strong>Cuando</strong> accede a la sección de reviews
+            <strong>Y</strong> selecciona un filtro por cantidad de estrellas
+            <strong>Entonces</strong> el sistema solo le muestra las reviews que coinciden con los requisitos.
+            </td>
             <td> </td>
         </tr>
         <tr style="text-align:center">
             <td> UH10 </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td> Gestión de solicitudes al servidor </td>
+           <!-- Descripción -->
+            <td> 
+            <strong>Como</strong> desarrollador,
+            quiero</strong> asegurarme de que el API pueda gestionar múltiples solicitudes de varios dispositivos
+            <strong>para</strong> que el sistema funcione sin interrupciones durante temporadas de alta demanda.  
+            </td>
+            <!-- Criterios de Aceptación -->
+            <td> 
+            <h5>Escenario 01: </h5>
+            <strong>Dado</strong> que el desarrollador realiza las pruebas de carga en el API
+            <strong>Cuando</strong> envía múltiples solicitudes simultáneas
+            <strong>Entonces</strong> el tiempo de respuesta está dentro del rango promedio
+            <strong>Y</strong> no existen errores o caídas del sistema. 
+            <h5>Escenario 02: </h5>
+            <strong>Dado</strong> que el desarrollador realiza las pruebas de carga en el API
+            <strong>Cuando</strong> envía múltiples solicitudes simultáneas de distintos dispositivos
+            <strong>Entonces</strong> el tiempo de respuesta está dentro del rango promedio
+            <strong>Y</strong> no existen errores o caídas del sistema. 
+            </td>
             <td> </td>
         </tr>
         <tr style="text-align:center">
             <td> UH11 </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td> Autorización y seguridad de acceso al API </td>
+           <!-- Descripción -->
+            <td> 
+            <strong>Como</strong> desarrollador,
+            quiero</strong> poder configurar una autenticación y autorización segura en el API
+            <strong>para</strong> garantizar que solos los usuarios admin puedan acceder al sistema.  
+            </td>
+            <!-- Criterios de Aceptación -->
+            <td> 
+            <h5>Escenario 01: </h5>
+            <strong>Dado</strong> que un usuario con rol admin quiere ingresar al API
+            <strong>Cuando</strong> proporciona sus credenciales
+            <strong>Y</strong> estas son válidas 
+            <strong>Entonces</strong> el sistema le permite ingresar. 
+            <h5>Escenario 02: </h5>
+            <strong>Dado</strong> que un usuario con rol admin quiere ingresar al API
+            <strong>Cuando</strong> proporciona sus credenciales
+            <strong>Y</strong> estas no son válidas
+            <strong>Entonces</strong> el sistema no le permite ingresar 
+            <strong>Y</strong> le notifica que tiene 2 intentos restantes para ingresar al sistema.
+            <h5>Escenario 03: </h5>
+            <strong>Dado</strong> que un usuario con un rol distinto a admin quiere ingresar al API
+            <strong>Cuando</strong> proporciona sus credenciales
+            <strong>Y</strong> estas no son válidas
+            <strong>Y</strong> superó los intentos restantes
+            <strong>Entonces</strong> el sistema no le permite ingresar
+            <strong>Y</strong> notifica a los administradores sobre el intento de acceso.  
+            </td>
             <td> </td>
         </tr>
         <tr style="text-align:center">
