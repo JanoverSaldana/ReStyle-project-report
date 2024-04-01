@@ -378,45 +378,167 @@
         </tr>
         <tr style="text-align:center">
             <td> UH12 </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td>Promocionar contenido </td>
+            <td> <strong>Como</strong> usuario remodelador, 
+              <strong>quiero</strong> poder promocionar el contenido de mi portafolio 
+              <strong>para</strong> aumentar mi cantidad de clientes</td>
+            <td>
+              <h5>Escenario 01: </h5>
+              <strong>Dado</strong> que el remodelador se encuentra en su portafolio dentro de su perfil de ReStyle, 
+              <strong>Cuando</strong> seleccione el contenido que quiere promocionar 
+              <strong>Y</strong> haga Click en el boton de Promocionar, 
+              <strong>Entonces</strong> le saldra una pantalla en donde podra seleccionar cuanto tiempo el contenido se mostrara, a cuantas personas y el costo y seleccionar la tarjeta con la que quiere pagar 
+              <h5>Escenario 02:</h5>
+              <strong>Dado</strong> que el usuario remodelador ha usado su tarjeta de credito o debito en ReStyle antes,
+              <strong>Cuando</strong> seleccione su tarjeta en la pantalla de pago para promocioin de contenido 
+              <strong>Y</strong> seleccione la promocion por la cual desea pagar 
+              <strong>Y</strong> le de click en aceptar, 
+              <strong>Entonces</strong> salda un mensaje de pago exitoso 
+              <h5>Escenario 03:</h5>
+              <strong>Dado</strong> a que el usuario remodelador nunca antes ha usado su tarjeta de credito o debito en ReStyle, 
+              <strong>Cuando</strong> este en la pantalla de pago de promocion de contenido, 
+              <strong>Entonces</strong> le saldan los campos de su tarjeta que debe llenar para poder realizar el pago 
+              <h5>Escenario 04:</h5>
+              <strong>Dado</strong> que el usuario remodelador no ha seleccionado el plan de promocion de contenido por el que quiere pagar, 
+              <strong>Cuando</strong> le de Click a Aceptar, 
+              <strong>Entonces</strong> saldra un mensaje de error. 
+              <h5>Escenario 05:</h5>
+              <strong>Dado</strong> a que el usuario remodelador nunca antes ha usado su tarjeta de credito o debito en ReStyle 
+              <strong>Y</strong> no haya llenado los datos solicitados de tarjeta, 
+              <strong>Cuando</strong> le de click en aceptar, 
+              <strong>Entonces</strong> saldra un mensaje de error. </td>
+            <td> EPIC-001</td>
         </tr>
         <tr style="text-align:center">
             <td> UH13 </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td>Continuar promocion de contenido </td>
+            <td>
+              <strong>Como</strong> usuario remodelador, 
+              <strong>quiero</strong> extender el plazo de tiempo de la promocion de mi contenido 
+              <strong>para</strong> mantener el aumento de alcanze de mi negocio </td>
+            <td>
+              <h5>Escenario 01: </h5>
+              <strong>Dado</strong> que el usuario remodelador ha pagado por promocion de contenido, 
+              <strong>Cuando</strong> falte 1 dia para terminar el plazo de promocion, 
+              <strong>Entonces</strong> le aparecera una pantalla para continuar la promocion y aprobar el pago. 
+              <h5>Escenario 02:</h5>
+              <strong>Dado</strong> que el usuario remodelador ha pagado por promocion de contenido, 
+              <strong>Cuando</strong> le aparezca la pantalla de Continuar Promocion 
+              <strong>Y</strong> le de Click al boton de Continuar 
+              <strong>Y</strong> le de click a Aceptar Pago, 
+              <strong>Entonces</strong> el pago sera aprovado y se continuara la promocion de contenido. 
+              <h5>Escenario 03:</h5>
+              <strong>Dado</strong> que el usuario remodelador ha pagado por promocion de contenido, 
+              <strong>Cuando</strong> le aparezca la pantalla de Continuar Promocion 
+              <strong>Y</strong> le de Click al boton de No Continuar,
+              <strong>Entonces</strong> saldra una pantalla confirmando la negacion de promocion y la promocion concluira en un plazo menor a 24 horas. </td>
+            <td>EPIC-001</td>
         </tr>
         <tr style="text-align:center">
             <td> UH14 </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td> Suscripción remodelador</td>
+            <td> 
+              <strong>Como</strong> usuario remodelador,
+              <strong>quiero</strong> poder suscribirme a ReStyle 
+              <strong>para</strong> poder acceder al mercado qué provee</td>
+            <td>
+              <h5>Escenario 01: </h5>
+              <strong>Dado</strong> que el usuario remodelador se encuentra la pantalla inicial de ReStyle ,
+              <strong>Cuando</strong> le de click al boton de Suscribirse (Para Negocios), 
+              <strong>Entonces</strong> le aparecera la pantalla de Creacion de Cuenta Nueva. 
+              <h5>Escenario 02:</h5> 
+              <strong>Dado</strong> que el usuario remodelador se encuentra en la pantalla de Creacion de Cuenta nueva, 
+              <strong>Cuando</strong> llene los datos solicitados 
+              <strong>Y</strong> le de Click al Boton Aceptar 
+              <strong>Entonces</strong> le aparecera la pantalla de Planes de Pago. 
+              <h5>Escenario 03:</h5>
+              <strong>Dado</strong> que el usuario remodelador se encuentra en la pantalla de Creacion de Cuenta Nueva 
+              <strong>Y</strong> no haya llenado los datos solicitados,
+              <strong>Cuando</strong> le de click al boton Aceptar, 
+              <strong>Entonces</strong> le aparecera un mensaje de error. 
+              <h5>Escenario 04:</h5>
+              <strong>Dado</strong> que el usuario remodelador se encuentra en la pantalla de Planes de Pago 
+              <strong>Cuando</strong> seleccione el plan al que desea suscribirse 
+              <strong>Y</strong> le de click a aceptar, 
+              <strong>Entonces</strong> le aparecera la pantalla de Pagos. 
+              <h5>Escenario 05: </h5>
+              <strong>Dado</strong> que el usuario remodelador se encuentra en la pantalla de Planes de Pago 
+              <strong>Y</strong> no haya seleccionado un plan al que desea suscribirse 
+              <strong>Cuando</strong> le de click a aceptar, 
+              <strong>Entonces</strong> le aparecera un mensaje de error.
+              <h5>Escenario 06: </h5>
+              <strong>Dado</strong> que el usuario remodelador se encuentra en la pantalla de Pagos 
+              <strong>Cuando</strong> ingrese los datos de su tarjeta 
+              <strong>Y</strong> le de click a aceptar, 
+              <strong>Entonces</strong> el pago sera procesado le aparecera un mensaje suscripcion exitosa. 
+              <h5>Escenario 07: </h5>
+              <strong>Dado</strong> que el usuario remodelador se encuentra en la pantalla de Pagos 
+              <strong>Y</strong> no haya ingresado los datos de su tarjeta 
+              <strong>Cuando</strong> le de click a aceptar, 
+              <strong>Entonces</strong> aparecera un mensaje de error </td>
+            <td>EPIC-001 </td>
         </tr>
         <tr style="text-align:center">
             <td> UH15 </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td> Crear cuenta contratista</td>
+            <td> 
+              <strong>Como</strong> usuario contratista, 
+              <strong>quiero</strong> poder crear una cuenta en ReStyle 
+              <strong>para</strong> poder acceder al mercado qué provee</td>
+            <td>
+              <h5>Escenario 01: </h5> 
+              <strong>Dado</strong> que el usuario contratista se encuentra la pantalla inicial de ReStyle , 
+              <strong>Cuando</strong> le de click al boton de Crear cuenta, 
+              <strong>Entonces</strong> le aparecera la pantalla de Creacion de Cuenta Nueva. 
+              <h5>Escenario 02:</h5>
+              <strong>Dado</strong> que el usuario contratista se encuentra en la pantalla de Creacion de Cuenta nueva, 
+              <strong>Cuando</strong> llene los datos solicitados 
+              <strong>Y</strong> le de Click al Boton Aceptar 
+              <strong>Entonces</strong> le aparecera la pantalla de Iniciar Sesion. 
+              <h5>Escenario 03:</h5> 
+              <strong>Dado</strong> que el usuario contratista se encuentra en la pantalla de Creacion de Cuenta Nueva 
+              <strong>Y</strong> no haya llenado los datos solicitados, 
+              <strong>Cuando</strong> le de click al boton Aceptar, 
+              <strong>Entonces</strong> le aparecera un mensaje de error. </td>
+            <td> EPIC-002</td>
         </tr>
         <tr style="text-align:center">
             <td> UH16 </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td> Busqueda remodeladores</td>
+            <td> 
+              <strong>Como</strong> usuario contratista, 
+              <strong>quiero</strong> poder buscar remodeladores 
+              <strong>para</strong> facilitar el proceso de contrato</td>
+            <td> 
+              <h5>Escenario 01: </h5>
+              <strong>Dado</strong> que el usuario contratista se encuentra en la pantalla de busqueda, 
+              <strong>Cuando</strong> ingrese el nombre de un remodelador en la barra de busqueda, 
+              <strong>Entonces</strong> se mostrara el perfil del remodelador cuyo nombre sea igual al ingresado en la busqueda. 
+              <h5>Escenario 02:</h5>
+              <strong>Dado</strong> que el usuario contratista se encuentra en la pantalla de busqueda, 
+              <strong>Cuando</strong> ingrese el nombre de un remodelador en la barra de busqueda 
+              <strong>Y</strong> no exista un perfil con un nombre igual al ingresado en la busqueda, 
+              <strong>Entonces</strong> se mostraran perfiles con nombres similares a los ingresados en la busqueda</td>
+            <td> EPIC-002</td>
         </tr>
         <tr style="text-align:center">
             <td> UH17 </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td>Busqueda proyectos</td>
+            <td> 
+              <strong>Como</strong> usuario contratista, 
+              <strong>quiero</strong> poder buscar proyectos hechos por remodeladores 
+              <strong>para</strong> saber qué el remodelador con el qué trabajo puede hacer el proyecto qué me interesa</td>
+            <td> 
+              <h5>Escenario 01: </h5>
+              <strong>Dado</strong> que el usuario contratista se encuentra en la pantalla de busqueda,
+              <strong>Cuando</strong> ingrese el proyecto que le interesa en la barra de busqueda 
+              <strong>Entonces</strong> mostrara todos los proyectos con un nombre igual al ingresado. 
+              <h5>Escenario 02:</h5>
+              <strong>Dado</strong> que el usuario contratista se encuentra en la pantalla de busqueda, 
+              <strong>Cuando</strong> ingrese el proyecto que le interesa en la barra de busqueda 
+              <strong>Y</strong> no exista un proyecto con un nombre igual 
+              <strong>Entonces</strong> se mostraran proyectos con nombres parecidos a los ingresados</td>
+            <td>EPIC-002</td>
         </tr>
         <tr style="text-align:center">
             <td> UH18 </td>
