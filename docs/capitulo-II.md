@@ -321,4 +321,32 @@ Contenido
 
 ## 2.4. Ubiquitous Language.
 
-Contenido
+El **lenguaje ubicuo** es una parte fundamental de la estrategia de UX. Se refiere al conjunto de términos y frases que se utilizan de manera consistente en toda la aplicación para referirse a conceptos, acciones y elementos clave. El lenguaje ubicuo tiene los siguientes beneficios:
+
+- **Mejora la usabilidad**: Los usuarios pueden comprender fácilmente la aplicación y navegar por ella sin confusiones.
+  
+- **Aumenta la accesibilidad**: El uso de un lenguaje claro y conciso facilita el uso de la aplicación para personas con diferentes niveles de alfabetización y habilidades cognitivas.
+  
+- **Refuerza la marca**: Un lenguaje único y consistente ayuda a crear una identidad de marca fuerte y memorable.
+  
+- **Promueve la colaboración**: Facilita la comunicación entre los equipos de diseño, desarrollo y marketing.
+
+**Glosario:**
+
+- **Contractor (contratista)**: Cliente del remodelador, se comunica con el remodelador a través de mensajes directos y contribuye a la ReStyle a través de las comisiones por los negocios hechos con los remodeladores.
+
+- **Remodeler (remodelador)**: Ofrece sus servicios de remodelación de ambientes a los contratistas, paga suscripción mensual, puede crear portafolio y proyectos.
+
+- **Portafolio**: Portafolios creados por remodeladores o compañías de remodelación, compuestos por proyectos y/u otros contenidos multimedia (imágenes, videos, etc.).
+
+- **Proyecto (proyecto)**: Compuesto por una serie de imágenes y una descripción, es una habilidad o un trabajo específico que un remodelador o compañía de remodelación puede ofrecer.
+
+- **Quote pricing (cotización)**: Proceso por el cual el contratista interactúa con el remodelador o compañía de remodelación para consultar precios de proyectos o trabajos específicos sin garantizar el arreglo de contrato.
+
+- **Contract revision (revisión de contrato)**: Proceso por el cual el remodelador y el contratista leen y proponen cambios al contrato a firmar detallando los acuerdos del proyecto.
+
+- **Proyecto revision (revisión de proyecto)**: Contacto tras la finalización del trabajo acordado sobre mantenimiento, futuras modificaciones o adiciones, etc.
+
+- **Review (reseña)**: Comentario dejado en el perfil del remodelador o compañía de remodelación sobre un trabajo hecho por ellos hablando de la calidad del trabajo, trato hacia el cliente, precios, etc.
+
+- **Subscription (suscripción)**: Proceso por el cual los remodeladores y/o compañías de remodelación se unen a ReStyle para poder ofrecer sus servicios a potenciales clientes, con una tarifa mensual.
