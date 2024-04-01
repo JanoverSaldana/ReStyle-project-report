@@ -10,39 +10,39 @@ Presentaremos directrices de estilo general que proporcionan un marco sólido pa
 
 - Consistencia Visual: Mantener una apariencia coherente en todo el producto, desde el diseño de la interfaz de usuario hasta los elementos visuales. Esto abarca la elección de colores, el tipo de tipografía, estilos y la usabilidad de nuestra página web.
 
-<p align = "center"> <img src="/assets/img/consistencia_visual.jpg" width="375"></img> </p>
+<p align = "center"> <img src="/assets/img/consistencia_visual.png" width="375"></img> </p>
 
 - Simplicidad: Priorizar la simplicidad en el diseño para una experiencia de usuario agradable, intuitiva y sin complicaciones. Evitar el exceso de elementos decorativos o innecesarios que puedan distraer a los usuarios y dificultar la compresión del contenido. 
 
-<p align = "center"> <img src="/assets/img/simplicidad.png.jpeg" width="375"></img> </p>
+<p align = "center"> <img src="/assets/img/simplicidad.png" width="375"></img> </p>
 
 - Legibilidad: Utilizar fuentes legibles y un tamaño adecuado para garantizar que el contenido sea fácilmente legible en todas las plataformas y dispositivos. Mantener un alto contraste entre el texto y el fondo para mejorar la legibilidad, especialmente para las personas que presentan dificultades visuales. 
 
-<p align = "center"> <img src="/assets/img/Legibilidad.jpeg" width="375"></img> </p>
+<p align = "center"> <img src="/assets/img/legibilidad.png" width="375"></img> </p>
 
 - Identidad de Marca: Reflejar la esencia de la marca en el diseño del producto, utilizando colores, tipografías, y estilos visuales que sea consistentes con la personalidad de la marca. Esto nos ayuda a fortalecer la identidad visual de la marca y a conectar con los usuarios.
 
-<p align = "center"> <img src="/assets/img/Identidad_de_marca.jpg" width="375"></img> </p>
+<p align = "center"> <img src="/assets/img/identidad_de_marca.png" width="375"></img> </p>
 
 - Tipografía: Incorporar tipografías que complementen la identidad de la marca y mejoren la legibilidad. Elegir fuentes que sean estéticamente agradables y fáciles de leer, asegurando la consistencia en diferentes secciones del sitio web.
 Para ello, el tipo de letra que nuestro equipo eligió fue Montserrat debido a su excelente legibilidad tanto para la lectura como para la escritura. En el diseño de Techelp, la tipografía se organiza en cuatro niveles: headings (encabezados), body (cuerpo de texto), botones (buttons) y enlaces (links).
 
-<p align = "center"> <img src="/assets/img/Tipografia_montserrat.png" width="375"></img> </p>
+<p align = "center"> <img src="/assets/img/tipografia.png" width="375"></img> </p>
 
 - Colores:
 Nuestra paleta de colores refleja la identidad de nuestra marca y comunica claramente nuestra oferta a los usuarios. Utilizamos un azul suave (#3F51B5) como color primario y un morado más suave (#757de8) como color secundario. Estos tonos se combinan con colores de acento como el azul claro (#2196F3) y azul oscuro (#003f8f) para resaltar elementos clave y proporcionar feedback visual durante la interacción. Además, empleamos fondos claros (#FFFFFF), fondos secundarios ligeramente sombreados (#f5f5f5) y fondos más oscuros (#cccccc) para mantener una experiencia visual coherente y atractiva en toda la aplicación.
 
-<p align = "center"> <img src="/assets/img/Colores.png" width="375"></img> </p>
+<p align = "center"> <img src="/assets/img/colores.png" width="375"></img> </p>
 
 - Espaciado: En nuestro diseño, utilizaremos un espaciado consistente de 8 píxeles entre elementos para garantizar una distribución uniforme y una apariencia equilibrada en toda la interfaz. Este espaciado proporcionará suficiente separación entre elementos para mejorar la legibilidad y la usabilidad, al tiempo que mantiene un aspecto limpio y organizado en nuestra aplicación.
 
-<p align = "center"> <img src="/assets/img/Espaciado.png" width="375"></img> </p>
+<p align = "center"> <img src="/assets/img/espaciado.png" width="375"></img> </p>
 
 ### 4.1.2. Web Style Guidelines.
 
 * Responsive Design: Es fundamental que el diseño del producto sea adaptable y responda correctamente a diferentes tamaños de pantalla y dispositivos. Se debe garantizar una experiencia de usuario óptima tanto en dispositivos móviles como en escritorio.
 
-<p align = "center"> <img src="/assets/img/responsive design.jpg" width="375"></img> </p>
+<p align = "center"> <img src="/assets/img/responsive_design.png" width="375"></img> </p>
 
 * Interfaz Intuitiva: Utilizar elementos de diseño que sean familiares para los usuarios y que faciliten la interacción, como botones, menús desplegables y barras de búsqueda. Mantener la consistencia en la ubicación y el diseño de estos elementos en todas las páginas del producto.
 
