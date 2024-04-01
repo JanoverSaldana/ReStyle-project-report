@@ -1,6 +1,6 @@
 # Capítulo IV: Product Design.
 
-## 4.1. Style Guidelines. Josten
+## 4.1. Style Guidelines. 
 
 El estilo de un producto es fundamental para crear una experiencia visual coherente y atractiva para los usuarios. Las directrices de estilo que proporcionan un marco para garantizar que todos los aspectos del diseño, desde el tipo de tipografía hasta los colores que presenta, se mantengan consistentes en todas las plataformas y dispositivos. A continuación, se detallará las directrices de estilo de nuestro proyecto.
 
@@ -8,25 +8,62 @@ El estilo de un producto es fundamental para crear una experiencia visual cohere
 
 Presentaremos directrices de estilo general que proporcionan un marco sólido para el diseño dinámico y efectivo de nuestro producto, brindando una experiencia de usuario satisfactoria y alianada con los objetivos de la marca.
 
-Consistencia Visual: Mantener una apariencia coherente en todo el producto, desde el diseño de la interfaz de usuario hasta los elementos visuales. Esto abarca la elección de colores, el tipo de tipografía, estilos y la usabilidad de nuestra página web.
+- Consistencia Visual: Mantener una apariencia coherente en todo el producto, desde el diseño de la interfaz de usuario hasta los elementos visuales. Esto abarca la elección de colores, el tipo de tipografía, estilos y la usabilidad de nuestra página web.
 
-Simplicidad: Priorizar la simplicidad en el diseño para una experiencia de usuario agradable, intuitiva y sin complicaciones. Evitar el exceso de elementos decorativos o innecesarios que puedan distraer a los usuarios y dificultar la compresión del contenido. 
+<p align = "center"> <img src="/assets/img/consistencia_visual.png" width="375"></img> </p>
 
-Legibilidad: Utilizar fuentes legibles y un tamaño adecuado para garantizar que el contenido sea fácilmente legible en todas las plataformas y dispositivos. Mantener un alto contraste entre el texto y el fondo para mejorar la legibilidad, especialmente para las personas que presentan dificultades visuales. 
+- Simplicidad: Priorizar la simplicidad en el diseño para una experiencia de usuario agradable, intuitiva y sin complicaciones. Evitar el exceso de elementos decorativos o innecesarios que puedan distraer a los usuarios y dificultar la compresión del contenido. 
 
-Identidad de Marca: Reflejar la esencia de la marca en el diseño del producto, utilizando colores, tipografías, y estilos visuales que sea consistentes con la personalidad de la marca. Esto nos ayuda a fortalecer la identidad visual de la marca y a conectar con los usuarios.
+<p align = "center"> <img src="/assets/img/simplicidad.png" width="375"></img> </p>
+
+- Legibilidad: Utilizar fuentes legibles y un tamaño adecuado para garantizar que el contenido sea fácilmente legible en todas las plataformas y dispositivos. Mantener un alto contraste entre el texto y el fondo para mejorar la legibilidad, especialmente para las personas que presentan dificultades visuales. 
+
+<p align = "center"> <img src="/assets/img/legibilidad.png" width="375"></img> </p>
+
+- Identidad de Marca: Reflejar la esencia de la marca en el diseño del producto, utilizando colores, tipografías, y estilos visuales que sea consistentes con la personalidad de la marca. Esto nos ayuda a fortalecer la identidad visual de la marca y a conectar con los usuarios.
+
+<p align = "center"> <img src="/assets/img/identidad_de_marca.png" width="375"></img> </p>
+
+- Tipografía: Incorporar tipografías que complementen la identidad de la marca y mejoren la legibilidad. Elegir fuentes que sean estéticamente agradables y fáciles de leer, asegurando la consistencia en diferentes secciones del sitio web.
+Para ello, el tipo de letra que nuestro equipo eligió fue Montserrat debido a su excelente legibilidad tanto para la lectura como para la escritura. En el diseño de Techelp, la tipografía se organiza en cuatro niveles: headings (encabezados), body (cuerpo de texto), botones (buttons) y enlaces (links).
+
+<p align = "center"> <img src="/assets/img/tipografia.png" width="375"></img> </p>
+
+- Colores:
+Nuestra paleta de colores refleja la identidad de nuestra marca y comunica claramente nuestra oferta a los usuarios. Utilizamos un azul suave (#3F51B5) como color primario y un morado más suave (#757de8) como color secundario. Estos tonos se combinan con colores de acento como el azul claro (#2196F3) y azul oscuro (#003f8f) para resaltar elementos clave y proporcionar feedback visual durante la interacción. Además, empleamos fondos claros (#FFFFFF), fondos secundarios ligeramente sombreados (#f5f5f5) y fondos más oscuros (#cccccc) para mantener una experiencia visual coherente y atractiva en toda la aplicación.
+
+<p align = "center"> <img src="/assets/img/colores.png" width="375"></img> </p>
+
+- Espaciado: En nuestro diseño, utilizaremos un espaciado consistente de 8 píxeles entre elementos para garantizar una distribución uniforme y una apariencia equilibrada en toda la interfaz. Este espaciado proporcionará suficiente separación entre elementos para mejorar la legibilidad y la usabilidad, al tiempo que mantiene un aspecto limpio y organizado en nuestra aplicación.
+
+<p align = "center"> <img src="/assets/img/espaciado.png" width="375"></img> </p>
 
 ### 4.1.2. Web Style Guidelines.
 
-Responsive Design: Es fundamental que el diseño del producto sea adaptable y responda correctamente a diferentes tamaños de pantalla y dispositivos. Se debe garantizar una experiencia de usuario óptima tanto en dispositivos móviles como en escritorio.
+* Responsive Design: Es fundamental que el diseño del producto sea adaptable y responda correctamente a diferentes tamaños de pantalla y dispositivos. Se debe garantizar una experiencia de usuario óptima tanto en dispositivos móviles como en escritorio.
 
-Interfaz Intuitiva: Utilizar elementos de diseño que sean familiares para los usuarios y que faciliten la interacción, como botones, menús desplegables y barras de búsqueda. Mantener la consistencia en la ubicación y el diseño de estos elementos en todas las páginas del producto.
+<p align = "center"> <img src="/assets/img/responsive_design.png" width="375"></img> </p>
 
-Compatibilidad con Navegadores: Asegurarse qde que el diseño del producto sea compatible con una amplia gama de navegadores web, ya sea Chrome, Firefox, Safari, entre otros. Realizar pruebas exhaustivas en diferentes navegadores para garantizar la consistencia y la funcionalidad.
+* Interfaz Intuitiva: Utilizar elementos de diseño que sean familiares para los usuarios y que faciliten la interacción, como botones, menús desplegables y barras de búsqueda. Mantener la consistencia en la ubicación y el diseño de estos elementos en todas las páginas del producto.
 
-Velocidad de Carga Optimizada: Optimizar el rendimiento del sitio web para tiempos de carga rápidos y una experiencia de usuario sin interrupciones. Esto incluye la optimización de imágenes, el uso de técnicas de compresión y la minimización del código para reducir el tiempo de carga de la página.
+<p align = "center"> <img src="/assets/img/interfaz_intuitiva.png" width="375"></img> </p>
 
-Seguridad y Privacidad: Incorporar medidas de seguridad y privacidad en el diseño del producto para proteger la información confidencial de los usuarios. Esto incluye el uso de conexiones HTTPs, la encriptación de datos y el cumplimiento de las regulaciones de privacidad. 
+* Compatibilidad con Navegadores: Asegurarse qde que el diseño del producto sea compatible con una amplia gama de navegadores web, ya sea Chrome, Firefox, Safari, entre otros. Realizar pruebas exhaustivas en diferentes navegadores para garantizar la consistencia y la funcionalidad.
+
+<p align = "center"> <img src="/assets/img/compatibilidad_con_navegadores.jpg" width="375"></img> </p>
+
+* Patrón Z para Diseño Visual: Implementaremos el patrón Z para el diseño visual, que guía la mirada del usuario de forma natural a través de la interfaz. Esto implica colocar los elementos importantes en las esquinas superiores e inferiores izquierdas, y los elementos secundarios en las esquinas superiores e inferiores derechas, creando un flujo visual eficiente y atractivo.
+
+<p align = "center"> <img src="/assets/img/Patron_Z.jpg" width="375"></img> </p>
+
+* Velocidad de Carga Optimizada: Optimizar el rendimiento del sitio web para tiempos de carga rápidos y una experiencia de usuario sin interrupciones. Esto incluye la optimización de imágenes, el uso de técnicas de compresión y la minimización del código para reducir el tiempo de carga de la página.
+
+<p align = "center"> <img src="/assets/img/velocidad_de_carga_optimizada.png" width="375"></img> </p>
+
+* Seguridad y Privacidad: Incorporar medidas de seguridad y privacidad en el diseño del producto para proteger la información confidencial de los usuarios. Esto incluye el uso de conexiones HTTPs, la encriptación de datos y el cumplimiento de las regulaciones de privacidad. 
+
+<p align = "center"> <img src="/assets/img/seguridad_privacidad.png" width="375"></img> </p>
+
 
 ## 4.2. Information Architecture.
 
@@ -99,7 +136,21 @@ El Landing page es crucail para captar la atención de los usuarios y dirigirlos
 
 ### 4.3.1. Landing Page Wireframe.
 
-Contenido
+El wireframe de la página de destino es una representación visual esquemática que muestra la estructura básica y el diseño de la página. Este wireframe actúa como un plano para el diseño final y proporciona una guía clara para la disposición de los elementos clave en la página de destino.
+
+El wireframe de la página de destino incluirá:
+
+- Encabezado: Esta sección contendrá el logotipo de la marca y posiblemente un eslogan o mensaje breve para captar la atención del usuario.
+
+- Sección de Características: Destacará las principales características o beneficios del producto o servicio que se ofrece, utilizando imágenes y texto conciso para transmitir el mensaje de forma clara.
+
+- Llamada a la Acción (CTA): Se incluirá un botón de llamada a la acción prominente que invite a los usuarios a realizar una acción específica, como registrarse, comprar o obtener más información.
+
+- Testimonios o Reseñas: Esta sección puede mostrar testimonios de clientes satisfechos o reseñas positivas para generar confianza y credibilidad en el producto o servicio.
+
+- Sección de Contacto o Formulario: Permitirá a los usuarios ponerse en contacto con la empresa o enviar consultas directamente desde la página de destino, proporcionando una forma conveniente de interactuar.
+
+El wireframe servirá como punto de partida para el diseño visual y la implementación de la página de destino, asegurando una experiencia de usuario coherente y efectiva.
 
 ### 4.3.2. Landing Page Mock-up.
 
