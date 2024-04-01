@@ -42,11 +42,11 @@ Nuestra paleta de colores refleja la identidad de nuestra marca y comunica clara
 
 * Responsive Design: Es fundamental que el diseño del producto sea adaptable y responda correctamente a diferentes tamaños de pantalla y dispositivos. Se debe garantizar una experiencia de usuario óptima tanto en dispositivos móviles como en escritorio.
 
-<p align = "center"> <img src="/assets/img/Responsive_Design.jpeg" width="375"></img> </p>
+<p align = "center"> <img src="/assets/img/responsive design.jpg" width="375"></img> </p>
 
 * Interfaz Intuitiva: Utilizar elementos de diseño que sean familiares para los usuarios y que faciliten la interacción, como botones, menús desplegables y barras de búsqueda. Mantener la consistencia en la ubicación y el diseño de estos elementos en todas las páginas del producto.
 
-<p align = "center"> <img src="/assets/img/Interfaz_intuitiva.jpg" width="375"></img> </p>
+<p align = "center"> <img src="/assets/img/interfaz_intuitiva.png" width="375"></img> </p>
 
 * Compatibilidad con Navegadores: Asegurarse qde que el diseño del producto sea compatible con una amplia gama de navegadores web, ya sea Chrome, Firefox, Safari, entre otros. Realizar pruebas exhaustivas en diferentes navegadores para garantizar la consistencia y la funcionalidad.
 
@@ -58,11 +58,11 @@ Nuestra paleta de colores refleja la identidad de nuestra marca y comunica clara
 
 * Velocidad de Carga Optimizada: Optimizar el rendimiento del sitio web para tiempos de carga rápidos y una experiencia de usuario sin interrupciones. Esto incluye la optimización de imágenes, el uso de técnicas de compresión y la minimización del código para reducir el tiempo de carga de la página.
 
-<p align = "center"> <img src="/assets/img/velocidad_de_carga.jpg" width="375"></img> </p>
+<p align = "center"> <img src="/assets/img/velocidad_de_carga_optimizada.png" width="375"></img> </p>
 
 * Seguridad y Privacidad: Incorporar medidas de seguridad y privacidad en el diseño del producto para proteger la información confidencial de los usuarios. Esto incluye el uso de conexiones HTTPs, la encriptación de datos y el cumplimiento de las regulaciones de privacidad. 
 
-<p align = "center"> <img src="/assets/img/seguridad_y_privacidad.jpg" width="375"></img> </p>
+<p align = "center"> <img src="/assets/img/seguridad_privacidad.png" width="375"></img> </p>
 
 
 ## 4.2. Information Architecture.
