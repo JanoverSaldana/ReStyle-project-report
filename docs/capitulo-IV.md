@@ -221,11 +221,168 @@ diseño  para optimizar la estructura y la eficiencia del sistema.
 
 ### 4.7.1. Class Diagrams.
 
-Contenido
+<p align = "center"> <img  alt="ReStyle Diagram Context" src="https://raw.githubusercontent.com/sw53-metasoft/ReStyle-project-report/capitulo-IV/img/reStyleClassDiagram.png"> </p>
+
 
 ### 4.7.2. Class Dictionary.
 
-Contenido
+A continuación se presenta el código en formato markdown con las clases, atributos y métodos correspondientes:
+
+#### Clase User
+
+| Atributos      | Métodos                                              |
+|----------------|------------------------------------------------------|
+| - id: int      | + login(username: string, password: string): bool    |
+| - name: string | + register(username: string, password: string): void |
+
+#### Clase Remodeler
+
+| Atributos                      | Métodos                                                                  |
+|--------------------------------|--------------------------------------------------------------------------|
+| - expertise: string            | + createPortfolio(): Portfolio                                           |
+| - subscription: PaymentAdapter | + createReview(remodeler: Remodeler, rating: int, comment: string): void |
+|                                | + publishProject(title: string, description: string): Project            |
+
+#### Clase Contracter
+
+| Atributos           | Métodos                                                                  |
+|---------------------|--------------------------------------------------------------------------|
+| - specialty: string | + createPublication(title: string, content: string): Publication         |
+|                     | + createReview(remodeler: Remodeler, rating: int, comment: string): void |
+
+#### Interfaz PaymentAdapter
+
+| Métodos                                |
+|----------------------------------------|
+| + processPayment(amount: double): void |
+
+#### Clase StripePayment
+
+| Métodos                                      |
+|----------------------------------------------|
+| + processStripePayment(amount: double): void |
+
+#### Clase StripePaymentAdapter
+
+| Atributos                      | Métodos                                |
+|--------------------------------|----------------------------------------|
+| - stripePayment: StripePayment | + processPayment(amount: double): void |
+
+#### Interfaz AuthenticationAdapter
+
+| Métodos                                                         |
+|-----------------------------------------------------------------|
+| + authenticateUser(username: string, password: string): boolean |
+
+#### Clase OAuthAuthentication
+
+| Métodos                                         |
+|-------------------------------------------------|
+| + authenticateOAuthUser(token: string): boolean |
+
+#### Clase OAuthAuthenticationAdapter
+
+| Atributos                                  | Métodos                                                         |
+|--------------------------------------------|-----------------------------------------------------------------|
+| - oAuthAuthentication: OAuthAuthentication | + authenticateUser(username: string, password: string): boolean |
+
+#### Clase Project
+
+| Atributos             | Métodos                                         |
+|-----------------------|-------------------------------------------------|
+| - id: int             | + addProjectReport(report: ProjectReport): void |
+| - name: string        | + updateStatus(status: ProjectStatus): void     |
+| - description: string |                                                 |
+
+#### Clase Manager
+
+| Atributos      | Métodos                                                           |
+|----------------|-------------------------------------------------------------------|
+| - id: int      | + assignProjectStaff(project: Project, staff: ProjectStaff): void |
+| - name: string |                                                                   |
+
+#### Clase ProjectReport
+
+| Atributos         | Métodos                    |
+|-------------------|----------------------------|
+| - id: int         | + generateReport(): string |
+| - content: string |                            |
+
+#### Clase Period
+
+| Atributos     | 
+|---------------|
+| - start: Date |
+| - end: Date   |
+
+#### Clase Portfolio
+
+| Atributos                 | Métodos                              |
+|---------------------------|--------------------------------------|
+| - id: int                 | + addProject(project: Project): void |
+| - name: string            | + displayPortfolio(): void           |
+| - projects: List<Project> |                                      |
+
+#### Clase Review
+
+| Atributos         | Métodos                   |
+|-------------------|---------------------------|
+| - id: int         | + displayReview(): string |
+| - rating: int     |                           |
+| - comment: string |                           |
+
+#### Clase Publication
+
+| Atributos       | Métodos                              |
+|-----------------|--------------------------------------|
+| - id: int       | + addImage(image: Image): void       |
+| - title: string | + addDetails(details: Details): void |
+|                 | + setBudget(budget: Budget): void    |
+
+#### Clase Image
+
+| Atributos          |
+|--------------------|
+| - id: int          |
+| - filename: string |
+
+#### Clase Details
+
+| Atributos             |
+|-----------------------|
+| - id: int             |
+| - information: string |
+
+#### Clase Budget
+
+| Atributos       |
+|-----------------|
+| - id: int       |
+| - amount: float |
+
+#### Clase ProjectStaff
+
+| Atributos      | Métodos                                              |
+|----------------|------------------------------------------------------|
+| - id: int      | + assignTask(task: Task): void                       |
+| - name: string | + updateProgress(task: Task, progress: double): void |
+
+#### Clase Task
+
+| Atributos             | 
+|-----------------------|
+| - id: int             |
+| - description: string |
+| - status: TaskStatus  |
+
+#### Enum TaskStatus
+
+| Valores     |
+|-------------|
+| NOT_STARTED |
+| IN_PROGRESS |
+| COMPLETED   |
+
 
 ## 4.8. Database Design.
 
