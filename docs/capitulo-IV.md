@@ -182,23 +182,42 @@ Contenido
 
 ## 4.6. Domain-Driven Software Architecture. 
 
-Contenido
-
+Se trata de un enfoque en el diseño de software que pone énfasis en la comprensión
+y diseño profundo del área de aplicación. Su objetivo es desarrollar software que satisfaga
+las necesidades del negocio de manera precisa.
 ### 4.6.1. Software Architecture Context Diagram.
 
-Contenido
+El esquema de contexto ofrece una perspectiva general de las interacciones entre el 
+sistema de software ReStyle, los usuarios y sistemas externos.
+
+<p align = "center"> <img  alt="ReStyle Diagram Context" src="https://raw.githubusercontent.com/sw53-metasoft/ReStyle-project-report/capitulo-IV/img/context-diagram-reStyle.png"> </p>
 
 ### 4.6.2. Software Architecture Container Diagrams.
 
-Contenido
+El diagrama de contenedores ofrece una visión general de las conexiones entre aplicaciones
+y fuentes de datos en el sistema ReStyle. Muestra cómo interactúan y dependen entre sí para su funcionamiento.
+<p align = "center"> <img  alt="ReStyle Diagram Context" src="https://raw.githubusercontent.com/sw53-metasoft/ReStyle-project-report/capitulo-IV/img/container-diagram-reStyle.png"> </p>
+
 
 ### 4.6.3. Software Architecture Components Diagrams.
 
-Contenido
+Los diagramas de componentes proporcionan una perspectiva sobre las interrelaciones de los 
+elementos principales del sistema de software, describiendo cómo se implementan los módulos
+respectivos en el programa.
+
+*Contratadores Bounded Context*
+
+<p align = "center"> <img  alt="ReStyle Diagram Context" src="https://raw.githubusercontent.com/sw53-metasoft/ReStyle-project-report/capitulo-IV/img/component1.png"> </p>
+
+*Remodeladores Bounded Context*
+
+<p align = "center"> <img  alt="ReStyle Diagram Context" src="https://raw.githubusercontent.com/sw53-metasoft/ReStyle-project-report/capitulo-IV/img/component2.png"> </p>
+
 
 ## 4.7. Software Object-Oriented Design.
 
-Contenido
+En esta sección, presentamos el diagrama de clases y la implementación de diversos patrones de
+diseño  para optimizar la estructura y la eficiencia del sistema.
 
 ### 4.7.1. Class Diagrams.
 
@@ -210,8 +229,9 @@ Contenido
 
 ## 4.8. Database Design.
 
-Contenido
-
+Optamos por utilizar el motor de base de datos MySQL junto con el entorno MySQL Workbench. 
+Esta elección se basa en el nivel de conocimiento del lenguaje de los integrantes del grupo. Además, 
+cuenta con las características necesarias para la amplitud del proyecto.
 ### 4.8.1. Database Diagram.
 
 Contenido
