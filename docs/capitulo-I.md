@@ -72,12 +72,12 @@ Ser líderes en innovaciones tecnológicas, elevando la eficiencia de las indust
             <!-- DATOS del integrante 5-->
             <td> 
             <img src="">
-            Nombres y Apellidos
+            Ariana Vargas Revollé U20221A928
             </td>
             <!-- DESCRIPCIÓN del integrante 5-->
-            <td> </td>
+            <td>Soy estudiante de la carrera de Ingenieria de Software cursando actualmente el 5to ciclo. Me interesa el rubro de cyberseguridad y me gusta leer sobre nuevas tecnologias y su impacto en la vida de las personas. Me gusta trabajar en equipo y aprender de otras personas </td>
             <!-- CONOCIMIENTOS del integrante 5-->
-            <td> </td>
+            <td> Conocimientos en HTML, CSS, C++, Python, SQL y MongoDB, JavaScript y familiar con los ambientes de POO, Lean UX, Agile Frameworks y Maquinas Virtuales</td>
         </tr>
     </body>
 </table>
