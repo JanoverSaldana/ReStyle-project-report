@@ -287,7 +287,7 @@ Contenido
 
 ## 2.3. Needfinding. 
 
-Contenido
+Comprender las necesidades y requisitos de los usuarios es un aspecto fundamental para el éxito del desarrollo de software. La fase de búsqueda de necesidades implica un enfoque sistemático para recopilar información, identificar puntos problemáticos y descubrir oportunidades que informarán el proceso de diseño y desarrollo. Al profundizar en los comportamientos, preferencias y desafíos de los usuarios, buscamos crear soluciones que no solo sean funcionales, sino también intuitivas e impactantes. Los user personas han sido basados en los segmentos objetivos de contratista, una persona que busca remodelador, y remodelador, una persona que ofrece sus servicios de remodelacion
 
 ### 2.3.1. User Personas.
 ![UPHS.png](/assets/img/UPHS.png)
