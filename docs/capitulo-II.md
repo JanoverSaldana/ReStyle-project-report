@@ -295,7 +295,81 @@ Contenido
 
 ### 2.3.2. User Task Matrix.
 
-Contenido
+<html>
+
+<body>
+    <h2>User Task Matrix</h2>
+    <table>
+        <tr>
+            <th rowspan="2">User Task</th>
+            <th colspan="2">Henry Silva (Contratista)</th>
+            <th colspan="2">Danilo Alves (Remodelador)</th>
+        </tr>
+        <tr>
+            <th>Frecuencia</th>
+            <th>Importancia</th>
+            <th>Frecuencia</th>
+            <th>Importancia</th>
+        </tr>
+        <tr>
+            <td>Busqueda e investigacion de remodeladores en el area</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Baja</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Cotizacion de precios de proyecto de remodelacion</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Baja</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Investigar testimonios, reseñas y recomendaciones de remodeladores</td>
+            <td>Alta</td>
+            <td>Media</td>
+            <td>Media</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Crear un portafolio para demostrar las capacidades y habilidades en el rubro</td>
+            <td>Baja</td>
+            <td>Baja</td>
+            <td>Media</td>
+            <td>Alta</td>  
+        </tr>
+        <tr>
+            <td>Poner anuncios ofreciendo servicios de remodelacion en el area</td>
+            <td>Baja</td>
+            <td>Baja</td>
+            <td>Meida</td>
+            <td>Media</td>  
+        </tr>
+        <tr>
+            <td>Establecer contacto con el cliente para discutir detalles del proyecto, presupuestos y materiales</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Alta</td>  
+        </tr>
+        <tr>
+            <td>Establecer un contrato para la realizacion del proyecto</td>
+            <td>Baja</td>
+            <td>Alta</td>
+            <td>Media</td>
+            <td>Alta</td>  
+        </tr>
+        <tr>
+            <td>Discutir cambios en el contrato del proyecto</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Alta</td>  
+        </tr>
+    </table>
+</body>
+</html>
 
 ### 2.3.3. User Journey Mapping.
 **Henry Silva**
