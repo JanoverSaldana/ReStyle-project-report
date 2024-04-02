@@ -391,4 +391,4 @@ Esta elección se basa en el nivel de conocimiento del lenguaje de los integrant
 cuenta con las características necesarias para la amplitud del proyecto.
 ### 4.8.1. Database Diagram.
 
-Contenido
+<p align = "center"> <img  alt="ReStyle Diagram Context" src="https://raw.githubusercontent.com/sw53-metasoft/ReStyle-project-report/capitulo-IV/img/reStyleDatabaseDesign.png"> </p>
