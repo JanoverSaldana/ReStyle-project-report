@@ -17,10 +17,10 @@ En este apartado el equipo realizará un analisis competitivo de nuestras 3 prin
     <tbody style="text-align: center">
         <tr>
             <th colspan="2"></th>
-            <th><img src="/assets/img/Logo-aram.png" width="100"></th>
-            <th><img src="/assets/img/Logo-aram.png" width="100"></th>
-            <th><img src="/assets/img/Logo-remodelatucasa.png" width="100"></th>
-            <th><img src="/assets/img/Logo-timbrit.png" width="250"></th>
+            <th><img src="/assets/img/chapter-II/Logo-aram.png" width="100"></th>
+            <th><img src="/assets/img/chapter-II/Logo-aram.png" width="100"></th>
+            <th><img src="/assets/img/chapter-II/Logo-remodelatucasa.png" width="100"></th>
+            <th><img src="/assets/img/chapter-II/Logo-timbrit.png" width="250"></th>
         </tr>
         <!-- Este apartado pertenece al PERFIL se fucionó dos filas -->
         <tr>
@@ -290,8 +290,8 @@ Contenido
 Comprender las necesidades y requisitos de los usuarios es un aspecto fundamental para el éxito del desarrollo de software. La fase de búsqueda de necesidades implica un enfoque sistemático para recopilar información, identificar puntos problemáticos y descubrir oportunidades que informarán el proceso de diseño y desarrollo. Al profundizar en los comportamientos, preferencias y desafíos de los usuarios, buscamos crear soluciones que no solo sean funcionales, sino también intuitivas e impactantes. Los user personas han sido basados en los segmentos objetivos de contratista, una persona que busca remodelador, y remodelador, una persona que ofrece sus servicios de remodelacion
 
 ### 2.3.1. User Personas.
-![UPHS.png](/assets/img/UPHS.png)
-![UPDA.png](/assets/img/UPDA.png)
+![UPHS.png](/assets/img/chapter-II/UPHS.png)
+![UPDA.png](/assets/img/chapter-II/UPDA.png)
 
 ### 2.3.2. User Task Matrix.
 
@@ -373,21 +373,21 @@ Comprender las necesidades y requisitos de los usuarios es un aspecto fundamenta
 
 ### 2.3.3. User Journey Mapping.
 **Henry Silva**
-![JHenry.png](/assets/img/JHenry.png)
+![JHenry.png](/assets/img/chapter-II/JHenry.png)
 **Danilo Alves**
-![JDanilo.png](/assets/img/JDanilo.png)
+![JDanilo.png](/assets/img/chapter-II/JDanilo.png)
 ### 2.3.4. Empathy Mapping.
 **Henry Silva**
-![EMHS.png](/assets/img/EMHS.png)
+![EMHS.png](/assets/img/chapter-II/EMHS.png)
 **Danilo Alves**
-![EMDA.png](/assets/img/EMDA.png)
+![EMDA.png](/assets/img/chapter-II/EMDA.png)
 ### 2.3.5. As-is Scenario Mapping.
 
 **Henry Silva**
-![AsIsDanilo.jpg](/assets/img/AsIsDanilo.jpg)
+![AsIsDanilo.jpg](/assets/img/chapter-II/AsIsDanilo.jpg)
 
 **Danilo Alves**
-![AsIsHenry.jpg](/assets/img/AsIsHenry.jpg)
+![AsIsHenry.jpg](/assets/img/chapter-II/AsIsHenry.jpg)
 
 ## 2.4. Ubiquitous Language.
 
