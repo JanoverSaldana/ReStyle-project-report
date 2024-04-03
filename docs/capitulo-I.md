@@ -27,7 +27,7 @@ Ser líderes en innovaciones tecnológicas, elevando la eficiencia de las indust
         <tr>
             <!-- DATOS del integrante 1-->
             <td > 
-            <img src="/assets/img/Maria-Alejandra-Diaz-Villacrez.png"> 
+            <img src="/assets/img/chapter-I/Maria-Alejandra-Diaz-Villacrez.png"> 
             <br>María  Alejandra Díaz Villacrez u202118315 
             </td>
             <!-- DESCRIPCIÓN del integrante 1-->
@@ -38,7 +38,7 @@ Ser líderes en innovaciones tecnológicas, elevando la eficiencia de las indust
         <tr>
             <!-- DATOS del integrante 2-->
             <td>
-            <img src="/assets/img//Janover-Gonzalo-Saldaña-Vela.jpg" height="120">
+            <img src="/assets/img/chapter-I/Janover-Gonzalo-Saldaña-Vela.jpg" height="120">
             <br>Janover Gonzalo Saldaña Vela - U20201B510
             </td>
             <!-- DESCRIPCIÓN del integrante 2-->
@@ -49,7 +49,7 @@ Ser líderes en innovaciones tecnológicas, elevando la eficiencia de las indust
         <tr>
             <!-- DATOS del integrante 3-->
             <td> 
-            <img src="/assets/img/Josten-Huaman-Bellido.jpg" height="120">
+            <img src="/assets/img/chapter-I/Josten-Huaman-Bellido.jpg" height="120">
             <br>Josten Marc Huaman Bellido - U201617624
             </td>
             <!-- DESCRIPCIÓN del integrante 3-->
@@ -60,7 +60,7 @@ Ser líderes en innovaciones tecnológicas, elevando la eficiencia de las indust
         <tr>
             <!-- DATOS del integrante 4-->
             <td> 
-            <img src="/assets/img/danielfoto.jpg" height="120"">
+            <img src="/assets/img/chapter-I/danielfoto.jpg" height="120"">
             Josue Daniel Valverde Lopez U202121440
             </td>
             <!-- DESCRIPCIÓN del integrante 4-->
@@ -179,7 +179,7 @@ Puede ser el deterioro de su propiedad o querer cambiar el estilo de la misma. P
 
 Según el estudio Construcción 2018, de Ipsos Perú, refiere que el 34% de limeños planeaba construir una vivienda hacia el 2020. (IPSOS, 2018) 
 
-<p align = "center"> <img src="/assets/img/Estudio Construcción 2018 de Ipsos Perú en Lima.png" width="350"></img> </p>
+<p align = "center"> <img src="/assets/img/chapter-I/Estudio Construcción 2018 de Ipsos Perú en Lima.png" width="350"></img> </p>
 
 <p align = "center">
  <em> Fuente: Estudio Construcción 2018 de Ipsos Perú en Lima. </em>
@@ -318,7 +318,7 @@ Para la elaboración de los Hypothesis Statements se utilizó el formato Lean UX
 
 #### 1.2.2.4. Lean UX Canvas
 
-<p align = "center"> <img width="800" alt="Lean UX Canvas (v2)" src="/assets/img/Lean UX Canvas (v2).png"> </p>
+<p align = "center"> <img width="800" alt="Lean UX Canvas (v2)" src="/assets/img/chapter-I/Lean UX Canvas (v2).png"> </p>
 
 <!-- https://github.com/sw53-metasoft/ReStyle-project-report/assets/91510417/a4bacbbc-923c-4f7f-be5d-7118e07eb64b -->
 
@@ -332,7 +332,7 @@ Según el estudio elaborado por IPSOS al menos un 7% de personas tienen planes d
 > “Este estudio tiene como objetivo conocer las características de las viviendas y los hogares limeños, así como sus planes para construir, remodelar, ampliar, decorar y redecorar en los próximos 12 meses. Para ello, se entrevistaron a 594 jefes del hogar de todos los niveles socioeconómicos de Lima Metropolitana.” (IPSOS, 2019).
 
 
-<p align = "center"> <img src="/assets/img/Planes para la vivienda y el mejoramiento del hogar 2019.png" width="375"></img> </p>
+<p align = "center"> <img src="/assets/img/chapter-I/Planes para la vivienda y el mejoramiento del hogar 2019.png" width="375"></img> </p>
 
 <!-- https://github.com/sw53-metasoft/ReStyle-project-report/assets/91510417/ae6a7d8f-6444-4efc-b726-aad421531ac4 -->
 
@@ -343,7 +343,7 @@ Según el estudio elaborado por IPSOS al menos un 7% de personas tienen planes d
 Según el informe técnico de demografía empresarial en el Perú, elaborado por el Instituto Nacional de Estadística e Informática, el rubro de construcción posee un 1,8% en tasa de crecimiento de empresas.
 > La tasa neta de crecimiento fue de 1,2% para el I Trimestre del 2018, significando un incremento de empresas. Según actividad económica los salones de belleza y las actividades de servicio de comidas y bebidas tuvieron la mayor tasa neta con el 2,5% cada una, seguido de construcción con 1,8%, y transporte y almacenamiento con 1,5%, entre las más representativas.
 
-<p align = "center"> <img src="/assets/img/Informe técnico de demografía empresarial en el Perú.png" width="500"></img> </p>
+<p align = "center"> <img src="/assets/img/chapter-I/Informe técnico de demografía empresarial en el Perú.png" width="500"></img> </p>
 
 <!-- https://github.com/sw53-metasoft/ReStyle-project-report/assets/91510417/a5b72e52-7ce6-470e-8d45-98270a9ec056 -->
 
