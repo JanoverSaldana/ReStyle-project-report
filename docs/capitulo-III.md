@@ -793,6 +793,8 @@ Contenido
 
 ## 3.4. Product Backlog.
 
+Utilizamos la escala de Fibonacci para la estimación de los Story Points.
+
 <table>
         <thead>
             <tr>
@@ -806,17 +808,43 @@ Contenido
         <tbody>
             <tr>
                 <td>1</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td> </td>
+                <td>US-001</td>
+                <td>Hipervínculos en el encabezado</td>
+                <td>Como visitante de la landing page, quiero que las opciones del encabezado me dirijan a las 
+                diferentes secciones de la Landing Page para, poder navegar de forma rapida y fluida.</td>
+                <td>1</td>
             </tr>
             <tr>
                 <td>2</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td> </td>
+                <td>US-005</td>
+                <td>Información sobre el producto</td>
+                <td> Como usuario que visita la landing page, quiero entender claramente qué ofrece el producto
+                para poder tomar una decisión informada sobre si adquirirlo o no.</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>US-002</td>
+                <td>Información sobre beneficios de la aplicación</td>
+                <td>Como usuario, quiero saber más sobre los beneficios de la aplicación web para considerar 
+                ser miembro de la aplicacion.</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>US-003</td>
+                <td>Mostrar los planes disponibles</td>
+                <td>Como visitante del landing page, quiero saber sobre los planes que tiene, para poder analizar 
+                si el plan que me ofrecen se adecua a las necesidades de mi negocio.</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>US-004</td>
+                <td>Información útil en el footer</td>
+                <td>Como usuario que visita la landing page, quiero encontrar información útil en el footer para
+                poder contactarme con la empresa, conocer más sobre ella, leer sus políticas y seguirla en redes sociales.</td>
+                <td>1</td>
             </tr>
         </tbody>
 </table>
