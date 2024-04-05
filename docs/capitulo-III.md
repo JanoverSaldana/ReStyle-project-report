@@ -129,7 +129,7 @@
             <!-- Descripción -->
             <td> 
             <strong>Como</strong> usuario que visita la landing page, 
-            quiero</strong> entender claramente qué ofrece el producto 
+            quiero entender claramente qué ofrece el producto 
             <strong>para</strong> poder tomar una decisión informada sobre si adquirirlo o no.
             </td>
              <!-- Criterios de Aceptación -->
@@ -153,7 +153,7 @@
            <!-- Descripción -->
             <td> 
             <strong>Como</strong> usuario remodelador,
-            quiero</strong> poder subir contenido multimedia a mi portafolio online
+            quiero </strong> poder subir contenido multimedia a mi portafolio online
             <strong>para</strong> poder promocionar servicios y proyectos pasados a mis posibles clientes.  
             </td>
             <!-- Criterios de Aceptación -->
@@ -714,3 +714,30 @@ Contenido
 
 ## 3.4. Product Backlog.
 
+<table>
+        <thead>
+            <tr>
+                <th>Orden</th>
+                <th>User Story Id</th>
+                <th>Título</th>
+                <th>Descripción</th>
+                <th>Story Points (1/2/3/5/8)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td> </td>
+            </tr>
+        </tbody>
+</table>
