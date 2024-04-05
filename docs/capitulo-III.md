@@ -265,7 +265,7 @@ Contenido
             <strong>Cuando</strong> intenta subir contenido a la aplicación que supera los límites de carga
             <strong>Entonces</strong> el sistema le notifica al usuario que necesita respetar los límites de carga para poder subir los contenidos a la plataforma. 
             </td>
-            <td> </td>
+            <td>EPIC-005 </td>
         </tr>
         <tr style="text-align:center">
             <td> US-007 </td>
@@ -291,7 +291,7 @@ Contenido
             <strong>Entonces</strong> el sistema le notifica al remodelador que necesita completar los campos faltantes antes de crear un proyecto de diseño
             <strong>Y</strong> no realiza ningún cambio.
             </td>
-            <td> </td>
+            <td>EPIC-006 </td>
         </tr>
         <tr style="text-align:center">
             <td> US-008 </td>
@@ -320,7 +320,7 @@ Contenido
             <strong>Y</strong> no selecciona ningún filtro
             <strong>Entonces</strong> el sistema le muestra todas las remodeladoras disponibles.
             </td>
-            <td> </td>
+            <td>EPIC-001 </td>
         </tr>
         <tr style="text-align:center">
             <td> US-009 </td>
@@ -344,7 +344,7 @@ Contenido
             <strong>Y</strong> selecciona un filtro por cantidad de estrellas
             <strong>Entonces</strong> el sistema solo le muestra las reviews que coinciden con los requisitos.
             </td>
-            <td> </td>
+            <td>EPIC-001 </td>
         </tr>
         <tr style="text-align:center">
             <td> US-010 </td>
@@ -368,7 +368,7 @@ Contenido
             <strong>Entonces</strong> el tiempo de respuesta está dentro del rango promedio
             <strong>Y</strong> no existen errores o caídas del sistema. 
             </td>
-            <td> </td>
+            <td>EPIC-003 </td>
         </tr>
         <tr style="text-align:center">
             <td> US-011 </td>
@@ -400,7 +400,7 @@ Contenido
             <strong>Entonces</strong> el sistema no le permite ingresar
             <strong>Y</strong> notifica a los administradores sobre el intento de acceso.  
             </td>
-            <td> </td>
+            <td>EPIC-003 </td>
         </tr>
         <tr style="text-align:center">
             <td> US-012 </td>
@@ -433,7 +433,7 @@ Contenido
               <strong>Y</strong> no haya llenado los datos solicitados de tarjeta, 
               <strong>Cuando</strong> le de click en aceptar, 
               <strong>Entonces</strong> saldra un mensaje de error. </td>
-            <td> EPIC-001</td>
+            <td> EPIC-007</td>
         </tr>
         <tr style="text-align:center">
             <td> US-013 </td>
@@ -458,7 +458,7 @@ Contenido
               <strong>Cuando</strong> le aparezca la pantalla de Continuar Promocion 
               <strong>Y</strong> le de Click al boton de No Continuar,
               <strong>Entonces</strong> saldra una pantalla confirmando la negacion de promocion y la promocion concluira en un plazo menor a 24 horas. </td>
-            <td>EPIC-001</td>
+            <td>EPIC-007</td>
         </tr>
         <tr style="text-align:center">
             <td> US-014 </td>
@@ -502,7 +502,7 @@ Contenido
               <strong>Y</strong> no haya ingresado los datos de su tarjeta 
               <strong>Cuando</strong> le de click a aceptar, 
               <strong>Entonces</strong> aparecera un mensaje de error </td>
-            <td>EPIC-001 </td>
+            <td>EPIC-007 </td>
         </tr>
         <tr style="text-align:center">
             <td> US-015 </td>
@@ -545,7 +545,7 @@ Contenido
               <strong>Cuando</strong> ingrese el nombre de un remodelador en la barra de busqueda 
               <strong>Y</strong> no exista un perfil con un nombre igual al ingresado en la busqueda, 
               <strong>Entonces</strong> se mostraran perfiles con nombres similares a los ingresados en la busqueda</td>
-            <td> EPIC-002</td>
+            <td> EPIC-001</td>
         </tr>
         <tr style="text-align:center">
             <td> US-017 </td>
@@ -564,7 +564,7 @@ Contenido
               <strong>Cuando</strong> ingrese el proyecto que le interesa en la barra de busqueda 
               <strong>Y</strong> no exista un proyecto con un nombre igual 
               <strong>Entonces</strong> se mostraran proyectos con nombres parecidos a los ingresados</td>
-            <td>EPIC-002</td>
+            <td>EPIC-001</td>
         </tr>
         <tr style="text-align:center">
             <td> US-018 </td>
@@ -587,7 +587,7 @@ Contenido
             <h5>Escenario 3:</h5>
             <strong>Dado</strong> que he programado una consulta con un remodelador, <strong>Cuando</strong> se acerca la fecha y hora de la cita. <strong>Entonces</strong> recibo un recordatorio automático por correo electrónico y/o mensaje en la plataforma para asegurarme de no perder la cita.
             </td>
-            <td> </td>
+            <td>EPIC-002 </td>
         </tr>
         <tr style="text-align:center"> 
             <td> US-020 </td>
@@ -603,7 +603,7 @@ Contenido
             <h5>Escenario 3:</h5>
             <strong>Dado</strong> que he recibido múltiples ofertas de remodeladores, <strong>Cuando</strong> reviso las propuestas y comparo los presupuestos. <strong>Entonces</strong> puedo evaluar factores como el costo, el tiempo de ejecución y la calidad del trabajo para tomar una decisión informada.
             </td>
-            <td> </td>
+            <td>EPIC-002 </td>
         </tr>
         <tr style="text-align:center">
             <td> US-021 </td>
@@ -618,7 +618,7 @@ Contenido
             <h5>Escenario 3: </h5>
             <strong>Dado</strong> que he preparado una oferta para un proyecto de remodelación, <strong>Cuando</strong> la envío al propietario de la vivienda a través de la plataforma. <strong>Entonces</strong> proporciono detalles claros sobre el alcance del trabajo, el costo estimado y cualquier término adicional para la consideración del cliente.
             </td>
-            <td> </td>
+            <td>EPIC-001 </td>
         </tr>
         <tr style="text-align:center">
             <td> US-022 </td>
@@ -631,7 +631,7 @@ Contenido
             <h5>Escenario 2:</h5>
             <strong>Dado</strong> que necesito comunicarme con un cliente sobre un proyecto en curso, <strong>Cuando</strong> utilizo las funciones de mensajería interna o correo electrónico dentro de la plataforma para enviar actualizaciones, responder preguntas y mantener una comunicación clara y transparente. <strong>Entonces</strong> el cliente recibe mis mensajes y puede responder a ellos directamente desde la plataforma, lo que facilita una comunicación fluida y eficiente entre ambas partes.
             </td>
-            <td> </td>
+            <td> EPIC-005</td>
         </tr>
         <tr style="text-align:center">
             <td> US-023 </td>
@@ -644,7 +644,7 @@ Contenido
             <h5>Escenario 2:</h5>
             <strong>Dado</strong> que estoy revisando testimonios de clientes anteriores, <strong>Cuando</strong> leo las experiencias y comentarios compartidos por propietarios de viviendas que han trabajado con un remodelador específico. <strong>Entonces</strong> puedo obtener una idea de la calidad del servicio, la comunicación y la satisfacción general del cliente.
             </td>
-            <td> </td>
+            <td> EPIC-001</td>
         </tr>
         <tr style="text-align:center">
             <td> US-024 </td>
@@ -658,7 +658,7 @@ Contenido
             <h5>Esceneario 2:</h5>
             <strong>Dado</strong> que he programado una cita con un cliente potencial, <strong>Cuando</strong> el cliente recibe una notificación sobre la cita programada y confirma su asistencia. <strong>Entonces</strong> recibo confirmación de la cita y preparo la reunión según lo acordado.
             </td>
-            <td> </td>
+            <td>EPIC-002 </td>
         </tr>
         <tr style="text-align:center">
             <td> TS001 </td>
