@@ -608,8 +608,67 @@ Contenido
 Contenido
 
 #### 5.2.1.1. Sprint Planning 1.
+En el Sprint Planning 1, se llevó a cabo una sesión de planificación para la elaboración de
+la landing page del proyecto. Durante esta reunión, se dividieron las secciones a programar entre los integrantes, 
+además se determinó el plazo de entrega de estas tareas.
 
-Contenido
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center">Sprint #</th>
+      <th style="text-align:center">Sprint 1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" align="center"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Date</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Time</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Location</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Prepared By</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Attendees</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint 1 - Review Summary</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint 1 - Retrospective Summary</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint 1 Goal</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint 1 Velocity</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sum of Story Points</td>
+      <td style="text-align:center"></td>
+    </tr>
+  </tbody>
+</table>
+
 
 #### 5.2.1.2. Sprint Backlog 1.
 
