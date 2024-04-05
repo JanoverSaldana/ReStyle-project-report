@@ -10,6 +10,71 @@
 
 ## 3.2. User Stories. 
 
+Contenido
+
+<table>
+      <thead>
+            <tr>
+                <th>Epic / Story ID</th>
+                <th>Título</th>
+                <th>Descripción</th>
+                <th>Criterios de Aceptación</th>
+                <th>Relacionado con (Epic ID)</th>
+            </tr>
+      </thead>
+      <tbody>
+            <tr>
+                <td>EPIC-001</td>
+                <td>Establecer comunicación con los remodeladores</td>
+                <td></td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>EPIC-002</td>
+                <td>Contratación de servicios de remodelación</td>
+                <td></td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>EPIC-003</td>
+                <td>Implementar API RESTful</td>
+                <td></td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>EPIC-004</td>
+                <td>Implementar Landing Page</td>
+                <td></td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>EPIC-005</td>
+                <td>Gestión de portafolio</td>
+                <td></td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>EPIC-006</td>
+                <td>Gestión de proyecto</td>
+                <td></td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>EPIC-007</td>
+                <td>Gestión de suscripción</td>
+                <td></td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr>
+      </tbody>
+</table>
+
 <table>
     <thead>
         <tr>
@@ -701,12 +766,6 @@
         </tr>
     </body>
 </table>
-
-| **Epic / Story ID** | **Título**                                          | **Descripción** | **Criterios de Aceptación** | **Relacionado con (Epic ID)** |
-|---------------------|-----------------------------------------------------|-----------------|-----------------------------|-------------------------------|
-| EPIC-001            | Conexion de empresas remodeladoras con contratistas |                 |                             | N/A                           | 
-| EPIC-002            | Contratar empresas remodeladoras                    |                 |                             | N/A                           |
-| EPIC-003            | Implementar API RESTful                             |                 |                             | N/A                           |
 
 ## 3.3. Impact Mapping.
 
