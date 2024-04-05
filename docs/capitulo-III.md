@@ -71,7 +71,7 @@ Contenido
                 <td>Gestión de portafolio</td>
                 <td>
                     <strong>Como</strong> usuario remodelador, <strong>quiero</strong> tener una herramienta
-                    <strong>para</strong> gestionar mi portafolio de proyectos de manera eficiente para poder 
+                    que me ayude a gestionar mi portafolio de proyectos de manera eficiente <strong>para</strong> poder 
                     compartir mi trabajo a los contratistas interesados en mi perfil.
                 </td>
                 <td>N/A</td>
@@ -114,7 +114,7 @@ Contenido
     </thead>
     <body  >
         <tr style="text-align:center">
-            <td>UH01</td>
+            <td>US-001</td>
             <td>Hipervínculos en el encabezado</td>
             <!-- Descripción -->
             <td> 
@@ -136,10 +136,10 @@ Contenido
             <strong>cuando</strong> El usuario hace clic en una opción del encabezado.
             <strong>Entonces</strong> La página se desplaza suavemente a la sección correspondiente, adaptándose al tamaño de la pantalla del dispositivo.
             </td>
-            <td> </td>
+            <td>EPIC-004</td>
         </tr>
         <tr style="text-align:center">
-            <td>UH02 </td>
+            <td>US-002 </td>
             <td>Información sobre beneficios de la aplicación</td>
             <!-- Descripción -->
             <td>
@@ -162,10 +162,10 @@ Contenido
             <strong>Entonces</strong> La información es fácil de entender y no contiene lenguaje técnico.
             <strong>Y</strong> La información se presenta de forma organizada y atractiva.
             </td>
-            <td> </td>
+            <td>EPIC-004 </td>
         </tr>
         <tr style="text-align:center">
-            <td>UH03</td>
+            <td>US-003</td>
              <td>Mostrar los planes disponibles</td>
             <!-- Descripción -->
             <td>
@@ -185,10 +185,10 @@ Contenido
             <strong>Cuando</strong> El usuario quiere comparar el plan con otro plan.
             <strong>Entonces</strong> La página ofrece una herramienta para comparar los planes en paralelo, mostrando las diferencias en precio, funciones, beneficios y limitaciones.
             </td>
-            <td> </td>
+            <td> EPIC-004</td>
         </tr>
         <tr style="text-align:center">
-            <td>UH04 </td>
+            <td>US-004 </td>
             <td> Información útil en el footer </td>
             <!-- Descripción -->
             <td>
@@ -213,10 +213,10 @@ Contenido
             <strong>Entonces</strong> El footer muestra las opciones de navegación de las secciones de la landing page
             <strong>Y</strong> Al hacer clic en alguna de las opciones, el usuario es dirigido a la sección correspondiente
             </td>
-            <td> </td>
+            <td>EPIC-004 </td>
         </tr>
         <tr style="text-align:center">
-            <td> UH05</td>
+            <td> US-005</td>
             <td> Información sobre el producto </td>
             <!-- Descripción -->
             <td> 
@@ -237,10 +237,10 @@ Contenido
             <strong>Cuando</strong> el usuario decide que quiere adquirir el producto.
             <strong>Entonces</strong> la sección del producto debe ofrecer un botón claro y visible para descargar e iniciar a utilizar el producto.
             </td>
-            <td> </td>
+            <td>EPIC-004 </td>
         </tr>
         <tr style="text-align:center">
-            <td> UH06 </td>
+            <td> US-006 </td>
             <td> Subir contenido a un portafolio </td>
            <!-- Descripción -->
             <td> 
@@ -268,7 +268,7 @@ Contenido
             <td> </td>
         </tr>
         <tr style="text-align:center">
-            <td> UH07 </td>
+            <td> US-007 </td>
             <td> Crear proyecto de diseño </td>
            <!-- Descripción -->
             <td> 
@@ -294,7 +294,7 @@ Contenido
             <td> </td>
         </tr>
         <tr style="text-align:center">
-            <td> UH08 </td>
+            <td> US-008 </td>
             <td> Búsqueda de empresas remodeladoras </td>
            <!-- Descripción -->
             <td> 
@@ -323,7 +323,7 @@ Contenido
             <td> </td>
         </tr>
         <tr style="text-align:center">
-            <td> UH09 </td>
+            <td> US-009 </td>
             <td> Revisar críticas y opiniones </td>
            <!-- Descripción -->
             <td> 
@@ -347,7 +347,7 @@ Contenido
             <td> </td>
         </tr>
         <tr style="text-align:center">
-            <td> UH10 </td>
+            <td> US-010 </td>
             <td> Gestión de solicitudes al servidor </td>
            <!-- Descripción -->
             <td> 
@@ -371,7 +371,7 @@ Contenido
             <td> </td>
         </tr>
         <tr style="text-align:center">
-            <td> UH11 </td>
+            <td> US-011 </td>
             <td> Autorización y seguridad de acceso al API </td>
            <!-- Descripción -->
             <td> 
@@ -403,7 +403,7 @@ Contenido
             <td> </td>
         </tr>
         <tr style="text-align:center">
-            <td> UH12 </td>
+            <td> US-012 </td>
             <td>Promocionar contenido </td>
             <td> <strong>Como</strong> usuario remodelador, 
               <strong>quiero</strong> poder promocionar el contenido de mi portafolio 
@@ -436,7 +436,7 @@ Contenido
             <td> EPIC-001</td>
         </tr>
         <tr style="text-align:center">
-            <td> UH13 </td>
+            <td> US-013 </td>
             <td>Continuar promocion de contenido </td>
             <td>
               <strong>Como</strong> usuario remodelador, 
@@ -461,7 +461,7 @@ Contenido
             <td>EPIC-001</td>
         </tr>
         <tr style="text-align:center">
-            <td> UH14 </td>
+            <td> US-014 </td>
             <td> Suscripción remodelador</td>
             <td> 
               <strong>Como</strong> usuario remodelador,
@@ -505,7 +505,7 @@ Contenido
             <td>EPIC-001 </td>
         </tr>
         <tr style="text-align:center">
-            <td> UH15 </td>
+            <td> US-015 </td>
             <td> Crear cuenta contratista</td>
             <td> 
               <strong>Como</strong> usuario contratista, 
@@ -529,7 +529,7 @@ Contenido
             <td> EPIC-002</td>
         </tr>
         <tr style="text-align:center">
-            <td> UH16 </td>
+            <td> US-016 </td>
             <td> Busqueda remodeladores</td>
             <td> 
               <strong>Como</strong> usuario contratista, 
@@ -548,7 +548,7 @@ Contenido
             <td> EPIC-002</td>
         </tr>
         <tr style="text-align:center">
-            <td> UH17 </td>
+            <td> US-017 </td>
             <td>Busqueda proyectos</td>
             <td> 
               <strong>Como</strong> usuario contratista, 
@@ -567,14 +567,14 @@ Contenido
             <td>EPIC-002</td>
         </tr>
         <tr style="text-align:center">
-            <td> UH18 </td>
+            <td> US-018 </td>
             <td> </td>
             <td> </td>
             <td> </td>
             <td> </td>
         </tr>
         <tr style="text-align:center">
-            <td> UH19 </td>
+            <td> US-019 </td>
             <td>Programar Consulta con un Remodelador</td>
             <td>
             <strong>Como</strong> propietario de vivienda interesado en remodelar, quiero poder programar uan consulta con un remodelador a través de la plataforma <strong>para</strong> discutir mis necesidades y obtener recomendaciones.
@@ -590,7 +590,7 @@ Contenido
             <td> </td>
         </tr>
         <tr style="text-align:center"> 
-            <td> UH20 </td>
+            <td> US-020 </td>
             <td>Solicitar Presupuesto de Remodelación</td>
             <td>
             <strong>Como</strong> propietario de vivienda interesado en remodelar, quiero poder solicitar presupuestos a múltiples remodeladores a través de la plataforma <strong>para</strong> comparar opciones y tomar decisiones informadas.
@@ -606,7 +606,7 @@ Contenido
             <td> </td>
         </tr>
         <tr style="text-align:center">
-            <td> UH21 </td>
+            <td> US-021 </td>
             <td>Responder Solicitudes de Presupuesto </td>
             <td>
             <strong>Como</strong> profesional de remodelación, quiero poder responder rápidamente a las solicitudes de presupuesto de los propietarios de viviendas <strong>para</strong> demostrar profesionalismo y captar nuevos clientes. </td>
@@ -621,7 +621,7 @@ Contenido
             <td> </td>
         </tr>
         <tr style="text-align:center">
-            <td> UH22 </td>
+            <td> US-022 </td>
             <td> Acceso a Herramientas de Gestión </td>
             <td>
             <strong>Como</strong> profesional de remodelación, quiero poder acceder a herramientas de gestión de proyectos y clientes dentro de la plataforma <strong>para</strong> optimizar la organización y la comunicación en mi negocio.</td>
@@ -634,7 +634,7 @@ Contenido
             <td> </td>
         </tr>
         <tr style="text-align:center">
-            <td> UH23 </td>
+            <td> US-023 </td>
             <td>Galería de Testimonios </td>
             <td>
             <strong>Como</strong> propietario de vivienda en busca de un remodelador confiable, quiero poder acceder a una galería de testimonios y reseñas de clientes anteriores <strong>para</strong> validar la reputación y la calidad del trabajo de los profesionales en la plataforma. </td>
@@ -647,7 +647,7 @@ Contenido
             <td> </td>
         </tr>
         <tr style="text-align:center">
-            <td> UH24 </td>
+            <td> US-024 </td>
             <td> Programación de Citas</td>
             <td>
             <strong>Como</strong> profesional de remodelación, quiero poder programar citas con clientes potenciales a través de la plataforma <strong>para</strong> discutir sus proyectos y evaluar sus necesidades antes de comenzar cualquier trabajo.
@@ -658,13 +658,6 @@ Contenido
             <h5>Esceneario 2:</h5>
             <strong>Dado</strong> que he programado una cita con un cliente potencial, <strong>Cuando</strong> el cliente recibe una notificación sobre la cita programada y confirma su asistencia. <strong>Entonces</strong> recibo confirmación de la cita y preparo la reunión según lo acordado.
             </td>
-            <td> </td>
-        </tr>
-        <tr style="text-align:center">
-            <td> UH25 </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
             <td> </td>
         </tr>
         <tr style="text-align:center">
