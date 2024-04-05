@@ -26,49 +26,76 @@ Contenido
             <tr>
                 <td>EPIC-001</td>
                 <td>Establecer comunicación con los remodeladores</td>
-                <td></td>
+                <td>
+                    <strong>Como</strong> usuario contratista, <strong>quiero</strong> establecer comunicación
+                    efectiva con los remodeladores <strong>para</strong> poder expresar mis necesidades, expectativas
+                    y recibir información actualizada sobre el proyecto de remodelación.
+                </td>
                 <td>N/A</td>
                 <td>N/A</td>
             </tr>
             <tr>
                 <td>EPIC-002</td>
                 <td>Contratación de servicios de remodelación</td>
-                <td></td>
+                <td>
+                    <strong>Como</strong> usuario contratista, <strong>quiero</strong> contratar los servicios
+                    de remodelación de manera eficiente y llevar un control <strong>para</strong> asegurar que el 
+                    proyecto se realice acorde a mi presupuesto y necesidades.
+                </td>
                 <td>N/A</td>
                 <td>N/A</td>
             </tr>
             <tr>
                 <td>EPIC-003</td>
                 <td>Implementar API RESTful</td>
-                <td></td>
+                <td>
+                <strong>Como</strong> desarrollador, <strong>quiero</strong> implementar una API RESTful
+                <strong>para</strong> poder acceder a los datos del sistema de forma segura.
+                </td>
                 <td>N/A</td>
                 <td>N/A</td>
             </tr>
             <tr>
                 <td>EPIC-004</td>
                 <td>Implementar Landing Page</td>
-                <td></td>
+                <td>
+                    <strong>Como</strong> vistante de la landing page, <strong>quiero</strong> acceder a una
+                    Landing Page con distintas secciones informativas e interactivas que mencionen las características
+                    y beneficios que obtendré <strong>para</strong> tener un conocimiento claro de la aplicación.
+                </td>
                 <td>N/A</td>
                 <td>N/A</td>
             </tr>
             <tr>
                 <td>EPIC-005</td>
                 <td>Gestión de portafolio</td>
-                <td></td>
+                <td>
+                    <strong>Como</strong> usuario remodelador, <strong>quiero</strong> tener una herramienta
+                    <strong>para</strong> gestionar mi portafolio de proyectos de manera eficiente para poder 
+                    compartir mi trabajo a los contratistas interesados en mi perfil.
+                </td>
                 <td>N/A</td>
                 <td>N/A</td>
             </tr>
             <tr>
                 <td>EPIC-006</td>
                 <td>Gestión de proyecto</td>
-                <td></td>
+                <td>
+                    <strong>Como</strong> usuario remodelador, <strong>quiero</strong> tener una herramienta
+                    que me ayude a gestionar el proyecto encargado por un contratista <strong>para</strong>
+                    permitir el monitoreo de los avances y cumplimiento de los objetivos, presupuesto y cronograma.
+                </td>
                 <td>N/A</td>
                 <td>N/A</td>
             </tr>
             <tr>
                 <td>EPIC-007</td>
                 <td>Gestión de suscripción</td>
-                <td></td>
+                <td>
+                    <strong>Como</strong> usuario remodelador, <strong>quiero</strong> contar con la posibilidad de 
+                    suscribirme a un plan de pago <strong>para</strong> acceder a beneficios exclusivos y mejorar mi
+                    experiencia en la aplicación.
+                </td>
                 <td>N/A</td>
                 <td>N/A</td>
             </tr>
@@ -218,7 +245,7 @@ Contenido
            <!-- Descripción -->
             <td> 
             <strong>Como</strong> usuario remodelador,
-            quiero </strong> poder subir contenido multimedia a mi portafolio online
+            <strong> quiero </strong> poder subir contenido multimedia a mi portafolio online
             <strong>para</strong> poder promocionar servicios y proyectos pasados a mis posibles clientes.  
             </td>
             <!-- Criterios de Aceptación -->
@@ -246,7 +273,7 @@ Contenido
            <!-- Descripción -->
             <td> 
             <strong>Como</strong> usuario remodelador,
-            quiero</strong> poder crear proyectos de diseño dentro de la plataforma
+            <strong> quiero</strong> poder crear proyectos de diseño dentro de la plataforma
             <strong>para</strong> poder comenzar el proceso de remodelación.  
             </td>
             <!-- Criterios de Aceptación -->
@@ -272,7 +299,7 @@ Contenido
            <!-- Descripción -->
             <td> 
             <strong>Como</strong> visitante del segmento contratista,
-            quiero</strong> poder buscar remodeladoras por ubicación geográfica y estilos de diseño
+            <strong>quiero</strong> poder buscar remodeladoras por ubicación geográfica y estilos de diseño
             <strong>para</strong> obtener un resultado más personalizado.  
             </td>
             <!-- Criterios de Aceptación -->
@@ -301,7 +328,7 @@ Contenido
            <!-- Descripción -->
             <td> 
             <strong>Como</strong> visitante del segmento contratista,
-            quiero</strong> ver las opiniones de otros clientes
+            <strong>quiero</strong> ver las opiniones de otros clientes
             <strong>para</strong> tener una idea de la calidad del trabajo del remodelador.  
             </td>
             <!-- Criterios de Aceptación -->
@@ -325,7 +352,7 @@ Contenido
            <!-- Descripción -->
             <td> 
             <strong>Como</strong> desarrollador,
-            quiero</strong> asegurarme de que el API pueda gestionar múltiples solicitudes de varios dispositivos
+            <strong>quiero</strong> asegurarme de que el API pueda gestionar múltiples solicitudes de varios dispositivos
             <strong>para</strong> que el sistema funcione sin interrupciones durante temporadas de alta demanda.  
             </td>
             <!-- Criterios de Aceptación -->
@@ -349,7 +376,7 @@ Contenido
            <!-- Descripción -->
             <td> 
             <strong>Como</strong> desarrollador,
-            quiero</strong> poder configurar una autenticación y autorización segura en el API
+            <strong>quiero</strong> poder configurar una autenticación y autorización segura en el API
             <strong>para</strong> garantizar que solos los usuarios admin puedan acceder al sistema.  
             </td>
             <!-- Criterios de Aceptación -->
