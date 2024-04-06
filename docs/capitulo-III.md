@@ -567,11 +567,28 @@ Contenido
             <td>EPIC-001</td>
         </tr>
         <tr style="text-align:center">
-            <td> US-018 </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td>US-018</td>
+            <td>Cambiar idioma</td>
+            <!-- Descripción -->
+            <td>
+            <strong>Como</strong> visitante del landing page, 
+            <strong>quiero</strong> acceder a una versión en otro idioma, 
+            <strong>para</strong> poder entender mejor la información y navegar con mayor facilidad.
+            </td>
+            <!-- Criterios de Aceptación -->
+            <td> 
+            <h5>Escenario 1: Información desplegada en español</h5>
+            <strong>Dado</strong> que el usuario quiere acceder al contenido de la landing page en español
+            <strong>Cuando</strong> el usuario presione el botón switch para cambiar idioma.
+            <strong>Entonces</strong> La información será traducida 
+            <strong>Y</strong> el contenido se presentará en el idioma elegido por el usuario.
+            <h5>Escenario 2: Información desplegada en inglés </h5>
+            <strong>Dado</strong> que el usuario quiere acceder al contenido de la landing page en inglés
+            <strong>Cuando</strong> el usuario presione el botón switch para cambiar idioma.
+            <strong>Entonces</strong> La información será traducida 
+            <strong>Y</strong> el contenido se presentará en el idioma elegido por el usuario.
+            </td>
+            <td> EPIC-004</td>
         </tr>
         <tr style="text-align:center">
             <td> US-019 </td>
@@ -660,6 +677,30 @@ Contenido
             </td>
             <td>EPIC-002 </td>
         </tr>
+         <tr style="text-align:center">
+            <td>US-025</td>
+            <td>Visualizar testimonios de los usuarios que han utilizado la aplicación </td>
+            <!-- Descripción -->
+            <td>
+            <strong>Como</strong> usuario visitante de la landing page, 
+            <strong>quiero</strong> saber la opinión de los usuarios que han utilizado la aplicación
+            <strong>para</strong> tener una referencia de la experiencia de estos usuarios con el producto.
+            </td>
+            <!-- Criterios de Aceptación -->
+            <td> 
+            <h5>Escenario 1: Testimonios sobre los contratistas</h5>
+            <strong>Dado</strong> que el usuario quiere conocer la opinión de los contratistas sobre la plataforma
+            <strong>Cuando</strong> el usuario lea las reseñas de valoración
+            <strong>Entonces</strong> podrá evaluar según los comentarios
+            <strong>Y</strong> decidirá la posibilidad de uso de la aplicación.
+            <h5>Escenario 2: Testimonio sobre los remodeladores </h5>
+            <strong>Dado</strong> que el usuario quiere conocer la opinión de los remodeladores sobre la plataforma
+            <strong>Cuando</strong> el usuario lea las reseñas de valoración
+            <strong>Entonces</strong> podrá evaluar según los comentarios
+            <strong>Y</strong> decidirá la posibilidad de uso de la aplicación.
+            </td>
+            <td> EPIC-004</td>
+        </tr>   
         <tr style="text-align:center">
             <td> TS001 </td>
             <td> Get Portfolios </td>
