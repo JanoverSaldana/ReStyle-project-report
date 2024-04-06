@@ -601,13 +601,10 @@ Contenido
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 
-Contenido
-
 ### 5.2.1. Sprint 1
 
-Contenido
-
 #### 5.2.1.1. Sprint Planning 1.
+
 En el Sprint Planning 1, se llevó a cabo una sesión de planificación para la elaboración de
 la landing page del proyecto. Durante esta reunión, se dividieron las secciones a programar entre los integrantes, 
 además se determinó el plazo de entrega de estas tareas.
@@ -625,46 +622,41 @@ además se determinó el plazo de entrega de estas tareas.
     </tr>
     <tr>
       <td style="text-align:center">Date</td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">06-04-2024</td>
     </tr>
     <tr>
       <td style="text-align:center">Time</td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">8:00 PM</td>
     </tr>
     <tr>
       <td style="text-align:center">Location</td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">Discord</td>
     </tr>
     <tr>
       <td style="text-align:center">Prepared By</td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">Janover Saldaña</td>
     </tr>
     <tr>
       <td style="text-align:center">Attendees</td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:center">Sprint 1 - Review Summary</td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:center">Sprint 1 - Retrospective Summary</td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">
+      Alejandra Villacrez, Janover Saldaña, Josten Huaman, Daniel Valverde, Ariana Vargas
+      </td>
     </tr>
     <tr>
       <td colspan="2" align="center"><strong>Sprint Goal & User Stories</strong></td>
     </tr>
     <tr>
       <td style="text-align:center">Sprint 1 Goal</td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center"> Implementar la landing page incluyendo las distintas secciones 
+      acordadas y el requisito de cambio de idioma para la aplicación de ReStyle </td>
     </tr>
     <tr>
       <td style="text-align:center">Sprint 1 Velocity</td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">15</td>
     </tr>
     <tr>
       <td style="text-align:center">Sum of Story Points</td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">15</td>
     </tr>
   </tbody>
 </table>
