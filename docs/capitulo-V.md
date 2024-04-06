@@ -856,12 +856,82 @@ además se determinó el plazo de entrega de estas tareas.
   </tr>
   <tr>
   <!-- rowspan="number of rows" -->
-    <td rowspan="6"></td>
+    <td rowspan="20">https://github.com/sw53-metasoft/ReStyle-landing-page</td>
+    <td>main</td>
+    <td>d1143e73866f309b2a3ad92eebf37cc6d02f1b32</td>
+    <td>Initial commit</td>
     <td></td>
+    <td>24-03-2024</td>
+  </tr>
+  <tr>
+    <td>main</td>
+    <td>48e24f20da3987b46a9c9d6d91281eb7caa5bb71</td>
+    <td>feat: initial commit</td>
     <td></td>
+    <td>04-04-2024</td>
+  </tr>
+   <tr>
+    <td>feature/benefits</td>
+    <td>b248874b357ee3f949fc8fd24d506c564725e3ff</td>
+    <td>feat(): uploaded icons to img folder</td>
     <td></td>
+    <td>04-04-2024</td>
+  </tr>
+   <tr>
+    <td>feature/benefits</td>
+    <td>803b438f5085de45f211d7743f1f89b81eaa911b</td>
+    <td>feat(benefits): updated benefits index</td>
     <td></td>
+    <td>04-04-2024</td>
+  </tr>
+  <tr>
+    <td>feature/benefits</td>
+    <td>96622aaf5a3375ebc0e53986a8bd2076ff637ae7</td>
+    <td>feat(benefits): updated index-en</td>
     <td></td>
+    <td>04-04-2024</td>
+  </tr>
+    <tr>
+    <td>feature/benefits</td>
+    <td>46cfc07f25d6b4e6807f92f6f37fa78e3259cd58</td>
+    <td>feat(benefits): added responsive design</td>
+    <td></td>
+    <td>04-04-2024</td>
+  </tr>
+  <tr>
+    <td>feature/hero</td>
+    <td>8f6892a51a94995e379ceb1ef37a49fd107de7cb</td>
+    <td>feat(hero): created hero section</td>
+    <td></td>
+    <td>04-04-2024</td>
+  </tr>
+  <tr>
+    <td>feature/hero</td>
+    <td>0b68f268ae8fbb2a3897678e731f65bcbf6ec79f</td>
+    <td>feat(hero): updated styles</td>
+    <td></td>
+    <td>04-04-2024</td>
+  </tr>
+  <tr>
+    <td>feature/hero</td>
+    <td>d4868a807c3d2978bdfdbe2c943c3f797a6ef18f</td>
+    <td>feat(hero): updated responsive styles</td>
+    <td></td>
+    <td>04-04-2024</td>
+  </tr>
+  <tr>
+    <td>feature/footer</td>
+    <td>0524c45effee227c1f334dd925abef3e410925ea</td>
+    <td>Fix header complete</td>
+    <td></td>
+    <td>05-04-2024</td>
+  </tr>
+  <tr>
+    <td>feature/footer</td>
+    <td>db8521dafc4c67d9ece71cbd63e6746bb4ec5393</td>
+    <td>Fix delete html and css file</td>
+    <td></td>
+    <td>05-04-2024</td>
   </tr>
   <tr>
     <td></td>
@@ -870,36 +940,6 @@ además se determinó el plazo de entrega de estas tareas.
     <td></td>
     <td></td>
   </tr>
-   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-    <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-
-  <!-- Add other rows similarly -->
 </table>
 
 
