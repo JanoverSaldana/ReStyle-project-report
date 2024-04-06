@@ -142,7 +142,7 @@ A diferencia de las ramas principales, estas ramas secundarias tienen una vida �
             2. build(release): bump version to 1.0.0
             3. style: remove empty line
             4. feat(sign up): add the button to sign up
-            5. feat!: send an email to the costumer when product is shipped
+            5. feat!: email the costumer when product is shipped
             6. feat: remove ticket list endpoint
             refers to JIRA-1337
             BREAKING CHANGES: ticket enpoints no longer supports list all entites.
@@ -618,7 +618,7 @@ además se determinó el plazo de entrega de estas tareas.
   </thead>
   <tbody>
     <tr>
-      <td colspan="2" align="center"><strong>Sprint Planning Background</strong></td>
+      <td colspan="2"  ><strong>Sprint Planning Background</strong></td>
     </tr>
     <tr>
       <td style="text-align:center">Date</td>
@@ -643,7 +643,7 @@ además se determinó el plazo de entrega de estas tareas.
       </td>
     </tr>
     <tr>
-      <td colspan="2" align="center"><strong>Sprint Goal & User Stories</strong></td>
+      <td colspan="2"  ><strong>Sprint Goal & User Stories</strong></td>
     </tr>
     <tr>
       <td style="text-align:center">Sprint 1 Goal</td>
@@ -667,46 +667,178 @@ además se determinó el plazo de entrega de estas tareas.
 <table>
   <tr>
     <td> <strong>Sprint #</strong></td>
-    <td align="center" colspan="7"> <strong>Sprint 1</strong> </td>
+    <td   colspan="7"> <strong>Sprint 1</strong> </td>
   </tr>
 
    <tr>
-    <td align="center" colspan="2"> <strong>User Story</strong></td>
-    <td align="center" colspan="6"> <strong>Work-item/Task</strong></td>
+    <td   colspan="2"> <strong>User Story</strong></td>
+    <td   colspan="6"> <strong>Work-item/Task</strong></td>
   </tr>
   <tr>
-    <td align="center"> <strong>ID</strong> </td>
-    <td align="center"> <strong>Title</strong></td>
-    <td align="center"> <strong>ID</strong> </td>
-    <td align="center"> <strong>Title</strong></td>
-    <td align="center"> <strong>Description</strong></td>
-    <td align="center"> <strong>Estimation (Hours)</strong></td>
-    <td align="center"> <strong>Assigned To</strong></td>
-    <td align="center"> <strong> Status (To-do/In-Process/To-Review/Done) </strong></td>
+    <td  > <strong>ID</strong> </td>
+    <td  > <strong>Title</strong></td>
+    <td  > <strong>ID</strong> </td>
+    <td  > <strong>Title</strong></td>
+    <td  > <strong>Description</strong></td>
+    <td  > <strong>Estimation (Hours)</strong></td>
+    <td  > <strong>Assigned To</strong></td>
+    <td  > <strong> Status (To-do/In-Process/To-Review/Done) </strong></td>
   </tr>
   <!---------------------------------------------------------------------- -->
   <tr>
     <!--rowspan="number of rows for the tasks" -->
-    <td rowspan="2" align="center"> </td>
-    <td rowspan="2" align="center"> </td>
-    <td align="center"> </td>
-    <td align="center"> </td>
-    <td align="justify"> </td>
-    <td align="center"> </td>
-    <td align="center"> </td>
-    <td align="center"> </td>
+    <td rowspan="3"> US-001</td>
+    <td rowspan="3"> Hipervínculos en el encabezado</td>
+    <td  > UT-01</td>
+    <td  > Agregar navbar</td>
+    <td  >Permitir a los usuarios interactuar con las opciones de la barra de navegación </td>
+    <td  >2 </td>
+    <td  > Josten Huaman </td>
+    <td  > - </td>
   </tr>
-
   <tr>
-    <td align="center"> </td>
-    <td align="center"> </td>
-    <td align="center"> </td>
-    <td align="center"> </td>
-    <td align="center"> </td>
-    <td align="center"> </td>
+    <td  > UT-02</td>
+    <td  > Agregar botón de idioma</td>
+    <td  > Permitir a los usuarios cambiar el idioma (inglés o español) clickeando el botón</td>
+    <td  > 1</td>
+    <td  > Josten Huaman</td>
+    <td  > - </td>
   </tr>
-
-  <!-- Repeat the empty rows as necessary -->
+  <tr>
+    <td  > UT-03</td>
+    <td  > Agregar html en inglés</td>
+    <td  > Traducir el contenido asignado del html al idioma inglés </td>
+    <td > 1</td>
+    <td  > Josten Huaman</td>
+    <td  > - </td>
+  </tr>
+  <tr>
+    <!--rowspan="number of rows for the tasks" -->
+    <td rowspan="4"> US-002</td>
+    <td rowspan="4"> Información sobre beneficios de la aplicación</td>
+    <td  > UT-04</td>
+    <td  > Mostrar Hero image</td>
+    <td  >Permitir a los usuarios visualizar la imagen de presentación de la landing page</td>
+    <td  >1 </td>
+    <td  > Alejandra Diaz </td>
+    <td  > Done </td>
+  </tr>
+  <tr>
+    <td  > UT-05</td>
+    <td  > Mostrar beneficios</td>
+    <td  > Permitir a los usuarios visualizar una sección con los beneficios de la aplicación</td>
+    <td  > 2</td>
+    <td  > Alejandra Diaz</td>
+    <td  > Done </td>
+  </tr>
+  <tr>
+    <td  > UT-06</td>
+    <td  > Agregar botón "Empezar Ahora"</td>
+    <td  > Permitir a los usuarios dirigirse directamente a la aplicación clickeando el botón</td>
+    <td  > 1</td>
+    <td  > Alejandra Diaz</td>
+    <td  > Done </td>
+  </tr>
+  <tr>
+    <td  > UT-07</td>
+    <td  > Agregar html en inglés</td>
+    <td  > Traducir el contenido asignado del html al idioma inglés </td>
+    <td  > 1</td>
+    <td  > Alejandra Diaz </td>
+    <td  > Done </td>
+  </tr>
+   <tr>
+    <!--rowspan="number of rows for the tasks" -->
+    <td rowspan="2"> US-005</td>
+    <td rowspan="2"> Información sobre la aplicación</td>
+    <td  > UT-08</td>
+    <td  > Mostrar información</td>
+    <td  > Permitir a los usuarios visualizar una sección con la información de la aplicación </td>
+    <td  > 1 </td>
+    <td  > Daniel Valverde </td>
+    <td  > - </td>
+  </tr>
+  <tr>
+    <td  > UT-09</td>
+    <td  > Agregar html en inglés</td>
+    <td  > Traducir el contenido asignado del html al idioma inglés </td>
+    <td  > 1</td>
+    <td  > Daniel Valverde </td>
+    <td  > - </td>
+  </tr>
+  <tr>
+    <!--rowspan="number of rows for the tasks" -->
+    <td rowspan="2"> US-003</td>
+    <td rowspan="2"> Mostrar los planes disponibles</td>
+    <td  > UT-10</td>
+    <td  > Agregar sección de planes</td>
+    <td  > Permitir a los usuarios visualizar una sección con los planes a los que pueden acceder en la aplicación </td>
+    <td  > 1 </td>
+    <td  > Ariana Vargas </td>
+    <td  > - </td>
+  </tr>
+  <tr>
+    <td  > UT-11</td>
+    <td  > Agregar html en inglés</td>
+    <td  > Traducir el contenido asignado del html al idioma inglés </td>
+    <td  > 1</td>
+    <td  > Ariana Vargas </td>
+    <td  > - </td>
+  </tr>
+  <tr>
+    <!--rowspan="number of rows for the tasks" -->
+    <td rowspan="2"> US-025</td>
+    <td rowspan="2"> Visualizar testimonios de los usuarios que han utilizado la aplicación</td>
+    <td  > UT-12</td>
+    <td  > Mostrar Testimonios</td>
+    <td  > Permitir a los usuarios visualizar las valoraciones realizadas sobre la experiencia de uso de la aplicación </td>
+    <td  > 1 </td>
+    <td  > Daniel Valverde </td>
+    <td  > - </td>
+  </tr>
+  <tr>
+    <td  > UT-13</td>
+    <td  > Agregar html en inglés</td>
+    <td  > Traducir el contenido asignado del html al idioma inglés </td>
+    <td  > 1</td>
+    <td  > Daniel Valverde </td>
+    <td  > - </td>
+  </tr>
+  <td rowspan="3"> US-004</td>
+    <td rowspan="3"> Información útil en el footer</td>
+    <td  > UT-14</td>
+    <td  > Datos de contacto</td>
+    <td  >Permitir a los usuarios visualizar datos para comunicarse como: Teléfono y correo. </td>
+    <td  >1 </td>
+    <td  > Josten Huaman </td>
+    <td  > - </td>
+  <tr>
+    <td  > UT-15</td>
+    <td  > Redes Sociales</td>
+    <td  > Permitir a los usuarios visualizar las redes sociales del producto (Instagram, Facebook y Twitter) </td>
+    <td  > 1</td>
+    <td  > Josten Huaman</td>
+    <td  > - </td>
+  </tr>
+  <tr>
+    <td  > UT-16</td>
+    <td  > Agregar html en inglés</td>
+    <td  > Traducir el contenido asignado del html al idioma inglés </td>
+    <td  > 1</td>
+    <td  > Josten Huaman</td>
+    <td  > - </td>
+  </tr>
+  <tr>
+    <!--rowspan="number of rows for the tasks" -->
+    <td rowspan="1"> US-018</td>
+    <td rowspan="1"> Cambiar idioma	</td>
+    <td  > UT-17</td>
+    <td  > Agregar funcionalidad del botón de idioma</td>
+    <td  > Agregar el script que permita el cambio de idioma al momento de clickear el botón </td>
+    <td  > 2 </td>
+    <td  > Janover Saldaña </td>
+    <td  > - </td>
+  </tr>
 
 </table>
 
