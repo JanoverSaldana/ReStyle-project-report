@@ -639,28 +639,27 @@ Contenido
         </tr>
         <tr style="text-align:center">
             <td> US-022 </td>
-            <td> Acceso a Herramientas de Gestión </td>
+            <td> Visualización de Proyectos Anteriores</td>
             <td>
-            <strong>Como</strong> profesional de remodelación, quiero poder acceder a herramientas de gestión de proyectos y clientes dentro de la plataforma <strong>para</strong> optimizar la organización y la comunicación en mi negocio.</td>
+            <strong>Como</strong> propietario de vivienda interesado en contratar servicios de remodelación, deseo poder visualizar proyectos anteriores realizados por los profesionales en la plataforma <strong>para</strong> evaluar su experiencia y calidad de trabajo
             <td>
             <h5>Escenario 1:</h5>
-            <strong>Dado</strong> que soy un remodelador registrado en la plataforma, <strong>Cuando</strong> accedo a mi panel de control personalizado. <strong>Entonces</strong> puedo ver un resumen de proyectos activos, solicitudes de presupuesto, citas programadas y otras métricas importantes para mi negocio.
+            <strong>Dado</strong> que soy un propietario de vivienda registrado en la plataforma, <strong>Cuando</strong> hay actualizaciones, cambios o mensajes relevantes relacionados con mis proyectos. <strong>Entonces</strong> recibo notificaciones instantáneas en mi dispositivo móvil o correo electrónico.
             <h5>Escenario 2:</h5>
-            <strong>Dado</strong> que necesito comunicarme con un cliente sobre un proyecto en curso, <strong>Cuando</strong> utilizo las funciones de mensajería interna o correo electrónico dentro de la plataforma para enviar actualizaciones, responder preguntas y mantener una comunicación clara y transparente. <strong>Entonces</strong> el cliente recibe mis mensajes y puede responder a ellos directamente desde la plataforma, lo que facilita una comunicación fluida y eficiente entre ambas partes.
+            <strong>Dado</strong> que estoy revisando una notificación en tiempo real, <strong>Cuando</strong> hago clic en ella. <strong>Entonces</strong> se me redirige automáticamente a la sección correspondiente de la plataforma para obtener más detalles o tomar medidas.
             </td>
             <td> EPIC-005</td>
         </tr>
         <tr style="text-align:center">
             <td> US-023 </td>
-            <td>Galería de Testimonios </td>
+            <td>Notificaciones en Tiempo Real</td>
             <td>
-            <strong>Como</strong> propietario de vivienda en busca de un remodelador confiable, quiero poder acceder a una galería de testimonios y reseñas de clientes anteriores <strong>para</strong> validar la reputación y la calidad del trabajo de los profesionales en la plataforma. </td>
+            <strong>Como</strong> propietario de vivienda en proceso de remodelación, deseo tener acceso a una herramienta de seguimiento de proyectos en la plataforma <strong>para</strong> monitorear el progreso, establecer hitos y comunicarme con los profesionales involucrados.
             <td>
             <h5>Escenario 1:</h5>
-            <strong>Dado</strong> que soy un propietario de vivienda registrado en la plataforma, <strong>Cuando</strong> accedo a la sección de testimonios desde el menú principal. <strong>Entonces</strong> puedo explorar una variedad de testimonios y reseñas dejados por clientes anteriores, filtrando por ubicación, tipo de proyecto o calificación.
+            <strong>Dado</strong> que soy un propietario de vivienda registrado en la plataforma, <strong>Cuando</strong> accedo a la herramienta de seguimiento de proyectos desde el panel de control. <strong>Entonces</strong> puedo ver una descripción general de mis proyectos activos, incluido el estado actual, los hitos programados y los profesionales asignados.
             <h5>Escenario 2:</h5>
-            <strong>Dado</strong> que estoy revisando testimonios de clientes anteriores, <strong>Cuando</strong> leo las experiencias y comentarios compartidos por propietarios de viviendas que han trabajado con un remodelador específico. <strong>Entonces</strong> puedo obtener una idea de la calidad del servicio, la comunicación y la satisfacción general del cliente.
-            </td>
+            <strong>Dado</strong> que estoy monitoreando el progreso de un proyecto, <strong>Cuando</strong> actualizo el estado, agrego comentarios o adjunto archivos relevantes. <strong>Entonces</strong> los profesionales involucrados son notificados y pueden responder o tomar medidas según sea necesario.
             <td> EPIC-001</td>
         </tr>
         <tr style="text-align:center">
