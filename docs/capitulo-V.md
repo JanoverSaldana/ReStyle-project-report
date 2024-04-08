@@ -856,7 +856,7 @@ además se determinó el plazo de entrega de estas tareas.
   </tr>
   <tr>
   <!-- rowspan="number of rows" -->
-    <td rowspan="20">https://github.com/sw53-metasoft/ReStyle-landing-page</td>
+    <td rowspan="50">https://github.com/sw53-metasoft/ReStyle-landing-page</td>
     <td>main</td>
     <td>d1143e73866f309b2a3ad92eebf37cc6d02f1b32</td>
     <td>Initial commit</td>
@@ -932,6 +932,83 @@ además se determinó el plazo de entrega de estas tareas.
     <td>Fix delete html and css file</td>
     <td></td>
     <td>05-04-2024</td>
+  </tr>
+  <tr>
+    <td>feature/membership</td>
+    <td>d8176f7e900cb701780b7024ccef275950ce2b29</td>
+    <td>feat(membership):index-en.html</td>
+    <td></td>
+    <td>06/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/membership</td>
+    <td>0a2a5bb8772d627233b0e1c8123bc2e20f4b7c3c</td>
+    <td>feat(membership):index.html</td>
+    <td></td>
+    <td>06/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/membership</td>
+    <td>860906d618b0b024f591fb872eb4f8c9f9296a9a</td>
+    <td>feat(membership):index-en.html</td>
+    <td></td>
+    <td>06/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/membership</td>
+    <td>7efc5ae833f7dd3776d072e64f37f9be4ebb70d9</td>
+    <td>feat(membership):stylesheet.css</td>
+    <td></td>
+    <td>06/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/benefits</td>
+    <td>80316a0bf454de2de4c7d3464b4c81e1c7693aac</td>
+    <td>feat(benefits): updated index</td>
+    <td></td>
+    <td>07/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/hero</td>
+    <td>ff5c9c435f02f44e4d520a33c939266645e3a0e6</td>
+    <td>feat(hero): updated styles</td>
+    <td></td>
+    <td>07/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/footer</td>
+    <td>ddd8b39901f482af13533504a62d1fce3e9dfe06</td>
+    <td>Feat: Complete header and footer</td>
+    <td></td>
+    <td>06/04/2024</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td></td>
