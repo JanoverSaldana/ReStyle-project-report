@@ -983,32 +983,109 @@ además se determinó el plazo de entrega de estas tareas.
     <td>06/04/2024</td>
   </tr>
   <tr>
+    <td>feature/about-the-app</td>
+    <td>b2833f289a4125136ebe8cd4acdda8be86b9562c</td>
+    <td>feat(about-the-app): Added customers images</td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>07/04/2024</td>
   </tr>
   <tr>
+    <td>feature/about-the-app</td>
+    <td>9e1901ffcc9c363f36afb4ee7838529ee11a4cb2</td>
+    <td>feat(about-the-app): Added text information about the app</td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>07/04/2024</td>
   </tr>
   <tr>
+    <td>feature/about-the-app</td>
+    <td>9cb70b17869dd91876541436829025fe8d40ef6d</td>
+    <td>feat(about-the-app): Added icons logo</td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>07/04/2024</td>
   </tr>
   <tr>
+    <td>feature/about-the-app</td>
+    <td>988221d110c1db0eec487ceee3a12c563ed97743</td>
+    <td>feat(about-the-app): Added links and video about the app</td>
     <td></td>
+    <td>07/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/about-the-app</td>
+    <td>98afde9c21e2320a4dc4d40aaa7e8d75190a2a2b</td>
+    <td>feat(about-the-app): Added document styles</td>
     <td></td>
+    <td>07/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/about-the-app</td>
+    <td>ca9a2a9a8d81fd5934d3af3a337e3eb2b0dfd8ef</td>
+    <td>feat(about-the-app): Fixed download icons size</td>
     <td></td>
+    <td>07/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/about-the-app</td>
+    <td>f469b9bdded13f1b697774d9280a6b3def8a8709</td>
+    <td>feat(about-the-app): Added english version of the document</td>
     <td></td>
+    <td>07/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/about-the-app</td>
+    <td>a183526b8c1143c48bba00161b44f5eb784bb4ab</td>
+    <td>feat(about-the-app): Added responsive styles</td>
     <td></td>
+    <td>07/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/testimonials</td>
+    <td>e9c0dfba7c4914a8f41fd6468ab02d15782afa51</td>
+    <td>feat(testimonials): Added contractors opinion</td>
+    <td></td>
+    <td>07/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/testimonials</td>
+    <td>0c64dea7dbc141f996fb8911fd0dc539b955ca91</td>
+    <td>feat(testimonials): Added remodelers opinion</td>
+    <td></td>
+    <td>07/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/testimonials</td>
+    <td>5fb7fc13bf45ba2fb459d066bcc6b57f02f1c21c</td>
+    <td>feat(testimonials): Added document styles</td>
+    <td></td>
+    <td>07/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/testimonials</td>
+    <td>b07a72151461cd6d50bbe525ceeefc9a2a1891b8</td>
+    <td>feat(testimonials): Added responsive styles for smaller screens</td>
+    <td></td>
+    <td>07/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/testimonials</td>
+    <td>4e63a067b3ce0ece5848d2817022ce084f282dd2</td>
+    <td>feat(testimonials): Added english version of testimonials section</td>
+    <td></td>
+    <td>07/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/testimonials</td>
+    <td>83f8257e1f722f406e58c9fee79cad42c5367994</td>
+    <td>feat(testimonials): Added profile photos</td>
+    <td></td>
+    <td>08/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/testimonials</td>
+    <td>a121d60e629179d34dfdc43a2448ab68c4ab8e35</td>
+    <td>feat(testimonials): Fixed label and class names</td>
+    <td></td>
+    <td>08/04/2024</td>
   </tr>
   <tr>
     <td></td>
