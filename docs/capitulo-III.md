@@ -831,7 +831,7 @@ Contenido
 
 
 **Henry Silva**
-![ToBeHenry](/docs/assets/img/Impact_map_Henry.png)
+![ToBeHenry](/docs/assets/img/Impact_map_HenryS.png)
 
 **Danilo Alvez**
 ![ToBeDanilo](/docs/assets/img/Impact_map_Danilo.png)
