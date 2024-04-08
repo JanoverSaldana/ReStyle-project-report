@@ -71,7 +71,7 @@ Ser líderes en innovaciones tecnológicas, elevando la eficiencia de las indust
         <tr>
             <!-- DATOS del integrante 5-->
             <td> 
-            <img src="">
+            <img src="/assets/img/chapter-I/Ariana_Vargas_Revollé.jpg" height="120"">
             Ariana Vargas Revollé U20221A928
             </td>
             <!-- DESCRIPCIÓN del integrante 5-->
