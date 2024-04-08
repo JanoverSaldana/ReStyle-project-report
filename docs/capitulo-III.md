@@ -831,10 +831,10 @@ Contenido
 
 
 **Henry Silva**
-![ToBeHenry](/ReStyle-project-report/docs/assets/img/Impact_map_Henry.png)
+![ToBeHenry](/docs/assets/img/Impact_map_Henry.png)
 
 **Danilo Alvez**
-![ToBeDanilo](/ReStyle-project-report/docs/assets/img/Impact_map_Danilo.png)
+![ToBeDanilo](/docs/assets/img/Impact_map_Danilo.png)
 
 
 ## 3.4. Product Backlog.
