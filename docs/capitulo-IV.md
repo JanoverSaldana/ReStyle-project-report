@@ -158,19 +158,138 @@ Contenido
 
 ## 4.4. Web Applications UX/UI Design.
 
-Contenido
-
 ### 4.4.1. Web Applications Wireframes.
 
-Contenido
+En esta sección se muestran los wireframes realizados para nuestro Web Application.
+
+Login de la aplicación
+<p align = "center"> <img src="/assets/img/wifreframe-login.png" width="700"></img> </p>
+Crear perfil de propietario
+<p align = "center"> <img src="/assets/img/wifreframe-perfil-propietario.png" width="700"></img> </p>
+Crear perfil de remodelador
+<p align = "center"> <img src="/assets/img/wifreframe-perfil-remodelador.png" width="700"></img> </p>
+Editar perfil de propietario
+<p align = "center"> <img src="/assets/img/wifreframe-editar-propietario.png" width="700"></img> </p>
+Editar perfil de propietario mensaje
+<p align = "center"> <img src="/assets/img/wifreframe-editar-propietario-exito.png" width="700"></img> </p>
+Editar perfil de remodelador
+<p align = "center"> <img src="/assets/img/wifreframe-editar-remodelador.png" width="700"></img> </p>
+Editar perfil de remodelador mensaje
+<p align = "center"> <img src="/assets/img/wifreframe-editar-remodelador-exito.png" width="700"></img> </p>
+Búsqueda de remodeladores
+<p align = "center"> <img src="/assets/img/wireframe-busqueda.png" width="700"></img> </p>
+Búsqueda de remodeladores por filtro
+<p align = "center"> <img src="/assets/img/wireframe-busqueda-por-filtro.png" width="700"></img> </p>
+Contratar remodelador
+<p align = "center"> <img src="/assets/img/wireframe-contratar-remodelador.png" width="700"></img> </p>
+Contratar remodelador y enviar formulario
+<p align = "center"> <img src="/assets/img/wireframe-enviar-form-contratar.png" width="700"></img> </p>
+Mensajes con remodelador
+<p align = "center"> <img src="/assets/img/wireframe-mensajes-con-remodelador.png" width="700"></img> </p>
+Portafolio remodelador
+<p align = "center"> <img src="/assets/img/wireframe-portafolio.png" width="700"></img> </p>
+Editar portafolio
+<p align = "center"> <img src="/assets/img/wireframe-portafolio-editar.png" width="700"></img> </p>
+Seguimiento de proyecto
+<p align = "center"> <img src="/assets/img/wireframe-seguimiento-proyecto.png" width="700"></img> </p>
+Detalles del seguimiento de proyecto
+<p align = "center"> <img src="/assets/img/wireframe-seguimiento-proyecto-detalle.png" width="700"></img> </p>
+Gestión de solicitudes de proyectos
+<p align = "center"> <img src="/assets/img/wireframe-gestion-solicitudes.png" width="700"></img> </p>
+Reviews
+<p align = "center"> <img src="/assets/img/wifreframe-reviews.png" width="700"></img> </p>
+Detalles de reviews
+<p align = "center"> <img src="/assets/img/wifreframe-reviews-detalle.png" width="700"></img> </p>
+Crear review
+<p align = "center"> <img src="/assets/img/wireframe-crear-review.png" width="700"></img> </p>
+Crear review con exito
+<p align = "center"> <img src="/assets/img/wireframe-crear-review-exito.png" width="700"></img> </p>
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
-Contenido
+Los Wireflows se utilizan principalmente en el diseño UX o por sus siglas, experiencia de usuario y especialmente para aplicaciones que involucran flujos de trabajo e interacciones complejas.
+
+<p align = "center"> <img src="/assets/img/wireflow-diagram.png" width="1000"></img> </p>
 
 ### 4.4.2. Web Applications Mock-ups.
 
-Contenido
+En esta sección se muestran los mock-ups realizados para nuestro Web Application.
+
+Login de la aplicación
+<p align = "center"> <img src="/assets/img/mockup-login.png" width="700"></img> </p>
+Crear perfil de propietario
+<p align = "center"> <img src="/assets/img/mockup-perfil-propietario.png" width="700"></img> </p>
+Crear perfil de remodelador
+<p align = "center"> <img src="/assets/img/mockup-perfil-remodelador.png" width="700"></img> </p>
+Editar perfil de propietario
+<p align = "center"> <img src="/assets/img/mockup-editar-propietario.png" width="700"></img> </p>
+Editar perfil de propietario mensaje
+<p align = "center"> <img src="/assets/img/mockup-editar-propietario-exito.png" width="700"></img> </p>
+Editar perfil de remodelador
+<p align = "center"> <img src="/assets/img/mockup-editar-remodelador.png" width="700"></img> </p>
+Editar perfil de remodelador mensaje
+<p align = "center"> <img src="/assets/img/mockup-editar-remodelador-exito.png" width="700"></img> </p>
+Búsqueda de remodeladores
+<p align = "center"> <img src="/assets/img/mockup-busqueda.png" width="700"></img> </p>
+Búsqueda de remodeladores por filtro
+<p align = "center"> <img src="/assets/img/mockup-busqueda-por-filtro.png" width="700"></img> </p>
+Contratar remodelador
+<p align = "center"> <img src="/assets/img/mockup-contratar-remodelador.png" width="700"></img> </p>
+Contratar remodelador y enviar formulario
+<p align = "center"> <img src="/assets/img/mockup-enviar-form-contratar.png" width="700"></img> </p>
+Mensajes con remodelador
+<p align = "center"> <img src="/assets/img/mockup-mensajes-con-remodelador.png" width="700"></img> </p>
+Portafolio remodelador
+<p align = "center"> <img src="/assets/img/mockup-portafolio.png" width="700"></img> </p>
+Editar portafolio
+<p align = "center"> <img src="/assets/img/mockup-portafolio-editar.png" width="700"></img> </p>
+Seguimiento de proyecto
+<p align = "center"> <img src="/assets/img/mockup-seguimiento-proyecto.png" width="700"></img> </p>
+Seguimiento de proyecto (requerimientos)
+<p align = "center"> <img src="/assets/img/mockup-seguimiento-proyecto-detalle-requerimientos.png" width="700"></img> </p>
+Seguimiento de proyecto (requerimientos) éxito
+<p align = "center"> <img src="/assets/img/mockup-seguimiento-proyecto-detalle-requerimientos-exito.png" width="700"></img> </p>
+Seguimiento de proyecto visita técnica
+<p align = "center"> <img src="/assets/img/mockup-seguimiento-proyecto-detalle-visita.png" width="700"></img> </p>
+Seguimiento de proyecto (cotización)
+<p align = "center"> <img src="/assets/img/mockup-seguimiento-proyecto-detalle-cotizacion.png" width="700"></img> </p>
+Seguimiento de proyecto (cotización) éxito
+<p align = "center"> <img src="/assets/img/mockup-seguimiento-proyecto-detalle-cotizacion-exito.png" width="700"></img> </p>
+Seguimiento de proyecto (aprobación) 
+<p align = "center"> <img src="/assets/img/mockup-seguimiento-proyecto-detalle-proyecto-aprobado.png" width="700"></img> </p>
+Seguimiento de proyecto (pago inicial) 
+<p align = "center"> <img src="/assets/img/mockup-seguimiento-proyecto-detalle-pago.png" width="700"></img> </p>
+Seguimiento de proyecto (pago inicial) éxito
+<p align = "center"> <img src="/assets/img/mockup-seguimiento-proyecto-detalle-pago-exito.png" width="700"></img> </p>
+Seguimiento de proyecto (pago 50%) 
+<p align = "center"> <img src="/assets/img/mockup-seguimiento-proyecto-detalle-pago-50.png" width="700"></img> </p>
+Seguimiento de proyecto (pago 50%) éxito
+<p align = "center"> <img src="/assets/img/mockup-seguimiento-proyecto-detalle-pago-50-exito.png" width="700"></img> </p>
+Seguimiento de proyecto (pago 100%) 
+<p align = "center"> <img src="/assets/img/mockup-seguimiento-proyecto-detalle-pago-100.png" width="700"></img> </p>
+Seguimiento de proyecto (pago 100%) éxito
+<p align = "center"> <img src="/assets/img/mockup-seguimiento-proyecto-detalle-pago-100-exito.png" width="700"></img> </p>
+Seguimiento de proyecto (revisión) 
+<p align = "center"> <img src="/assets/img/mockup-seguimiento-proyecto-detalle-revision.png" width="700"></img> </p>
+Seguimiento de proyecto (revisión) éxito
+<p align = "center"> <img src="/assets/img/mockup-seguimiento-proyecto-detalle-revision-exito.png" width="700"></img> </p>
+Seguimiento de proyecto (proyecto completado) 
+<p align = "center"> <img src="/assets/img/mockup-seguimiento-proyecto-completado.png" width="700"></img> </p>
+Gestión de solicitudes de proyectos
+<p align = "center"> <img src="/assets/img/mockup-gestion-solicitudes.png" width="700"></img> </p>
+Gestión de solicitudes de proyectos (Acción)
+<p align = "center"> <img src="/assets/img/mockup-gestion-solicitudes-accion.png" width="700"></img> </p>
+Gestión de solicitudes de proyectos (Acción) éxito
+<p align = "center"> <img src="/assets/img/mockup-gestion-solicitudes-exito.png" width="700"></img> </p>
+Reviews
+<p align = "center"> <img src="/assets/img/mockup-review.png" width="700"></img> </p>
+Detalles de reviews
+<p align = "center"> <img src="/assets/img/mockup-review-detalle.png" width="700"></img> </p>
+Crear review
+<p align = "center"> <img src="/assets/img/mockup-crear-review.png" width="700"></img> </p>
+Crear review con exito
+<p align = "center"> <img src="/assets/img/mockup-crear-review-exito.png" width="700"></img> </p>
+
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 
