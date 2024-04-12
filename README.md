@@ -236,7 +236,7 @@
     </tr>
     <tr> 
         <td></td>
-        <td> Estudiante 2 SO</td>
+        <td> <b>Valverde Lopez, Josue Daniel TB1</b> <br> Se realizaron entrevistas a los segmentos objetivo para entender los requisitos. A partir del análisis de las entrevistas se elaboró las historias de usuario tomando en cuenta los requisitos de los segmentos. </td>
         <td></td>
     </tr>
      <tr> 
@@ -261,7 +261,7 @@
     </tr>
       <tr> 
         <td></td>
-        <td> Estudiante 2 SO</td>
+        <td> <b>Valverde Lopez, Josue Daniel TB1</b> <br> Realicé los diagramas de Contexto, contenedores y componentes en fase inicial tomando en cuenta el lenguaje obicuo el cual permite el entendimiento a los segmentos objetivo.</td>
          <td></td>
     </tr>
      <tr> 
