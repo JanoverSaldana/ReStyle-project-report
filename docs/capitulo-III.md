@@ -529,25 +529,6 @@ Contenido
             <td> EPIC-002</td>
         </tr>
         <tr style="text-align:center">
-            <td> US-016 </td>
-            <td> Busqueda remodeladores</td>
-            <td> 
-              <strong>Como</strong> usuario contratista, 
-              <strong>quiero</strong> poder buscar remodeladores 
-              <strong>para</strong> facilitar el proceso de contrato</td>
-            <td> 
-              <h5>Escenario 01: </h5>
-              <strong>Dado</strong> que el usuario contratista se encuentra en la pantalla de busqueda, 
-              <strong>Cuando</strong> ingrese el nombre de un remodelador en la barra de busqueda, 
-              <strong>Entonces</strong> se mostrara el perfil del remodelador cuyo nombre sea igual al ingresado en la busqueda. 
-              <h5>Escenario 02:</h5>
-              <strong>Dado</strong> que el usuario contratista se encuentra en la pantalla de busqueda, 
-              <strong>Cuando</strong> ingrese el nombre de un remodelador en la barra de busqueda 
-              <strong>Y</strong> no exista un perfil con un nombre igual al ingresado en la busqueda, 
-              <strong>Entonces</strong> se mostraran perfiles con nombres similares a los ingresados en la busqueda</td>
-            <td> EPIC-001</td>
-        </tr>
-        <tr style="text-align:center">
             <td> US-017 </td>
             <td>Busqueda proyectos</td>
             <td> 
@@ -697,6 +678,29 @@ Contenido
             <strong>Cuando</strong> el usuario lea las reseñas de valoración
             <strong>Entonces</strong> podrá evaluar según los comentarios
             <strong>Y</strong> decidirá la posibilidad de uso de la aplicación.
+            </td>
+            <td> EPIC-004</td>
+        </tr> 
+        <tr style="text-align:center">
+            <td>US-026</td>
+            <td>Visualizar formulario de contacto </td>
+            <!-- Descripción -->
+            <td>
+            <strong>Como</strong> usuario visitante de la landing page, 
+            <strong>quiero</strong> contar con opciones de contacto con la startup
+            <strong>para</strong> preguntar más información sobre el producto o servicio.
+            </td>
+            <!-- Criterios de Aceptación -->
+            <td> 
+            <h5>Escenario 1: Envío de mensaje exitoso</h5>
+            <strong>Dado</strong> que el usuario se encuentra en la sección de contacto
+            <strong>Cuando</strong> ingresa correctamente los datos solicitados en el formulario
+            <strong>Entonces</strong> el mensaje es enviado con éxito
+            <strong>Y</strong> se registrará su consulta
+            <h5>Escenario 2: Error en envío de mensaje</h5>
+            <strong>Dado</strong> que el usuario se encuentra en la sección de contacto
+            <strong>Cuando</strong> el usuario ingresa los datos solicitados en el formulario de forma incorrecto o inconclusa
+            <strong>Entonces</strong> su mensajé no será enviado
             </td>
             <td> EPIC-004</td>
         </tr>   
@@ -910,7 +914,133 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
             </tr>
             <tr>
                 <td>8</td>
-                <td>US-X</td>
+                <td>US-26</td>
+                <td>title</td>
+                <td>description</td>
+                <td>points</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>US-26</td>
+                <td>title</td>
+                <td>description</td>
+                <td>points</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>US-26</td>
+                <td>title</td>
+                <td>description</td>
+                <td>points</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>US-26</td>
+                <td>title</td>
+                <td>description</td>
+                <td>points</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>US-26</td>
+                <td>title</td>
+                <td>description</td>
+                <td>points</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>US-26</td>
+                <td>title</td>
+                <td>description</td>
+                <td>points</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>US-26</td>
+                <td>title</td>
+                <td>description</td>
+                <td>points</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>US-26</td>
+                <td>title</td>
+                <td>description</td>
+                <td>points</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>US-26</td>
+                <td>title</td>
+                <td>description</td>
+                <td>points</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>US-26</td>
+                <td>title</td>
+                <td>description</td>
+                <td>points</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>US-26</td>
+                <td>title</td>
+                <td>description</td>
+                <td>points</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>US-26</td>
+                <td>title</td>
+                <td>description</td>
+                <td>points</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>US-26</td>
+                <td>title</td>
+                <td>description</td>
+                <td>points</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>US-26</td>
+                <td>title</td>
+                <td>description</td>
+                <td>points</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>US-26</td>
+                <td>title</td>
+                <td>description</td>
+                <td>points</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>US-26</td>
+                <td>title</td>
+                <td>description</td>
+                <td>points</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>US-26</td>
+                <td>title</td>
+                <td>description</td>
+                <td>points</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>US-26</td>
+                <td>title</td>
+                <td>description</td>
+                <td>points</td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>US-26</td>
                 <td>title</td>
                 <td>description</td>
                 <td>points</td>
