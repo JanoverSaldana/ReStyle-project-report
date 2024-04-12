@@ -1063,5 +1063,39 @@ Ipsos. (2019). Planes para la vivienda y el mejoramiento del hogar 2019. Recuper
 Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su vivienda. Recuperado de: https://peruconstruye.net/2023/08/03/cinco-razones-eligen-remodelar-vivienda/
 
 
+### **Anexos**
 
+<table>
+        <thead>
+            <tr>
+                <th>Sección</th>
+                <th>Características del video</th>
+                <th>Sobre el contenido</th>
+                <th>Integración y entrega</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Needfinding Interviews</td>
+                <td>Cantidad de videos: 1 <br> 
+                  Nomenclatura: upc-pre-202401-si729-sw53-metasoft-needfinding-sprint-1 <br>
+                  Formato: .mp4 <br>
+                  Duración:  min </td>
+                <td>Consolida todas las entrevistas realizadas</td>
+                <td>Link: 
+                  Captura: <br>
+                  <img src="" width="350"></img> </td>
+            </tr>
+            <tr>
+                <td>Exposicion</td>
+                <td>Cantidad de videos: 1 <br>
+                  Nomenclatura: upc-pre-202401-si729-sw53-metasoft-expo-tb1 <br>
+                  Formato: .mp4 <br>
+                  Duración: min</td>
+                <td>Consolida las exposiciones de la TB1</td>
+                <td>Link: Captura: <br>
+                  <img src="" width="350"></img> </td>
+            </tr>
+        </tbody>
+    </table>
 
