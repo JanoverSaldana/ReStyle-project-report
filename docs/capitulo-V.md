@@ -694,7 +694,7 @@ además se determinó el plazo de entrega de estas tareas.
     <td  >Permitir a los usuarios interactuar con las opciones de la barra de navegación </td>
     <td  >2 </td>
     <td  > Josten Huaman </td>
-    <td  > - </td>
+    <td  > Done </td>
   </tr>
   <tr>
     <td  > UT-02</td>
@@ -702,7 +702,7 @@ además se determinó el plazo de entrega de estas tareas.
     <td  > Permitir a los usuarios cambiar el idioma (inglés o español) clickeando el botón</td>
     <td  > 1</td>
     <td  > Josten Huaman</td>
-    <td  > - </td>
+    <td  > Done </td>
   </tr>
   <tr>
     <td  > UT-03</td>
@@ -710,7 +710,7 @@ además se determinó el plazo de entrega de estas tareas.
     <td  > Traducir el contenido asignado del html al idioma inglés </td>
     <td > 1</td>
     <td  > Josten Huaman</td>
-    <td  > - </td>
+    <td  > Done </td>
   </tr>
   <tr>
     <!--rowspan="number of rows for the tasks" -->
@@ -756,7 +756,7 @@ además se determinó el plazo de entrega de estas tareas.
     <td  > Permitir a los usuarios visualizar una sección con la información de la aplicación </td>
     <td  > 1 </td>
     <td  > Daniel Valverde </td>
-    <td  > - </td>
+    <td  > Done </td>
   </tr>
   <tr>
     <td  > UT-09</td>
@@ -764,7 +764,7 @@ además se determinó el plazo de entrega de estas tareas.
     <td  > Traducir el contenido asignado del html al idioma inglés </td>
     <td  > 1</td>
     <td  > Daniel Valverde </td>
-    <td  > - </td>
+    <td  > Done </td>
   </tr>
   <tr>
     <!--rowspan="number of rows for the tasks" -->
@@ -775,7 +775,7 @@ además se determinó el plazo de entrega de estas tareas.
     <td  > Permitir a los usuarios visualizar una sección con los planes a los que pueden acceder en la aplicación </td>
     <td  > 1 </td>
     <td  > Ariana Vargas </td>
-    <td  > - </td>
+    <td  > Done </td>
   </tr>
   <tr>
     <td  > UT-11</td>
@@ -783,7 +783,7 @@ además se determinó el plazo de entrega de estas tareas.
     <td  > Traducir el contenido asignado del html al idioma inglés </td>
     <td  > 1</td>
     <td  > Ariana Vargas </td>
-    <td  > - </td>
+    <td  > Done </td>
   </tr>
   <tr>
     <!--rowspan="number of rows for the tasks" -->
@@ -794,7 +794,7 @@ además se determinó el plazo de entrega de estas tareas.
     <td  > Permitir a los usuarios visualizar las valoraciones realizadas sobre la experiencia de uso de la aplicación </td>
     <td  > 1 </td>
     <td  > Daniel Valverde </td>
-    <td  > - </td>
+    <td  > Done </td>
   </tr>
   <tr>
     <td  > UT-13</td>
@@ -802,7 +802,7 @@ además se determinó el plazo de entrega de estas tareas.
     <td  > Traducir el contenido asignado del html al idioma inglés </td>
     <td  > 1</td>
     <td  > Daniel Valverde </td>
-    <td  > - </td>
+    <td  > Done </td>
   </tr>
   <td rowspan="3"> US-004</td>
     <td rowspan="3"> Información útil en el footer</td>
@@ -811,14 +811,14 @@ además se determinó el plazo de entrega de estas tareas.
     <td  >Permitir a los usuarios visualizar datos para comunicarse como: Teléfono y correo. </td>
     <td  >1 </td>
     <td  > Josten Huaman </td>
-    <td  > - </td>
+    <td  > Done </td>
   <tr>
     <td  > UT-15</td>
     <td  > Redes Sociales</td>
     <td  > Permitir a los usuarios visualizar las redes sociales del producto (Instagram, Facebook y Twitter) </td>
     <td  > 1</td>
     <td  > Josten Huaman</td>
-    <td  > - </td>
+    <td  > Done </td>
   </tr>
   <tr>
     <td  > UT-16</td>
@@ -826,7 +826,7 @@ además se determinó el plazo de entrega de estas tareas.
     <td  > Traducir el contenido asignado del html al idioma inglés </td>
     <td  > 1</td>
     <td  > Josten Huaman</td>
-    <td  > - </td>
+    <td  > Done </td>
   </tr>
   <tr>
     <!--rowspan="number of rows for the tasks" -->
@@ -837,7 +837,7 @@ además se determinó el plazo de entrega de estas tareas.
     <td  > Agregar el script que permita el cambio de idioma al momento de clickear el botón </td>
     <td  > 2 </td>
     <td  > Janover Saldaña </td>
-    <td  > - </td>
+    <td  > Done </td>
   </tr>
 
 </table>
