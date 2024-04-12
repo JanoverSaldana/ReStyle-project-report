@@ -856,243 +856,173 @@ además se determinó el plazo de entrega de estas tareas.
   </tr>
   <tr>
   <!-- rowspan="number of rows" -->
-    <td rowspan="50">https://github.com/sw53-metasoft/ReStyle-landing-page</td>
+    <td rowspan="50">https://github.com/sw53-metasoft/ReStyle-Landing-Page</td>
     <td>main</td>
-    <td>d1143e73866f309b2a3ad92eebf37cc6d02f1b32</td>
+    <td>486a09cc609d0d8be0a1b4b76f7155162993ceb2</td>
     <td>Initial commit</td>
     <td></td>
-    <td>24-03-2024</td>
+    <td>11/04/2024</td>
   </tr>
   <tr>
-    <td>main</td>
-    <td>48e24f20da3987b46a9c9d6d91281eb7caa5bb71</td>
-    <td>feat: initial commit</td>
+    <td>feature/hero</td>
+    <td>ebe934a9e050088de3bd926d992c339850d0e450</td>
+    <td>feat(develop): innital commit</td>
     <td></td>
-    <td>04-04-2024</td>
+    <td>11/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/hero</td>
+    <td>5405d08d3596a1d652ef6011f57e14e2e864efc3</td>
+    <td>feat(hero): added index section</td>
+    <td></td>
+    <td>11/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/hero</td>
+    <td>5405d08d3596a1d652ef6011f57e14e2e864efc3</td>
+    <td>feat(hero): added index section</td>
+    <td></td>
+    <td>11/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/hero</td>
+    <td>d78327181c1fcfcf3bf90f8bd3e3747f89ece4fb</td>
+    <td>feat(hero): added index-en section</td>
+    <td></td>
+    <td>11/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/hero</td>
+    <td>0a3a0e68e9f7546d296ccc6691562cd1710d8bac</td>
+    <td>feat(hero): added css section</td>
+    <td></td>
+    <td>11/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/benefits</td>
+    <td>57e2026b09bd54a9863d7c02785b50d13a06940c</td>
+    <td>feat(benefits): added index section</td>
+    <td></td>
+    <td>11/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/benefits</td>
+    <td>2dacbec45e9b61149428aa1105debb7b57efb579</td>
+    <td>feat(benefits): added index-en section</td>
+    <td></td>
+    <td>11/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/benefits</td>
+    <td>f2bec277716e0969551289b580141bd1188ccd11</td>
+    <td>feat(benefits): added styles section</td>
+    <td></td>
+    <td>11/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/membership</td>
+    <td>60369c4bc18d7d17cd74e6a508c45fa7098cc576</td>
+    <td>feat(membership): added membership section structure</td>
+    <td></td>
+    <td>11/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/membership</td>
+    <td>0b4c62b0052bfe7f785526323a1328a66a7ed0fd</td>
+    <td>feat(membership):updated structure section membership</td>
+    <td></td>
+    <td>11/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/membership</td>
+    <td>2da7b56add0939034298ae01d033047d4236aa1e</td>
+    <td>feat(membership): added mebership-en section structure</td>
+    <td></td>
+    <td>11/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/membership</td>
+    <td>48677bfd4155e8df0ada5b448643e6ab32eeafeb</td>
+    <td>feat(membership): added css membership</td>
+    <td></td>
+    <td>11/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/header</td>
+    <td>d553db3dbf49080c5aa07e78323a11c1f8459d81</td>
+    <td>feat(header): added struct nav bar</td>
+    <td></td>
+    <td>11/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/header</td>
+    <td>268061b240ad633f163e80e995e2c55d9c308ea6</td>
+    <td>feat(header): added styles</td>
+    <td></td>
+    <td>11/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/footer</td>
+    <td>5b4649797d9343557bd6bdb821e013e79997c0c0</td>
+    <td>feat(footer): Added section footer</td>
+    <td></td>
+    <td>11/04/2024</td>
   </tr>
    <tr>
-    <td>feature/benefits</td>
-    <td>b248874b357ee3f949fc8fd24d506c564725e3ff</td>
-    <td>feat(): uploaded icons to img folder</td>
+    <td>feature/footer</td>
+    <td>e130b1e21ea99e42640154d644216da817c74218</td>
+    <td>feat(footer): added styles</td>
     <td></td>
-    <td>04-04-2024</td>
+    <td>11/04/2024</td>
   </tr>
    <tr>
-    <td>feature/benefits</td>
-    <td>803b438f5085de45f211d7743f1f89b81eaa911b</td>
-    <td>feat(benefits): updated benefits index</td>
-    <td></td>
-    <td>04-04-2024</td>
-  </tr>
-  <tr>
-    <td>feature/benefits</td>
-    <td>96622aaf5a3375ebc0e53986a8bd2076ff637ae7</td>
-    <td>feat(benefits): updated index-en</td>
-    <td></td>
-    <td>04-04-2024</td>
-  </tr>
-    <tr>
-    <td>feature/benefits</td>
-    <td>46cfc07f25d6b4e6807f92f6f37fa78e3259cd58</td>
-    <td>feat(benefits): added responsive design</td>
-    <td></td>
-    <td>04-04-2024</td>
-  </tr>
-  <tr>
-    <td>feature/hero</td>
-    <td>8f6892a51a94995e379ceb1ef37a49fd107de7cb</td>
-    <td>feat(hero): created hero section</td>
-    <td></td>
-    <td>04-04-2024</td>
-  </tr>
-  <tr>
-    <td>feature/hero</td>
-    <td>0b68f268ae8fbb2a3897678e731f65bcbf6ec79f</td>
-    <td>feat(hero): updated styles</td>
-    <td></td>
-    <td>04-04-2024</td>
-  </tr>
-  <tr>
-    <td>feature/hero</td>
-    <td>d4868a807c3d2978bdfdbe2c943c3f797a6ef18f</td>
-    <td>feat(hero): updated responsive styles</td>
-    <td></td>
-    <td>04-04-2024</td>
-  </tr>
-  <tr>
     <td>feature/footer</td>
-    <td>0524c45effee227c1f334dd925abef3e410925ea</td>
-    <td>Fix header complete</td>
+    <td>d4a0e98a72581b125cd8a844428b8091f430ecc5</td>
+    <td>fix(footer): deleted the content of the files</td>
     <td></td>
-    <td>05-04-2024</td>
+    <td>11/04/2024</td>
   </tr>
-  <tr>
+   <tr>
     <td>feature/footer</td>
-    <td>db8521dafc4c67d9ece71cbd63e6746bb4ec5393</td>
-    <td>Fix delete html and css file</td>
+    <td>3c93484881568f7d02440c64e59e6801c92ec70b</td>
+    <td>feat(footer): merge branch deevelop with branch feature/footer</td>
     <td></td>
-    <td>05-04-2024</td>
+    <td>11/04/2024</td>
   </tr>
-  <tr>
-    <td>feature/membership</td>
-    <td>d8176f7e900cb701780b7024ccef275950ce2b29</td>
-    <td>feat(membership):index-en.html</td>
-    <td></td>
-    <td>06/04/2024</td>
-  </tr>
-  <tr>
-    <td>feature/membership</td>
-    <td>0a2a5bb8772d627233b0e1c8123bc2e20f4b7c3c</td>
-    <td>feat(membership):index.html</td>
-    <td></td>
-    <td>06/04/2024</td>
-  </tr>
-  <tr>
-    <td>feature/membership</td>
-    <td>860906d618b0b024f591fb872eb4f8c9f9296a9a</td>
-    <td>feat(membership):index-en.html</td>
-    <td></td>
-    <td>06/04/2024</td>
-  </tr>
-  <tr>
-    <td>feature/membership</td>
-    <td>7efc5ae833f7dd3776d072e64f37f9be4ebb70d9</td>
-    <td>feat(membership):stylesheet.css</td>
-    <td></td>
-    <td>06/04/2024</td>
-  </tr>
-  <tr>
-    <td>feature/benefits</td>
-    <td>80316a0bf454de2de4c7d3464b4c81e1c7693aac</td>
-    <td>feat(benefits): updated index</td>
-    <td></td>
-    <td>07/04/2024</td>
-  </tr>
-  <tr>
-    <td>feature/hero</td>
-    <td>ff5c9c435f02f44e4d520a33c939266645e3a0e6</td>
-    <td>feat(hero): updated styles</td>
-    <td></td>
-    <td>07/04/2024</td>
-  </tr>
-  <tr>
+   <tr>
     <td>feature/footer</td>
-    <td>ddd8b39901f482af13533504a62d1fce3e9dfe06</td>
-    <td>Feat: Complete header and footer</td>
+    <td>d0b350f2c52453a0fa66be9dc3f66d233c911960</td>
+    <td>feat(footer): added struct footer and styles</td>
     <td></td>
-    <td>06/04/2024</td>
+    <td>11/04/2024</td>
+  </tr>
+   <tr>
+    <td>feature/footer</td>
+    <td>12bcb994dfaaaab1589552a8bace4586dd8a76df</td>
+    <td>fix(footer): changed footer position</td>
+    <td></td>
+    <td>11/04/2024</td>
   </tr>
   <tr>
     <td>feature/about-the-app</td>
-    <td>b2833f289a4125136ebe8cd4acdda8be86b9562c</td>
-    <td>feat(about-the-app): Added customers images</td>
+    <td>d176e3440ccfebe3bcb9e1c482e209ae90a19091</td>
+    <td>feat(about-the-app): Added about the app section</td>
     <td></td>
-    <td>07/04/2024</td>
+    <td>11/04/2024</td>
   </tr>
-  <tr>
-    <td>feature/about-the-app</td>
-    <td>9e1901ffcc9c363f36afb4ee7838529ee11a4cb2</td>
-    <td>feat(about-the-app): Added text information about the app</td>
-    <td></td>
-    <td>07/04/2024</td>
-  </tr>
-  <tr>
-    <td>feature/about-the-app</td>
-    <td>9cb70b17869dd91876541436829025fe8d40ef6d</td>
-    <td>feat(about-the-app): Added icons logo</td>
-    <td></td>
-    <td>07/04/2024</td>
-  </tr>
-  <tr>
-    <td>feature/about-the-app</td>
-    <td>988221d110c1db0eec487ceee3a12c563ed97743</td>
-    <td>feat(about-the-app): Added links and video about the app</td>
-    <td></td>
-    <td>07/04/2024</td>
-  </tr>
-  <tr>
-    <td>feature/about-the-app</td>
-    <td>98afde9c21e2320a4dc4d40aaa7e8d75190a2a2b</td>
-    <td>feat(about-the-app): Added document styles</td>
-    <td></td>
-    <td>07/04/2024</td>
-  </tr>
-  <tr>
-    <td>feature/about-the-app</td>
-    <td>ca9a2a9a8d81fd5934d3af3a337e3eb2b0dfd8ef</td>
-    <td>feat(about-the-app): Fixed download icons size</td>
-    <td></td>
-    <td>07/04/2024</td>
-  </tr>
-  <tr>
-    <td>feature/about-the-app</td>
-    <td>f469b9bdded13f1b697774d9280a6b3def8a8709</td>
-    <td>feat(about-the-app): Added english version of the document</td>
-    <td></td>
-    <td>07/04/2024</td>
-  </tr>
-  <tr>
-    <td>feature/about-the-app</td>
-    <td>a183526b8c1143c48bba00161b44f5eb784bb4ab</td>
-    <td>feat(about-the-app): Added responsive styles</td>
-    <td></td>
-    <td>07/04/2024</td>
-  </tr>
-  <tr>
+   <tr>
     <td>feature/testimonials</td>
-    <td>e9c0dfba7c4914a8f41fd6468ab02d15782afa51</td>
-    <td>feat(testimonials): Added contractors opinion</td>
+    <td>bc02ecbb36dae35e90510c9a34b1af506c326e11</td>
+    <td>feat(testimonials): Added testimonials section</td>
     <td></td>
-    <td>07/04/2024</td>
+    <td>12/04/2024</td>
   </tr>
-  <tr>
+<tr>
     <td>feature/testimonials</td>
-    <td>0c64dea7dbc141f996fb8911fd0dc539b955ca91</td>
-    <td>feat(testimonials): Added remodelers opinion</td>
+    <td>91ebd2ad022fcb3301f64846d796250417c438dd</td>
+    <td>feat(testimonials): Fixed tag errors</td>
     <td></td>
-    <td>07/04/2024</td>
-  </tr>
-  <tr>
-    <td>feature/testimonials</td>
-    <td>5fb7fc13bf45ba2fb459d066bcc6b57f02f1c21c</td>
-    <td>feat(testimonials): Added document styles</td>
-    <td></td>
-    <td>07/04/2024</td>
-  </tr>
-  <tr>
-    <td>feature/testimonials</td>
-    <td>b07a72151461cd6d50bbe525ceeefc9a2a1891b8</td>
-    <td>feat(testimonials): Added responsive styles for smaller screens</td>
-    <td></td>
-    <td>07/04/2024</td>
-  </tr>
-  <tr>
-    <td>feature/testimonials</td>
-    <td>4e63a067b3ce0ece5848d2817022ce084f282dd2</td>
-    <td>feat(testimonials): Added english version of testimonials section</td>
-    <td></td>
-    <td>07/04/2024</td>
-  </tr>
-  <tr>
-    <td>feature/testimonials</td>
-    <td>83f8257e1f722f406e58c9fee79cad42c5367994</td>
-    <td>feat(testimonials): Added profile photos</td>
-    <td></td>
-    <td>08/04/2024</td>
-  </tr>
-  <tr>
-    <td>feature/testimonials</td>
-    <td>a121d60e629179d34dfdc43a2448ab68c4ab8e35</td>
-    <td>feat(testimonials): Fixed label and class names</td>
-    <td></td>
-    <td>08/04/2024</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>12/04/2024</td>
   </tr>
 </table>
 
