@@ -856,7 +856,7 @@ además se determinó el plazo de entrega de estas tareas.
   </tr>
   <tr>
   <!-- rowspan="number of rows" -->
-    <td rowspan="50">https://github.com/sw53-metasoft/ReStyle-Landing-Page</td>
+    <td rowspan="50">https://github.com/sw53-metasoft/ReStyle-Langin-Page</td>
     <td>main</td>
     <td>486a09cc609d0d8be0a1b4b76f7155162993ceb2</td>
     <td>Initial commit</td>
