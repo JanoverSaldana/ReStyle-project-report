@@ -17,10 +17,10 @@ En este apartado el equipo realizará un analisis competitivo de nuestras 3 prin
     <tbody style="text-align: center">
         <tr>
             <th colspan="2"></th>
-            <th><img src="/assets/img/chapter-II/Logo-aram.png" width="100"></th>
-            <th><img src="/assets/img/chapter-II/Logo-aram.png" width="100"></th>
-            <th><img src="/assets/img/chapter-II/Logo-remodelatucasa.png" width="100"></th>
-            <th><img src="/assets/img/chapter-II/Logo-timbrit.png" width="250"></th>
+            <th><img src="/assets/img/chapter-II/Logo-aram.png" width="100" alt=""></th>
+            <th><img src="/assets/img/chapter-II/Logo-aram.png" width="100" alt=""></th>
+            <th><img src="/assets/img/chapter-II/Logo-remodelatucasa.png" width="100" alt=""></th>
+            <th><img src="/assets/img/chapter-II/Logo-timbrit.png" width="250" alt=""></th>
         </tr>
         <!-- Este apartado pertenece al PERFIL se fucionó dos filas -->
         <tr>
@@ -152,7 +152,6 @@ Luego de haber realizado el análisis de nuestra solución con respecto a soluci
             6.	Problemas de integración con otras plataformas: La plataforma puede tener problemas para integrarse con otras plataformas, como plataformas de pago o sistemas de gestión de proyectos.
             </td>
         </tr>
-        <body>
         <tr>
             <th>Fortalezas</th>
             <th>Estrategia (FO) E. Ofensivas</th>
@@ -279,7 +278,45 @@ En este punto el equipo realizará entrevistas a nuestros segmentos objetivos pr
 
 ### 2.2.2. Registro de entrevistas.
 
-Contenido
+Entrevista a Contratistas
+
+<table>
+        <thead>
+            <tr>
+                <th>Entrevistado 1</th>
+                <th>Diego Cantoral</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>Pueblo Libre</td>
+            </tr>
+            <tr>
+                <td><img src="/assets/img/chapter-II/Entrevista1_Contratistas.png" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br>Diego es un joven estudiante, quien nos cuenta en primer lugar 
+                sus preferencias personales. Instagram es la aplicación que más usa y en general le gusta escuchar
+                música. Domina de forma avanzada los aparatos tecnológicos. Respecto a la temática principal nos comenta 
+                una experiencia que tuvo con la empresa Promart, él necesitaba un cambio de setup para su computadora, 
+                lamentablemente no resultó como él esperaba. Sobre las posibles opciones de la aplicación que se le 
+                mencionaron, comentó que le parece importante contar con reseñas para verificar los trabajos previos y 
+                un seguimiento de la remodelación para mantenerse informado y vaya de acuerdo a lo pedido.</td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
 
 ### 2.2.3. Análisis de entrevistas.
 
@@ -295,7 +332,6 @@ Comprender las necesidades y requisitos de los usuarios es un aspecto fundamenta
 
 ### 2.3.2. User Task Matrix.
 
-<html>
 
 <body>
     <h2>User Task Matrix</h2>
@@ -369,7 +405,7 @@ Comprender las necesidades y requisitos de los usuarios es un aspecto fundamenta
         </tr>
     </table>
 </body>
-</html>
+
 
 ### 2.3.3. User Journey Mapping.
 **Henry Silva**
