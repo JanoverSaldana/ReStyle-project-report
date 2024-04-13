@@ -1281,7 +1281,7 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                 <td>Consolida todas las entrevistas realizadas</td>
                 <td>Link: 
                   Captura: <br>
-                  <img src="" width="350"></img> </td>
+                  <img src="/assets/img/chapter-V/sprint-1/interview-video.png" width="350"></img> </td>
             </tr>
             <tr>
                 <td>Exposicion</td>
@@ -1291,7 +1291,7 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                   Duración: min</td>
                 <td>Consolida las exposiciones de la TB1</td>
                 <td>Link: Captura: <br>
-                  <img src="" width="350"></img> </td>
+                  <img src="/assets/img/chapter-V/sprint-1/expo-video.png" width="350"></img> </td>
             </tr>
             <tr>
                 <td>Prototypes Navigation / Product Navigation</td>
@@ -1300,8 +1300,8 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                   Formato: .mp4 <br>
                   Duración: min</td>
                 <td>Consolida demostración del flujo de navegación de las aplicaciones, priorizando los user flows relacionados con el core business.</td>
-                <td>Link: Captura: <br>
-                  <img src="" width="350"></img> </td>
+                <td>Link: https://shorturl.at/goCR6 Captura: <br>
+                  <img src="/assets/img/chapter-V/sprint-1/prototype-video.png" width="350"></img> </td>
             </tr>            
         </tbody>
     </table>
