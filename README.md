@@ -271,7 +271,7 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
     </tr>
      <tr> 
         <td></td>
-        <td> Estudiante 3 SO</td>
+        <td> Janover Gonzalo Saldaña Vela TB1: Mantuve una comunicación directa con todos los integrantes del grupo para delegar funciones y mantener inofrmado al equipo de trabajo sobre las responsabilidades y tareas que tenemos que realizar. </td>
         <td></td>
     </tr>
      <tr> 
@@ -298,7 +298,7 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
     </tr>
      <tr> 
         <td></td>
-        <td> Estudiante 3 SO</td>
+        <td> Janover Gonzalo Saldaña Vela TB1: Comunicar nuestras ideas jugó un rol importante para identificar una problemática y plantear un salucion para ello.</td>
          <td></td>
     </tr>
      <tr> 
