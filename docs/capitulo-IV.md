@@ -328,7 +328,11 @@ Segmento remodelador:
 
 ## 4.5. Web Applications Prototyping.
 
-Contenido
+En esta sección se realizó un video para mostrar los user flows de nuestra aplicación web.
+
+Captura: <p align = "center"> <img src="/assets/img/prototype-video.png" width="700"></img></p>
+
+Link: https://shorturl.at/goCR6
 
 ## 4.6. Domain-Driven Software Architecture. 
 
