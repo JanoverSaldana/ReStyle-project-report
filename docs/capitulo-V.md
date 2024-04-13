@@ -1284,7 +1284,7 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                   Formato: .mp4 <br>
                   Duración: min</td>
                 <td>Consolida las exposiciones de la TB1</td>
-                <td>Link: Captura: <br>
+                <td>Link: https://shorturl.at/kxyF2 Captura: <br>
                   <img src="/assets/img/chapter-V/sprint-1/expo-video.png" width="350"></img> </td>
             </tr>
             <tr>
