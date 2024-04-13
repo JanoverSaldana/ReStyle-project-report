@@ -315,7 +315,47 @@ Entrevista a Contratistas
                 <td></td>
             </tr>
         </tbody>
-    </table>
+</table>
+
+Entrevista a Remodeladores
+
+<table>
+        <thead>
+            <tr>
+                <th>Entrevistado 1</th>
+                <th>Rodrigo Porles</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>Santiago de Surco</td>
+            </tr>
+            <tr>
+                <td><img src="/assets/img/chapter-II/RodrigoRemodelador.png" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br>Rodrigo es un joven practicante de la carrera de arquitectura.
+                Actualmente trabaja en una empresa dedicada a la remodelación de interiores. Nos cuenta que la comunicación
+                y coordinación se da mediante Whatsapp y correo electrónico. Para al aspecto de calidad de trabajo, buscan
+                siempre trabajar con materiales de calidad y realizan controles en el proceso de remodelación. Se comunican 
+                principalmente por Whatsapp con sus clientes debido a la fácil accesibilidad de esta aplicación. Promocionan 
+                sus trabajos en la red social Facebook y esto es un diferenciador con respecto a la competencia. Por último,
+                nos comenta la necesidad de una plataforma la cual les permita ampliar la llegada a más clientes y de esta
+                forma crecer como empresa.</td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td></td>
+            </tr>
+        </tbody>
+</table>
 
 
 ### 2.2.3. Análisis de entrevistas.
