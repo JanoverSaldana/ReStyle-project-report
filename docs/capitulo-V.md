@@ -83,7 +83,7 @@ A continuación se describe la gestión del código fuente, también conocida po
 
 * **URL de la organización:** sw53-metasoft - https://github.com/sw53-metasoft
 
-* **URL del repositorio de la Landing Page:** ReStyle-landing-page https://github.com/sw53-metasoft/ReStyle-landing-page
+* **URL del repositorio de la Landing Page:** ReStyle-Landing-Page - https://github.com/sw53-metasoft/ReStyle-Landing-Page
 
 * **URL del repositorio del Front-End:** ReStyle-frontend - https://github.com/sw53-metasoft/ReStyle-frontend
 
@@ -597,17 +597,25 @@ Además, en TypeScript, se siguen las mismas convenciones que se utilizan en Jav
 
 ### 5.1.4. Software Deployment Configuration.
 
-Contenido
+
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 
 ### 5.2.1. Sprint 1
+
+En la fase inicial de nuestro proyecto, nos propusimos llevar a cabo la implementación del diseño de nuestra Landing Page utilizando WebStorm como entorno de desarrollo. Esto implica que al concluir el Sprint, todas las secciones, ya sea Home, Services, Pricing, Testimonials o About Us, deben estar completadas. A continuación, adjuntamos imágenes que ilustran cómo gestionamos las tareas en Pivotal Tracker.
+
+Repositorio: [ReStyle-Landing-Page -https://github.com/sw53-metasoft/ReStyle-Landing-Page ](https://github.com/sw53-metasoft/ReStyle-Landing-Page)
+Landing Page Deployed: [ReStyle - https://sw53-metasoft.github.io/ReStyle-Landing-Page/](https://sw53-metasoft.github.io/ReStyle-Landing-Page/)
+
+
 
 #### 5.2.1.1. Sprint Planning 1.
 
 En el Sprint Planning 1, se llevó a cabo una sesión de planificación para la elaboración de
 la landing page del proyecto. Durante esta reunión, se dividieron las secciones a programar entre los integrantes, 
 además se determinó el plazo de entrega de estas tareas.
+
 
 <table>
   <thead>
@@ -1029,23 +1037,155 @@ además se determinó el plazo de entrega de estas tareas.
 
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review.
 
-Contenido
+Para el Sprint 1 no se han implementado tests. 
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
-Contenido
+Después de completar el Sprint 1, logramos implementar todas las secciones de nuestro Landing Page para garantizar una visualización perfecta. Además, le dimos un formato atractivo que captura la atención del usuario hacia sus diferentes componentes. También agregamos métodos de navegación en la página, como botones ubicados al principio, que te permiten moverte fácilmente de una sección a otra. A continuación, te mostraremos los avances a través de imágenes del resultado obtenido.
+
+Es importante destacar que el objetivo principal del Landing Page es convertir a los visitantes en futuros clientes o usuarios habituales de nuestro servicio. Para lograrlo, utilizamos llamados a la acción (Call To Action) que los guían hacia la aplicación web.
+
+A continuación, te presentamos capturas de pantalla del desarrollo del Landing Page:
+
+**Encabezado y botones de desplazamiento:**
+
+En la parte superior, se encuentra el encabezado (Header) que incluye botones de inicio (Home), beneficios (benefits), Pricing (Pricing), sobre la aplicación (about), testimonios de usuarios (testimonials), un formulario para que nos contacten (Contact), un apartado para saber sobre el equipo (About us) y un botón para cambiar el idioma entre inglés y español. Estos elementos permiten a los visitantes desplazarse fácilmente a la sección que deseen visualizar.
+
+![navbar-landing-page.png](/assets/img/chapter-V/sprint-1/navbar-landing-page.png)
+<p style="text-align:center"><strong>Imagen 01:</strong> Encabezado y botones de desplazamiento</p>
+
+
+**Sección Hero:**
+Se presenta la sección "Hero", que incluye una breve descripción y una frase representativa de TecHelp. Además, permite iniciar el uso del servicio web y proporciona una imagen relacionada con el mismo.
+
+![hero-landing-page.png](/assets/img/chapter-V/sprint-1/hero-landing-page.png)
+
+<p style="text-align:center"><strong>Imagen 02:</strong> Sección Hero</p>
+
+**Sección Benefits:**
+
+Se presenta la sección de beneficios del servicio para cada segmento objetivo identificado por el equipo.
+
+![benefits-landing-page.png](/assets/img/chapter-V/sprint-1/benefits-landing-page.png)
+
+<p style="text-align:center"><strong>Imagen 03:</strong> Sección de beneficios</p>
+
+
+**Sección Membresip:**
+
+Se presenta la sección membership de la landing page, en esta sección nuestros posibles usuarios podrán ver los tipos de membresias y sus costos.
+
+![membreship-landing-page.png](/assets/img/chapter-V/sprint-1/membreship-landing-page.png)
+
+<p style="text-align:center"><strong>Imagen 04:</strong> Sección de membresias de la web aplication</p>
+
+**Sección About the App:**
+
+Se presenta información y un video sobre como funciona la aplicación .
+
+![about-the-app-landing-page.png](/assets/img/chapter-V/sprint-1/about-the-app-landing-page.png)
+
+<p style="text-align:center"><strong>Imagen 05:</strong> Sección de membresias de la web aplication</p>
+
+**Sección testimonials:**
+
+Se presenta testimonios de nuestros usuarios fieles, para generar confianza. 
+
+
+![testimonials-landing-page.png](/assets/img/chapter-V/sprint-1/testimonials-landing-page.png)
+
+<p style="text-align:center"><strong>Imagen 06:</strong> Sección de membresias de la web aplication</p>
+
+
+
+**Sección contact-us:**
+
+A continuación se presenta la sección de contacto, aquí nuestros posibles usuarios pueden realizarnos preguntas personalizadas acerca de la aplicación que se está presentando.
+
+![contact-us-landing-page.png](/assets/img/chapter-V/sprint-1/contact-us-landing-page.png)
+
+<p style="text-align:center"><strong>Imagen 07:</strong> Sección de contatános</p>
+
+
+**Sección AboutThe Team:**
+
+Seguidamente, se presenta la sección sobre nuestro equipo (about-us). En este apartado se muestra información a manera de resumen sobre las personas que están desarrollando la salución de software.
+
+![about-the-team-landing-page.png](/assets/img/chapter-V/sprint-1/about-the-team-landing-page.png)
+<p style="text-align:center"><strong>Imagen 08:</strong> Sección de acerca del equipo</p>
+
+**Sección footer:**
+
+Por último, se exhibe la sección del pie de página, donde encontrará nuestros enlaces a redes sociales, correo y teléfono para que se comuniquen con nosotros.
+
+![footer-landing-page.png](/assets/img/chapter-V/sprint-1/footer-landing-page.png)
+<p style="text-align:center"><strong>Imagen 09:</strong> Sección de acerca del equipo</p>
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
-Contenido
+En el primer Sprint el equipo de desarrollo de MetaSoft ah diseñado, programado y puesto en funcionamiento el sitio web (Landing Page) Para presentar la aplicación Web propuesta denominada "ReStyle". En este sitio web (Landing Page), se lográ visualizar varias secciones que ilustran en que consiste "ReStyle", cada integrante del equipo de desarrollo de Metasoft estuvo a cargo de una sección en especifico. 
+
+<table>
+
+  <thead>
+    <th> End Point</th>
+    <th>Funciones</th>
+  </thead>
+
+  <tbody>
+      <tr>
+        <td><a href="https://sw53-metasoft.github.io/ReStyle-Landing-Page/">[http](https://sw53-metasoft.github.io/ReStyle-Landing-Page/)</a></td>
+        <td>Mostrar la Landing Page Desplegada</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+  </tbody>
+
+</table>
+
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
-Contenido
+Para la implementación de nuestra página, optamos por utilizar GitHub Pages. En este proceso, creamos un repositorio en GitHub donde gestionamos el control de versiones. En la sección de Configuración, publicamos el proyecto almacenado en la rama "realease-V1.0" que previamente se encontrba en la rama release-1.0.
+
+Para desplegar la Landing Page desde GitHubPages hay que seguir los siguientes pasos: 
+
+**1. Ubicar el repositorio que tiene guardado el codigo fuente y dirigirse al apartado de configuración (settings):**
+
+![repo-landing-page.png](/assets/img/chapter-V/sprint-1/repo-landing-page.png)
+
+
+**1. Seleccionar la sección pages:**
+
+![pages-landing-page.png](/assets/img/chapter-V/sprint-1/pages-landing-page.png)
+
+
+**1. Configurar la rama que será usada para hacer deploy:**
+
+![rama-landing-page.png](/assets/img/chapter-V/sprint-1/rama-landing-page.png)
+
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
-Contenido
+En esta entrega, nuestra meta principal fue la implementación de la Landing Page. Para llevar a cabo este objetivo, hicimos uso de diversas herramientas como GitHub, Visual Studio Code, WebStorm, HTML, CSS y JavaScript. A continuación, vamos a presentar los diagramas de flujo que representan los commits realizados por cada miembro del equipo MetaSoft:
+
+A continuación se muestra la cantidad de commits realizadas por cada integrante del equipo durante el desarrollo de la landing page.
+
+![pulse.png](/assets/img/chapter-V/sprint-1/pulse.png)
+
+En la siguiente imagen, se ofrece una representación visual de las fechas en las que se llevaron a cabo cambios en el repositorio de nuestra Landing Page, junto con la cantidad de modificaciones realizadas en cada uno de los commits. Esta representación gráfica es una herramienta valiosa para comprender la evolución temporal del proyecto y la intensidad del desarrollo a lo largo del tiempo.
+
+# CAMBIAR IMAGEN
+
+![pulse.png](/assets/img/chapter-V/sprint-1/pulse.png)
+
+
+Los siguientes gráficos ofrecen una representación visual de las clonaciones registradas en nuestro repositorio, junto con la fecha en que cada una de estas acciones se llevó a cabo. Además, se presenta información sobre la cantidad de visitantes que ha tenido el repositorio de nuestro equipo a lo largo del tiempo.
+
+![clone.png](/assets/img/chapter-V/sprint-1/clone.png)
+
 
 ## Avance de Conclusiones, Bibliografía y Anexos.
 
