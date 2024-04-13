@@ -27,7 +27,7 @@ Ser líderes en innovaciones tecnológicas, elevando la eficiencia de las indust
         <tr>
             <!-- DATOS del integrante 1-->
             <td > 
-            <img src="/assets/img/chapter-I/alejandra.png" height="100"> 
+            <img src="/assets/img/chapter-I/alejandra.png" height="100" alt=""> 
             <br>María  Alejandra Díaz Villacrez u202118315 
             </td>
             <!-- DESCRIPCIÓN del integrante 1-->
@@ -60,7 +60,7 @@ Ser líderes en innovaciones tecnológicas, elevando la eficiencia de las indust
         <tr>
             <!-- DATOS del integrante 4-->
             <td> 
-            <img src="/assets/img/chapter-I/danielfoto.jpg" height="120"">
+            <img src="/assets/img/chapter-I/danielfoto.jpg" height="120">
             Josue Daniel Valverde Lopez U202121440
             </td>
             <!-- DESCRIPCIÓN del integrante 4-->
@@ -71,7 +71,7 @@ Ser líderes en innovaciones tecnológicas, elevando la eficiencia de las indust
         <tr>
             <!-- DATOS del integrante 5-->
             <td> 
-            <img src="/assets/img/chapter-I/Ariana_Vargas_Revollé.jpg" height="120"">
+            <img src="/assets/img/chapter-I/Ariana_Vargas_Revollé.jpg" height="120">
             Ariana Vargas Revollé U20221A928
             </td>
             <!-- DESCRIPCIÓN del integrante 5-->
