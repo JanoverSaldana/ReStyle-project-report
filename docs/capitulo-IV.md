@@ -32,11 +32,11 @@ Para ello, el tipo de letra que nuestro equipo eligió fue Montserrat debido a s
 - Colores:
 Nuestra paleta de colores refleja la identidad de nuestra marca y comunica claramente nuestra oferta a los usuarios. Utilizamos un azul suave (#3F51B5) como color primario y un morado más suave (#757de8) como color secundario. Estos tonos se combinan con colores de acento como el azul claro (#2196F3) y azul oscuro (#003f8f) para resaltar elementos clave y proporcionar feedback visual durante la interacción. Además, empleamos fondos claros (#FFFFFF), fondos secundarios ligeramente sombreados (#f5f5f5) y fondos más oscuros (#cccccc) para mantener una experiencia visual coherente y atractiva en toda la aplicación.
 
-<p align = "center"> <img src="/assets/img/chapter-IV/colores.png" width="375"></img> </p>
+<p align = "center"> <img src="/assets/img/chapter-IV/Colores.png" width="375"></img> </p>
 
 - Espaciado: En nuestro diseño, utilizaremos un espaciado consistente de 8 píxeles entre elementos para garantizar una distribución uniforme y una apariencia equilibrada en toda la interfaz. Este espaciado proporcionará suficiente separación entre elementos para mejorar la legibilidad y la usabilidad, al tiempo que mantiene un aspecto limpio y organizado en nuestra aplicación.
 
-<p align = "center"> <img src="/assets/img/chapter-IV/espaciado.png" width="375"></img> </p>
+<p align = "center"> <img src="/assets/img/chapter-IV/Espaciado.png" width="375"></img> </p>
 
 ### 4.1.2. Web Style Guidelines.
 
