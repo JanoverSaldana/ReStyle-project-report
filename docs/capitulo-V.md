@@ -1273,7 +1273,7 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                   Formato: .mp4 <br>
                   Duración:  min </td>
                 <td>Consolida todas las entrevistas realizadas</td>
-                <td>Link: 
+                <td>Link: https://shorturl.at/jnt25 
                   Captura: <br>
                   <img src="/assets/img/chapter-V/sprint-1/interview-video.png" width="350"></img> </td>
             </tr>
