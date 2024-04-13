@@ -260,9 +260,11 @@
          <td></td>
     </tr>
      <tr> 
-        <td></td>
-        <td> Estudiante 5 SO</td>
-         <td></td>
+        <td>Como parte integral del equipo, me comprometí a comunicar de manera efectiva y objetiva tanto las ideas generadas durante el proceso de diseño como los resultados obtenidos. Adapté mi discurso según la audiencia, asegurándome de transmitir la información de manera clara y comprensible para personas con diversos niveles de conocimiento técnico.</td>
+        <td> <b>Huaman Bellido, Josten Marc TB1</b>
+            contribuí al proyecto realizando el diseño del producto con sus características distintivas. Esto implicó traducir los requisitos recopilados y las historias de usuario en un diseño funcional y atractivo. Me aseguré de que el diseño reflejara las necesidades y preferencias de los segmentos objetivo, mientras mantenía la usabilidad y la estética del producto. 
+        </td>
+         <td>En conclusión, la implementación de una estructura organizativa eficiente nos permitió transmitir de manera precisa y efectiva nuestras ideas y resultados a una audiencia diversa en el contexto del proyecto de ingeniería de software</td>
     </tr>
     <tr>
       <td>Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto de ingeniería</td>
@@ -285,9 +287,11 @@
          <td></td>
     </tr>
      <tr> 
-        <td></td>
-        <td> Estudiante 5 SO</td>
-         <td></td>
+        <td>En mi función dentro del proyecto, redacté de manera precisa y objetiva documentos técnicos y reportes, adaptando el contenido según la audiencia y aplicando técnicas de redacción eficaz para garantizar una comunicación efectiva y clara.</td>
+        <td> <b>Huaman Bellido, Josten Marc TB1</b>
+          Desarrollé las pautas de estilo que garantizaban coherencia y uniformidad en la presentación de la información. Estas directrices ayudaron a mantener un estándar visual y de comunicación consistente en todo el trabajo, facilitando así la comprensión y el seguimiento por parte de los usuarios.
+        </td>
+         <td>En conclusión, a través de la creación de pautas de estilo (style guidelines), logramos mantener coherencia y claridad en la presentación de la información. Estas directrices aseguraron una comunicación efectiva y objetiva de nuestras soluciones mediante el documento escrito, contribuyendo así al éxito del proyecto de ingeniería de software.</td>
     </tr>
   </tbody>
 </table>
