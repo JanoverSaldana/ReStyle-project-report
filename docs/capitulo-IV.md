@@ -289,16 +289,16 @@ Crear review con exito
 
 Segmento contratista:
 
-<p align = "center"> <img src="/assets/img/user-login-propietario.png" width="700"></img></p>
+<p align = "center"> <img src="/assets/img/user-flow-login-propietario.png" width="700"></img></p>
 <p align = "center"> <img src="/assets/img/user-flow-busqueda.png" width="700"></img></p>
 <p align = "center"> <img src="/assets/img/user-flow-review.png" width="700"></img></p>
 
 Segmento remodelador:
 
-<p align = "center"> <img src="/assets/img/user-login-remodelador.png" width="700"></img></p>
-<p align = "center"> <img src="/assets/img/user-portafolio.png" width="700"></img></p>
-<p align = "center"> <img src="/assets/img/user-solicitudes.png" width="700"></img></p>
-<p align = "center"> <img src="/assets/img/user-seguimiento.png" width="700"></img></p>
+<p align = "center"> <img src="/assets/img/user-flow-login-remodelador.png" width="700"></img></p>
+<p align = "center"> <img src="/assets/img/user-flow-portafolio.png" width="700"></img></p>
+<p align = "center"> <img src="/assets/img/user-flow-solicitudes.png" width="700"></img></p>
+<p align = "center"> <img src="/assets/img/user-flow-seguimiento.png" width="700"></img></p>
 
 
 ## 4.5. Web Applications Prototyping.
