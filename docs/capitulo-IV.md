@@ -154,7 +154,34 @@ El wireframe servirá como punto de partida para el diseño visual y la implemen
 
 ### 4.3.2. Landing Page Mock-up.
 
-Contenido
+En esta sección se muestra el Landing Page Mock-up de nuestra Web Application.
+
+Header de la aplicación
+<p align = "center"> <img src="/assets/img/landing-page-header.png"" width="700"></img> </p>
+
+Login de la aplicación
+<p align = "center"> <img src="/assets/img/landing-page-login.png"" width="700"></img> </p>
+
+Imagen y Motivos de la aplicación
+<p align = "center"> <img src="/assets/img/landing-page-imagenymotivos.png"" width="700"></img> </p>
+
+Alcance de la aplicación
+<p align = "center"> <img src="/assets/img/landing-page-alcance.png"" width="700"></img> </p>
+
+Acerca de la aplicación
+<p align = "center"> <img src="/assets/img/landing-page-acercade.png"" width="700"></img> </p>
+
+Testimonios de la aplicación
+<p align = "center"> <img src="/assets/img/landing-page-testimonios.png"" width="700"></img> </p>
+
+Contáctanos de la aplicación
+<p align = "center"> <img src="/assets/img/landing-page-contactanos.png"" width="700"></img> </p>
+
+Perfil de usuarios de la aplicación
+<p align = "center"> <img src="/assets/img/landing-page-perfilsegmento.png"" width="700"></img> </p>
+
+Footer de la aplicación
+<p align = "center"> <img src="/assets/img/landing-page-footer.png"" width="700"></img> </p>
 
 ## 4.4. Web Applications UX/UI Design.
 
