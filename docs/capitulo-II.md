@@ -308,11 +308,11 @@ Entrevista a Contratistas
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td></td>
+                <td>4:41min </td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
-                <td></td>
+                <td> https://shorturl.at/jnt25 </td>
             </tr>
         </tbody>
 </table>
@@ -348,11 +348,11 @@ Entrevista a Remodeladores
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td></td>
+                <td>0:00 min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
-                <td></td>
+                <td>https://shorturl.at/jnt25</td>
             </tr>
             <tr>
                 <th>Entrevistado 2</th>
@@ -372,11 +372,11 @@ Entrevista a Remodeladores
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td></td>
+                <td>9:50 min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
-                <td></td>
+                <td>https://shorturl.at/jnt25</td>
             </tr>
 </table>
 
