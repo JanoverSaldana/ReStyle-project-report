@@ -54,10 +54,30 @@
 
 ### Project Report Collaboration Insights
 
+URL del repositorio para el reporte del proyecto: https://github.com/sw53-metasoft/ReStyle-project-report
 
+Github Collaboration Insights proporciona un cronograma que muestra las principales ramas y los procesos de fusión que han ocurrido. Todas las ramas se han generado siguiendo los principios de GitFlow, lo que garantiza una organización efectiva al utilizar un sistema de control de versiones.
 
+- Alejanadra Villacrez (alehandraxx)
+- Daniel Valverde (daniel-vl7)
+- Janover Saldaña (JanoverSaldana)
+- Josten Huaman (JostenHuaman)
+- Ariana Vargas (vargas3470)
 
-<br>
+Se divieron las siguientes ramas para la colaboración en el proyecto:
+
+- main
+- capitulo-I
+- capitulo-II
+- capitulo-III
+- capitulo-IV
+- capitulo-V
+- develop
+
+<img src = "https://i.postimg.cc/rmsM1RJh/pulse-tb1-metasoft.png"></img>
+<img src = "https://i.postimg.cc/tTcy2Rv9/network-tb1-metasoft.png"></img>
+<img src = "https://i.postimg.cc/wB09RQhy/traffic-tb1-metasoft.png"></img>
+
 
 ## Contenido 
 
