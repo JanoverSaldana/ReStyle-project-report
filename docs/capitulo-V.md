@@ -597,6 +597,21 @@ Además, en TypeScript, se siguen las mismas convenciones que se utilizan en Jav
 
 ### 5.1.4. Software Deployment Configuration.
 
+Para desplegar la Landing Page desde GitHubPages hay que seguir los siguientes pasos: 
+
+**1. Ubicar el repositorio que tiene guardado el codigo fuente y dirigirse al apartado de configuración (settings):**
+
+![repo-landing-page.png](/assets/img/chapter-V/sprint-1/repo-landing-page.png)
+
+
+**1. Seleccionar la sección pages:**
+
+![pages-landing-page.png](/assets/img/chapter-V/sprint-1/pages-landing-page.png)
+
+
+**1. Configurar la rama que será usada para hacer deploy:**
+
+![rama-landing-page.png](/assets/img/chapter-V/sprint-1/rama-landing-page.png)
 
 
 ## 5.2. Landing Page, Services & Applications Implementation.
@@ -1199,34 +1214,13 @@ En el primer Sprint el equipo de desarrollo de MetaSoft ah diseñado, programado
 
 Para la implementación de nuestra página, optamos por utilizar GitHub Pages. En este proceso, creamos un repositorio en GitHub donde gestionamos el control de versiones. En la sección de Configuración, publicamos el proyecto almacenado en la rama "realease-V1.0" que previamente se encontrba en la rama release-1.0.
 
-Para desplegar la Landing Page desde GitHubPages hay que seguir los siguientes pasos: 
-
-**1. Ubicar el repositorio que tiene guardado el codigo fuente y dirigirse al apartado de configuración (settings):**
-
-![repo-landing-page.png](/assets/img/chapter-V/sprint-1/repo-landing-page.png)
-
-
-**1. Seleccionar la sección pages:**
-
-![pages-landing-page.png](/assets/img/chapter-V/sprint-1/pages-landing-page.png)
-
-
-**1. Configurar la rama que será usada para hacer deploy:**
-
-![rama-landing-page.png](/assets/img/chapter-V/sprint-1/rama-landing-page.png)
-
+Langing Page -> 
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 En esta entrega, nuestra meta principal fue la implementación de la Landing Page. Para llevar a cabo este objetivo, hicimos uso de diversas herramientas como GitHub, Visual Studio Code, WebStorm, HTML, CSS y JavaScript. A continuación, vamos a presentar los diagramas de flujo que representan los commits realizados por cada miembro del equipo MetaSoft:
 
 A continuación se muestra la cantidad de commits realizadas por cada integrante del equipo durante el desarrollo de la landing page.
-
-![pulse.png](/assets/img/chapter-V/sprint-1/pulse.png)
-
-En la siguiente imagen, se ofrece una representación visual de las fechas en las que se llevaron a cabo cambios en el repositorio de nuestra Landing Page, junto con la cantidad de modificaciones realizadas en cada uno de los commits. Esta representación gráfica es una herramienta valiosa para comprender la evolución temporal del proyecto y la intensidad del desarrollo a lo largo del tiempo.
-
-# CAMBIAR IMAGEN
 
 ![pulse.png](/assets/img/chapter-V/sprint-1/pulse.png)
 
