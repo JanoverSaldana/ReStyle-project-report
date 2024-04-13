@@ -1050,6 +1050,12 @@ Contenido
 ## Avance de Conclusiones, Bibliografía y Anexos.
 
 ### **Conclusiones**
+
+En conclusión, el propósito de este informe consiste en elaborar un documento que incluya especificaciones que permitan documentar una solución de software. Para lograrlo, es necesario incluir información detallada sobre el proyecto a desarrollar, lo cual implica describir la idea de manera clara y concisa. Este análisis debe ser completo y exhaustivo, y debe proporcionar información detallada sobre los requisitos, las funcionalidades y los objetivos del software.
+
+Las user stories son una herramienta útil para describir requisitos de software de manera simple y centrada en el usuario. En conclusión, las user stories son una herramienta importante en el desarrollo de software ágil para garantizar que el equipo esté creando un producto centrado en el usuario y que se estén satisfaciendo las necesidades del cliente de manera efectiva.
+
+
   
 ### **Bibliografía**
 Instituto Nacional de Estadística e Informática. (2018). En el país existen más de diez millones de viviendas particulares censadas. Recuperado de: https://m.inei.gob.pe/prensa/noticias/en-el-pais-existen-mas-de-diez-millones-de-viviendas-particulares-censadas-10893/
@@ -1059,6 +1065,8 @@ Instituto Nacional de Estadística e Informática. (2018). Informe Técnico N° 
 Interaction Design Foundation. (s.f.). A simple introduction to Lean UX. Recuperado de: https://www.interaction-design.org/literature/article/a-simple-introduction-to-lean-ux#:~:text=Creating%20a%20Hypothesis%20in%20Lean%20UX,-The%20hypotheses%20created&text=There's%20a%20simple%20format%20that,level%20of%20sign%20up%20completions.
 
 Ipsos. (2019). Planes para la vivienda y el mejoramiento del hogar 2019. Recuperado de: https://www.ipsos.com/es-pe/planes-para-la-vivienda-y-el-mejoramiento-del-hogar-2019
+
+Microsoft. (2022). Aceleración digital: Más del 94% de las pymes peruanas invirtió en tecnología en el último año [Comunicado de prensa]. Recuperado de https://news.microsoft.com/es-xl/aceleracion-digital-mas-del-94-de-las-pymes-peruanas-invirtio-en-tecnologia-en-el-ultimo-ano/
 
 Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su vivienda. Recuperado de: https://peruconstruye.net/2023/08/03/cinco-razones-eligen-remodelar-vivienda/
 
