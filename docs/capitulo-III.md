@@ -3,14 +3,12 @@
 ## 3.1. To-Be Scenario Mapping.
 
 **Henry Silva**
-![ToBeHenry](/docs/assets/img/ToBeHenry.jpg)
+![ToBeHenry](/assets/img/chapter-III/ToBeHenry.jpg)
 
 **Danilo Alvez**
-![ToBeDanilo](/docs/assets/img/ToBeDanilo.jpg)
+![ToBeDanilo](/assets/img/chapter-III/ToBeDanilo.jpg)
 
 ## 3.2. User Stories. 
-
-Contenido
 
 <table>
       <thead>
@@ -835,10 +833,10 @@ Contenido
 
 
 **Henry Silva**
-![ToBeHenry](/docs/assets/img/Impact_map_HenryS.png)
+![ToBeHenry](/assets/img/chapter-III/Impact_map_HenryS.png)
 
 **Danilo Alvez**
-![ToBeDanilo](/docs/assets/img/Impact_map_Danilo.png)
+![ToBeDanilo](/assets/img/chapter-III/Impact_map_Danilo.png)
 
 
 ## 3.4. Product Backlog.
