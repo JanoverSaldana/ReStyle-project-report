@@ -113,7 +113,7 @@ Esto muestra que continuamente en el Perú existe una gran cantidad de personas 
 
 Según el News Center Microsoft Latinoamérica, más del 94% de las pymes peruanas invirtió en tecnología en el último año. 
 
-> En este sentido, más del 94% de las pymes invirtió en tecnologías en el último año. Entre las tecnologías que consideran prioritarias son equipos de cómputo portátiles (85%), así como almacenamiento/computación en la nube (52%), software para videollamadas (46%), y software para trabajo colaborativo (41%).
+> "En este sentido, más del 94% de las pymes invirtió en tecnologías en el último año. Entre las tecnologías que consideran prioritarias son equipos de cómputo portátiles (85%), así como almacenamiento/computación en la nube (52%), software para videollamadas (46%), y software para trabajo colaborativo (41%)" (Microsoft,2022)
 
 <p align = "center"> <img src="/assets/img/chapter-I/Infografia-Estudio-SMB.png" width="500"></img> </p>
 
