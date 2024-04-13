@@ -217,18 +217,12 @@ En esta sección se muestran los mock-ups realizados para nuestro Web Applicatio
 
 Login de la aplicación
 <p align = "center"> <img src="/assets/img/mockup-login.png" width="700"></img> </p>
-Crear perfil de propietario
-<p align = "center"> <img src="/assets/img/mockup-perfil-propietario.png" width="700"></img> </p>
-Crear perfil de remodelador
+Registrarse
+<p align = "center"> <img src="/assets/img/mockup-registro.png" width="700"></img> </p>
+Perfil de remodelador
 <p align = "center"> <img src="/assets/img/mockup-perfil-remodelador.png" width="700"></img> </p>
-Editar perfil de propietario
-<p align = "center"> <img src="/assets/img/mockup-editar-propietario.png" width="700"></img> </p>
-Editar perfil de propietario mensaje
-<p align = "center"> <img src="/assets/img/mockup-editar-propietario-exito.png" width="700"></img> </p>
-Editar perfil de remodelador
-<p align = "center"> <img src="/assets/img/mockup-editar-remodelador.png" width="700"></img> </p>
-Editar perfil de remodelador mensaje
-<p align = "center"> <img src="/assets/img/mockup-editar-remodelador-exito.png" width="700"></img> </p>
+Perfil de contratista
+<p align = "center"> <img src="/assets/img/mockup-perfil-contratista.png" width="700"></img> </p>
 Búsqueda de remodeladores
 <p align = "center"> <img src="/assets/img/mockup-busqueda.png" width="700"></img> </p>
 Búsqueda de remodeladores por filtro
@@ -293,7 +287,19 @@ Crear review con exito
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 
-Contenido
+Segmento contratista:
+
+<p align = "center"> <img src="/assets/img/user-login-propietario.png" width="700"></img></p>
+<p align = "center"> <img src="/assets/img/user-flow-busqueda.png" width="700"></img></p>
+<p align = "center"> <img src="/assets/img/user-flow-review.png" width="700"></img></p>
+
+Segmento remodelador:
+
+<p align = "center"> <img src="/assets/img/user-login-remodelador.png" width="700"></img></p>
+<p align = "center"> <img src="/assets/img/user-portafolio.png" width="700"></img></p>
+<p align = "center"> <img src="/assets/img/user-solicitudes.png" width="700"></img></p>
+<p align = "center"> <img src="/assets/img/user-seguimiento.png" width="700"></img></p>
+
 
 ## 4.5. Web Applications Prototyping.
 
