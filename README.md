@@ -35,12 +35,22 @@
 
 ## Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor    | Descripción de modificación           |
-|---------|------------|----------|---------------------------------------|
-| 1.0     | 24/03/2024 | Gonzalo Saldaña | Se creo la ramificación del repositorio y adicionó los documentos en su versión inicial previa a la investigacón |
-| 1.1     | 24/03/2024 | Alejandra Diaz  | Se comenzó la redacción del capítulo 1 "Introducción" |
-
-
+| Versión | Fecha      | Autor                                                                          | Descripción de modificación                                                                                      |
+|---------|------------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| 1.0     | 24/03/2024 | Gonzalo Saldaña                                                                | Se creo la ramificación del repositorio y adicionó los documentos en su versión inicial previa a la investigacón |
+| 1.1     | 24/03/2024 | Alejandra Diaz                                                                 | Se comenzó la redacción del capítulo 1 "Introducción"                                                            |
+| 1.2     | 25/03/2024 | Ariana Vargas                                                                  | Se comenzó la redacción del capítulo 2 "Requirements Elicitation & Analysis"                                     |
+| 1.3     | 25/03/2024 | Gonzalo Saldaña                                                                | Continuación de la redacción del capítulo 2 "Requirements Elicitation & Analysis"                                |
+| 1.4     | 28/03/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde, Josten Huaman | Se comenzó la redacción del capítulo 3 "Requirements Specification" , redacción de historias de usuario          |
+| 1.5     | 31/03/2024 | Josten Huaman                                                                  | Se comenzó la redacción del capítulo 4 "Product Design"                                                          |
+| 1.6     | 31/03/2024 | Daniel Valverde                                                                | Continuación de la redacción del capítulo 4 "Product Design"                                                     |
+| 1.7     | 03/04/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde, Josten Huaman | Se comenzó la elaboración de wireframes y mockups de la aplicación del capítulo 4 "Product Design"               |
+| 1.8     | 05/04/2024 | Alejandra Diaz                                                                 | Se comenzó la elaboración de wireflows del capítulo 4 "Product Design"                                           |
+| 1.9     | 11/04/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde, Josten Huaman | Se comenzó la elaboración de la landing page, documentación                                                      |
+| 1.10    | 11/04/2024 | Daniel Valverde                                                                | Se comenzó la redacción del capítulo 5 "Product Implementation, Validation & Deployment"                         |
+| 1.11    | 11/04/2024 | Gonzalo Saldaña                                                                | Continuación de la redacción del capítulo 5 "Product Implementation, Validation & Deployment"                    |
+| 1.12    | 11/04/2024 | Ariana Vargas                                                                  | Continuación de la redacción del 5 "Product Implementation, Validation & Deployment"                             |
+| 1.13    | 12/04/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde, Josten Huaman | Finalización de items del Capítulo 5 del documento                                                               |
 
 ### Project Report Collaboration Insights
 
