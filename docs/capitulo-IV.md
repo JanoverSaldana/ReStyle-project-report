@@ -158,28 +158,28 @@ En esta sección se muestra el Landing Page Mock-up de nuestra Web Application.
 
 Hero de la aplicación: El hero diseñado para nuestro informe sobre ReStyle presenta una imagen de fondo que exhibe varios proyectos de diseño de interiores, acompañada de un botón de llamado a la acción "¡Empieza ahora!" para incentivar la interacción. Con un título impactante y una breve descripción, el hero introduce a los lectores en la esencia de nuestra empresa, mientras que una barra de navegación proporciona acceso rápido a las diversas secciones del informe, facilitando una experiencia de lectura fluida y envolvente.
 
-<p align = "center"> <img src="/assets/img/chapter-IV/landing-page-header.png"" width="700"></img> </p>
+<p align = "center"> <img src="/assets/img/chapter-IV/landing-page-header.png" width="700"></img> </p>
 
 Imagen y Motivos de la aplicación: En esta sección,destacaremos las razones convincentes por las cuales los clientes deberían elegirnos para remodelar sus departamentos. Nuestro enfoque centrado en la excelencia y la innovación, respaldado por un equipo de expertos en diseño de interiores, garantiza resultados sobresalientes que superan las expectativas. Los propietarios confían en nosotros para transformar sus espacios en hogares modernos y funcionales, gracias a nuestra atención meticulosa al detalle y nuestro compromiso con la calidad en cada proyecto que emprendemos.
-<p align = "center"> <img src="/assets/img/chapter-IV/landing-page-imagenymotivos.png"" width="700"></img> </p>
+<p align = "center"> <img src="/assets/img/chapter-IV/landing-page-imagenymotivos.png" width="700"></img> </p>
 
 Alcance de la aplicación: En la sección dedicada a nuestros planes de servicio, presentamos tres opciones diseñadas para satisfacer las necesidades de nuestros clientes: Plan Crece+, Plan Pro y Plan Pro+. Cada plan ofrece una gama única de servicios y beneficios adaptados a diferentes presupuestos y objetivos de diseño.
-<p align = "center"> <img src="/assets/img/chapter-IV/landing-page-alcance.png"" width="700"></img> </p>
+<p align = "center"> <img src="/assets/img/chapter-IV/landing-page-alcance.png" width="700"></img> </p>
 
 Acerca de la aplicación: En la sección dedicada a nuestra aplicación, ofrecemos una breve descripción de nuestra propuesta de valor, resaltando cómo nuestra aplicación simplifica y mejora la experiencia de diseño de interiores para nuestros usuarios. Acompañando esta descripción, presentamos una imagen de nuestra aplicación junto con dos llamativos botones de llamado a la acción, uno para descargar desde Google Play y otro desde la App Store, brindando a los usuarios un acceso rápido y conveniente a nuestra plataforma desde cualquier dispositivo móvil.
-<p align = "center"> <img src="/assets/img/chapter-IV/landing-page-acercade.png"" width="700"></img> </p>
+<p align = "center"> <img src="/assets/img/chapter-IV/landing-page-acerdade.png" width="700"></img> </p>
 
 Testimonios de la aplicación: En la sección de testimonios, compartimos las experiencias auténticas de nuestros clientes satisfechos. Cada testimonio está acompañado de una imagen del cliente junto con una breve descripción que destaca cómo nuestra empresa transformó sus espacios y superó sus expectativas. Estos testimonios proporcionan una prueba tangible de la calidad y el impacto positivo de nuestro trabajo, ayudando a generar confianza y credibilidad entre nuestros potenciales clientes.
-<p align = "center"> <img src="/assets/imgchapter-IV/landing-page-testimonios.png"" width="700"></img> </p>
+<p align = "center"> <img src="/assets/img/chapter-IV/landing-page-testimonios.png" width="700"></img> </p>
 
 Contáctanos de la aplicación: En nuestra sección Contáctanos, te ofrecemos una manera sencilla y conveniente de comunicarte con nosotros. Presentamos un formulario donde puedes ingresar tu nombre completo, tu correo electrónico y un mensaje describiendo en qué podemos ayudarte. Esta herramienta nos permite entender tus necesidades de manera precisa y responder de manera efectiva, brindándote la mejor asistencia posible. Estamos comprometidos a ofrecerte un servicio personalizado y atento en cada paso del camino.
-<p align = "center"> <img src="/assets/img/chapter-IV/landing-page-contactanos.png"" width="700"></img> </p>
+<p align = "center"> <img src="/assets/img/chapter-IV/landing-page-contactanos.png" width="700"></img> </p>
 
 Sobre el equipo: En la sección Sobre el Equipo, te invitamos a conocer más sobre las personas apasionadas que hacen posible nuestra empresa. Presentamos un video que ofrece una mirada íntima y auténtica a nuestro equipo, destacando nuestras habilidades, experiencia y compromiso con la excelencia en el diseño de interiores. A través de este video, queremos compartir nuestra historia, valores y visión, mostrándote el corazón y el alma de nuestra empresa.
-<p align = "center"> <img src="/assets/img/chapter-IV/landing-page-sobreNosotros.png"" width="700"></img> </p>
+<p align = "center"> <img src="/assets/img/chapter-IV/landing-page-sobreNosotros.png" width="700"></img> </p>
 
 Footer de la aplicación: En nuestro Footer, te ofrecemos acceso rápido a nuestras redes sociales y formas de contacto adicionales. Presentamos nuestro logo distintivo de la empresa, junto con enlaces para seguirnos en Twitter, Facebook e Instagram, manteniéndote al tanto de nuestras últimas noticias y proyectos. Además, proporcionamos un número de teléfono de referencia para que nos contactes directamente y un correo electrónico de nuestra empresa, asegurando múltiples vías de comunicación para satisfacer tus necesidades y consultas. 
-<p align = "center"> <img src="/assets/img/chapter-IV/landing-page-footer.png"" width="700"></img> </p>
+<p align = "center"> <img src="/assets/img/chapter-IV/landing-page-footer.png" width="700"></img> </p>
 
 ## 4.4. Web Applications UX/UI Design.
 
