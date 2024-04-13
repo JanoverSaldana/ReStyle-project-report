@@ -1032,6 +1032,55 @@ además se determinó el plazo de entrega de estas tareas.
     <td></td>
     <td>12/04/2024</td>
   </tr>
+  <tr>
+    <td>feature/header</td>
+    <td>3d34fc10a7a462d0596d36a92e67125be1f1ae91</td>
+    <td>Fix(header): corrected media query navbar and footer</td>
+    <td></td>
+    <td>12/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/contact-us</td>
+    <td>2fa09143b82765a4cc2193d58ee37e6b5b1d0305</td>
+    <td>feat(contact-us): Added structure and styles the section contact-us.</td>
+    <td></td>
+    <td>13/04/2024</td>
+  </tr>
+   <tr>
+    <td>feature/contact-us</td>
+    <td>b583fe1c17b884f1cd7e4b494ffdbc967c7620a6</td>
+    <td>feat(contact-us): Added content in English to the contact us section.</td>
+    <td></td>
+    <td>13/04/2024</td>
+  </tr>
+   <tr>
+    <td>feature/about-the-team</td>
+    <td>16ae25c51bb604cf6dab26f3bf94633db0ed06f3</td>
+    <td>feat(about-the-team): Added structure and styles section about the team.</td>
+    <td></td>
+    <td>13/04/2024</td>
+  </tr>
+   <tr>
+    <td>feature/about-the-team</td>
+    <td>46c82bcbe76083d2a897daed385c683db2b34d25</td>
+    <td>feat(about-the-team): Added informotion index-en.</td>
+    <td></td>
+    <td>13/04/2024</td>
+  </tr>
+   <tr>
+    <td>feature/about-the-team</td>
+    <td>7e9f4936b15415764793a48f5cc388279079e052</td>
+    <td>fix(): corrected media query tittle and buttons.</td>
+    <td></td>
+    <td>13/04/2024</td>
+  </tr>
+   <tr>
+    <td>develop</td>
+    <td>14451d0842475efc8a9448fa951ade1c1559f2c1</td>
+    <td>feat(develop): updated route bottom language.</td>
+    <td></td>
+    <td>13/04/2024</td>
+  </tr>
 </table>
 
 
