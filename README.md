@@ -256,7 +256,7 @@
     </tr>
      <tr> 
         <td></td>
-        <td> Estudiante 4 SO</td>
+        <td> <b>Vargas Revollé, Ariana TB1</b> Se realizaron User Stories sobre la funcionalidad de la applicacion asi como la elaboracion de user personas y los mapas requeridos para la comprension de los segmentos objetivos</td>
          <td></td>
     </tr>
      <tr> 
@@ -283,7 +283,7 @@
     </tr>
      <tr> 
         <td></td>
-        <td> Estudiante 4 SO</td>
+        <td> <b>Vargas Revollé, Ariana TB1</b> Se contribuyo con el landing page del Startup y documento los aportes de los integrantes del equipo </td>
          <td></td>
     </tr>
      <tr> 
