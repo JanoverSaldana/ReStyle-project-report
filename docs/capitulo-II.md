@@ -17,7 +17,7 @@ En este apartado el equipo realizará un analisis competitivo de nuestras 3 prin
     <tbody style="text-align: center">
         <tr>
             <th colspan="2"></th>
-            <th><img src="/assets/img/chapter-II/Logo-aram.png" width="100" alt=""></th>
+            <th><img src="/assets/img/chapter-II/restyle-logo.png" width="100" alt=""></th>
             <th><img src="/assets/img/chapter-II/Logo-aram.png" width="100" alt=""></th>
             <th><img src="/assets/img/chapter-II/Logo-remodelatucasa.png" width="100" alt=""></th>
             <th><img src="/assets/img/chapter-II/Logo-timbrit.png" width="250" alt=""></th>
