@@ -354,7 +354,30 @@ Entrevista a Remodeladores
                 <td>URL de la entrevista</td>
                 <td></td>
             </tr>
-        </tbody>
+            <tr>
+                <th>Entrevistado 2</th>
+                <th>Olga Samanez (Innovacion Interiores)</th>
+            </tr>
+            <tr>
+                <td>Edad</td>
+                <td>52</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>Pueblo Libre</td>
+            </tr>
+            <tr>
+                <td><img src="/assets/img/chapter-II/InnovacionInterioresEntrevista.png" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br> La empresa de diseño de interiores InnovacionInteriores lleva unos pocos años en el mercado. Su creadora nos comenta que utilizan una serie de regulaciones y pasos para asegurar que la calidad de su trabajo sea la mejor cualidad de su empresa. Se comunican con sus clientes de manera online y presencial. Además, promocionan sus servicios en redes sociales. En conclusión, esta empresa está familiarizada con productos tecnológicos que le facitan alcanzar más clientes y expandir su potencial.</td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td></td>
+            </tr>
 </table>
 
 
