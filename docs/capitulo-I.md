@@ -111,6 +111,18 @@ La INEI muestra estadísticas de aumento de la cantidad de viviendas que hay ent
 
 Esto muestra que continuamente en el Perú existe una gran cantidad de personas que buscan renovar o construir sus hogares con el objetivo de poseer un mejor estilo de vida. 
 
+Según el News Center Microsoft Latinoamérica, más del 94% de las pymes peruanas invirtió en tecnología en el último año. 
+
+> En este sentido, más del 94% de las pymes invirtió en tecnologías en el último año. Entre las tecnologías que consideran prioritarias son equipos de cómputo portátiles (85%), así como almacenamiento/computación en la nube (52%), software para videollamadas (46%), y software para trabajo colaborativo (41%).
+
+<p align = "center"> <img src="/assets/img/chapter-I/Infografia-Estudio-SMB.png" width="500"></img> </p>
+
+<p align = "center">
+ <em> Fuente: Aceleración digital: más del 94% de las pymes peruanas invirtió en tecnología en el último año. </em>
+</p>
+
+Esto indica que cada vez más pequeñas y medianas empresas apuestan por transformar sus negocios a la era digital. Adoptando herramientas y soluciones tecnológicas para acelerar procesos y ser más productivas.
+
 ### Problemáticas
 
 #### Técnica de las 5 ‘W’s y 2 ‘H’s
@@ -344,8 +356,6 @@ Según el informe técnico de demografía empresarial en el Perú, elaborado por
 > La tasa neta de crecimiento fue de 1,2% para el I Trimestre del 2018, significando un incremento de empresas. Según actividad económica los salones de belleza y las actividades de servicio de comidas y bebidas tuvieron la mayor tasa neta con el 2,5% cada una, seguido de construcción con 1,8%, y transporte y almacenamiento con 1,5%, entre las más representativas.
 
 <p align = "center"> <img src="/assets/img/chapter-I/Informe técnico de demografía empresarial en el Perú.png" width="500"></img> </p>
-
-<!-- https://github.com/sw53-metasoft/ReStyle-project-report/assets/91510417/a5b72e52-7ce6-470e-8d45-98270a9ec056 -->
 
 <p align = "center">
  <em> Fuente: Informe técnico de demografía empresarial en el Perú. </em>
