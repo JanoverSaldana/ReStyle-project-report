@@ -1293,6 +1293,16 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                 <td>Link: Captura: <br>
                   <img src="" width="350"></img> </td>
             </tr>
+            <tr>
+                <td>Prototypes Navigation / Product Navigation</td>
+                <td>Cantidad de videos: 1 <br>
+                  Nomenclatura: upc-pre-202401-si729-sw53-metasoft-prototype-navigation-sprint-1 <br>
+                  Formato: .mp4 <br>
+                  Duración: min</td>
+                <td>Consolida demostración del flujo de navegación de las aplicaciones, priorizando los user flows relacionados con el core business.</td>
+                <td>Link: Captura: <br>
+                  <img src="" width="350"></img> </td>
+            </tr>            
         </tbody>
     </table>
 
