@@ -309,6 +309,13 @@ Crear review
 Crear review con exito
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-crear-review-exito.png" width="700"></img> </p>
 
+En esta sección se muestran los mock-ups realizados para nuestro Web Application version Mobile.
+
+<p align = "center"> <img src="/assets/img/chapter-IV/mockup-mobile-bienvenida.png" height="700"></img> </p>
+
+<p align = "center"> <img src="/assets/img/chapter-IV/mockup-mobile-busqueda.png" height="700"></img> </p>
+
+<p align = "center"> <img src="/assets/img/chapter-IV/mockup-mobile-contratar.png" height="700"></img> </p>
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 
