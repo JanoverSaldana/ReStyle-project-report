@@ -1582,6 +1582,15 @@ además se determinó el plazo de entrega de estas tareas.
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
+En esta entrega, nuestra meta principal fue la implementación de nuestra aplicación web. Para llevar a cabo este objetivo, hicimos uso de diversas herramientas como GitHub, Visual Studio Code, WebStorm, HTML, CSS y Typescript. A continuación, vamos a presentar los diagramas de flujo que representan los commits realizados por cada miembro del equipo MetaSoft:
+
+A continuación se muestra la cantidad de commits realizadas por cada integrante del equipo durante el desarrollo de la aplicación web.
+
+![PulseSprint2](/assets\img\chapter-V\sprint-1\pulse-sprint2.png)
+
+Los siguientes gráficos ofrecen una representación visual de las clonaciones registradas en nuestro repositorio, junto con la fecha en que cada una de estas acciones se llevó a cabo. Además, se presenta información sobre la cantidad de visitantes que ha tenido el repositorio de nuestro equipo a lo largo del tiempo.
+
+![CloneSprint2](/assets\img\chapter-V\sprint-1\clone-sprint2.png)
 
 
 ## Avance de Conclusiones, Bibliografía y Anexos.
