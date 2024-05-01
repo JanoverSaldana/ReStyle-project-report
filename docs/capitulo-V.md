@@ -624,7 +624,6 @@ Repositorio: [ReStyle-Landing-Page -https://github.com/sw53-metasoft/ReStyle-Lan
 Landing Page Deployed: [ReStyle - https://sw53-metasoft.github.io/ReStyle-Landing-Page/](https://sw53-metasoft.github.io/ReStyle-Landing-Page/)
 
 
-
 #### 5.2.1.1. Sprint Planning 1.
 
 En el Sprint Planning 1, se llevó a cabo una sesión de planificación para la elaboración de
@@ -1230,6 +1229,115 @@ Los siguientes gráficos ofrecen una representación visual de las clonaciones r
 ![clone.png](/assets/img/chapter-V/sprint-1/clone.png)
 
 
+### 5.2.2. Sprint 2
+Durante el Sprint #2, el equipo se enfocará en diseñar y
+desarrollar la fase inicial del front-end y una API ficticia para la aplicación web, con el propósito de garantizar una experiencia que cumpla con los requisitos de los usuarios.
+
+#### 5.2.2.1. Sprint Planning 2
+
+En el Sprint Planning 2, se llevó a cabo una sesión de planificación para la elaboración de
+la aplicación en primera versión del proyecto. Durante esta reunión, se dividieron las secciones a programar entre los integrantes,
+además se determinó el plazo de entrega de estas tareas.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center">Sprint #</th>
+      <th style="text-align:center">Sprint 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2"  ><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Date</td>
+      <td style="text-align:center">28-04-2024</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Time</td>
+      <td style="text-align:center">8:00 PM</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Location</td>
+      <td style="text-align:center">Discord</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Prepared By</td>
+      <td style="text-align:center">Janover Saldaña</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Attendees</td>
+      <td style="text-align:center">
+      Alejandra Villacrez, Janover Saldaña, Daniel Valverde, Ariana Vargas
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"  ><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint 2 Goal</td>
+      <td style="text-align:center"> Implementar y desplegar la aplicación de ReStyle en fase inicial </td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint 1 Velocity</td>
+      <td style="text-align:center">--</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sum of Story Points</td>
+      <td style="text-align:center">add retrospective</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.2.2. Sprint Backlog 2.
+--se necesitan las us completas
+#### 5.2.2.3. Development Evidence for Sprint Review.
+
+<table>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on (Date)</th>
+  </tr>
+  <tr>
+  <!-- rowspan="number of rows" -->
+    <td rowspan="50">https://github.com/sw53-metasoft/ReStyle-Frontend</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+
+#### 5.2.2.4. Testing Suite Evidence for Sprint Review.
+
+
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+
+
 ## Avance de Conclusiones, Bibliografía y Anexos.
 
 ### **Conclusiones**
@@ -1298,5 +1406,5 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                   <img src="/assets/img/chapter-V/sprint-1/prototype-video.png" width="350"></img> </td>
             </tr>            
         </tbody>
-    </table>
+</table>
 
