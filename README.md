@@ -253,65 +253,169 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
 <table>
   <thead>
     <tr>
-      <th>Criterio específico</th>
+      <th>Vriterio especifico</th>
       <th>Acciones realizadas</th>
-      <th>Conclusiones</th>
+      <th>conclusiones</th>
     </tr>
   </thead>
-  <tbody>
+  <tbogy>
     <tr>
-      <td>Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto de ingeniería</td>
-      <td> <b>Díaz Villacrez, María Alejandra TB1</b> Colaboré en la recolección de requisitos para satisfacer la entrega del trabajo. Proporcioné contexto sobre el problema de negocio y las necesidades que se desean satisfacer. Identificamos los segmentos objetivos y utilicé gráficos para representar la información de manera visual y comprensible. </td>
-      <td> Al aplicar una organización correcta pudimos comunicar nuestras ideas de negocio y resultados de manera objetiva y efectiva a una audiencia diversa en el contexto de un proyecto de ingeniería de software.</td>
+     <!--PRIMER CRITERIO DE STUDENT OUTCOME-->
+      <td rowspan="9">
+        Comunica oralmente sus ideas
+        y/o resultados con objetividad a
+        público de diferentes
+        especialidades y niveles
+        jerarquicos, en el marco del
+        desarrollo de un proyecto en
+        ingeniería
+      </td>
+       <!--ENTREGA TB1-->
+      <!-- Estudiante 1 TB1 -->    
+      <td>
+        <b>Díaz Villacrez, María Alejandra TB1:</b> 
+        Colaboré en la recolección de requisitos para satisfacer la entrega del trabajo. Proporcioné contexto sobre el problema de negocio y las necesidades que se desean satisfacer. Identificamos los segmentos objetivos y utilicé gráficos para representar la información de manera visual y comprensible. </td>
+        <td rowspan="5"> 
+         <b>CONCLUSIÓN DEL ENTREGABLE TB1</b><br>
+         Al aplicar una organización correcta pudimos comunicar nuestras ideas de negocio y resultados de manera objetiva y efectiva a una audiencia diversa en el contexto de un proyecto de ingeniería de software.
+      </td>   
     </tr>
+    <!-- Estudiante 2 TB1 --> 
     <tr> 
-        <td></td>
-        <td> <b>Valverde Lopez, Josue Daniel TB1</b> <br> Se realizaron entrevistas a los segmentos objetivo para entender los requisitos. A partir del análisis de las entrevistas se elaboró las historias de usuario tomando en cuenta los requisitos de los segmentos. </td>
-        <td></td>
+      <td>
+      <b>Valverde Lopez, Josue Daniel TB1:</b> <br> 
+      Se realizaron entrevistas a los segmentos objetivo para entender los requisitos. A partir del análisis de las entrevistas se elaboró las historias de usuario tomando en cuenta los requisitos de los segmentos.  
+    </td>   
     </tr>
-     <tr> 
-        <td></td>
-        <td> Estudiante 3 SO</td>
-        <td></td>
+    <!-- Estudiante 3 TB1-->
+     <tr>   
+      <td>
+        <b>Janover Gonzalo Saldaña Vela TB1:</b><br>
+        Comunicar nuestras ideas jugó un rol importante para identificar una problemática y plantear un salucion para ello.
+      </td>    
     </tr>
-     <tr> 
-        <td></td>
-        <td> <b>Vargas Revollé, Ariana TB1</b> Se realizaron User Stories sobre la funcionalidad de la applicacion asi como la elaboracion de user personas y los mapas requeridos para la comprension de los segmentos objetivos</td>
-         <td></td>
+    <!-- Estudiante 4 TB1-->
+     <tr>   
+      <td>
+      <b>Vargas Revollé, Ariana TB1:</b><br>
+       Se realizaron User Stories sobre la funcionalidad de la applicacion asi como la elaboracion de user personas y los mapas requeridos para la comprension de los segmentos objetivos</td>   
     </tr>
-     <tr> 
-        <td>Como parte integral del equipo, me comprometí a comunicar de manera efectiva y objetiva tanto las ideas generadas durante el proceso de diseño como los resultados obtenidos. Adapté mi discurso según la audiencia, asegurándome de transmitir la información de manera clara y comprensible para personas con diversos niveles de conocimiento técnico.</td>
-        <td> <b>Huaman Bellido, Josten Marc TB1</b>
-            contribuí al proyecto realizando el diseño del producto con sus características distintivas. Esto implicó traducir los requisitos recopilados y las historias de usuario en un diseño funcional y atractivo. Me aseguré de que el diseño reflejara las necesidades y preferencias de los segmentos objetivo, mientras mantenía la usabilidad y la estética del producto. 
-        </td>
-         <td>En conclusión, la implementación de una estructura organizativa eficiente nos permitió transmitir de manera precisa y efectiva nuestras ideas y resultados a una audiencia diversa en el contexto del proyecto de ingeniería de software</td>
+    <!-- Estudiante 5 TB1-->
+    <tr>   
+      <td>
+        <b>Huaman Bellido, Josten Marc TB1:</b><br>
+        contribuí al proyecto realizando el diseño del producto con sus características distintivas. Esto implicó traducir los requisitos recopilados y las historias de usuario en un diseño funcional y atractivo. Me aseguré de que el diseño reflejara las necesidades y preferencias de los segmentos objetivo, mientras mantenía la usabilidad y la estética del producto.
+      </td>   
+    <!--ENTREGA TRABAJO PARCIAL-->
+    <!-- ESTUDIANTE 1 TP --> 
+    <tr> 
+      <td> 
+        <b>Díaz Villacrez, María Alejandra TB2:</b><br>
+        Escribir aquí
+      </td> 
+      <td rowspan="4">
+        <b>CONCLUSIÓN DEL ENTRGABLE TP</b><br>
+        Escribir conclusión aquí
+      </td>   
     </tr>
+    <!-- ESTUDIANTE 2 TP --> 
+    <tr> 
+      <td> 
+        <b>Valverde Lopez, Josue Daniel TB2:</b><br>
+        Escribir aquí
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 3 TB1-->
+     <tr>   
+      <td>
+        <b>Saldaña Vela Janover Gonzalo TB2: </b><br>
+        Escribir aquí
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 4 TB1-->
+     <tr>   
+      <td><b>Vargas Revollé, Ariana  TB2: </b><br>
+        Escribir aquí</td>     
+    </tr>
+    <!--SEGUN CRITERIO DE STUDENT OUTCOME-->
     <tr>
-      <td>Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto de ingeniería</td>
-      <td> <b>Díaz Villacrez, María Alejandra TB1</b> Presenté información necesaria para respaldar las estadísiticas y citas proporcionadas en la primera entrega del trabajo. Definí términos técnicos importantes utilizados en el informe. </td>
-      <td>Gracias a las metodologías de Lean UX pudimos comunicar nuestras soluciones de manera objetiva y efectiva a un público diverso en el marco del desarrollo de un proyecto de ingeniería de software a través de un documento escrito.</td>
+      <td rowspan="9">
+        Comunica en forma escrita ideas
+        y/o resultados con objetividad a
+        público de diferentes
+        especialidades y niveles
+        jerarquicos, en el marco del
+        desarrollo de un proyecto en
+        ingeniería..
+      </td>
+      <!-- Estudiante 1 -->    
+      <td>
+        <b>Díaz Villacrez, María Alejandra TB1:</b><br>
+        Presenté información necesaria para respaldar las estadísiticas y citas proporcionadas en la primera entrega del trabajo. Definí términos técnicos importantes utilizados en el informe.
+      </td> 
+      <td rowspan="5">
+        <b>CONCLUSIÓN DEL ENTREGABLE TB1:</b><br>
+      </td>    
     </tr>
-      <tr> 
-        <td></td>
-        <td> <b>Valverde Lopez, Josue Daniel TB1</b> <br> Realicé los diagramas de Contexto, contenedores y componentes en fase inicial tomando en cuenta el lenguaje obicuo el cual permite el entendimiento a los segmentos objetivo.</td>
-         <td></td>
+    <!-- Estudiante 2 --> 
+    <tr> 
+      <td>
+        <b>Valverde Lopez, Josue Daniel TB1:</b><br>
+        Realicé los diagramas de Contexto, contenedores y componentes en fase inicial tomando en cuenta el lenguaje obicuo el cual permite el entendimiento a los segmentos objetivo.
+      </td>   
     </tr>
-     <tr> 
-        <td></td>
-        <td> Estudiante 3 SO</td>
-         <td></td>
+    <!-- Estudiante 3-->
+     <tr>   
+      <td>
+        <b>Janover Gonzalo Saldaña Vela TB1:</b><br>
+        Comunicar nuestras ideas jugó un rol importante para identificar una problemática y plantear un salucion para ello.
+      </td>    
     </tr>
-     <tr> 
-        <td></td>
-        <td> <b>Vargas Revollé, Ariana TB1</b> Se contribuyo con el landing page del Startup y documento los aportes de los integrantes del equipo </td>
-         <td></td>
+    <!-- Estudiante 4-->
+     <tr>   
+      <td>
+        <b>Vargas Revollé, Ariana TB1:</b><br>
+        Se contribuyo con el landing page del Startup y documento los aportes de los integrantes del equipo
+      </td>    
     </tr>
-     <tr> 
-        <td>En mi función dentro del proyecto, redacté de manera precisa y objetiva documentos técnicos y reportes, adaptando el contenido según la audiencia y aplicando técnicas de redacción eficaz para garantizar una comunicación efectiva y clara.</td>
-        <td> <b>Huaman Bellido, Josten Marc TB1</b>
-          Desarrollé las pautas de estilo que garantizaban coherencia y uniformidad en la presentación de la información. Estas directrices ayudaron a mantener un estándar visual y de comunicación consistente en todo el trabajo, facilitando así la comprensión y el seguimiento por parte de los usuarios.
-        </td>
-         <td>En conclusión, a través de la creación de pautas de estilo (style guidelines), logramos mantener coherencia y claridad en la presentación de la información. Estas directrices aseguraron una comunicación efectiva y objetiva de nuestras soluciones mediante el documento escrito, contribuyendo así al éxito del proyecto de ingeniería de software.</td>
+    <!-- Estudiante1 5-->
+     <tr>   
+      <td>
+        <b>Huaman Bellido, Josten Marc TB1:</b><br>
+        Desarrollé las pautas de estilo que garantizaban coherencia y uniformidad en la presentación de la información. Estas directrices ayudaron a mantener un estándar visual y de comunicación consistente en todo el trabajo, facilitando así la comprensión y el seguimiento por parte de los usuarios.
+      </td>     
     </tr>
-  </tbody>
+    <!--ENTREGA TRABAJO PARCIAL-->
+    <!-- ESTUDIANTE 1 TP --> 
+    <tr> 
+      <td> 
+        <b>Díaz Villacrez, María Alejandra TB2:</b><br>
+        Escribir aquí
+      </td> 
+      <td rowspan="4">
+        <b>CONCLUSIÓN DEL ENTRGABLE TP</b><br>
+        Escribir conclusión aquí
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 2 TP --> 
+    <tr> 
+      <td> 
+        <b>Valverde Lopez, Josue Daniel TB2:</b><br>
+        Escribir aquí
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 3 TB1-->
+     <tr>   
+      <td>
+        <b>Saldaña Vela Janover Gonzalo TB2: </b><br>
+        Escribir aquí
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 4 TB1-->
+     <tr>   
+      <td><b>Vargas Revollé, Ariana  TB2: </b><br>
+        Escribir aquí
+      </td>     
+    </tr>
 </table>
+
