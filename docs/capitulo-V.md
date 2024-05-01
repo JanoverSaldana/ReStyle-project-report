@@ -1404,9 +1404,9 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                 <td>Cantidad de videos: 1 <br>
                   Nomenclatura: upc-pre-202401-si729-sw53-metasoft-expo-tb1 <br>
                   Formato: .mp4 <br>
-                  Duración: min</td>
+                  Duración: 27:19 min</td>
                 <td>Consolida las exposiciones de la TB1</td>
-                <td>Link: Captura: <br>
+                <td>Link: https://shorturl.at/kxyF2 Captura: <br>
                   <img src="/assets/img/chapter-V/sprint-1/expo-video.png" width="350"></img> </td>
             </tr>
             <tr>
@@ -1414,11 +1414,21 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                 <td>Cantidad de videos: 1 <br>
                   Nomenclatura: upc-pre-202401-si729-sw53-metasoft-prototype-navigation-sprint-1 <br>
                   Formato: .mp4 <br>
-                  Duración: min</td>
+                  Duración: 4:21 min</td>
                 <td>Consolida demostración del flujo de navegación de las aplicaciones, priorizando los user flows relacionados con el core business.</td>
                 <td>Link: https://shorturl.at/goCR6 Captura: <br>
                   <img src="/assets/img/chapter-V/sprint-1/prototype-video.png" width="350"></img> </td>
-            </tr>            
+            </tr> 
+            <tr>
+                <td>Exposicion</td>
+                <td>Cantidad de videos: 1 <br>
+                  Nomenclatura: upc-pre-202401-si729-sw53-metasoft-expo-tp <br>
+                  Formato: .mp4 <br>
+                  Duración: min</td>
+                <td>Consolida las exposiciones del TP</td>
+                <td>Link:  Captura: <br>
+                  <img src="" width="350"></img> </td>
+            </tr>           
         </tbody>
 </table>
 
