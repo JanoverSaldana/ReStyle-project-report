@@ -861,9 +861,7 @@ además se determinó el plazo de entrega de estas tareas.
     <td  > Janover Saldaña </td>
     <td  > Done </td>
   </tr>
-
 </table>
-
 
 #### 5.2.1.3. Development Evidence for Sprint Review.
 
@@ -1304,8 +1302,242 @@ además se determinó el plazo de entrega de estas tareas.
   </tbody>
 </table>
 
-#### 5.2.2.2. Sprint Backlog 2.
---se necesitan las us completas
+#### 5.2.2.2. Sprint Backlog 2
+
+<table>
+  <tr>
+    <td> <strong>Sprint #</strong></td>
+    <td   colspan="7"> <strong>Sprint 2</strong> </td>
+  </tr>
+
+   <tr>
+    <td   colspan="2"> <strong>User Story</strong></td>
+    <td   colspan="6"> <strong>Work-item/Task</strong></td>
+  </tr>
+  <tr>
+    <td  > <strong>ID</strong> </td>
+    <td  > <strong>Title</strong></td>
+    <td  > <strong>ID</strong> </td>
+    <td  > <strong>Title</strong></td>
+    <td  > <strong>Description</strong></td>
+    <td  > <strong>Estimation (Hours)</strong></td>
+    <td  > <strong>Assigned To</strong></td>
+    <td  > <strong> Status (To-do/In-Process/To-Review/Done) </strong></td>
+  </tr>
+  <!---------------------------------------------------------------------- -->
+  <tr>
+    <!--rowspan="number of rows for the tasks" -->
+    <td rowspan="3">US007</td>
+    <td rowspan="3">Búsqueda de empresas remodeladoras</td>
+    <td>TA18</td>
+    <td>Creación de componente de búsqueda</td>
+    <td>Permite a los usuarios visualizar a las empresass remodeladoras según una búsqueda personalizada</td>
+    <td>2</td>
+    <td>Alejandra Diaz</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA19</td>
+    <td>Modificación de estilos</td>
+    <td> Personaliza los estilos de acuerdo al prototipo propuesto</td>
+    <td> 2</td>
+    <td>Alejandra Diaz</td>
+    <td> Done </td>
+  </tr>
+  <tr>
+    <td>TA20</td>
+    <td>Implementación de servicio de remodeladores</td>
+    <td>Desarrolla los servicioes para el consumo de datos de los remodeladores de la fake API</td>
+    <td>2</td>
+    <td>Alejandra Diaz</td>
+    <td> Done </td>
+  </tr>
+  <tr>
+    <!--rowspan="number of rows for the tasks" -->
+    <td rowspan="3">US008</td>
+    <td rowspan="3">Revisar críticas y opiniones</td>
+    <td>TA21</td>
+    <td>Creación de componente de reseñas</td>
+    <td>Permite a los usuarios revisar las reseñas de un remodelador el cual seleccionaron en la búsqueda</td>
+    <td>1</td>
+    <td>Alejandra Diaz</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+     <td>TA22</td>
+    <td>Modificación de estilos</td>
+    <td> Personaliza los estilos de acuerdo al prototipo propuesto</td>
+    <td> 1</td>
+    <td>Alejandra Diaz</td>
+    <td> Done </td>
+  </tr>
+  <tr>
+    <td>TA23</td>
+    <td>Implementación de servicio de reseñas</td>
+    <td>Desarrolla el servicio para el consumo de datos de las reseñas de la fake API</td>
+    <td>1</td>
+    <td>Alejandra Diaz</td>
+    <td> Done </td>
+  </tr>
+  <tr>
+    <!--rowspan="number of rows for the tasks" -->
+    <td rowspan="3">US009</td>
+    <td rowspan="3">Agregar críticas y opiniones</td>
+    <td>TA24</td>
+     <td>Creación de componente de agregar reseñas</td>
+    <td>Permite a los usuarios contratistas agregar las reseñas de un remodelador</td>
+    <td>2</td>
+    <td>Daniel Valverde</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA25</td>
+    <td>Modificación de estilos</td>
+    <td>Personaliza los estilos de acuerdo al prototipo propuesto</td>
+    <td> 1</td>
+    <td>Daniel Valverde</td>
+    <td> Done </td>
+  </tr>
+  <tr>
+    <td>TA26</td>
+    <td>Implementación de servicio de creación de reseñas</td>
+    <td>Desarrolla el servicio para la creación de datos de las reseñas</td>
+    <td>2</td>
+    <td>Daniel Valverde</td>
+    <td> In process </td>
+  </tr>
+  <tr>
+    <!--rowspan="number of rows for the tasks" -->
+    <td rowspan="2">US012</td>
+    <td rowspan="2">Crear cuenta contratista</td>
+    <td>TA27</td>
+    <td> SignUp contratista</td>
+    <td> Permite a los usuarios contratistas registrarse en la aplicación como contratistas </td>
+    <td>3</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA28</td>
+    <td> Login contratista</td>
+    <td> Permite a los usuarios contratistas iniciar sesión con su cuenta creada</td>
+    <td> 3</td>
+    <td>Janover Saldaña </td>
+    <td> Done </td>
+  </tr>
+   <tr>
+    <!--rowspan="number of rows for the tasks" -->
+    <td rowspan="2">US013</td>
+    <td rowspan="2">Crear cuenta remodelador</td>
+    <td>TA29</td>
+    <td>SignUp remodelador </td>
+    <td>Permite a los usuarios remodeladores registrarse en la aplicación como remodeladores </td>
+    <td>3</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA30</td>
+    <td> Login remodelador</td>
+    <td> Permite a los usuarios remodeladores iniciar sesión con su cuenta creada </td>
+    <td> 3</td>
+    <td>Janover Saldaña</td>
+    <td> Done </td>
+  </tr>
+  <tr>
+    <!--rowspan="number of rows for the tasks" -->
+    <td rowspan="3">US014</td>
+    <td rowspan="3">Busqueda de portafolios</td>
+    <td>TA31</td>
+    <td> Creación del componente de búsqueda de portafolios</td>
+    <td>Permite a los contratistaas visualizar los proyectos de los remodeladores en su portafolio</td>
+    <td>3</td>
+    <td>Daniel Valverde</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA32</td>
+    <td> Modificación de estilos</td>
+    <td> Personaliza los estilos de acuerdo al prototipo propuesto</td>
+    <td> 1</td>
+    <td> Daniel Valverde</td>
+    <td> Done </td>
+  </tr>
+  <tr>
+    <td>TA33</td>
+   <td>Implementación de servicio de búsqueda de portafolio</td>
+    <td>Desarrolla el servicio para el consumo de datos de los portafolios de la fake API</td>
+    <td>2</td>
+    <td>Daniel Valverde </td>
+    <td> Done </td>
+  </tr>
+  <tr>
+    <!--rowspan="number of rows for the tasks" -->
+    <td rowspan="3">US015</td>
+    <td rowspan="3">Seguimiento de proyecto</td>
+    <td>TA34</td>
+    <td>Creación del componente para el seguimiento</td>
+    <td>Permite a los usuarios visualizar el seguimiento del proyecto por fases </td>
+    <td>5</td>
+    <td>Ariana Vargas</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA35</td>
+    <td>Modificación de estilos </td>
+    <td> Personaliza los estilos de acuerdo al prototipo propuesto</td>
+    <td> 2</td>
+    <td> Ariana Vargas</td>
+    <td> Done </td>
+  </tr>
+  <tr>
+    <td>TA36</td>
+    <td>Implementación de servicio para el seguimiento del proyecto </td>
+    <td>Desarrolla el servicio para el consumo de la fake API de proyectos </td>
+    <td> 3</td>
+    <td> Ariana Vargas </td>
+    <td> In process </td>
+  </tr>
+  <tr>
+    <!--rowspan="number of rows for the tasks" -->
+    <td rowspan="2">US017</td>
+    <td rowspan="2">Visualizar home de la plataforma</td>
+    <td>TA37</td>
+    <td> Creación del componente Home</td>
+    <td>Permite a los usuarios tener una vista por defecto de la aplicación </td>
+    <td>1</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA38</td>
+    <td> Modificación de estilos del componente</td>
+    <td> Agrega opciones necesarias par la navegación a las secciones de la aplicación</td>
+    <td> 1</td>
+    <td> Janover Saldaña</td>
+    <td> Done </td>
+  </tr>
+  <tr>
+    <!--rowspan="number of rows for the tasks" -->
+    <td rowspan="2">US018</td>
+    <td rowspan="2">Visualizar una página no encontrada</td>
+    <td>TA39</td>
+    <td> Creación del componente PageNotFound</td>
+    <td>Permite a los usuarios volver a la vista principal </td>
+    <td>1</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA40</td>
+    <td> Creación de botón de retorno</td>
+    <td> Implementa un botón que redirecciona a la vista Home</td>
+    <td> 1</td>
+    <td> Janover Saldaña</td>
+    <td> Done </td>
+  </tr>
+</table>
+
 #### 5.2.2.3. Development Evidence for Sprint Review.
 
 <table>
@@ -1397,7 +1629,7 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                 <td>Consolida todas las entrevistas realizadas</td>
                 <td>Link: 
                   Captura: <br>
-                  <img src="/assets/img/chapter-V/sprint-1/interview-video.png" width="350"></img> </td>
+                  <img src="/assets/img/chapter-V/sprint-1/interview-video.png" width="350" alt=""/> </td>
             </tr>
             <tr>
                 <td>Exposicion</td>
@@ -1407,7 +1639,7 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                   Duración: 27:19 min</td>
                 <td>Consolida las exposiciones de la TB1</td>
                 <td>Link: https://shorturl.at/kxyF2 Captura: <br>
-                  <img src="/assets/img/chapter-V/sprint-1/expo-video.png" width="350"></img> </td>
+                  <img src="/assets/img/chapter-V/sprint-1/expo-video.png" width="350" alt=""/> </td>
             </tr>
             <tr>
                 <td>Prototypes Navigation / Product Navigation</td>
@@ -1417,7 +1649,7 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                   Duración: 4:21 min</td>
                 <td>Consolida demostración del flujo de navegación de las aplicaciones, priorizando los user flows relacionados con el core business.</td>
                 <td>Link: https://shorturl.at/goCR6 Captura: <br>
-                  <img src="/assets/img/chapter-V/sprint-1/prototype-video.png" width="350"></img> </td>
+                  <img src="/assets/img/chapter-V/sprint-1/prototype-video.png" width="350" alt=""/> </td>
             </tr> 
             <tr>
                 <td>Exposicion</td>
@@ -1427,7 +1659,7 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                   Duración: min</td>
                 <td>Consolida las exposiciones del TP</td>
                 <td>Link:  Captura: <br>
-                  <img src="" width="350"></img> </td>
+                  <img src="" width="350" alt=""/> </td>
             </tr>           
         </tbody>
 </table>
