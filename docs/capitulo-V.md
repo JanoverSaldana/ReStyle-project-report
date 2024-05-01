@@ -1273,6 +1273,20 @@ además se determinó el plazo de entrega de estas tareas.
       </td>
     </tr>
     <tr>
+      <td>Sprint 2 Review Summary</td>
+      <td>
+        En el anterior Sprint fue dedicado al desarrollo y despliegue de la Landing Page.
+        El equipo cumplió con las tareas asignada por ende se logró el objetivo del Sprint 1.
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint 2 Retrospective Summary</td>
+      <td>
+        Se debe applicar la mejora continua con respecto a la documentación del proyecto
+        Revisar las historias de usuario y reorganizarlas de manera que todos los desarrolladores entiendan fácilmente su propósito.
+      </td>
+    </tr>
+    <tr>
       <td colspan="2"  ><strong>Sprint Goal & User Stories</strong></td>
     </tr>
     <tr>
@@ -1281,11 +1295,11 @@ además se determinó el plazo de entrega de estas tareas.
     </tr>
     <tr>
       <td style="text-align:center">Sprint 1 Velocity</td>
-      <td style="text-align:center">--</td>
+      <td style="text-align:center">34</td>
     </tr>
     <tr>
       <td style="text-align:center">Sum of Story Points</td>
-      <td style="text-align:center">add retrospective</td>
+      <td style="text-align:center">34</td>
     </tr>
   </tbody>
 </table>
