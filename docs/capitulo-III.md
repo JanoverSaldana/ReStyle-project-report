@@ -521,7 +521,7 @@
         </tr>
         <tr style="text-align:center">
             <td> US-018 </td>
-            <td>Visualizar una página no encontrada/td>
+            <td>Visualizar una página no encontrada</td>
             <td>
             <strong>Como</strong> usuario de reStyle deseo saber qué páginas no están a mi alcance<strong>para</strong> poder visualizar las opciones disponibles para mi rol.
             </td>
@@ -829,89 +829,54 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
             <tr>
                 <td>10</td>
                 <td>US-007</td>
-                <td>Crear proyecto de diseño</td>
-                <td>Como usuario remodelador, quiero poder crear proyectos de diseño dentro de la plataforma para poder comenzar el proceso de remodelación.</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>11</td>
-                <td>US-008</td>
                 <td>Búsqueda de empresas remodeladoras</td>
-                <td>Como visitante del segmento contratista, quiero poder buscar remodeladoras por ubicación geográfica y estilos de diseño para obtener un resultado más personalizado.</td>
+                <td>Como visitante del segmento contratista, quiero poder buscar remodeladoras por ubicación o expertise para obtener un resultado más personalizado.</td>
                 <td>3</td>
             </tr>
             <tr>
-                <td>12</td>
-                <td>US-015</td>
+                <td>11</td>
+                <td>US-012</td>
                 <td>Crear cuenta contratista</td>
                 <td>Como usuario contratista, quiero poder crear una cuenta en ReStyle para poder acceder al mercado qué provee</td>
                 <td>3</td>
             </tr>
             <tr>
-                <td>13</td>
-                <td>US-014</td>
-                <td>Suscripción remodelador</td>
-                <td>Como usuario remodelador, quiero poder suscribirme a ReStyle para poder acceder al mercado qué provee</td>
+                <td>12</td>
+                <td>US-013</td>
+                <td>Crear cuenta remodelador</td>
+                <td>Como usuario remodelador, quiero poder crear una cuenta en ReStyle para poder acceder al mercado qué provee</td>
                 <td>3</td>
             </tr>
             <tr>
-                <td>14</td>
-                <td>US-009</td>
+                <td>13</td>
+                <td>US-008</td>
                 <td>Revisar críticas y opiniones</td>
                 <td>Como visitante del segmento contratista, quiero ver las opiniones de otros clientes para tener una idea de la calidad del trabajo del remodelador.</td>
                 <td>3</td>
             </tr>
             <tr>
-                <td>15</td>
-                <td>US-012</td>
-                <td>Promocionar contenido</td>
-                <td>Como usuario remodelador, quiero poder promocionar el contenido de mi portafolio para aumentar mi cantidad de clientes</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>16</td>
-                <td>US-019</td>
+                <td>14</td>
+                <td>US-016</td>
                 <td>Programar Consulta con un Remodelador</td>
                 <td>Como propietario de vivienda interesado en remodelar, quiero poder programar uan consulta con un remodelador a través de la plataforma para discutir mis necesidades y obtener recomendaciones</td>
                 <td>3</td>
             </tr>
             <tr>
-                <td>17</td>
-                <td>US-020</td>
-                <td>Solicitar Presupuesto de Remodelación</td>
-                <td>Como propietario de vivienda interesado en remodelar, quiero poder solicitar presupuestos a múltiples remodeladores a través de la plataforma para comparar opciones y tomar decisiones informadas.</td>
+                <td>15</td>
+                <td>US-015</td>
+                <td>Seguimiento de proyecto</td>
+                <td>Como usuario remodelador, quiero poder ver los hitos del seguimiento mi proyecto para saber en qué estado y etapa se encuentra el proyecto de diseño.</td>
                 <td>3</td>
             </tr>
             <tr>
-                <td>18</td>
-                <td>US-021</td>
-                <td>Responder Solicitudes de Presupuesto</td>
-                <td>Como profesional de remodelación, quiero poder responder rápidamente a las solicitudes de presupuesto de los propietarios de viviendas para demostrar profesionalismo y captar nuevos clientes.</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>19</td>
-                <td>US-22</td>
-                <td>Visualización de Proyectos Anteriores</td>
-                <td>Como propietario de vivienda interesado en contratar servicios de remodelación, deseo poder visualizar proyectos anteriores realizados por los profesionales en la plataforma para evaluar su experiencia y calidad de trabajo</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>20</td>
-                <td>US-024</td>
-                <td>Programación de Citas</td>
-                <td>Como profesional de remodelación, quiero poder programar citas con clientes potenciales a través de la plataforma para discutir sus proyectos y evaluar sus necesidades antes de comenzar cualquier trabajo.</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>21</td>
+                <td>16</td>
                 <td>US-10</td>
                 <td>Gestión de solicitudes al servidor</td>
                 <td>Como desarrollador, quiero asegurarme de que el API pueda gestionar múltiples solicitudes de varios dispositivos para que el sistema funcione sin interrupciones durante temporadas de alta demanda.</td>
                 <td>5</td>
             </tr>
             <tr>
-                <td>22</td>
+                <td>17</td>
                 <td>US-11</td>
                 <td>Autorización y seguridad de acceso al API</td>
                 <td>Como desarrollador, quiero poder configurar una autenticación y autorización segura en el API para garantizar que solos los usuarios admin puedan acceder al sistema.</td>
