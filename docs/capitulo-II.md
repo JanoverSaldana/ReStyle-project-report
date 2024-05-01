@@ -286,6 +286,10 @@ Entrevista a Contratistas
                 <th>Entrevistado 1</th>
                 <th>Diego Cantoral</th>
             </tr>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Daniel Valverde</th>
+            </tr>
         </thead>
         <tbody>
             <tr>
@@ -308,7 +312,34 @@ Entrevista a Contratistas
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
+                <td>0:00 min</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
                 <td></td>
+            </tr>
+            <tr>
+                <th>Entrevistado 2</th>
+                <th>Jose Gutierrez</th>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Alejandra Diaz</th>
+            </tr>
+            <tr>
+                <td>Edad</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>Lima</td>
+            </tr>
+            <tr>
+            <td><img src="/assets/img/chapter-II/interviewClient.png" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br>El entrevistado nos comenta que previamente ha contratado servicios de remodelacion, pero estas experiencias han sido de manera presencial y nunca mediante una plataforma online. Ademas, nos cuenta que este proceso ha sido dificil debido a la falta de transparencia y reseñas online que le permitan tomar una decision informada. Finalmente, explica que estaria dispuesto a utilizar una plataforma online para contratar servicios de remodelacion y que le gustaria encontrar reviews y un seguimiento en tiempo real para saber el proceso del proyecto. </td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td>5:08 min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
@@ -324,6 +355,9 @@ Entrevista a Remodeladores
             <tr>
                 <th>Entrevistado 1</th>
                 <th>Rodrigo Porles</th>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Daniel Valverde</th>
             </tr>
         </thead>
         <tbody>
@@ -348,7 +382,7 @@ Entrevista a Remodeladores
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td></td>
+                <td>10:05min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
@@ -357,6 +391,9 @@ Entrevista a Remodeladores
             <tr>
                 <th>Entrevistado 2</th>
                 <th>Olga Samanez (Innovacion Interiores)</th>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Alejandra Diaz</th>
             </tr>
             <tr>
                 <td>Edad</td>
@@ -372,7 +409,34 @@ Entrevista a Remodeladores
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
+                <td>14:46 min</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
                 <td></td>
+            </tr>
+            <tr>
+                <th>Entrevistado 3</th>
+                <th></th>
+            <tr>
+                <th>Entrevistador </th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>Edad</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td></td>
+            </tr>
+            <tr>
+            <td><img src="" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br> </td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td>20:46 min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
@@ -388,6 +452,7 @@ Análisis del segmento contratistas
 Luego de escuchar y entender a este segmento, pudimos concluir ciertas cifras estadísticas que nos ayudarán posteriormente en el desarrollo de los requisitos.
 El 100% de los entrevistados son mayores de 20 años. El 66% comenta que su red social preferida es Instagram y un 33% prefiere TikTok.
 Además se obtuvo que el 100% de este segmento al menos maneja de forma intermedia los aparatos tecnológicos.
+
 
 <img src="/assets/img/chapter-II/estadisticaContratistas.png" alt="cuadro estadistico">
 
