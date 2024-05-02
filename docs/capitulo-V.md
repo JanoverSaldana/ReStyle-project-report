@@ -1211,7 +1211,7 @@ En el primer Sprint el equipo de desarrollo de MetaSoft ah diseñado, programado
 
 Para la implementación de nuestra página, optamos por utilizar GitHub Pages. En este proceso, creamos un repositorio en GitHub donde gestionamos el control de versiones. En la sección de Configuración, publicamos el proyecto almacenado en la rama "realease-V1.0" que previamente se encontrba en la rama release-1.0.
 
-Langing Page -> 
+[Langing Page](https://sw53-metasoft.github.io/ReStyle-Landing-Page/index-en.html) - https://sw53-metasoft.github.io/ReStyle-Landing-Page/index-en.html
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
@@ -1868,6 +1868,11 @@ Para el sprint 2 se ha desarrollado **únicamente** el Front-End de la aplicaci�
     <th> Action</th>
   </thead>
   <tbody>
+  <tr>
+      <td>https://sw53-metasoft.github.io/ReStyle-Landing-Page/</td>
+      <td> </td>
+      <td>Muestra la segunda versión de la Landing Page de ReStyle</td>
+    </tr>
     <tr>
       <td>https://my-json-server.typicode.com/JanoverSaldana/users/users</td>
       <td>GET</td>

@@ -167,17 +167,17 @@ Alcance de la aplicación: En la sección dedicada a nuestros planes de servicio
 <p align = "center"> <img src="/assets/img/chapter-IV/landing-page-alcance.png" width="700"></img> </p>
 
 Acerca de la aplicación: En la sección dedicada a nuestra aplicación, ofrecemos una breve descripción de nuestra propuesta de valor, resaltando cómo nuestra aplicación simplifica y mejora la experiencia de diseño de interiores para nuestros usuarios. Acompañando esta descripción, presentamos una imagen de nuestra aplicación junto con dos llamativos botones de llamado a la acción, uno para descargar desde Google Play y otro desde la App Store, brindando a los usuarios un acceso rápido y conveniente a nuestra plataforma desde cualquier dispositivo móvil.
-<<<<<<< HEAD
 <p align = "center"> <img src="/assets/img/chapter-IV/landing-page-acerdade.png" width="700"></img> </p>
 
 Testimonios de la aplicación: En la sección de testimonios, compartimos las experiencias auténticas de nuestros clientes satisfechos. Cada testimonio está acompañado de una imagen del cliente junto con una breve descripción que destaca cómo nuestra empresa transformó sus espacios y superó sus expectativas. Estos testimonios proporcionan una prueba tangible de la calidad y el impacto positivo de nuestro trabajo, ayudando a generar confianza y credibilidad entre nuestros potenciales clientes.
+
 <p align = "center"> <img src="/assets/img/chapter-IV/landing-page-testimonios.png" width="700"></img> </p>
-=======
-<p align = "center"> <img src="/assets/img/chapter-IV/landing-page-acercade.png" width="700"></img> </p>
+
+<p align = "center"> <img src="/assets/img/chapter-IV/landing-page-acerdade.png" width="700"></img> </p>
 
 Testimonios de la aplicación: En la sección de testimonios, compartimos las experiencias auténticas de nuestros clientes satisfechos. Cada testimonio está acompañado de una imagen del cliente junto con una breve descripción que destaca cómo nuestra empresa transformó sus espacios y superó sus expectativas. Estos testimonios proporcionan una prueba tangible de la calidad y el impacto positivo de nuestro trabajo, ayudando a generar confianza y credibilidad entre nuestros potenciales clientes.
-<p align = "center"> <img src="/assets/imgchapter-IV/landing-page-testimonios.png" width="700"></img> </p>
->>>>>>> origin/capitulo-IV
+
+<p align = "center"> <img src="/assets/img/chapter-IV/landing-page-testimonios.png" width="700"></img> </p>
 
 Contáctanos de la aplicación: En nuestra sección Contáctanos, te ofrecemos una manera sencilla y conveniente de comunicarte con nosotros. Presentamos un formulario donde puedes ingresar tu nombre completo, tu correo electrónico y un mensaje describiendo en qué podemos ayudarte. Esta herramienta nos permite entender tus necesidades de manera precisa y responder de manera efectiva, brindándote la mejor asistencia posible. Estamos comprometidos a ofrecerte un servicio personalizado y atento en cada paso del camino.
 <p align = "center"> <img src="/assets/img/chapter-IV/landing-page-contactanos.png" width="700"></img> </p>
@@ -195,46 +195,87 @@ Footer de la aplicación: En nuestro Footer, te ofrecemos acceso rápido a nuest
 En esta sección se muestran los wireframes realizados para nuestro Web Application.
 
 Login de la aplicación
+
 <p align = "center"> <img src="/assets/img/chapter-IV/wifreframe-login.png" width="700"></img> </p>
+
 Crear perfil de propietario
+
 <p align = "center"> <img src="/assets/img/chapter-IV/wifreframe-perfil-propietario.png" width="700"></img> </p>
+
 Crear perfil de remodelador
+
 <p align = "center"> <img src="/assets/img/chapter-IV/wifreframe-perfil-remodelador.png" width="700"></img> </p>
+
 Editar perfil de propietario
+
 <p align = "center"> <img src="/assets/img/chapter-IV/wifreframe-editar-propietario.png" width="700"></img> </p>
+
 Editar perfil de propietario mensaje
+
 <p align = "center"> <img src="/assets/img/chapter-IV/wifreframe-editar-propietario-exito.png" width="700"></img> </p>
+
 Editar perfil de remodelador
+
 <p align = "center"> <img src="/assets/img/chapter-IV/wifreframe-editar-remodelador.png" width="700"></img> </p>
+
 Editar perfil de remodelador mensaje
+
 <p align = "center"> <img src="/assets/img/chapter-IV/wifreframe-editar-remodelador-exito.png" width="700"></img> </p>
+
 Búsqueda de remodeladores
+
 <p align = "center"> <img src="/assets/img/chapter-IV/wireframe-busqueda.png" width="700"></img> </p>
+
 Búsqueda de remodeladores por filtro
+
 <p align = "center"> <img src="/assets/img/chapter-IV/wireframe-busqueda-por-filtro.png" width="700"></img> </p>
+
 Contratar remodelador
+
 <p align = "center"> <img src="/assets/img/chapter-IV/wireframe-contratar-remodelador.png" width="700"></img> </p>
+
 Contratar remodelador y enviar formulario
+
 <p align = "center"> <img src="/assets/img/chapter-IV/wireframe-enviar-form-contratar.png" width="700"></img> </p>
+
 Mensajes con remodelador
+
 <p align = "center"> <img src="/assets/img/chapter-IV/wireframe-mensajes-con-remodelador.png" width="700"></img> </p>
+
 Portafolio remodelador
+
 <p align = "center"> <img src="/assets/img/chapter-IV/wireframe-portafolio.png" width="700"></img> </p>
+
 Editar portafolio
+
 <p align = "center"> <img src="/assets/img/chapter-IV/wireframe-portafolio-editar.png" width="700"></img> </p>
+
 Seguimiento de proyecto
+
 <p align = "center"> <img src="/assets/img/chapter-IV/wireframe-seguimiento-proyecto.png" width="700"></img> </p>
+
 Detalles del seguimiento de proyecto
+
 <p align = "center"> <img src="/assets/img/chapter-IV/wireframe-seguimiento-proyecto-detalle.png" width="700"></img> </p>
+
 Gestión de solicitudes de proyectos
+
 <p align = "center"> <img src="/assets/img/chapter-IV/wireframe-gestion-solicitudes.png" width="700"></img> </p>
+
 Reviews
+
 <p align = "center"> <img src="/assets/img/chapter-IV/wifreframe-reviews.png" width="700"></img> </p>
+
 Detalles de reviews
+
 <p align = "center"> <img src="/assets/img/chapter-IV/wifreframe-reviews-detalle.png" width="700"></img> </p>
+
 Crear review
+
 <p align = "center"> <img src="/assets/img/chapter-IV/wireframe-crear-review.png" width="700"></img> </p>
+
 Crear review con exito
+
 <p align = "center"> <img src="/assets/img/chapter-IV/wireframe-crear-review-exito.png" width="700"></img> </p>
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
@@ -248,72 +289,138 @@ Los Wireflows se utilizan principalmente en el diseño UX o por sus siglas, expe
 En esta sección se muestran los mock-ups realizados para nuestro Web Application.
 
 Login de la aplicación
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-login.png" width="700"></img> </p>
+
 Registrarse
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-registro.png" width="700"></img> </p>
+
 Perfil de remodelador
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-perfil-remodelador.png" width="700"></img> </p>
+
 Perfil de contratista
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-perfil-contratista.png" width="700"></img> </p>
+
 Búsqueda de remodeladores
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-busqueda.png" width="700"></img> </p>
+
 Búsqueda de remodeladores por filtro
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-busqueda-por-filtro.png" width="700"></img> </p>
+
 Contratar remodelador
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-contratar-remodelador.png" width="700"></img> </p>
+
 Contratar remodelador y enviar formulario
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-enviar-form-contratar.png" width="700"></img> </p>
+
 Mensajes con remodelador
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-mensajes-con-remodelador.png" width="700"></img> </p>
+
 Portafolio remodelador
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-portafolio.png" width="700"></img> </p>
+
 Editar portafolio
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-portafolio-editar.png" width="700"></img> </p>
+
 Seguimiento de proyecto
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-seguimiento-proyecto.png" width="700"></img> </p>
+
 Seguimiento de proyecto (requerimientos)
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-seguimiento-proyecto-detalle-requerimientos.png" width="700"></img> </p>
+
 Seguimiento de proyecto (requerimientos) éxito
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-seguimiento-proyecto-detalle-requerimientos-exito.png" width="700"></img> </p>
+
 Seguimiento de proyecto visita técnica
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-seguimiento-proyecto-detalle-visita.png" width="700"></img> </p>
+
 Seguimiento de proyecto (cotización)
+
 <p align = "center"> <img src="/assets/img/mockup-seguimiento-proyecto-detalle-cotizacion.png" width="700"></img> </p>
+
 Seguimiento de proyecto (cotización) éxito
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-seguimiento-proyecto-detalle-cotizacion-exito.png" width="700"></img> </p>
+
 Seguimiento de proyecto (aprobación) 
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-seguimiento-proyecto-detalle-proyecto-aprobado.png" width="700"></img> </p>
+
 Seguimiento de proyecto (pago inicial) 
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-seguimiento-proyecto-detalle-pago.png" width="700"></img> </p>
+
 Seguimiento de proyecto (pago inicial) éxito
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-seguimiento-proyecto-detalle-pago-exito.png" width="700"></img> </p>
+
 Seguimiento de proyecto (pago 50%) 
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-seguimiento-proyecto-detalle-pago-50.png" width="700"></img> </p>
+
 Seguimiento de proyecto (pago 50%) éxito
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-seguimiento-proyecto-detalle-pago-50-exito.png" width="700"></img> </p>
+
 Seguimiento de proyecto (pago 100%) 
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-seguimiento-proyecto-detalle-pago-100.png" width="700"></img> </p>
+
 Seguimiento de proyecto (pago 100%) éxito
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-seguimiento-proyecto-detalle-pago-100-exito.png" width="700"></img> </p>
+
 Seguimiento de proyecto (revisión) 
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-seguimiento-proyecto-detalle-revision.png" width="700"></img> </p>
+
 Seguimiento de proyecto (revisión) éxito
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-seguimiento-proyecto-detalle-revision-exito.png" width="700"></img> </p>
+
 Seguimiento de proyecto (proyecto completado) 
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-seguimiento-proyecto-completado.png" width="700"></img> </p>
+
 Gestión de solicitudes de proyectos
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-gestion-solicitudes.png" width="700"></img> </p>
+
 Gestión de solicitudes de proyectos (Acción)
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-gestion-solicitudes-accion.png" width="700"></img> </p>
+
 Gestión de solicitudes de proyectos (Acción) éxito
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-gestion-solicitudes-exito.png" width="700"></img> </p>
+
 Reviews
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-review.png" width="700"></img> </p>
+
 Detalles de reviews
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-review-detalle.png" width="700"></img> </p>
+
 Crear review
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-crear-review.png" width="700"></img> </p>
+
 Crear review con exito
+
 <p align = "center"> <img src="/assets/img/chapter-IV/mockup-crear-review-exito.png" width="700"></img> </p>
 
 En esta sección se muestran los mock-ups realizados para nuestro Web Application version Mobile.
@@ -329,14 +436,19 @@ En esta sección se muestran los mock-ups realizados para nuestro Web Applicatio
 Segmento contratista:
 
 <p align = "center"> <img src="/assets/img/chapter-IV/user-flow-login-propietario.png" width="700"></img></p>
+
 <p align = "center"> <img src="/assets/img/chapter-IV/user-flow-busqueda.png" width="700"></img></p>
+
 <p align = "center"> <img src="/assets/img/chapter-IV/user-flow-review.png" width="700"></img></p>
 
 Segmento remodelador:
 
 <p align = "center"> <img src="/assets/img/chapter-IV/user-flow-login-remodelador.png" width="700"></img></p>
+
 <p align = "center"> <img src="/assets/img/chapter-IV/user-flow-portafolio.png" width="700"></img></p>
+
 <p align = "center"> <img src="/assets/img/chapter-IV/user-flow-solicitudes.png" width="700"></img></p>
+
 <p align = "center"> <img src="/assets/img/chapter-IV/user-flow-seguimiento.png" width="700"></img></p>
 
 
@@ -344,7 +456,9 @@ Segmento remodelador:
 
 En esta sección se realizó un video para mostrar los user flows de nuestra aplicación web.
 
-Captura: <p align = "center"> <img src="/assets/img/chapter-IV/prototype-video.png" width="700"></img></p>
+Captura: 
+
+<p align = "center"> <img src="/assets/img/chapter-IV/prototype-video.png" width="700"></img></p>
 
 Link: https://shorturl.at/goCR6
 
@@ -364,6 +478,7 @@ sistema de software ReStyle, los usuarios y sistemas externos.
 
 El diagrama de contenedores ofrece una visión general de las conexiones entre aplicaciones
 y fuentes de datos en el sistema ReStyle. Muestra cómo interactúan y dependen entre sí para su funcionamiento.
+
 <p align = "center"> <img  alt="ReStyle Diagram Context" src="/assets/img/chapter-IV/restyle-container-diagram.png"> </p>
 
 
