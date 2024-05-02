@@ -337,7 +337,7 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
      <tr>   
       <td>
         <b>Saldaña Vela Janover Gonzalo TP: </b><br>
-        Escribir aquí
+        Se marcaron roles en la organización del equipo para poder tener una mejor flujo de trabajo al momento de realizar nuestras asignaciones, asi mismo, reportar las incidencias y la predisposicion del equipo para ayudar a resolverlos durante el desarrollo del sprint 2 nos ayudo mucho a aprender unos de otros y concretar con exito el sprint mencionado.
       </td>   
     </tr>
     <!-- ESTUDIANTE 4 TB1-->
@@ -417,7 +417,7 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
      <tr>   
       <td>
         <b>Saldaña Vela Janover Gonzalo TP: </b><br>
-        Escribir aquí
+        Apoyé en la correción de la redacción de technicals stories, desarrollo vistas para ambos segmentos objetivos identificados por el equipo y documenté los mismos para compartirlo con mis compañeros de equipo.
       </td>   
     </tr>
     <!-- ESTUDIANTE 4 TB1-->
