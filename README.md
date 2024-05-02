@@ -21,7 +21,6 @@
 * **Maria Alejandra Díaz Villacrez  U202118315**
 * **Janover Gonzalo Saldaña Vela    U20201B510**
 * **Ariana Vargas Revollé           U20221A928** 
-* **Josten Marc Huaman Bellido      U201617624** 
 
 <center>
 
@@ -70,7 +69,7 @@ Github Collaboration Insights proporciona un cronograma que muestra las principa
 - Alejanadra Villacrez (alehandraxx)
 - Daniel Valverde (daniel-vl7)
 - Janover Saldaña (JanoverSaldana)
-- Josten Huaman (JostenHuaman)
+- Josten Huaman (JostenHuaman) - Retirado
 - Ariana Vargas (vargas3470)
 
 Se divieron las siguientes ramas para la colaboración en el proyecto:
@@ -320,11 +319,11 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
     <tr> 
       <td> 
         <b>Díaz Villacrez, María Alejandra TP:</b><br>
-        Escribir aquí
+        Pudimos identificar el MVP para el sprint 2 en nuestras reuniones y asegurarnos que el core business de nuestro producto este implementado. Ademas, se realizaron lluvias de ideas en equipo para completar el alance de la entrega del trabajo parcial.
       </td> 
       <td rowspan="4">
         <b>CONCLUSIÓN DEL ENTRGABLE TP</b><br>
-        Escribir conclusión aquí
+        Al aplicar una organización correcta durante nuestro sprint 2 pudimos comunicar nuestras ideas de negocio y resultados de manera objetiva y efectiva. De igual manera, nos sirvio como experiencia en grupo para identificar objetivos del software.
       </td>   
     </tr>
     <!-- ESTUDIANTE 2 TP --> 
@@ -364,6 +363,7 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
       </td> 
       <td rowspan="5">
         <b>CONCLUSIÓN DEL ENTREGABLE TB1:</b><br>
+        Al guiarnos en las indicaciones del trabajo final pudimos comunicar de manera escrita nuestros resultados luego de un analisis previo exhaustivo.
       </td>    
     </tr>
     <!-- Estudiante 2 --> 
@@ -399,11 +399,11 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
     <tr> 
       <td> 
         <b>Díaz Villacrez, María Alejandra TP:</b><br>
-        Escribir aquí
+        Correji las historias de usuario e identificamos el MVP para nuestro core business. De igual manera, se analizaron los bounded context para repartirlos en features para nuestro frontend.
       </td> 
       <td rowspan="4">
         <b>CONCLUSIÓN DEL ENTRGABLE TP</b><br>
-        Escribir conclusión aquí
+        Para esta entrega, se evaluaron distintos objetivos para nuestros dos segmentos objetivos en la elaboracion de nuestro reporte. Se pudieron desarrollar de manera colaborativa los features de nuestro core business.
       </td>   
     </tr>
     <!-- ESTUDIANTE 2 TP --> 
