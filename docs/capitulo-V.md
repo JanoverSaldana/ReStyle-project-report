@@ -1659,62 +1659,63 @@ Para esta entrega el equipo aún no han realizado pruebas de testing.
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
 Despues de culminar satisfactoriamente el sprint 2, logramos implementar la pantalla de home, login, registro de usuario, vista de criticas y opiniones, búsqueda de empresas remodeldoras, busqueda de portafolios, seguimiento de proyecto, contacto con la empresa.
+Link de la aplicación: https://restyle-app-ca200.web.app
 
 * **Vista de Home de la aplicación:**
 
-![home-vista.png](/assets\img\chapter-V\sprint-2/home-vista.png)
+![home-vista.png](/assets/img/chapter-V/sprint-2/home-vista.png)
 
 * **Vista de inicio de sesión (login):**
 
-![login-vista.png](/assets\img\chapter-V\sprint-2/login-vista.png)
+![login-vista.png](/assets/img/chapter-V/sprint-2/login-vista.png)
 
 * **Vista de registro de usuario:**
 
-![registro-usuario-vista.png](/assets\img\chapter-V\sprint-2/registro-usuario-vista.png)
+![registro-usuario-vista.png](/assets/img/chapter-V/sprint-2/registro-usuario-vista.png)
 
 * **Vista de perfil de Usuario:**
 
-![perfil-usuario-vista.png](/assets\img\chapter-V\sprint-2/perfil-usuario-vista.png)
+![perfil-usuario-vista.png](/assets/img/chapter-V/sprint-2/perfil-usuario-vista.png)
 
 * **Vista de empresas remodeladoras:**
 
-![empresa-remodeladora-vista.png](/assets\img\chapter-V\sprint-2/empresa-remodeladora-vista.png)
+![empresa-remodeladora-vista.png](/assets/img/chapter-V/sprint-2/empresa-remodeladora-vista.png)
 
 * **Busqueda y filtros de empresas remodeladoras:**
 
-![busqueda-filtros-vista.png](/assets\img\chapter-V\sprint-2/busqueda-filtros-vista.png)
+![busqueda-filtros-vista.png](/assets/img/chapter-V/sprint-2/busqueda-filtros-vista.png)
 
 * **Vista de portafoliio y reseñas de empresas remodeladoras:**
 
 
-![portafolio-vista.png](/assets\img\chapter-V\sprint-2/portafolio-vista.png)
+![portafolio-vista.png](/assets/img/chapter-V/sprint-2/portafolio-vista.png)
 
 
-![reseñas-vista.png](/assets\img\chapter-V\sprint-2/reseñas-vista.png)
+![reseñas-vista.png](/assets/img/chapter-V/sprint-2/reseñas-vista.png)
 
 
 * **Vista de contacto con la empresa:**
 
-![contacto-vista.png](/assets\img\chapter-V\sprint-2/contacto-vista.png)
+![contacto-vista.png](/assets/img/chapter-V/sprint-2/contacto-vista.png)
 
 
 * **Sección de agregar reseña:**
 
-![agregar-reseña-vista.png](/assets\img\chapter-V\sprint-2/agregar-reseña-vista.png)
+![agregar-reseña-vista.png](/assets/img/chapter-V/sprint-2/agregar-reseña-vista.png)
 
 
 * **Sección de seguimiento de proyecto:**
 
-![tracking-view.png](/assets\img\chapter-V\sprint-2\tracking-view.png)
+![tracking-view.png](/assets/img/chapter-V/sprint-2/tracking-view.png)
 
 
 * **Vista de error al no encontrar la ruta ingresada:**
 
-![PageNotFound-vista.png](/assets\img\chapter-V\sprint-2/PageNotFound-vista.png)
+![PageNotFound-vista.png](/assets/img/chapter-V/sprint-2/PageNotFound-vista.png)
 
 * **Vista de coming soon:**
 
-![coming-soon.png](/assets\img\chapter-V\sprint-2\coming-soon-view.png)
+![coming-soon.png](/assets/img/chapter-V/sprint-2/coming-soon-view.png)
 
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
@@ -1758,7 +1759,27 @@ Para el sprint 2 se ha desarrollado **únicamente** el Front-End de la aplicaci�
 
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+Utilizamos Firebase Hosting para el despliegue de la aplicación web. A continuación se mostrarán los pasos para lograr el despliegue
+ 
+1. Creación de un nuevo proyecto en Firebase y elegimos el nombre del producto o alguno que este disponible
 
+<img src="/assets/img/chapter-V/sprint-2/crear-proyecto-firebase.png" alt="Firebase new project"/>
+
+2. Seleccionamos el tipo de sericio que vamos a utilizar, en este caso Hosting
+
+<img src="/assets/img/chapter-V/sprint-2/seleccion-hosting.png" alt="Firebase new project"/>
+
+3. Ejecutamos los comandos de configuración de Firebase en la terminal
+
+<img src="/assets/img/chapter-V/sprint-2/comandos-firebase-1.png" alt="Firebase commands"/>
+
+<img src="/assets/img/chapter-V/sprint-2/comandos-firebase-2.png" alt="Firebase commands"/>
+
+4. Ejecutamos en la terminal el comando "firebase deploy", el cual nos generará una URL para acceder a la aplicación web
+
+<img src="/assets/img/chapter-V/sprint-2/comandos-firebase-3.png" alt="Firebase commands"/>
+
+Finalmente obtenemos el link de nustra aplicación web desplegada en Firebase Hosting: https://restyle-app-ca200.web.app
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
@@ -1766,11 +1787,11 @@ En esta entrega, nuestra meta principal fue la implementación de nuestra aplica
 
 A continuación se muestra la cantidad de commits realizadas por cada integrante del equipo durante el desarrollo de la aplicación web.
 
-![PulseSprint2](/assets\img\chapter-V\sprint-2\pulse-sprint2.png)
+![PulseSprint2](/assets/img/chapter-V/sprint-2/pulse-sprint2.png)
 
 Los siguientes gráficos ofrecen una representación visual de las clonaciones registradas en nuestro repositorio, junto con la fecha en que cada una de estas acciones se llevó a cabo. Además, se presenta información sobre la cantidad de visitantes que ha tenido el repositorio de nuestro equipo a lo largo del tiempo.
 
-![CloneSprint2](/assets\img\chapter-V\sprint-2\clone-sprint2.png)
+![CloneSprint2](/assets/img/chapter-V/sprint-2/clone-sprint2.png)
 
 
 ## Avance de Conclusiones, Bibliografía y Anexos.
