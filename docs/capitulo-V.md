@@ -1623,6 +1623,53 @@ Para esta entrega el equipo aún no ah realizado prruebas de testing.
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
+Despues de culminar satisfactoriamente el sprint 2, logramos implementar la pantalla de home, login, registro de usuario, vista de criticas y opiniones, búsqueda de empresas remodeldoras, busqueda de portafolios, seguimiento de proyecto, contacto con la empresa.
+
+* **Vista de Home de la aplicación:**
+
+![home-vista.png](/assets\img\chapter-V\sprint-2/home-vista.png)
+
+* **Vista de inicio de sesión (login):**
+
+![login-vista.png](/assets\img\chapter-V\sprint-2/login-vista.png)
+
+* **Vista de registro de usuario:**
+
+![registro-usuario-vista.png](/assets\img\chapter-V\sprint-2/registro-usuario-vista.png)
+
+* **Vista de perfil de Usuario:**
+
+![perfil-usuario-vista.png](/assets\img\chapter-V\sprint-2/perfil-usuario-vista.png)
+
+* **Vista de empresas remodeladoras:**
+
+![empresa-remodeladora-vista.png](/assets\img\chapter-V\sprint-2/empresa-remodeladora-vista.png)
+
+* **Busqueda y filtros de empresas remodeladoras:**
+
+![busqueda-filtros-vista.png](/assets\img\chapter-V\sprint-2/busqueda-filtros-vista.png)
+
+* **Vista de portafoliio y reseñas de empresas remodeladoras:**
+
+![portafolio-vista.png](/assets\img\chapter-V\sprint-2/portafolio-vista.png)
+
+
+![reseñas-vista.png](/assets\img\chapter-V\sprint-2/reseñas-vista.png)
+
+
+* **Vista de contacto con la empresa:**
+
+![contacto-vista.png](/assets\img\chapter-V\sprint-2/contacto-vista.png)
+
+
+* **Sección de agregar reseña:**
+
+![agregar-reseña-vista.png](/assets\img\chapter-V\sprint-2/agregar-reseña-vista.png)
+
+* **Vista de error al no encontrar la ruta ingresada:**
+
+![PageNotFound-vista.png](/assets\img\chapter-V\sprint-2/PageNotFound-vista.png)
+
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
