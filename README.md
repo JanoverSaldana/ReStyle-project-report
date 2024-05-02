@@ -51,6 +51,15 @@
 | 1.11    | 11/04/2024 | Gonzalo Saldaña                                                                | Continuación de la redacción del capítulo 5 "Product Implementation, Validation & Deployment"                    |
 | 1.12    | 11/04/2024 | Ariana Vargas                                                                  | Continuación de la redacción del 5 "Product Implementation, Validation & Deployment"                             |
 | 1.13    | 12/04/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde, Josten Huaman | Finalización de items del Capítulo 5 del documento                                                               |
+| 2.0     | 22/04/2024 | Daniel Valverde                                                                | Corrección de la sección Software Architecture Diagrams                                                          |
+| 2.1     | 23/04/2024 | Alejandra Diaz                                                                 | Se agregó una entrevista para el segmento de contratistas                                                        |
+| 2.2     | 25/04/2024 | Janover Saldaña                                                                | Corrección de las Technical Stories                                                                              |
+| 2.3     | 25/04/2024 | Alejandra Diaz                                                                 | Corrección de las User Stories                                                                                   |
+| 2.4     | 26/04/2024 | Daniel Valverde                                                                | Corrección de la sección Class Diagrams                                                                          |
+| 2.5     | 27/04/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde                | Se agregó la sección de Mobile Mockups, se comenzó la redacción del Sprint 2                                     |
+| 2.6     | 30/04/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde                | Continuación de la redacción del sprint 2                                                                        |
+| 2.7     | 02/05/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde                | Finalización sprint 2 del Capítulo 5                                                                             |
+
 
 ### Project Report Collaboration Insights
 
