@@ -1303,6 +1303,13 @@ además se determinó el plazo de entrega de estas tareas.
 </table>
 
 #### 5.2.2.2. Sprint Backlog 2
+el segundo sprint se centró en el desarrollo del MVP del front-end de la aplicación web. Utilizamos Trello como 
+herramienta para organizar y gestionar a los miembros del equipo. Esta plataforma nos permitió dividir todas las
+historias de usuario en tareas manejables y asignarlas a los distintos integrantes del equipo.
+
+![Trello Evidence](/assets/img/chapter-V/sprint-2/sprint-backlog2-trello.png)
+
+Link del Tablero de Trello: https://trello.com/b/p6JtnTBC 
 
 <table>
   <tr>
