@@ -267,37 +267,11 @@
         </tr>
         <tr style="text-align:center">
             <td> US-007 </td>
-            <td> Crear proyecto de diseño </td>
-           <!-- Descripción -->
-            <td> 
-            <strong>Como</strong> usuario remodelador,
-            <strong> quiero</strong> poder crear proyectos de diseño dentro de la plataforma
-            <strong>para</strong> poder comenzar el proceso de remodelación.  
-            </td>
-            <!-- Criterios de Aceptación -->
-            <td> 
-            <h5>Escenario 01: </h5>
-            <strong>Dado</strong> que el remodelador se encuentra en sus proyectos dentro de su perfil de ReStyle
-            <strong>Cuando</strong> crea un proyecto de diseño
-            <strong>Y</strong> rellena los campos requeridos
-            <strong>Entonces</strong> el sistema guarda los datos ingresados, genera un nuevo proyecto de diseño
-            <strong>Y</strong> le notifica al remodelador sobre el mismo.
-            <h5>Escenario 02: </h5>
-            <strong>Dado</strong> que el remodelador se encuentra en sus proyectos dentro de su perfil de ReStyle
-            <strong>Cuando</strong> crea un proyecto de diseño
-            <strong>Y</strong> no rellena los campos requeridos
-            <strong>Entonces</strong> el sistema le notifica al remodelador que necesita completar los campos faltantes antes de crear un proyecto de diseño
-            <strong>Y</strong> no realiza ningún cambio.
-            </td>
-            <td>EPIC-006 </td>
-        </tr>
-        <tr style="text-align:center">
-            <td> US-008 </td>
             <td> Búsqueda de empresas remodeladoras </td>
            <!-- Descripción -->
             <td> 
             <strong>Como</strong> visitante del segmento contratista,
-            <strong>quiero</strong> poder buscar remodeladoras por ubicación geográfica y estilos de diseño
+            <strong>quiero</strong> poder buscar remodeladoras por ubicación o expertise
             <strong>para</strong> obtener un resultado más personalizado.  
             </td>
             <!-- Criterios de Aceptación -->
@@ -310,7 +284,7 @@
             <h5>Escenario 02: </h5>
             <strong>Dado</strong> que el visitante del segmento contratista se encuentra en la plataforma de ReStyle
             <strong>Cuando</strong> realiza una búsqueda
-            <strong>Y</strong> selecciona uno o varios estilos de diseño mediante filtros
+            <strong>E</strong> ingresa en la barra de busqueda el expertise de su preferencia
             <strong>Entonces</strong> el sistema solo le muestra las remodeladoras que cumplen con los requisitos.
             <h5>Escenario 03: </h5>
             <strong>Dado</strong> que el visitante del segmento contratista se encuentra en la plataforma de ReStyle
@@ -321,7 +295,7 @@
             <td>EPIC-001 </td>
         </tr>
         <tr style="text-align:center">
-            <td> US-009 </td>
+            <td> US-008 </td>
             <td> Revisar críticas y opiniones </td>
            <!-- Descripción -->
             <td> 
@@ -334,13 +308,42 @@
             <h5>Escenario 01: </h5>
             <strong>Dado</strong> que el visitante del segmento contratista se encuentra el perfil de un remodelador en la plataforma de ReStyle
             <strong>Cuando</strong> accede a la sección de reviews
-            <strong>Y</strong> no selecciona ningún filtro
-            <strong>Entonces</strong> el sistema le muestra en orden cronológico todas las reviews hechas al remodelador escogido.
+            <strong>Entonces</strong> el sistema le muestra todas las reviews hechas al remodelador escogido.
             <h5>Escenario 02: </h5>
             <strong>Dado</strong> que el visitante del segmento contratista se encuentra el perfil de un remodelador en la plataforma de ReStyle
             <strong>Cuando</strong> accede a la sección de reviews
-            <strong>Y</strong> selecciona un filtro por cantidad de estrellas
-            <strong>Entonces</strong> el sistema solo le muestra las reviews que coinciden con los requisitos.
+            <strong>Y</strong> selecciona un review
+            <strong>Entonces</strong> el sistema le redirige al portafolio del remodelador para ver los proyectos.
+            </td>
+            <td>EPIC-001 </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> US-009 </td>
+            <td> Agregar críticas y opiniones </td>
+           <!-- Descripción -->
+            <td> 
+            <strong>Como</strong> visitante del segmento contratista,
+            <strong>quiero</strong> agregar un review
+            <strong>para</strong> poder compartir mi experiencia con otros usuarios sobre el remodelador con el que realicé un proyecto.  
+            </td>
+            <!-- Criterios de Aceptación -->
+            <td> 
+            <h5>Escenario 01: </h5>
+            <strong>Dado</strong> que el visitante del segmento contratista se encuentra en la plataforma de ReStyle
+            <strong>Cuando</strong> accede a su perfil
+            <strong>Y</strong> selecciona la opción agregar reseña 
+            <strong>Entonces</strong> el sistema le muestra un formulario donde puede agregar la información correspondiente
+            <strong>Cuando</strong> el usuario ingresa la información requerida
+            <strong>Y</strong> selecciona guardar
+            <strong>Entonces</strong> el sistema guarda la reseña y muestra un mensaje de éxito.
+            <h5>Escenario 02: </h5>
+            <strong>Dado</strong> que el visitante del segmento contratista se encuentra en la plataforma de ReStyle
+            <strong>Cuando</strong> accede a su perfil
+            <strong>Y</strong> selecciona la opción agregar reseña 
+            <strong>Entonces</strong> el sistema le muestra un formulario donde puede agregar la información correspondiente
+            <strong>Cuando</strong> el usuario ingresa la información requerida
+            <strong>Y</strong> no selecciona guardar
+            <strong>Entonces</strong> el sistema no guarda la reseña y no muestra un mensaje de éxito.
             </td>
             <td>EPIC-001 </td>
         </tr>
@@ -402,108 +405,6 @@
         </tr>
         <tr style="text-align:center">
             <td> US-012 </td>
-            <td>Promocionar contenido </td>
-            <td> <strong>Como</strong> usuario remodelador, 
-              <strong>quiero</strong> poder promocionar el contenido de mi portafolio 
-              <strong>para</strong> aumentar mi cantidad de clientes</td>
-            <td>
-              <h5>Escenario 01: </h5>
-              <strong>Dado</strong> que el remodelador se encuentra en su portafolio dentro de su perfil de ReStyle, 
-              <strong>Cuando</strong> seleccione el contenido que quiere promocionar 
-              <strong>Y</strong> haga Click en el boton de Promocionar, 
-              <strong>Entonces</strong> le saldra una pantalla en donde podra seleccionar cuanto tiempo el contenido se mostrara, a cuantas personas y el costo y seleccionar la tarjeta con la que quiere pagar 
-              <h5>Escenario 02:</h5>
-              <strong>Dado</strong> que el usuario remodelador ha usado su tarjeta de credito o debito en ReStyle antes,
-              <strong>Cuando</strong> seleccione su tarjeta en la pantalla de pago para promocioin de contenido 
-              <strong>Y</strong> seleccione la promocion por la cual desea pagar 
-              <strong>Y</strong> le de click en aceptar, 
-              <strong>Entonces</strong> salda un mensaje de pago exitoso 
-              <h5>Escenario 03:</h5>
-              <strong>Dado</strong> a que el usuario remodelador nunca antes ha usado su tarjeta de credito o debito en ReStyle, 
-              <strong>Cuando</strong> este en la pantalla de pago de promocion de contenido, 
-              <strong>Entonces</strong> le saldan los campos de su tarjeta que debe llenar para poder realizar el pago 
-              <h5>Escenario 04:</h5>
-              <strong>Dado</strong> que el usuario remodelador no ha seleccionado el plan de promocion de contenido por el que quiere pagar, 
-              <strong>Cuando</strong> le de Click a Aceptar, 
-              <strong>Entonces</strong> saldra un mensaje de error. 
-              <h5>Escenario 05:</h5>
-              <strong>Dado</strong> a que el usuario remodelador nunca antes ha usado su tarjeta de credito o debito en ReStyle 
-              <strong>Y</strong> no haya llenado los datos solicitados de tarjeta, 
-              <strong>Cuando</strong> le de click en aceptar, 
-              <strong>Entonces</strong> saldra un mensaje de error. </td>
-            <td> EPIC-007</td>
-        </tr>
-        <tr style="text-align:center">
-            <td> US-013 </td>
-            <td>Continuar promocion de contenido </td>
-            <td>
-              <strong>Como</strong> usuario remodelador, 
-              <strong>quiero</strong> extender el plazo de tiempo de la promocion de mi contenido 
-              <strong>para</strong> mantener el aumento de alcanze de mi negocio </td>
-            <td>
-              <h5>Escenario 01: </h5>
-              <strong>Dado</strong> que el usuario remodelador ha pagado por promocion de contenido, 
-              <strong>Cuando</strong> falte 1 dia para terminar el plazo de promocion, 
-              <strong>Entonces</strong> le aparecera una pantalla para continuar la promocion y aprobar el pago. 
-              <h5>Escenario 02:</h5>
-              <strong>Dado</strong> que el usuario remodelador ha pagado por promocion de contenido, 
-              <strong>Cuando</strong> le aparezca la pantalla de Continuar Promocion 
-              <strong>Y</strong> le de Click al boton de Continuar 
-              <strong>Y</strong> le de click a Aceptar Pago, 
-              <strong>Entonces</strong> el pago sera aprovado y se continuara la promocion de contenido. 
-              <h5>Escenario 03:</h5>
-              <strong>Dado</strong> que el usuario remodelador ha pagado por promocion de contenido, 
-              <strong>Cuando</strong> le aparezca la pantalla de Continuar Promocion 
-              <strong>Y</strong> le de Click al boton de No Continuar,
-              <strong>Entonces</strong> saldra una pantalla confirmando la negacion de promocion y la promocion concluira en un plazo menor a 24 horas. </td>
-            <td>EPIC-007</td>
-        </tr>
-        <tr style="text-align:center">
-            <td> US-014 </td>
-            <td> Suscripción remodelador</td>
-            <td> 
-              <strong>Como</strong> usuario remodelador,
-              <strong>quiero</strong> poder suscribirme a ReStyle 
-              <strong>para</strong> poder acceder al mercado qué provee</td>
-            <td>
-              <h5>Escenario 01: </h5>
-              <strong>Dado</strong> que el usuario remodelador se encuentra la pantalla inicial de ReStyle ,
-              <strong>Cuando</strong> le de click al boton de Suscribirse (Para Negocios), 
-              <strong>Entonces</strong> le aparecera la pantalla de Creacion de Cuenta Nueva. 
-              <h5>Escenario 02:</h5> 
-              <strong>Dado</strong> que el usuario remodelador se encuentra en la pantalla de Creacion de Cuenta nueva, 
-              <strong>Cuando</strong> llene los datos solicitados 
-              <strong>Y</strong> le de Click al Boton Aceptar 
-              <strong>Entonces</strong> le aparecera la pantalla de Planes de Pago. 
-              <h5>Escenario 03:</h5>
-              <strong>Dado</strong> que el usuario remodelador se encuentra en la pantalla de Creacion de Cuenta Nueva 
-              <strong>Y</strong> no haya llenado los datos solicitados,
-              <strong>Cuando</strong> le de click al boton Aceptar, 
-              <strong>Entonces</strong> le aparecera un mensaje de error. 
-              <h5>Escenario 04:</h5>
-              <strong>Dado</strong> que el usuario remodelador se encuentra en la pantalla de Planes de Pago 
-              <strong>Cuando</strong> seleccione el plan al que desea suscribirse 
-              <strong>Y</strong> le de click a aceptar, 
-              <strong>Entonces</strong> le aparecera la pantalla de Pagos. 
-              <h5>Escenario 05: </h5>
-              <strong>Dado</strong> que el usuario remodelador se encuentra en la pantalla de Planes de Pago 
-              <strong>Y</strong> no haya seleccionado un plan al que desea suscribirse 
-              <strong>Cuando</strong> le de click a aceptar, 
-              <strong>Entonces</strong> le aparecera un mensaje de error.
-              <h5>Escenario 06: </h5>
-              <strong>Dado</strong> que el usuario remodelador se encuentra en la pantalla de Pagos 
-              <strong>Cuando</strong> ingrese los datos de su tarjeta 
-              <strong>Y</strong> le de click a aceptar, 
-              <strong>Entonces</strong> el pago sera procesado le aparecera un mensaje suscripcion exitosa. 
-              <h5>Escenario 07: </h5>
-              <strong>Dado</strong> que el usuario remodelador se encuentra en la pantalla de Pagos 
-              <strong>Y</strong> no haya ingresado los datos de su tarjeta 
-              <strong>Cuando</strong> le de click a aceptar, 
-              <strong>Entonces</strong> aparecera un mensaje de error </td>
-            <td>EPIC-007 </td>
-        </tr>
-        <tr style="text-align:center">
-            <td> US-015 </td>
             <td> Crear cuenta contratista</td>
             <td> 
               <strong>Como</strong> usuario contratista, 
@@ -527,8 +428,32 @@
             <td> EPIC-002</td>
         </tr>
         <tr style="text-align:center">
-            <td> US-017 </td>
-            <td>Busqueda proyectos</td>
+            <td> US-013 </td>
+            <td> Crear cuenta remodelador</td>
+            <td> 
+              <strong>Como</strong> usuario remodelador, 
+              <strong>quiero</strong> poder crear una cuenta en ReStyle 
+              <strong>para</strong> poder promocionar mis servicios</td>
+            <td>
+              <h5>Escenario 01: </h5> 
+              <strong>Dado</strong> que el usuario remodelador se encuentra la pantalla inicial de ReStyle , 
+              <strong>Cuando</strong> le de click al boton de Crear cuenta, 
+              <strong>Entonces</strong> le aparecera la pantalla de Creacion de Cuenta Nueva. 
+              <h5>Escenario 02:</h5>
+              <strong>Dado</strong> que el usuario remodelador se encuentra en la pantalla de Creacion de Cuenta nueva, 
+              <strong>Cuando</strong> llene los datos solicitados 
+              <strong>Y</strong> le de Click al Boton Aceptar 
+              <strong>Entonces</strong> le aparecera la pantalla de Iniciar Sesion. 
+              <h5>Escenario 03:</h5> 
+              <strong>Dado</strong> que el usuario remodelador se encuentra en la pantalla de Creacion de Cuenta Nueva 
+              <strong>Y</strong> no haya llenado los datos solicitados, 
+              <strong>Cuando</strong> le de click al boton Aceptar, 
+              <strong>Entonces</strong> le aparecera un mensaje de error. </td>
+            <td> EPIC-002</td>
+        </tr>
+        <tr style="text-align:center">
+            <td> US-014 </td>
+            <td>Busqueda portafolios</td>
             <td> 
               <strong>Como</strong> usuario contratista, 
               <strong>quiero</strong> poder buscar proyectos hechos por remodeladores 
@@ -536,17 +461,80 @@
             <td> 
               <h5>Escenario 01: </h5>
               <strong>Dado</strong> que el usuario contratista se encuentra en la pantalla de busqueda,
-              <strong>Cuando</strong> ingrese el proyecto que le interesa en la barra de busqueda 
-              <strong>Entonces</strong> mostrara todos los proyectos con un nombre igual al ingresado. 
-              <h5>Escenario 02:</h5>
-              <strong>Dado</strong> que el usuario contratista se encuentra en la pantalla de busqueda, 
-              <strong>Cuando</strong> ingrese el proyecto que le interesa en la barra de busqueda 
-              <strong>Y</strong> no exista un proyecto con un nombre igual 
-              <strong>Entonces</strong> se mostraran proyectos con nombres parecidos a los ingresados</td>
+              <strong>Cuando</strong> selecciona la opcion portafolios
+              <strong>Entonces</strong> el sistema mostrara todos los proyectos realizados por el remodelador. 
+              <h5>Escenario 02: </h5>
+              <strong>Dado</strong> que el usuario contratista se encuentra en el apartado de portafolios,
+              <strong>Cuando</strong> selecciona un portafolio
+              <strong>Entonces</strong> el sistema le redirige al perfil del remodelador que es dueño del portafolio.
             <td>EPIC-001</td>
         </tr>
         <tr style="text-align:center">
-            <td>US-018</td>
+            <td> US-015 </td>
+            <td>Seguimiento de proyecto</td>
+            <td> 
+              <strong>Como</strong> usuario remodelador, 
+              <strong>quiero</strong> poder ver los hitos del seguimiento mi proyecto 
+              <strong>para</strong> saber en qué estado y etapa se encuentra el proyecto de diseño</td>
+            <td> 
+              <h5>Escenario 01: </h5>
+              <strong>Dado</strong> que el usuario remodelador se encuentra en la plataforma de reStyle,
+              <strong>Cuando</strong> selecciona el apartado de mis proyectos
+              <strong>Entonces</strong> el sistema le mostrará todos los hitos del proyecto. 
+              <h5>Escenario 02: </h5>
+              <strong>Dado</strong> que el usuario remodelador se encuentra en el apartado de mis proyectos,
+              <strong>Cuando</strong> selecciona cumplir un hito
+              <strong>Entonces</strong> el sistema le permite continuar al siguiente en la línea de tiempo. 
+              <h5>Escenario 03: </h5>
+              <strong>Dado</strong> que el usuario remodelador se encuentra en el apartado de mis proyectos,
+              <strong>Cuando</strong> todos los hitos han sido culminados
+              <strong>Entonces</strong> el sistema le permite guardar el proyecto como culminado. 
+            <td>EPIC-006</td>
+        </tr>
+        <tr style="text-align:center">
+            <td> US-016 </td>
+            <td>Programar Consulta con un Remodelador</td>
+            <td>
+            <strong>Como</strong> propietario de vivienda interesado en remodelar, quiero poder programar uan consulta con un remodelador a través de la plataforma <strong>para</strong> discutir mis necesidades y obtener recomendaciones.
+            </td>
+            <td>
+            <h5>Esceneario 1:</h5>
+            <strong>Dado</strong> que soy un propietario de vivienda registrado en la plataforma, <strong>Cuando</strong> accedo al perfil de un remodelador. <strong>Entonces</strong> tengo la opción de contactarme con la empresa dejandole mis datos personales.
+            <h5>Escenario 2:</h5>
+            <strong>Dado</strong> que me he contactado con un remodelador, <strong>Cuando</strong> se confirma el mensaje. <strong>Entonces</strong> recibo una notificación por correo electrónico y/o mensaje en la plataforma confirmando la consulta.
+            </td>
+            <td>EPIC-001 </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> US-017 </td>
+            <td>Visualizar home de la plataforma</td>
+            <td>
+            <strong>Como</strong> usuario de reStyle deseo poder acceder a un home de la aplicación<strong>para</strong> poder visualizar las opciones disponibles para mi rol.
+            </td>
+            <td>
+            <h5>Esceneario 1:</h5>
+            <strong>Dado</strong> que soy un propietario de vivienda registrado en la plataforma, <strong>Cuando</strong> accedo a la sección de inicio <strong>Entonces</strong> el sistema me redirige al home de la aplicación.
+            <h5>Esceneario 2:</h5>
+            <strong>Dado</strong> que soy un remodelador registrado en la plataforma, <strong>Cuando</strong> accedo a la sección de inicio <strong>Entonces</strong> el sistema me redirige al home de la aplicación.
+            </td>
+            <td>EPIC-002 </td>
+        </tr>
+        <tr style="text-align:center">
+            <td> US-018 </td>
+            <td>Visualizar una página no encontrada</td>
+            <td>
+            <strong>Como</strong> usuario de reStyle deseo saber qué páginas no están a mi alcance<strong>para</strong> poder visualizar las opciones disponibles para mi rol.
+            </td>
+            <td>
+            <h5>Esceneario 1:</h5>
+            <strong>Dado</strong> que soy un propietario de vivienda registrado en la plataforma, <strong>Cuando</strong> ingreso una ruta al azar en el buscador de mi navegador <strong>Entonces</strong> la aplicación me redirige a una página no encontrada.
+            <h5>Esceneario 2:</h5>
+            <strong>Dado</strong> que soy un remodelador registrado en la plataforma, <strong>Cuando</strong> ingreso una ruta al azar en el buscador de mi navegador <strong>Entonces</strong> la aplicación me redirige a una página no encontrada.
+            </td>
+            <td>EPIC-002 </td>
+        </tr>
+        <tr style="text-align:center">
+            <td>US-019</td>
             <td>Cambiar idioma</td>
             <!-- Descripción -->
             <td>
@@ -569,94 +557,8 @@
             </td>
             <td> EPIC-004</td>
         </tr>
-        <tr style="text-align:center">
-            <td> US-019 </td>
-            <td>Programar Consulta con un Remodelador</td>
-            <td>
-            <strong>Como</strong> propietario de vivienda interesado en remodelar, quiero poder programar uan consulta con un remodelador a través de la plataforma <strong>para</strong> discutir mis necesidades y obtener recomendaciones.
-            </td>
-            <td>
-            <h5>Esceneario 1:</h5>
-            <strong>Dado</strong> que soy un propietario de vivienda registrado en la plataforma, <strong>Cuando</strong> accedo al perfil de un remodelador. <strong>Entonces</strong> tengo la opción de programar una consulta con ese remodelador, seleccionando una fecha y hora conveniente.
-            <h5>Escenario 2:</h5>
-            <strong>Dado</strong> que he programado una consulta con un remodelador, <strong>Cuando</strong> se confirma la cita. <strong>Entonces</strong> recibo una notificación por correo electrónico y/o mensaje en la plataforma confirmando la fecha, hora y detalles adicionales sobre la consulta.
-            <h5>Escenario 3:</h5>
-            <strong>Dado</strong> que he programado una consulta con un remodelador, <strong>Cuando</strong> se acerca la fecha y hora de la cita. <strong>Entonces</strong> recibo un recordatorio automático por correo electrónico y/o mensaje en la plataforma para asegurarme de no perder la cita.
-            </td>
-            <td>EPIC-002 </td>
-        </tr>
-        <tr style="text-align:center"> 
-            <td> US-020 </td>
-            <td>Solicitar Presupuesto de Remodelación</td>
-            <td>
-            <strong>Como</strong> propietario de vivienda interesado en remodelar, quiero poder solicitar presupuestos a múltiples remodeladores a través de la plataforma <strong>para</strong> comparar opciones y tomar decisiones informadas.
-            </td>
-            <td>              
-            <h5>Escenario 1: </h5>
-            <strong>Dado</strong> que soy un propietario de vivienda registrado en la plataforma, <strong>Cuando</strong> accedo a la sección de solicitudes de presupuesto. <strong>Entonces</strong> puedo completar un formulario con detalles sobre mi proyecto de remodelación y enviar la solicitud a los remodeladores disponibles.
-            <h5>Escenario 2:</h5>
-            <strong>Dado</strong> que he enviado una solicitud de presupuesto, <strong>Cuando</strong> los remodeladores interesados reciben mi solicitud. <strong>Entonces</strong> comienzan a enviar sus ofertas y propuestas a través de la plataforma para que yo las revise.
-            <h5>Escenario 3:</h5>
-            <strong>Dado</strong> que he recibido múltiples ofertas de remodeladores, <strong>Cuando</strong> reviso las propuestas y comparo los presupuestos. <strong>Entonces</strong> puedo evaluar factores como el costo, el tiempo de ejecución y la calidad del trabajo para tomar una decisión informada.
-            </td>
-            <td>EPIC-002 </td>
-        </tr>
-        <tr style="text-align:center">
-            <td> US-021 </td>
-            <td>Responder Solicitudes de Presupuesto </td>
-            <td>
-            <strong>Como</strong> profesional de remodelación, quiero poder responder rápidamente a las solicitudes de presupuesto de los propietarios de viviendas <strong>para</strong> demostrar profesionalismo y captar nuevos clientes. </td>
-            <td>
-            <h5>Escenario 1: </h5>
-            <strong>Dado</strong> que soy un remodelador registrado en la plataforma, <strong>Cuando</strong> recibo una nueva solicitud de presupuesto. <strong>Entonces</strong> recibo una notificación por correo electrónico y/o mensaje en la plataforma para informarme sobre la solicitud entrante.
-            <h5>Escenario 2: </h5>
-            <strong>Dado</strong> que he recibido una solicitud de presupuesto, <strong>Cuando</strong> reviso los detalles del proyecto proporcionados por el propietario de la vivienda. <strong>Entonces</strong> puedo evaluar la viabilidad del proyecto y preparar una oferta personalizada.
-            <h5>Escenario 3: </h5>
-            <strong>Dado</strong> que he preparado una oferta para un proyecto de remodelación, <strong>Cuando</strong> la envío al propietario de la vivienda a través de la plataforma. <strong>Entonces</strong> proporciono detalles claros sobre el alcance del trabajo, el costo estimado y cualquier término adicional para la consideración del cliente.
-            </td>
-            <td>EPIC-001 </td>
-        </tr>
-        <tr style="text-align:center">
-            <td> US-022 </td>
-            <td> Visualización de Proyectos Anteriores</td>
-            <td>
-            <strong>Como</strong> propietario de vivienda interesado en contratar servicios de remodelación, deseo poder visualizar proyectos anteriores realizados por los profesionales en la plataforma <strong>para</strong> evaluar su experiencia y calidad de trabajo
-            <td>
-            <h5>Escenario 1:</h5>
-            <strong>Dado</strong> que soy un propietario de vivienda registrado en la plataforma, <strong>Cuando</strong> hay actualizaciones, cambios o mensajes relevantes relacionados con mis proyectos. <strong>Entonces</strong> recibo notificaciones instantáneas en mi dispositivo móvil o correo electrónico.
-            <h5>Escenario 2:</h5>
-            <strong>Dado</strong> que estoy revisando una notificación en tiempo real, <strong>Cuando</strong> hago clic en ella. <strong>Entonces</strong> se me redirige automáticamente a la sección correspondiente de la plataforma para obtener más detalles o tomar medidas.
-            </td>
-            <td> EPIC-005</td>
-        </tr>
-        <tr style="text-align:center">
-            <td> US-023 </td>
-            <td>Notificaciones en Tiempo Real</td>
-            <td>
-            <strong>Como</strong> propietario de vivienda en proceso de remodelación, deseo tener acceso a una herramienta de seguimiento de proyectos en la plataforma <strong>para</strong> monitorear el progreso, establecer hitos y comunicarme con los profesionales involucrados.
-            <td>
-            <h5>Escenario 1:</h5>
-            <strong>Dado</strong> que soy un propietario de vivienda registrado en la plataforma, <strong>Cuando</strong> accedo a la herramienta de seguimiento de proyectos desde el panel de control. <strong>Entonces</strong> puedo ver una descripción general de mis proyectos activos, incluido el estado actual, los hitos programados y los profesionales asignados.
-            <h5>Escenario 2:</h5>
-            <strong>Dado</strong> que estoy monitoreando el progreso de un proyecto, <strong>Cuando</strong> actualizo el estado, agrego comentarios o adjunto archivos relevantes. <strong>Entonces</strong> los profesionales involucrados son notificados y pueden responder o tomar medidas según sea necesario.
-            <td> EPIC-001</td>
-        </tr>
-        <tr style="text-align:center">
-            <td> US-024 </td>
-            <td> Programación de Citas</td>
-            <td>
-            <strong>Como</strong> profesional de remodelación, quiero poder programar citas con clientes potenciales a través de la plataforma <strong>para</strong> discutir sus proyectos y evaluar sus necesidades antes de comenzar cualquier trabajo.
-            </td>
-            <td>
-            <h5>Escenario 1:</h5>
-            <strong>Dado</strong> que soy un remodelador registrado en la plataforma, <strong>Cuando</strong> accedo a mi calendario de citas desde mi panel de control. <strong>Entonces</strong> puedo ver mi disponibilidad actual y reservar horarios para reuniones con clientes potenciales.
-            <h5>Esceneario 2:</h5>
-            <strong>Dado</strong> que he programado una cita con un cliente potencial, <strong>Cuando</strong> el cliente recibe una notificación sobre la cita programada y confirma su asistencia. <strong>Entonces</strong> recibo confirmación de la cita y preparo la reunión según lo acordado.
-            </td>
-            <td>EPIC-002 </td>
-        </tr>
          <tr style="text-align:center">
-            <td>US-025</td>
+            <td>US-020</td>
             <td>Visualizar testimonios de los usuarios que han utilizado la aplicación </td>
             <!-- Descripción -->
             <td>
@@ -680,7 +582,7 @@
             <td> EPIC-004</td>
         </tr> 
         <tr style="text-align:center">
-            <td>US-026</td>
+            <td>US-021</td>
             <td>Visualizar formulario de contacto </td>
             <!-- Descripción -->
             <td>
@@ -704,104 +606,122 @@
         </tr>   
         <tr style="text-align:center">
             <td> TS001 </td>
-            <td> Get Portfolios </td>
+            <td> Obtener Portafolios </td>
             <td> 
             <strong> Como </strong> desarrollador backend en reStyle,
-            <strong> quiero </strong> obtener la información del portafolio de los remodeladores
-            a través de una API <strong> para </strong> permitir al equipo de frontend utilizar
-            los datos del portafolio en la interfaz de usuario </td>
+            <strong> quiero </strong> o obtener la información del portafolio de los remodeladores a través de una API <strong> para </strong> permitir al equipo de frontend utilizar los datos del portafolio en la interfaz de usuario. </td>
             <td> 
-            <h5>Escenario 01: </h5>
+            <h5>Escenario 01: Obtener Portafolios Exitosamente</h5>
             <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Portfolio,
-            <strong> Cuando </strong> envío una solicitud para la obtención de datos del portafolio 
-            de los usuarios. <strong> Entonces </strong>  recibo la información de los portafolios en un response 
-            de formato JSON. 
-            <h5>Escenario 02: </h5>            
+            <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del portafolio de los usuarios, <strong> Entonces </strong>  el servidor responde con un código de estado 200 OK <strong> Y </strong> recibo la información de los portafolios en un response de formato JSON que contiene al menos un portafolio con los siguientes campos: <br> 
+            ID: {ID del portafolio}<br>
+            - Nombre: {Nombre del remodelador}<br>
+            - Descripción: {Descripción del portafolio}<br>
+            - Proyectos: [{Lista de proyectos del portafolio}]<br>
+            <h5>Escenario 02: Obtener Portafolios con Parámetro Erróneo</h5>            
             <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Portfolios,
-            <strong> Cuando </strong> envío una solicitud para la obtención de datos del portafolio de los usuarios
-            <strong> Y </strong> el parámetro es erróneo o no exista <strong> Entonces </strong> 
-            recibo una mensaje de error en la solicitud </td>
+            <strong> Cuando </strong>envío una solicitud GET para la obtención de datos del portafolio de los usuarios con un parámetro erróneo o inexistente,
+            <strong> Entonces </strong> 
+            el servidor responde con un código de estado 400 Bad Request <strong> Y </strong> recibo un mensaje de error en el response indicando que el parámetro es incorrecto o no existe.
+            </td>
             <td> </td>
         </tr>
         <tr style="text-align:center">
             <td> TS002 </td>
-            <td> Get Portfolio by User </td>
+            <td> Obtener Portafolio por Usuario </td>
             <td> 
-            <strong> Como </strong> desarrollador backend en reStyle,
-            <strong> quiero </strong> obtener la información del portafolio  por usuario remodelador a través de una API 
-            <strong> para </strong> permitir al equipo de frontend utilizar
-            los datos del portafolio en la interfaz de usuario </td>
+                <strong> Como </strong> desarrollador backend en reStyle,
+                <strong> quiero </strong> obtener la información del portafolio por usuario remodelador a través de una API
+                <strong> para </strong> permitir al equipo de frontend utilizar los datos del portafolio en la interfaz de usuario.
+            </td>
             <td> 
-            <h5> Escenario 01: </h5>
-            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Portfolio by user,
-            <strong> Cuando </strong> envío una solicitud para la obtención de datos del portafolio de un usuario por id
-            <strong> Entonces </strong>  recibo la información del portafolio en un response de formato JSON. 
-            <h5> Escenario 02: </h5>            
-            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Portfolio by user,
-            <strong> Cuando </strong> envío una solicitud para la obtención de datos del portafolio del usuario
-            <strong> Y </strong> el parámetro de ID es erróneo o no exista <strong> Entonces </strong> 
-            recibo una mensaje de error en la solicitud </td>
+                <h5> Escenario 01:  Obtener Portafolio Exitosamente por ID </h5>
+                <strong> Dado </strong> qque tengo autorización en el uso de la API y al endpoint de Portfolio by user,
+                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del portafolio de un usuario por su ID,
+                <strong> Entonces </strong>  el servidor responde con un código de estado 200 OK
+                <strong>Y</strong> recibo la información del portafolio del usuario en un response de formato JSON que contiene los siguientes campos:<br>
+                - ID: {ID del portafolio}<br>
+                - Nombre: {Nombre del remodelador}<br>
+                - Descripción: {Descripción del portafolio}<br>
+                - Proyectos: [{Lista de proyectos del portafolio}]<br>
+                <h5> Escenario 02: Obtener Portafolio con Parámetro de ID Erróneo </h5>            
+                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Portfolio by user,
+                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del portafolio de un usuario con un parámetro de ID erróneo o inexistente,
+                <strong> Entonces </strong> 
+                el servidor responde con un código de estado 400 Bad Request
+                <strong> Y </strong> recibo un mensaje de error en el response indicando que el parámetro de ID es incorrecto o no existe.
+            </td>
             <td> </td>
         </tr>
         <tr style="text-align:center">
             <td> TS003 </td>
-            <td> Get Project by User </td>
+            <td>  Obtener Datos del Proyecto Actual por Usuario </td>
             <td> 
-            <strong> Como </strong> desarrollador backend en reStyle,
-            <strong> quiero </strong> obtener los datos del proyecto actual de un remodelador a través de una API 
-            <strong> para </strong> permitir al equipo de frontend utilizar
-            los datos del proyecto y mostrarlo a los contratistas  </td>
+                <strong> Como </strong> desarrollador backend en reStyle,
+                <strong> quiero </strong> obtener los datos del proyecto actual de un remodelador a través de una API
+                <strong> para </strong> permitir al equipo de frontend utilizar los datos del proyecto y mostrarlo a los contratistas.  
+            </td>
             <td> 
-            <h5> Escenario 01: </h5>
-            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Project by user,
-            <strong> Cuando </strong> envío una solicitud para la obtención de datos del proyecto de un usuario por id
-            <strong> Entonces </strong>  recibo la información del portafolio en un response de formato JSON. 
-            <h5> Escenario 02: </h5>            
-            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Project by user,
-            <strong> Cuando </strong> envío una solicitud para la obtención de datos del proyecto del usuario
-            <strong> Y </strong> el parámetro de ID es erróneo o no exista <strong> Entonces </strong> 
-            recibo una mensaje de error en la solicitud </td>
+                <h5> Escenario 01: Obtener Datos del Proyecto Exitosamente por ID </h5>
+                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Project by user,
+                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del proyecto de un usuario por su ID,
+                <strong> Entonces </strong>  el servidor responde con un código de estado 200 OK <strong> Y </strong> recibo la información del proyecto actual del usuario en un response de formato JSON que contiene los siguientes campos:<br>
+                - ID: {ID del proyecto}<br>
+                - Nombre: {Nombre del proyecto}<br>
+                - Descripción: {Descripción del proyecto}<br>
+                - Fecha de inicio: {Fecha de inicio del proyecto}<br>
+                - Fecha de finalización: {Fecha de finalización del proyecto}<br>
+                <h5> Escenario 02: Obtener Datos del Proyecto con Parámetro de ID Erróneo</h5>            
+                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Project by user,
+                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del proyecto de un usuario con un parámetro de ID erróneo o inexistente,
+                <strong> Entonces </strong> el servidor responde con un código de estado 400 Bad Request
+                <strong> Y </strong> recibo un mensaje de error en el response indicando que el parámetro de ID es incorrecto o no existe.
+            </td>
             <td> </td>
         </tr>
         <tr style="text-align:center">
             <td> TS004 </td>
-            <td> Post Publications </td>
+            <td>  Crear Publicaciones de Oportunidad Laboral </td>
             <td> 
-            <strong> Como </strong> desarrollador backend en reStyle,
-            <strong> quiero </strong> permitir a los contratistas puedan crear publicaciones de oportunidad laboral 
-            <strong> para </strong>  registrarlas en la base de datos 
+                <strong> Como </strong> desarrollador backend en reStyle,
+                <strong> quiero </strong> ppermitir a los contratistas crear publicaciones de oportunidad laboral
+                <strong> para </strong> registrarlas en la base de datos.
             </td>
             <td> 
-            <h5>Escenario 01: </h5>
-            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Publications,
-            <strong> Cuando </strong> envío una solicitud envío una solicitud con datos validados para el
-            registro de una nueva publicación. <strong> Entonces </strong> la información de la publicación se
-            almacenará con éxito en la base de datos de la aplicación.
-            <h5>Escenario 02: </h5>            
-            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Publications,
-            <strong> Cuando </strong> envío una solicitud envío una solicitud sin datos validados 
-            <strong> Entonces </strong> recibo una mensaje de error en la solicitud y esta es rechazada.
+                <h5>Escenario 01: Crear Publicación Exitosamente</h5>
+                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Publications,
+                <strong> Cuando </strong> envío una solicitud con datos validados para el registro de una nueva publicación,
+                registro de una nueva publicación. <strong> Entonces </strong> el servidor responde con un código de estado 201 Created
+                <strong> Y </strong> la información de la publicación se almacena con éxito en la base de datos de la aplicación.
+                <h5>Escenario 02:  Crear Publicación con Datos No Validados</h5>            
+                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Publications,
+                <strong> Cuando </strong> envío una solicitud sin datos validados para el registro de una nueva publicación, 
+                <strong> Entonces </strong> rel servidor responde con un código de estado 400 Bad Request
+                <strong> Y </strong> recibo un mensaje de error en la solicitud indicando que los datos no son válidos
+                <strong> Y </strong> la solicitud es rechazada, sin almacenar la información en la base de datos.
             </td>
             <td> </td>
         </tr>
         <tr style="text-align:center">
             <td> TS005 </td>
-            <td> Post Reviews </td>
+            <td> Crear Reseñas sobre los Remodeladores </td>
             <td> 
-            <strong> Como </strong> desarrollador backend en reStyle,
-            <strong> quiero </strong> permitir a los contratistas crear reseñas sobre los remodeladores a través de una API 
-            <strong> para </strong> permitir a los contratistas compartir su opinión del trabajador contratado 
+                <strong> Como </strong> desarrollador backend en reStyle,
+                <strong> quiero </strong> permitir a los contratistas crear reseñas sobre los remodeladores a través de una API
+                <strong> para </strong> permitir a los contratistas compartir su opinión del trabajador contratado.
             </td>
             <td> 
-            <h5>Escenario 01: </h5>
-            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Post Reviews,
-            <strong> Cuando </strong> envío una solicitud envío una solicitud con datos validados para el
-            registro de una nueva reseña. <strong> Entonces </strong> la información de la reseña se
-            almacenará con éxito en la base de datos de la aplicación.
-            <h5>Escenario 02: </h5>            
-            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Post Reviews,
-            <strong> Cuando </strong> envío una solicitud envío una solicitud sin datos validados 
-            <strong> Entonces </strong> recibo una mensaje de error en la solicitud y esta es rechazada.
+                <h5>Escenario 01: Crear Reseña Exitosamente</h5>
+                <strong>Dado</strong> que tengo autorización en el uso de la API y al endpoint de Post Reviews,
+                <strong>Cuando</strong> envío una solicitud con datos validados para el registro de una nueva reseña,
+                <strong>Entonces</strong> el servidor responde con un código de estado 201 Created
+                <strong>Y</strong> la información de la reseña se almacena con éxito en la base de datos de la aplicación.
+                <h5>Escenario 02: Crear Reseña con Datos No Validados</h5>            
+                <strong>Dado</strong> que tengo autorización en el uso de la API y al endpoint de Post Reviews,
+                <strong>Cuando</strong> envío una solicitud sin datos validados para el registro de una nueva reseña,
+                <strong>Entonces</strong> el servidor responde con un código de estado 400 Bad Request
+                <strong>Y</strong> recibo un mensaje de error en la solicitud indicando que los datos no son válidos
+                <strong>Y</strong> la solicitud es rechazada, sin almacenar la información en la base de datos.
             </td>
             <td> </td>
         </tr>
@@ -809,21 +729,26 @@
             <td> TS006 </td>
             <td> Get Reviews </td>
             <td> 
-            <strong> Como </strong> desarrollador backend en reStyle,
-            <strong> quiero </strong> obtener la información del portafolio de las reseñas creadas por los contratistas
-            a través de una API <strong> para </strong> permitir al equipo de frontend utilizar
-            los datos de la reseña. </td>
+                <strong>Como</strong> desarrollador backend en reStyle,
+                <strong>Quiero</strong> obtener la información del portafolio de las reseñas creadas por los contratistas a través de una API
+                <strong>Para</strong> permitir al equipo de frontend utilizar los datos de la reseña.
+            </td>
             <td> 
-            <h5>Escenario 01: </h5>
-            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Reviews,
-            <strong> Cuando </strong> envío una solicitud para la obtención de datos de las reseñas  
-            de los usuarios. <strong> Entonces </strong>  recibo la información de las reseñas en un response 
-            de formato JSON. 
-            <h5>Escenario 02: </h5>            
-            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Reviews,
-            <strong> Cuando </strong> envío una solicitud para la obtención de datos de las reseñas de los usuarios
-            <strong> Y </strong> el parámetro es erróneo o no exista <strong> Entonces </strong> 
-            recibo una mensaje de error en la solicitud </td>
+                <h5>Escenario 01: Obtener Reseñas Exitosamente</h5>
+                <strong>Dado</strong> que tengo autorización en el uso de la API y al endpoint de Reviews,
+                <strong>Cuando</strong> envío una solicitud GET para la obtención de datos de las reseñas de los usuarios,
+                <strong>Entonces</strong> el servidor responde con un código de estado 200 OK
+                <strong>Y</strong> recibo la información de las reseñas en un response de formato JSON que contiene al menos una reseña con los siguientes campos:<br>
+                - ID: {ID de la reseña}<br>
+                - Contratista: {Nombre del contratista que creó la reseña}<br>
+                - Comentario: {Contenido de la reseña}<br>
+                - Calificación: {Puntuación de la reseña}<br>
+                <h5>Escenario 02: Obtener Reseñas con Parámetro Erróneo</h5>
+                <strong>Dado</strong> que tengo autorización en el uso de la API y al endpoint de Reviews,
+                <strong>Cuando</strong> envío una solicitud GET para la obtención de datos de las reseñas de los usuarios con un parámetro erróneo o inexistente,
+                <strong>Entonces</strong> el servidor responde con un código de estado 400 Bad Request
+                <strong>Y</strong> recibo un mensaje de error en la solicitud indicando que el parámetro es incorrecto o no existe.
+            </td>
             <td> </td>
         </tr>
     </body>
@@ -927,89 +852,54 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
             <tr>
                 <td>10</td>
                 <td>US-007</td>
-                <td>Crear proyecto de diseño</td>
-                <td>Como usuario remodelador, quiero poder crear proyectos de diseño dentro de la plataforma para poder comenzar el proceso de remodelación.</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>11</td>
-                <td>US-008</td>
                 <td>Búsqueda de empresas remodeladoras</td>
-                <td>Como visitante del segmento contratista, quiero poder buscar remodeladoras por ubicación geográfica y estilos de diseño para obtener un resultado más personalizado.</td>
+                <td>Como visitante del segmento contratista, quiero poder buscar remodeladoras por ubicación o expertise para obtener un resultado más personalizado.</td>
                 <td>3</td>
             </tr>
             <tr>
-                <td>12</td>
-                <td>US-015</td>
+                <td>11</td>
+                <td>US-012</td>
                 <td>Crear cuenta contratista</td>
                 <td>Como usuario contratista, quiero poder crear una cuenta en ReStyle para poder acceder al mercado qué provee</td>
                 <td>3</td>
             </tr>
             <tr>
-                <td>13</td>
-                <td>US-014</td>
-                <td>Suscripción remodelador</td>
-                <td>Como usuario remodelador, quiero poder suscribirme a ReStyle para poder acceder al mercado qué provee</td>
+                <td>12</td>
+                <td>US-013</td>
+                <td>Crear cuenta remodelador</td>
+                <td>Como usuario remodelador, quiero poder crear una cuenta en ReStyle para poder acceder al mercado qué provee</td>
                 <td>3</td>
             </tr>
             <tr>
-                <td>14</td>
-                <td>US-009</td>
+                <td>13</td>
+                <td>US-008</td>
                 <td>Revisar críticas y opiniones</td>
                 <td>Como visitante del segmento contratista, quiero ver las opiniones de otros clientes para tener una idea de la calidad del trabajo del remodelador.</td>
                 <td>3</td>
             </tr>
             <tr>
-                <td>15</td>
-                <td>US-012</td>
-                <td>Promocionar contenido</td>
-                <td>Como usuario remodelador, quiero poder promocionar el contenido de mi portafolio para aumentar mi cantidad de clientes</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>16</td>
-                <td>US-019</td>
+                <td>14</td>
+                <td>US-016</td>
                 <td>Programar Consulta con un Remodelador</td>
                 <td>Como propietario de vivienda interesado en remodelar, quiero poder programar uan consulta con un remodelador a través de la plataforma para discutir mis necesidades y obtener recomendaciones</td>
                 <td>3</td>
             </tr>
             <tr>
-                <td>17</td>
-                <td>US-020</td>
-                <td>Solicitar Presupuesto de Remodelación</td>
-                <td>Como propietario de vivienda interesado en remodelar, quiero poder solicitar presupuestos a múltiples remodeladores a través de la plataforma para comparar opciones y tomar decisiones informadas.</td>
+                <td>15</td>
+                <td>US-015</td>
+                <td>Seguimiento de proyecto</td>
+                <td>Como usuario remodelador, quiero poder ver los hitos del seguimiento mi proyecto para saber en qué estado y etapa se encuentra el proyecto de diseño.</td>
                 <td>3</td>
             </tr>
             <tr>
-                <td>18</td>
-                <td>US-021</td>
-                <td>Responder Solicitudes de Presupuesto</td>
-                <td>Como profesional de remodelación, quiero poder responder rápidamente a las solicitudes de presupuesto de los propietarios de viviendas para demostrar profesionalismo y captar nuevos clientes.</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>19</td>
-                <td>US-22</td>
-                <td>Visualización de Proyectos Anteriores</td>
-                <td>Como propietario de vivienda interesado en contratar servicios de remodelación, deseo poder visualizar proyectos anteriores realizados por los profesionales en la plataforma para evaluar su experiencia y calidad de trabajo</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>20</td>
-                <td>US-024</td>
-                <td>Programación de Citas</td>
-                <td>Como profesional de remodelación, quiero poder programar citas con clientes potenciales a través de la plataforma para discutir sus proyectos y evaluar sus necesidades antes de comenzar cualquier trabajo.</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>21</td>
+                <td>16</td>
                 <td>US-10</td>
                 <td>Gestión de solicitudes al servidor</td>
                 <td>Como desarrollador, quiero asegurarme de que el API pueda gestionar múltiples solicitudes de varios dispositivos para que el sistema funcione sin interrupciones durante temporadas de alta demanda.</td>
                 <td>5</td>
             </tr>
             <tr>
-                <td>22</td>
+                <td>17</td>
                 <td>US-11</td>
                 <td>Autorización y seguridad de acceso al API</td>
                 <td>Como desarrollador, quiero poder configurar una autenticación y autorización segura en el API para garantizar que solos los usuarios admin puedan acceder al sistema.</td>
