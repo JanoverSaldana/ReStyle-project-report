@@ -1570,6 +1570,56 @@ además se determinó el plazo de entrega de estas tareas.
 
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review.
 
+Para esta entrega el equipo aún no ah realizado prruebas de testing.
+
+<table>
+  <thead>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Commited on (Date)</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="5"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
