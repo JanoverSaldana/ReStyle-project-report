@@ -319,7 +319,7 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
     <!-- ESTUDIANTE 1 TP --> 
     <tr> 
       <td> 
-        <b>Díaz Villacrez, María Alejandra TB2:</b><br>
+        <b>Díaz Villacrez, María Alejandra TP:</b><br>
         Escribir aquí
       </td> 
       <td rowspan="4">
@@ -330,20 +330,20 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
     <!-- ESTUDIANTE 2 TP --> 
     <tr> 
       <td> 
-        <b>Valverde Lopez, Josue Daniel TB2:</b><br>
-        Escribir aquí
+        <b>Valverde Lopez, Josue Daniel TP:</b><br>
+        Se coordinaron reuniones con el equipo para mantenernos al tanto de los progresos continuos durante el sprint. Asimismo, creamos un video de presentación que resume lo logrado durante el segundo sprint.
       </td>   
     </tr>
     <!-- ESTUDIANTE 3 TB1-->
      <tr>   
       <td>
-        <b>Saldaña Vela Janover Gonzalo TB2: </b><br>
+        <b>Saldaña Vela Janover Gonzalo TP: </b><br>
         Escribir aquí
       </td>   
     </tr>
     <!-- ESTUDIANTE 4 TB1-->
      <tr>   
-      <td><b>Vargas Revollé, Ariana  TB2: </b><br>
+      <td><b>Vargas Revollé, Ariana  TP: </b><br>
         Escribir aquí</td>     
     </tr>
     <!--SEGUN CRITERIO DE STUDENT OUTCOME-->
@@ -398,7 +398,7 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
     <!-- ESTUDIANTE 1 TP --> 
     <tr> 
       <td> 
-        <b>Díaz Villacrez, María Alejandra TB2:</b><br>
+        <b>Díaz Villacrez, María Alejandra TP:</b><br>
         Escribir aquí
       </td> 
       <td rowspan="4">
@@ -409,20 +409,20 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
     <!-- ESTUDIANTE 2 TP --> 
     <tr> 
       <td> 
-        <b>Valverde Lopez, Josue Daniel TB2:</b><br>
-        Escribir aquí
+        <b>Valverde Lopez, Josue Daniel TP:</b><br>
+        Desarrollé vistas para la sección de contratistas de la aplicación web. Además, documenté el sprint backlog 2, el cual fue agregado en trello para  observar el progreso de elaboración de las funcionalidades del proyecto
       </td>   
     </tr>
     <!-- ESTUDIANTE 3 TB1-->
      <tr>   
       <td>
-        <b>Saldaña Vela Janover Gonzalo TB2: </b><br>
+        <b>Saldaña Vela Janover Gonzalo TP: </b><br>
         Escribir aquí
       </td>   
     </tr>
     <!-- ESTUDIANTE 4 TB1-->
      <tr>   
-      <td><b>Vargas Revollé, Ariana  TB2: </b><br>
+      <td><b>Vargas Revollé, Ariana  TP: </b><br>
         Escribir aquí
       </td>     
     </tr>
