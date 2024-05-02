@@ -312,13 +312,11 @@ Entrevista a Contratistas
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-<<<<<<< HEAD
                 <td>4:41min </td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
                 <td> https://shorturl.at/jnt25 </td>
-=======
                 <td>0:00 min</td>
             </tr>
             <tr>
@@ -351,7 +349,6 @@ Entrevista a Contratistas
             <tr>
                 <td>URL de la entrevista</td>
                 <td>https://shorturl.at/acGL6</td>
->>>>>>> origin/capitulo-II
             </tr>
         </tbody>
 </table>
@@ -390,19 +387,16 @@ Entrevista a Remodeladores
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-<<<<<<< HEAD
                 <td>0:00 min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
                 <td>https://shorturl.at/jnt25</td>
-=======
                 <td>10:05min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
                 <td>https://shorturl.at/acGL6</td>
->>>>>>> origin/capitulo-II
             </tr>
             <tr>
                 <th>Entrevistado 2</th>
@@ -425,13 +419,11 @@ Entrevista a Remodeladores
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-<<<<<<< HEAD
                 <td>9:50 min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
                 <td>https://shorturl.at/jnt25</td>
-=======
                 <td>14:46 min</td>
             </tr>
             <tr>
@@ -466,8 +458,8 @@ Entrevista a Remodeladores
             <tr>
                 <td>URL de la entrevista</td>
                 <td>https://shorturl.at/acGL6</td>
->>>>>>> origin/capitulo-II
             </tr>
+        </tbody>
 </table>
 
 
