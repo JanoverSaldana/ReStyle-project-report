@@ -1673,6 +1673,46 @@ Despues de culminar satisfactoriamente el sprint 2, logramos implementar la pant
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
+<table>
+  <thead>
+    <th>  Endpoint</th>
+    <th> HTTP verb</th>
+    <th> Action</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>https://my-json-server.typicode.com/JanoverSaldana/users/users</td>
+      <td>GET</td>
+      <td>Obtener todos los datos de los usuarios registrados en la aplicación web</td>
+    </tr>
+     <tr>
+      <td>https://my-json-server.typicode.com/JanoverSaldana/remodeler/remodelers</td>
+      <td>GET</td>
+      <td>obtener la información de los remodeladores ya sea general o por ID para ser mostrado en las vistas que lo requieran</td>
+    </tr>
+     <tr>
+      <td>https://my-json-server.typicode.com/JanoverSaldana/contracter/contracters</td>
+      <td>GET</td>
+      <td>obtener la información de los contratistas ya sea general o por ID para ser mostrado en las vistas que lo requieran</td>
+    </tr>
+     <tr>
+      <td></td>
+      <td>GET</td>
+      <td></td>
+    </tr>
+     <tr>
+      <td></td>
+      <td>GET</td>
+      <td></td>
+    </tr>
+     <tr>
+      <td></td>
+      <td>GET</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
