@@ -417,22 +417,24 @@ Entrevista a Remodeladores
             </tr>
             <tr>
                 <th>Entrevistado 3</th>
-                <th></th>
+                <th>Victor Eladio Sobrino Chunga</th>
             <tr>
                 <th>Entrevistador </th>
-                <th></th>
+                <th> Janover Saldaña</th>
             </tr>
             <tr>
-                <td>Edad</td>
-                <td></td>
+                <td>Edad: </td>
+                <td> 23</td>
             </tr>
             <tr>
                 <td>Distrito</td>
-                <td></td>
+                <td> Chorrillos - Lima</td>
             </tr>
             <tr>
-            <td><img src="" alt="Foto de entrevista"></td>
-                <td><strong>Resumen:</strong><br> </td>
+            <td><img src="/assets/img/chapter-II/entrevista-victor-eladio.png" alt="Foto de entrevista"></td>
+            <td><strong>Resumen: </strong><br>
+                La persona entrevistada mencionó que actualmente trabaja de forma independiente, el entrevistado nos comentó que al momento de brindar servicios suele tener mayor dificultad al momento de llegar a ciertos acuerdos con el cliente con respecto al diseño que está proporcionando como colores, materiales y posiciones, con respecto a la gestión de sus proyectos, el entrevistado suele agendarlo en un calendario virtual, del mismo modo el entrevistado comentó que l calidad es indispensable al momento de realizar sus proyectos es por ello que brinda información de los materiales de mayor calidad al cliente para su consideración, también mencionó que ha tenido pocas incidencias con respecto a quejas de sus clientes, en cuanto a seguridad, el cliente menciona que siempre suele trabajar con un arquitecto de su confianza y saca todos los permisos correspondientes ante las entidades públicas, la diferenciación del entrevistado con respecto a otras personas o empresas es que siempre trata de brindar diseños únicos y utilizar materiales de calidad. 
+            </td>
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
