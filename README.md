@@ -241,6 +241,24 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
 
     5.2.1.8. [Team Collaboration Insights during Sprint](/docs/capitulo-V.md#team-collaboration-insights-1)
 
+    5.2.2. [Sprint 2]()
+
+    5.2.2.1.[Sprint Planning 2.]()
+
+    5.2.2.2.[Sprint Backlog 2.]()
+
+    5.2.2.3.[Development Evidence for Sprint Review.]()
+
+    5.2.2.4.[Testing Suite Evidence for Sprint Review.]()
+
+    5.2.2.5.[Execution Evidence for Sprint Review.]()
+    
+    5.2.2.6.[Services Documentation Evidence for Sprint Review.]()
+
+    5.2.2.7.[Software Deployment Evidence for Sprint Review.]()
+
+    5.2.2.8.[Team Collaboration Insights during Sprint.]()
+
     5.3. [Validation Interviews](/docs/capitulo-V.md#validation-interviews)
 
     5.3.1. [Diseño de Entrevistas](/docs/capitulo-V.md#diseno-entrevistas)
