@@ -456,7 +456,7 @@ El 100% de los entrevistados son mayores de 20 años.
 Además se obtuvo que el 100% de este segmento al menos maneja de forma intermedia los aparatos tecnológicos.
 
 
-<img src="/assets/img/chapter-II/estadisticaContratistas.png" alt="cuadro estadistico">
+<img src="/assets/img/chapter-II/estadisticaContratistas2.png" alt="cuadro estadistico">
 
 Respecto a la solución propuesta, el 100% se mostró de acuerdo con dos de las principales funcionalidades de la aplicación.
 
@@ -468,7 +468,7 @@ utiliza medios de comunicación virtuales como Whatsapp y también de forma pres
 el 100% concuerda en la necesidad de mejora en el proceso de atención al cliente, refiriendose a la actualización continua de los estados
 de los trabajos de remodelación.
 
-<img src="/assets/img/chapter-II/estadisticaRemodeladores.png" alt="cuadro estadistico">
+<img src="/assets/img/chapter-II/estadisticaRemodeladores2.png" alt="cuadro estadistico">
 
 ## 2.3. Needfinding. 
 
