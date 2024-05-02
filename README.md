@@ -348,19 +348,12 @@ Estos gráficos ofrecen una representación visual de las clonaciones registrada
       Se realizaron entrevistas a los segmentos objetivo para entender los requisitos. A partir del análisis de las entrevistas se elaboró las historias de usuario tomando en cuenta los requisitos de los segmentos.  
     </td>   
     </tr>
-<<<<<<< HEAD
-     <tr> 
-        <td></td>
-        <td> Janover Gonzalo Saldaña Vela TB1: Mantuve una comunicación directa con todos los integrantes del grupo para delegar funciones y mantener inofrmado al equipo de trabajo sobre las responsabilidades y tareas que tenemos que realizar. </td>
-        <td></td>
-=======
     <!-- Estudiante 3 TB1-->
      <tr>   
       <td>
         <b>Janover Gonzalo Saldaña Vela TB1:</b><br>
         Comunicar nuestras ideas jugó un rol importante para identificar una problemática y plantear un salucion para ello.
       </td>    
->>>>>>> origin/release-V2.0
     </tr>
     <!-- Estudiante 4 TB1-->
      <tr>   
@@ -434,19 +427,12 @@ Estos gráficos ofrecen una representación visual de las clonaciones registrada
         Realicé los diagramas de Contexto, contenedores y componentes en fase inicial tomando en cuenta el lenguaje obicuo el cual permite el entendimiento a los segmentos objetivo.
       </td>   
     </tr>
-<<<<<<< HEAD
-     <tr> 
-        <td></td>
-        <td> Janover Gonzalo Saldaña Vela TB1: Comunicar nuestras ideas jugó un rol importante para identificar una problemática y plantear un salucion para ello.</td>
-         <td></td>
-=======
     <!-- Estudiante 3-->
      <tr>   
       <td>
         <b>Janover Gonzalo Saldaña Vela TB1:</b><br>
         Comunicar nuestras ideas jugó un rol importante para identificar una problemática y plantear un salucion para ello.
       </td>    
->>>>>>> origin/release-V2.0
     </tr>
     <!-- Estudiante 4-->
      <tr>   
@@ -495,4 +481,6 @@ Estos gráficos ofrecen una representación visual de las clonaciones registrada
       </td>     
     </tr>
 </table>
+
+
 
