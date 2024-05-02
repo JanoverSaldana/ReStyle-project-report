@@ -1583,40 +1583,68 @@ Para esta entrega el equipo aún no ah realizado prruebas de testing.
   </thead>
   <tbody>
     <tr>
-      <td rowspan="5"></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td rowspan="9">https://github.com/sw53-metasoft/Acceptance-Tests-Sprint-2</td>
+      <td>main</td>
+      <td>d91a483a982592789f3e307d198c79d32a30486a</td>
+      <td>feat(testing)</td>
+      <td>Added Acceptance Criteria US007</td>
+      <td>01/05/2024</td>
     </tr>
      <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>main</td>
+      <td>0ad7d3fb2e258c9edb194e84cf10605015b074b9</td>
+      <td>feat(testing)</td>
+      <td>Added Acceptance Criteria US008</td>
+      <td>01/05/2024</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>main</td>
+      <td>80c0d0f6c3d3bce63616fe2798ade53d46eba6a5</td>
+      <td>feat(testing)</td>
+      <td>Added Acceptance CriteriaUS009</td>
+      <td>01/05/2024</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>main</td>
+      <td>27a47fa27107ec5b197856462606ee39471673fe</td>
+      <td>feat(testing)</td>
+      <td>Added Acceptance CriteriaUS012</td>
+      <td>01/05/2024</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>main</td>
+      <td>337025ba8b8559cc5d29b4fce2e379ccdec9ab47</td>
+      <td>feat(testing)</td>
+      <td>Added Acceptance CriteriaUS013</td>
+      <td>01/05/2024</td>
+    </tr>
+      <tr>
+      <td>main</td>
+      <td>8d0703b4162e02c186a804aa2d9144d046ad322f</td>
+      <td>feat(testing)</td>
+      <td>Added Acceptance CriteriaUS014</td>
+      <td>01/05/2024</td>
+    </tr>
+      <tr>
+      <td>main</td>
+      <td>caadf0c6b8e90e00f6503ee83636c14afe5e9fe4</td>
+      <td>feat(testing)</td>
+      <td>Added Acceptance CriteriaUS015</td>
+      <td>01/05/2024</td>
+    </tr>
+      <tr>
+      <td>main</td>
+      <td>50a3654d2011d17072c81be681227b32374e7df2</td>
+      <td>feat(testing)</td>
+      <td>feat: Added Acceptance CriteriaUS017</td>
+      <td>01/05/2024</td>
+    </tr>
+      <tr>
+      <td>main</td>
+      <td>996f036e6d483ddc085189374d34f3f583d381aa</td>
+      <td>feat(testing)</td>
+      <td>Added Acceptance CriteriaUS018</td>
+      <td>01/05/2024</td>
     </tr>
   </tbody>
 </table>
