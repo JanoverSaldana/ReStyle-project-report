@@ -21,7 +21,6 @@
 * **Maria Alejandra Díaz Villacrez  U202118315**
 * **Janover Gonzalo Saldaña Vela    U20201B510**
 * **Ariana Vargas Revollé           U20221A928** 
-* **Josten Marc Huaman Bellido      U201617624** 
 
 <center>
 
@@ -51,8 +50,19 @@
 | 1.11    | 11/04/2024 | Gonzalo Saldaña                                                                | Continuación de la redacción del capítulo 5 "Product Implementation, Validation & Deployment"                    |
 | 1.12    | 11/04/2024 | Ariana Vargas                                                                  | Continuación de la redacción del 5 "Product Implementation, Validation & Deployment"                             |
 | 1.13    | 12/04/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde, Josten Huaman | Finalización de items del Capítulo 5 del documento                                                               |
+| 2.0     | 22/04/2024 | Daniel Valverde                                                                | Corrección de la sección Software Architecture Diagrams                                                          |
+| 2.1     | 23/04/2024 | Alejandra Diaz                                                                 | Se agregó una entrevista para el segmento de contratistas                                                        |
+| 2.2     | 25/04/2024 | Janover Saldaña                                                                | Corrección de las Technical Stories                                                                              |
+| 2.3     | 25/04/2024 | Alejandra Diaz                                                                 | Corrección de las User Stories                                                                                   |
+| 2.4     | 26/04/2024 | Daniel Valverde                                                                | Corrección de la sección Class Diagrams                                                                          |
+| 2.5     | 27/04/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde                | Se agregó la sección de Mobile Mockups, se comenzó la redacción del Sprint 2                                     |
+| 2.6     | 30/04/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde                | Continuación de la redacción del sprint 2                                                                        |
+| 2.7     | 02/05/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde                | Finalización sprint 2 del Capítulo 5                                                                             |
+
 
 ### Project Report Collaboration Insights
+
+* #### Entregable TB1
 
 URL del repositorio para el reporte del proyecto: https://github.com/sw53-metasoft/ReStyle-project-report
 
@@ -61,7 +71,7 @@ Github Collaboration Insights proporciona un cronograma que muestra las principa
 - Alejanadra Villacrez (alehandraxx)
 - Daniel Valverde (daniel-vl7)
 - Janover Saldaña (JanoverSaldana)
-- Josten Huaman (JostenHuaman)
+- Josten Huaman (JostenHuaman) - Retirado
 - Ariana Vargas (vargas3470)
 
 Se divieron las siguientes ramas para la colaboración en el proyecto:
@@ -78,32 +88,65 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
 <img src = "https://i.postimg.cc/tTcy2Rv9/network-tb1-metasoft.png"></img>
 <img src = "https://i.postimg.cc/wB09RQhy/traffic-tb1-metasoft.png"></img>
 
+* #### Entregable TP
+
+URL del repositorio para el reporte del proyecto: https://github.com/sw53-metasoft/ReStyle-project-report
+
+Github Collaboration Insights proporciona un cronograma que muestra las principales ramas y los procesos de fusión que han ocurrido. Todas las ramas se han generado siguiendo los principios de GitFlow, lo que garantiza una organización efectiva al utilizar un sistema de control de versiones.
+
+- Alejanadra Villacrez (alehandraxx)
+- Daniel Valverde (daniel-vl7)
+- Janover Saldaña (JanoverSaldana)
+- Josten Huaman (JostenHuaman) - Retirado
+- Ariana Vargas (vargas3470)
+
+Se divieron las siguientes ramas para la colaboración en el proyecto:
+
+- main
+- capitulo-I
+- capitulo-II
+- capitulo-III
+- capitulo-IV
+- capitulo-V
+- develop
+
+En la siguiente imagen se aprecia las ramas de documentación referente al trabajo realizado en el levantamiento de observaciones y desarrollo de las partes nuevas del entregable del TP en sus respectivas ramas.
+
+![Ramas de trabajo del equipo](./assets/img/readme/network-graph-TP.png)
+
+En esta imagen, se ofrece una representación visual de las fechas en las que se llevaron a cabo cambios en el repositorio de nuestra segundo sprint, junto con la cantidad de modificaciones realizadas en cada uno de los commits. Esta representación gráfica es una herramienta valiosa para comprender la evolución temporal del proyecto y la intensidad del desarrollo a lo largo del tiempo.
+
+![Contributors entregable TP](./assets/img/readme/contributors-TP.png)
+
+Estos gráficos ofrecen una representación visual de las clonaciones registradas en nuestro repositorio, junto con la fecha en que cada una de estas acciones se llevó a cabo. Además, se presenta información sobre la cantidad de visitantes que ha tenido el repositorio de nuestro equipo a lo largo del tiempo.
+
+![trafico de clonación de repositorios y commits](./assets/img/readme/traffic-TP.png)
 
 ## Contenido 
 
-1. [Capítulo I: Introducción](/docs/capitulo-I.md)
+1. [Capítulo I: Introducción](https://github.com/sw53-metasoft/ReStyle-project-report/blob/develop/docs/capitulo-I.md#cap%C3%ADtulo-i-introducci%C3%B3n)
 
-    1.1. [Startup Profile](/docs/capitulo-I.md#startup-profile)
+    1.1. [Startup Profile]([/docs/capitulo-I.md#startup-profile](https://github.com/sw53-metasoft/ReStyle-project-report/blob/develop/docs/capitulo-I.md#11-startup-profile))
 
-    1.1.1. [Descripción de la Startup](/docs/capitulo-I.md#111-descripción-de-la-startup)
+    1.1.1. [Descripción de la Startup](https://github.com/sw53-metasoft/ReStyle-project-report/blob/develop/docs/capitulo-I.md#112-perfiles-de-integrantes-del-equipo)
 
-    1.1.2. [Perfiles de integrantes del equipo](/docs/capitulo-I.md#112-perfiles-de-integrantes-del-equipo)
+    1.1.2. [Perfiles de integrantes del equipo](https://github.com/sw53-metasoft/ReStyle-project-report/blob/develop/docs/capitulo-I.md#12-solution-profile)
 
-    1.2. [Solution Profile](/docs/capitulo-I.md#12-solution-profile)
+    1.2. [Solution Profile]([/docs/capitulo-I.md#12-solution-profile](https://github.com/sw53-metasoft/ReStyle-project-report/blob/develop/docs/capitulo-I.md#121-antecedentes-y-problem%C3%A1tica))
 
-    1.2.1. [Antecedentes y problemática](/docs/capitulo-I.md#121-antecedentes-y-problemática)
+    1.2.1. [Antecedentes y problemática](https://github.com/sw53-metasoft/ReStyle-project-report/blob/develop/docs/capitulo-I.md#121-antecedentes-y-problem%C3%A1tica)
 
-    1.2.2. [Lean UX Process](/docs/capitulo-I.md#122-lean-ux-process)
+    1.2.2. [Lean UX Process](https://github.com/sw53-metasoft/ReStyle-project-report/blob/develop/docs/capitulo-I.md#122-lean-ux-process)
 
-    1.2.2.1. [Lean UX Problem Statements](/docs/capitulo-I.md#1221-lean-ux-problem-statements)
+    1.2.2.1. [Lean UX Problem Statements](https://github.com/sw53-metasoft/ReStyle-project-report/blob/develop/docs/capitulo-I.md#1221-lean-ux-problem-statements)
      
-    1.2.2.2. [Lean UX Assumptions](/docs/capitulo-I.md#lean-ux-assumptions)   
+    1.2.2.2. [Lean UX Assumptions](https://github.com/sw53-metasoft/ReStyle-project-report/blob/develop/docs/capitulo-I.md#1222-lean-ux-assumptions)   
 
-    1.2.2.3. [Lean UX Hypothesis Statements](/docs/capitulo-I.md#lean-ux-hypothesis)
+    1.2.2.3. [Lean UX Hypothesis Statements](https://github.com/sw53-metasoft/ReStyle-project-report/blob/develop/docs/capitulo-I.md#1223-lean-ux-hypothesis-statements)
 
-    1.2.2.4. [Lean UX Canvas](/docs/capitulo-I.md#lean-ux-canvas)
+    1.2.2.4. [Lean UX Canvas](https://github.com/sw53-metasoft/ReStyle-project-report/blob/develop/docs/capitulo-I.md#1224-lean-ux-canvas)
 
-   1.3. [Segmentos Objetivo](/docs/capitulo-I.md#13-segmentos-objetivos)
+   1.3. [Segmentos Objetivo](https://github.com/sw53-metasoft/ReStyle-project-report/blob/develop/docs/capitulo-I.md#13-segmentos-objetivos)
 
 2. [Capítulo II: Requirements Elicitation & Analysis](/docs/capitulo-II.md)
    
@@ -233,6 +276,24 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
 
     5.2.1.8. [Team Collaboration Insights during Sprint](/docs/capitulo-V.md#team-collaboration-insights-1)
 
+    5.2.2. [Sprint 2]()
+
+    5.2.2.1.[Sprint Planning 2.]()
+
+    5.2.2.2.[Sprint Backlog 2.]()
+
+    5.2.2.3.[Development Evidence for Sprint Review.]()
+
+    5.2.2.4.[Testing Suite Evidence for Sprint Review.]()
+
+    5.2.2.5.[Execution Evidence for Sprint Review.]()
+    
+    5.2.2.6.[Services Documentation Evidence for Sprint Review.]()
+
+    5.2.2.7.[Software Deployment Evidence for Sprint Review.]()
+
+    5.2.2.8.[Team Collaboration Insights during Sprint.]()
+
     5.3. [Validation Interviews](/docs/capitulo-V.md#validation-interviews)
 
     5.3.1. [Diseño de Entrevistas](/docs/capitulo-V.md#diseno-entrevistas)
@@ -253,65 +314,185 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
 <table>
   <thead>
     <tr>
-      <th>Criterio específico</th>
+      <th>Vriterio especifico</th>
       <th>Acciones realizadas</th>
-      <th>Conclusiones</th>
+      <th>conclusiones</th>
     </tr>
   </thead>
-  <tbody>
+  <tbogy>
     <tr>
-      <td>Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto de ingeniería</td>
-      <td> <b>Díaz Villacrez, María Alejandra TB1</b> Colaboré en la recolección de requisitos para satisfacer la entrega del trabajo. Proporcioné contexto sobre el problema de negocio y las necesidades que se desean satisfacer. Identificamos los segmentos objetivos y utilicé gráficos para representar la información de manera visual y comprensible. </td>
-      <td> Al aplicar una organización correcta pudimos comunicar nuestras ideas de negocio y resultados de manera objetiva y efectiva a una audiencia diversa en el contexto de un proyecto de ingeniería de software.</td>
+     <!--PRIMER CRITERIO DE STUDENT OUTCOME-->
+      <td rowspan="9">
+        Comunica oralmente sus ideas
+        y/o resultados con objetividad a
+        público de diferentes
+        especialidades y niveles
+        jerarquicos, en el marco del
+        desarrollo de un proyecto en
+        ingeniería
+      </td>
+       <!--ENTREGA TB1-->
+      <!-- Estudiante 1 TB1 -->    
+      <td>
+        <b>Díaz Villacrez, María Alejandra TB1:</b> 
+        Colaboré en la recolección de requisitos para satisfacer la entrega del trabajo. Proporcioné contexto sobre el problema de negocio y las necesidades que se desean satisfacer. Identificamos los segmentos objetivos y utilicé gráficos para representar la información de manera visual y comprensible. </td>
+        <td rowspan="5"> 
+         <b>CONCLUSIÓN DEL ENTREGABLE TB1</b><br>
+         Al aplicar una organización correcta pudimos comunicar nuestras ideas de negocio y resultados de manera objetiva y efectiva a una audiencia diversa en el contexto de un proyecto de ingeniería de software.
+      </td>   
     </tr>
+    <!-- Estudiante 2 TB1 --> 
     <tr> 
-        <td></td>
-        <td> <b>Valverde Lopez, Josue Daniel TB1</b> <br> Se realizaron entrevistas a los segmentos objetivo para entender los requisitos. A partir del análisis de las entrevistas se elaboró las historias de usuario tomando en cuenta los requisitos de los segmentos. </td>
-        <td></td>
+      <td>
+      <b>Valverde Lopez, Josue Daniel TB1:</b> <br> 
+      Se realizaron entrevistas a los segmentos objetivo para entender los requisitos. A partir del análisis de las entrevistas se elaboró las historias de usuario tomando en cuenta los requisitos de los segmentos.  
+    </td>   
     </tr>
+<<<<<<< HEAD
      <tr> 
         <td></td>
         <td> Janover Gonzalo Saldaña Vela TB1: Mantuve una comunicación directa con todos los integrantes del grupo para delegar funciones y mantener inofrmado al equipo de trabajo sobre las responsabilidades y tareas que tenemos que realizar. </td>
         <td></td>
+=======
+    <!-- Estudiante 3 TB1-->
+     <tr>   
+      <td>
+        <b>Janover Gonzalo Saldaña Vela TB1:</b><br>
+        Comunicar nuestras ideas jugó un rol importante para identificar una problemática y plantear un salucion para ello.
+      </td>    
+>>>>>>> origin/release-V2.0
     </tr>
-     <tr> 
-        <td></td>
-        <td> <b>Vargas Revollé, Ariana TB1</b> Se realizaron User Stories sobre la funcionalidad de la applicacion asi como la elaboracion de user personas y los mapas requeridos para la comprension de los segmentos objetivos</td>
-         <td></td>
+    <!-- Estudiante 4 TB1-->
+     <tr>   
+      <td>
+      <b>Vargas Revollé, Ariana TB1:</b><br>
+       Se realizaron User Stories sobre la funcionalidad de la applicacion asi como la elaboracion de user personas y los mapas requeridos para la comprension de los segmentos objetivos</td>   
     </tr>
-     <tr> 
-        <td>Como parte integral del equipo, me comprometí a comunicar de manera efectiva y objetiva tanto las ideas generadas durante el proceso de diseño como los resultados obtenidos. Adapté mi discurso según la audiencia, asegurándome de transmitir la información de manera clara y comprensible para personas con diversos niveles de conocimiento técnico.</td>
-        <td> <b>Huaman Bellido, Josten Marc TB1</b>
-            contribuí al proyecto realizando el diseño del producto con sus características distintivas. Esto implicó traducir los requisitos recopilados y las historias de usuario en un diseño funcional y atractivo. Me aseguré de que el diseño reflejara las necesidades y preferencias de los segmentos objetivo, mientras mantenía la usabilidad y la estética del producto. 
-        </td>
-         <td>En conclusión, la implementación de una estructura organizativa eficiente nos permitió transmitir de manera precisa y efectiva nuestras ideas y resultados a una audiencia diversa en el contexto del proyecto de ingeniería de software</td>
+    <!-- Estudiante 5 TB1-->
+    <tr>   
+      <td>
+        <b>Huaman Bellido, Josten Marc TB1:</b><br>
+        contribuí al proyecto realizando el diseño del producto con sus características distintivas. Esto implicó traducir los requisitos recopilados y las historias de usuario en un diseño funcional y atractivo. Me aseguré de que el diseño reflejara las necesidades y preferencias de los segmentos objetivo, mientras mantenía la usabilidad y la estética del producto.
+      </td>   
+    <!--ENTREGA TRABAJO PARCIAL-->
+    <!-- ESTUDIANTE 1 TP --> 
+    <tr> 
+      <td> 
+        <b>Díaz Villacrez, María Alejandra TP:</b><br>
+        Pudimos identificar el MVP para el sprint 2 en nuestras reuniones y asegurarnos que el core business de nuestro producto este implementado. Ademas, se realizaron lluvias de ideas en equipo para completar el alance de la entrega del trabajo parcial.
+      </td> 
+      <td rowspan="4">
+        <b>CONCLUSIÓN DEL ENTRGABLE TP</b><br>
+        Al aplicar una organización correcta durante nuestro sprint 2 pudimos comunicar nuestras ideas de negocio y resultados de manera objetiva y efectiva. De igual manera, nos sirvio como experiencia en grupo para identificar objetivos del software.
+      </td>   
     </tr>
+    <!-- ESTUDIANTE 2 TP --> 
+    <tr> 
+      <td> 
+        <b>Valverde Lopez, Josue Daniel TP:</b><br>
+        Se coordinaron reuniones con el equipo para mantenernos al tanto de los progresos continuos durante el sprint. Asimismo, creamos un video de presentación que resume lo logrado durante el segundo sprint.
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 3 TB1-->
+     <tr>   
+      <td>
+        <b>Saldaña Vela Janover Gonzalo TP: </b><br>
+        Se marcaron roles en la organización del equipo para poder tener una mejor flujo de trabajo al momento de realizar nuestras asignaciones, asi mismo, reportar las incidencias y la predisposicion del equipo para ayudar a resolverlos durante el desarrollo del sprint 2 nos ayudo mucho a aprender unos de otros y concretar con exito el sprint mencionado.
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 4 TB1-->
+     <tr>   
+      <td><b>Vargas Revollé, Ariana  TP: </b><br>
+        Se hizo seguimiento al proyecto realizado mediate reuniones realizadas durante el avanze.
+      </td>     
+    </tr>
+    <!--SEGUN CRITERIO DE STUDENT OUTCOME-->
     <tr>
-      <td>Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto de ingeniería</td>
-      <td> <b>Díaz Villacrez, María Alejandra TB1</b> Presenté información necesaria para respaldar las estadísiticas y citas proporcionadas en la primera entrega del trabajo. Definí términos técnicos importantes utilizados en el informe. </td>
-      <td>Gracias a las metodologías de Lean UX pudimos comunicar nuestras soluciones de manera objetiva y efectiva a un público diverso en el marco del desarrollo de un proyecto de ingeniería de software a través de un documento escrito.</td>
+      <td rowspan="9">
+        Comunica en forma escrita ideas
+        y/o resultados con objetividad a
+        público de diferentes
+        especialidades y niveles
+        jerarquicos, en el marco del
+        desarrollo de un proyecto en
+        ingeniería..
+      </td>
+      <!-- Estudiante 1 -->    
+      <td>
+        <b>Díaz Villacrez, María Alejandra TB1:</b><br>
+        Presenté información necesaria para respaldar las estadísiticas y citas proporcionadas en la primera entrega del trabajo. Definí términos técnicos importantes utilizados en el informe.
+      </td> 
+      <td rowspan="5">
+        <b>CONCLUSIÓN DEL ENTREGABLE TB1:</b><br>
+        Al guiarnos en las indicaciones del trabajo final pudimos comunicar de manera escrita nuestros resultados luego de un analisis previo exhaustivo.
+      </td>    
     </tr>
-      <tr> 
-        <td></td>
-        <td> <b>Valverde Lopez, Josue Daniel TB1</b> <br> Realicé los diagramas de Contexto, contenedores y componentes en fase inicial tomando en cuenta el lenguaje obicuo el cual permite el entendimiento a los segmentos objetivo.</td>
-         <td></td>
+    <!-- Estudiante 2 --> 
+    <tr> 
+      <td>
+        <b>Valverde Lopez, Josue Daniel TB1:</b><br>
+        Realicé los diagramas de Contexto, contenedores y componentes en fase inicial tomando en cuenta el lenguaje obicuo el cual permite el entendimiento a los segmentos objetivo.
+      </td>   
     </tr>
+<<<<<<< HEAD
      <tr> 
         <td></td>
         <td> Janover Gonzalo Saldaña Vela TB1: Comunicar nuestras ideas jugó un rol importante para identificar una problemática y plantear un salucion para ello.</td>
          <td></td>
+=======
+    <!-- Estudiante 3-->
+     <tr>   
+      <td>
+        <b>Janover Gonzalo Saldaña Vela TB1:</b><br>
+        Comunicar nuestras ideas jugó un rol importante para identificar una problemática y plantear un salucion para ello.
+      </td>    
+>>>>>>> origin/release-V2.0
     </tr>
-     <tr> 
-        <td></td>
-        <td> <b>Vargas Revollé, Ariana TB1</b> Se contribuyo con el landing page del Startup y documento los aportes de los integrantes del equipo </td>
-         <td></td>
+    <!-- Estudiante 4-->
+     <tr>   
+      <td>
+        <b>Vargas Revollé, Ariana TB1:</b><br>
+        Se contribuyo con el landing page del Startup y documento los aportes de los integrantes del equipo
+      </td>    
     </tr>
-     <tr> 
-        <td>En mi función dentro del proyecto, redacté de manera precisa y objetiva documentos técnicos y reportes, adaptando el contenido según la audiencia y aplicando técnicas de redacción eficaz para garantizar una comunicación efectiva y clara.</td>
-        <td> <b>Huaman Bellido, Josten Marc TB1</b>
-          Desarrollé las pautas de estilo que garantizaban coherencia y uniformidad en la presentación de la información. Estas directrices ayudaron a mantener un estándar visual y de comunicación consistente en todo el trabajo, facilitando así la comprensión y el seguimiento por parte de los usuarios.
-        </td>
-         <td>En conclusión, a través de la creación de pautas de estilo (style guidelines), logramos mantener coherencia y claridad en la presentación de la información. Estas directrices aseguraron una comunicación efectiva y objetiva de nuestras soluciones mediante el documento escrito, contribuyendo así al éxito del proyecto de ingeniería de software.</td>
+    <!-- Estudiante1 5-->
+     <tr>   
+      <td>
+        <b>Huaman Bellido, Josten Marc TB1:</b><br>
+        Desarrollé las pautas de estilo que garantizaban coherencia y uniformidad en la presentación de la información. Estas directrices ayudaron a mantener un estándar visual y de comunicación consistente en todo el trabajo, facilitando así la comprensión y el seguimiento por parte de los usuarios.
+      </td>     
     </tr>
-  </tbody>
+    <!--ENTREGA TRABAJO PARCIAL-->
+    <!-- ESTUDIANTE 1 TP --> 
+    <tr> 
+      <td> 
+        <b>Díaz Villacrez, María Alejandra TP:</b><br>
+        Correji las historias de usuario e identificamos el MVP para nuestro core business. De igual manera, se analizaron los bounded context para repartirlos en features para nuestro frontend.
+      </td> 
+      <td rowspan="4">
+        <b>CONCLUSIÓN DEL ENTRGABLE TP</b><br>
+        Para esta entrega, se evaluaron distintos objetivos para nuestros dos segmentos objetivos en la elaboracion de nuestro reporte. Se pudieron desarrollar de manera colaborativa los features de nuestro core business.
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 2 TP --> 
+    <tr> 
+      <td> 
+        <b>Valverde Lopez, Josue Daniel TP:</b><br>
+        Desarrollé vistas para la sección de contratistas de la aplicación web. Además, documenté el sprint backlog 2, el cual fue agregado en trello para  observar el progreso de elaboración de las funcionalidades del proyecto
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 3 TB1-->
+     <tr>   
+      <td>
+        <b>Saldaña Vela Janover Gonzalo TP: </b><br>
+        Apoyé en la correción de la redacción de technicals stories, desarrollo vistas para ambos segmentos objetivos identificados por el equipo y documenté los mismos para compartirlo con mis compañeros de equipo.
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 4 TB1-->
+     <tr>   
+      <td><b>Vargas Revollé, Ariana  TP: </b><br>
+        Se levantaron observaciones hechas en la primera entrega y se programaron las vistas necesarias para el sprint 2
+      </td>     
+    </tr>
 </table>
+

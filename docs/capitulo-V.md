@@ -624,7 +624,6 @@ Repositorio: [ReStyle-Landing-Page -https://github.com/sw53-metasoft/ReStyle-Lan
 Landing Page Deployed: [ReStyle - https://sw53-metasoft.github.io/ReStyle-Landing-Page/](https://sw53-metasoft.github.io/ReStyle-Landing-Page/)
 
 
-
 #### 5.2.1.1. Sprint Planning 1.
 
 En el Sprint Planning 1, se llevó a cabo una sesión de planificación para la elaboración de
@@ -862,9 +861,7 @@ además se determinó el plazo de entrega de estas tareas.
     <td  > Janover Saldaña </td>
     <td  > Done </td>
   </tr>
-
 </table>
-
 
 #### 5.2.1.3. Development Evidence for Sprint Review.
 
@@ -1214,7 +1211,7 @@ En el primer Sprint el equipo de desarrollo de MetaSoft ah diseñado, programado
 
 Para la implementación de nuestra página, optamos por utilizar GitHub Pages. En este proceso, creamos un repositorio en GitHub donde gestionamos el control de versiones. En la sección de Configuración, publicamos el proyecto almacenado en la rama "realease-V1.0" que previamente se encontrba en la rama release-1.0.
 
-Langing Page -> 
+[Langing Page](https://sw53-metasoft.github.io/ReStyle-Landing-Page/index-en.html) - https://sw53-metasoft.github.io/ReStyle-Landing-Page/index-en.html
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
@@ -1228,6 +1225,717 @@ A continuación se muestra la cantidad de commits realizadas por cada integrante
 Los siguientes gráficos ofrecen una representación visual de las clonaciones registradas en nuestro repositorio, junto con la fecha en que cada una de estas acciones se llevó a cabo. Además, se presenta información sobre la cantidad de visitantes que ha tenido el repositorio de nuestro equipo a lo largo del tiempo.
 
 ![clone.png](/assets/img/chapter-V/sprint-1/clone.png)
+
+
+### 5.2.2. Sprint 2
+Durante el Sprint #2, el equipo se enfocará en diseñar y
+desarrollar la fase inicial del front-end y una API ficticia para la aplicación web, con el propósito de garantizar una experiencia que cumpla con los requisitos de los usuarios.
+
+#### 5.2.2.1. Sprint Planning 2
+
+En el Sprint Planning 2, se llevó a cabo una sesión de planificación para la elaboración de
+la aplicación en primera versión del proyecto. Durante esta reunión, se dividieron las secciones a programar entre los integrantes,
+además se determinó el plazo de entrega de estas tareas.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center">Sprint #</th>
+      <th style="text-align:center">Sprint 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2"  ><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Date</td>
+      <td style="text-align:center">28-04-2024</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Time</td>
+      <td style="text-align:center">8:00 PM</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Location</td>
+      <td style="text-align:center">Discord</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Prepared By</td>
+      <td style="text-align:center">Janover Saldaña</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Attendees</td>
+      <td style="text-align:center">
+      Alejandra Villacrez, Janover Saldaña, Daniel Valverde, Ariana Vargas
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint 2 Review Summary</td>
+      <td>
+        En el anterior Sprint fue dedicado al desarrollo y despliegue de la Landing Page.
+        El equipo cumplió con las tareas asignada por ende se logró el objetivo del Sprint 1.
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint 2 Retrospective Summary</td>
+      <td>
+        Se debe applicar la mejora continua con respecto a la documentación del proyecto
+        Revisar las historias de usuario y reorganizarlas de manera que todos los desarrolladores entiendan fácilmente su propósito.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"  ><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint 2 Goal</td>
+      <td style="text-align:center"> Implementar y desplegar la aplicación de ReStyle en fase inicial </td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint 1 Velocity</td>
+      <td style="text-align:center">34</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sum of Story Points</td>
+      <td style="text-align:center">34</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.2.2. Sprint Backlog 2
+el segundo sprint se centró en el desarrollo del MVP del front-end de la aplicación web. Utilizamos Trello como 
+herramienta para organizar y gestionar a los miembros del equipo. Esta plataforma nos permitió dividir todas las
+historias de usuario en tareas manejables y asignarlas a los distintos integrantes del equipo.
+
+![Trello Evidence](/assets/img/chapter-V/sprint-2/sprint-backlog2-trello.png)
+
+Link del Tablero de Trello: https://trello.com/b/p6JtnTBC 
+
+<table>
+  <tr>
+    <td> <strong>Sprint #</strong></td>
+    <td   colspan="7"> <strong>Sprint 2</strong> </td>
+  </tr>
+
+   <tr>
+    <td   colspan="2"> <strong>User Story</strong></td>
+    <td   colspan="6"> <strong>Work-item/Task</strong></td>
+  </tr>
+  <tr>
+    <td  > <strong>ID</strong> </td>
+    <td  > <strong>Title</strong></td>
+    <td  > <strong>ID</strong> </td>
+    <td  > <strong>Title</strong></td>
+    <td  > <strong>Description</strong></td>
+    <td  > <strong>Estimation (Hours)</strong></td>
+    <td  > <strong>Assigned To</strong></td>
+    <td  > <strong> Status (To-do/In-Process/To-Review/Done) </strong></td>
+  </tr>
+  <!---------------------------------------------------------------------- -->
+  <tr>
+    <!--rowspan="number of rows for the tasks" -->
+    <td rowspan="3">US007</td>
+    <td rowspan="3">Búsqueda de empresas remodeladoras</td>
+    <td>TA18</td>
+    <td>Creación de componente de búsqueda</td>
+    <td>Permite a los usuarios visualizar a las empresass remodeladoras según una búsqueda personalizada</td>
+    <td>2</td>
+    <td>Alejandra Diaz</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA19</td>
+    <td>Modificación de estilos</td>
+    <td> Personaliza los estilos de acuerdo al prototipo propuesto</td>
+    <td> 2</td>
+    <td>Alejandra Diaz</td>
+    <td> Done </td>
+  </tr>
+  <tr>
+    <td>TA20</td>
+    <td>Implementación de servicio de remodeladores</td>
+    <td>Desarrolla los servicioes para el consumo de datos de los remodeladores de la fake API</td>
+    <td>2</td>
+    <td>Alejandra Diaz</td>
+    <td> Done </td>
+  </tr>
+  <tr>
+    <!--rowspan="number of rows for the tasks" -->
+    <td rowspan="3">US008</td>
+    <td rowspan="3">Revisar críticas y opiniones</td>
+    <td>TA21</td>
+    <td>Creación de componente de reseñas</td>
+    <td>Permite a los usuarios revisar las reseñas de un remodelador el cual seleccionaron en la búsqueda</td>
+    <td>1</td>
+    <td>Alejandra Diaz</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+     <td>TA22</td>
+    <td>Modificación de estilos</td>
+    <td> Personaliza los estilos de acuerdo al prototipo propuesto</td>
+    <td> 1</td>
+    <td>Alejandra Diaz</td>
+    <td> Done </td>
+  </tr>
+  <tr>
+    <td>TA23</td>
+    <td>Implementación de servicio de reseñas</td>
+    <td>Desarrolla el servicio para el consumo de datos de las reseñas de la fake API</td>
+    <td>1</td>
+    <td>Alejandra Diaz</td>
+    <td> Done </td>
+  </tr>
+  <tr>
+    <!--rowspan="number of rows for the tasks" -->
+    <td rowspan="3">US009</td>
+    <td rowspan="3">Agregar críticas y opiniones</td>
+    <td>TA24</td>
+     <td>Creación de componente de agregar reseñas</td>
+    <td>Permite a los usuarios contratistas agregar las reseñas de un remodelador</td>
+    <td>2</td>
+    <td>Daniel Valverde</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA25</td>
+    <td>Modificación de estilos</td>
+    <td>Personaliza los estilos de acuerdo al prototipo propuesto</td>
+    <td> 1</td>
+    <td>Daniel Valverde</td>
+    <td> Done </td>
+  </tr>
+  <tr>
+    <td>TA26</td>
+    <td>Implementación de servicio de creación de reseñas</td>
+    <td>Desarrolla el servicio para la creación de datos de las reseñas</td>
+    <td>2</td>
+    <td>Daniel Valverde</td>
+    <td> In process </td>
+  </tr>
+  <tr>
+    <!--rowspan="number of rows for the tasks" -->
+    <td rowspan="2">US012</td>
+    <td rowspan="2">Crear cuenta contratista</td>
+    <td>TA27</td>
+    <td> SignUp contratista</td>
+    <td> Permite a los usuarios contratistas registrarse en la aplicación como contratistas </td>
+    <td>3</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA28</td>
+    <td> Login contratista</td>
+    <td> Permite a los usuarios contratistas iniciar sesión con su cuenta creada</td>
+    <td> 3</td>
+    <td>Janover Saldaña </td>
+    <td> Done </td>
+  </tr>
+   <tr>
+    <!--rowspan="number of rows for the tasks" -->
+    <td rowspan="2">US013</td>
+    <td rowspan="2">Crear cuenta remodelador</td>
+    <td>TA29</td>
+    <td>SignUp remodelador </td>
+    <td>Permite a los usuarios remodeladores registrarse en la aplicación como remodeladores </td>
+    <td>3</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA30</td>
+    <td> Login remodelador</td>
+    <td> Permite a los usuarios remodeladores iniciar sesión con su cuenta creada </td>
+    <td> 3</td>
+    <td>Janover Saldaña</td>
+    <td> Done </td>
+  </tr>
+  <tr>
+    <!--rowspan="number of rows for the tasks" -->
+    <td rowspan="3">US014</td>
+    <td rowspan="3">Busqueda de portafolios</td>
+    <td>TA31</td>
+    <td> Creación del componente de búsqueda de portafolios</td>
+    <td>Permite a los contratistaas visualizar los proyectos de los remodeladores en su portafolio</td>
+    <td>3</td>
+    <td>Daniel Valverde</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA32</td>
+    <td> Modificación de estilos</td>
+    <td> Personaliza los estilos de acuerdo al prototipo propuesto</td>
+    <td> 1</td>
+    <td> Daniel Valverde</td>
+    <td> Done </td>
+  </tr>
+  <tr>
+    <td>TA33</td>
+   <td>Implementación de servicio de búsqueda de portafolio</td>
+    <td>Desarrolla el servicio para el consumo de datos de los portafolios de la fake API</td>
+    <td>2</td>
+    <td>Daniel Valverde </td>
+    <td> Done </td>
+  </tr>
+  <tr>
+    <!--rowspan="number of rows for the tasks" -->
+    <td rowspan="3">US015</td>
+    <td rowspan="3">Seguimiento de proyecto</td>
+    <td>TA34</td>
+    <td>Creación del componente para el seguimiento</td>
+    <td>Permite a los usuarios visualizar el seguimiento del proyecto por fases </td>
+    <td>5</td>
+    <td>Ariana Vargas</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA35</td>
+    <td>Modificación de estilos </td>
+    <td> Personaliza los estilos de acuerdo al prototipo propuesto</td>
+    <td> 2</td>
+    <td> Ariana Vargas</td>
+    <td> Done </td>
+  </tr>
+  <tr>
+    <td>TA36</td>
+    <td>Implementación de servicio para el seguimiento del proyecto </td>
+    <td>Desarrolla el servicio para el consumo de la fake API de proyectos </td>
+    <td> 3</td>
+    <td> Ariana Vargas </td>
+    <td> In process </td>
+  </tr>
+  <tr>
+    <!--rowspan="number of rows for the tasks" -->
+    <td rowspan="2">US017</td>
+    <td rowspan="2">Visualizar home de la plataforma</td>
+    <td>TA37</td>
+    <td> Creación del componente Home</td>
+    <td>Permite a los usuarios tener una vista por defecto de la aplicación </td>
+    <td>1</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA38</td>
+    <td> Modificación de estilos del componente</td>
+    <td> Agrega opciones necesarias par la navegación a las secciones de la aplicación</td>
+    <td> 1</td>
+    <td> Janover Saldaña</td>
+    <td> Done </td>
+  </tr>
+  <tr>
+    <!--rowspan="number of rows for the tasks" -->
+    <td rowspan="2">US018</td>
+    <td rowspan="2">Visualizar una página no encontrada</td>
+    <td>TA39</td>
+    <td> Creación del componente PageNotFound</td>
+    <td>Permite a los usuarios volver a la vista principal </td>
+    <td>1</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA40</td>
+    <td> Creación de botón de retorno</td>
+    <td> Implementa un botón que redirecciona a la vista Home</td>
+    <td> 1</td>
+    <td> Janover Saldaña</td>
+    <td> Done </td>
+  </tr>
+</table>
+
+#### 5.2.2.3. Development Evidence for Sprint Review.
+
+<table>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on (Date)</th>
+  </tr>
+  <tr>
+  <!-- rowspan="number of rows" -->
+    <td rowspan="50">https://github.com/sw53-metasoft/ReStyle-Frontend</td>
+    <td>main</td>
+    <td>4276568e2e22118c837de6e6a287fdddf894949f</td>
+    <td>feat: initial commit</td>
+    <td></td>
+    <td>23/04/2024</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>6358a15307a44ae909f3c5b980088d11130e297b</td>
+    <td>feat(develop): Added intial structure for the project</td>
+    <td></td>
+    <td>24/04/2024</td>
+  </tr>
+  <tr>
+    <td>remodeler-search</td>
+    <td>0e7e50810bd5b590d3972ab6d212849c49e51f53</td>
+    <td>feat(remodeler-search): added remodeler-search feature</td>
+    <td></td>
+    <td>29/04/2024</td>
+  </tr>
+  <tr>
+    <td>remodeler-detail</td>
+    <td>7947ac96af230bf5a72c23b522b8e8817ed0712e</td>
+    <td>feat(remodeler-detail): added remodeler-detail feature</td>
+    <td></td>
+    <td>29/04/2024</td>
+  </tr>
+  <tr>
+    <td>remodeler-detail</td>
+    <td>b01b942f4b9e4f4a231161a8d69aba629cc8f052</td>
+    <td>fix: components path</td>
+    <td></td>
+    <td>30/04/2024</td>
+  </tr>
+  <tr>
+    <td>remodeler-detail</td>
+    <td>a297e20bfe8088f9c9d5258d0167f4ef797032be</td>
+    <td>feat(remodeler-detail): Add remodeler portfolio profile</td>
+    <td></td>
+    <td>30/04/2024</td>
+  </tr>
+  <tr>
+    <td>remodeler-detail</td>
+    <td>fb67d68ca0b2c63888733b484c6824c01d84b431</td>
+    <td>feat(remodeler-detail): Add remodeler portfolio projects</td>
+    <td></td>
+    <td>30/04/2024</td>
+  </tr>
+  <tr>
+    <td>remodeler-detail</td>
+    <td>0e792eaeb61cc67fa580129d9e534f92d4e1ace3</td>
+    <td>fix: remove unavailable path</td>
+    <td></td>
+    <td>30/04/2024</td>
+  </tr>
+  <tr>
+    <td>public</td>
+    <td>f9d2a97401332a7fd1b765187c2dcca69fce898b</td>
+    <td>feat(public): added home page.</td>
+    <td></td>
+    <td>30/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/security</td>
+    <td>0cf7035c24439df7a3bc71df44e0fe6b4a688e91</td>
+    <td>feat(security): added security architecture.</td>
+    <td></td>
+    <td>01/05/2024</td>
+  </tr>
+  <tr>
+    <td>feature/profiles</td>
+    <td>2652963ecdb0b04f8b609e841dfc09c651676591</td>
+    <td>feat(login): added login.</td>
+    <td></td>
+    <td>01/05/2024</td>
+  </tr>
+  <tr>
+    <td>feature/profiles</td>
+    <td>0b8cc4d2823cd77712d259922e6ce2aea2f33f11</td>
+    <td>feat(sign-up): added sign up and updated page not found.</td>
+    <td></td>
+    <td>01/05/2024</td>
+  </tr>
+  <tr>
+    <td>feature/tracking</td>
+    <td>4c0de68cc05a0cda6ef82ea01fb25b97fa96c712</td>
+    <td>feat(feature/tracking): added tracking feature</td>
+    <td></td>
+    <td>01/05/2024</td>
+  </tr>
+  <tr>
+    <td>feature/profiles</td>
+    <td>7b3ddadb6d81f863164c677c16b09d3e83fae70d</td>
+    <td>7b3ddadb6d81f863164c677c16b09d3e83fae70d</td>
+    <td></td>
+    <td>01/05/2024</td>
+  </tr>
+  <tr>
+    <td>feature/profile</td>
+    <td>feeb2e4a2ee4a54df9025126ba1daa21f7cb389b</td>
+    <td>feat(profiles): Added profile contracter and remodeler</td>
+    <td></td>
+    <td>01/05/2024</td>
+  </tr>
+  <tr>
+    <td>feature/profiles</td>
+    <td>8f9969fde011ccce3526430aafc3eb7337ce4690</td>
+    <td>feat(profiles): Add public components in coming-soon component</td>
+    <td></td>
+    <td>01/05/2024</td>
+  </tr>
+   <tr>
+    <td>feature/reviews</td>
+    <td>887e1b90ad702bd69bf96f78308e35a6dd12ca25</td>
+    <td>feat(reviews): Add create review component</td>
+    <td></td>
+    <td>01/05/2024</td>
+  </tr>
+   <tr>
+    <td>feature/reviews</td>
+    <td>b79ffd69a9cb88356f5991aafddaea9cfff1f0d3</td>
+    <td>feat(reviews): Add review snackbar</td>
+    <td></td>
+    <td>01/05/2024</td>
+  </tr>
+   <tr>
+    <td>feature/reviews</td>
+    <td>ef1dbe987eb1a0f0afa3b262a7fbbb4509744651</td>
+    <td>feat(reviews): Add review component to routes</td>
+    <td></td>
+    <td>01/05/2024</td>
+  </tr>
+   <tr>
+    <td>feature/reviews</td>
+    <td>ef78e013ba78a52c912824326a7dab0c0150eb44</td>
+    <td>feat(reviews): Add review component to sidebar component menu</td>
+    <td></td>
+    <td>01/05/2024</td>
+  </tr>
+   <tr>
+    <td>feature/profiles</td>
+    <td>0e051232919bae7d4757d222a7c7764b4aa5da6a</td>
+    <td>feat(profiles): updated components paths</td>
+    <td></td>
+    <td>02/05/2024</td>
+  </tr>
+  <tr>
+    <td>release-v1.0</td>
+    <td>25a07199153297f1f45888adcc3118367117c4b7</td>
+    <td>feat(release-v1.0): Deploy with firebase</td>
+    <td></td>
+    <td>02/05/2024</td>
+  </tr>
+</table>
+
+#### 5.2.2.4. Testing Suite Evidence for Sprint Review.
+
+Para esta entrega el equipo aún no han realizado pruebas de testing.
+
+<table>
+  <thead>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Commited on (Date)</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="9">https://github.com/sw53-metasoft/Acceptance-Tests-Sprint-2</td>
+      <td>main</td>
+      <td>d91a483a982592789f3e307d198c79d32a30486a</td>
+      <td>feat(testing)</td>
+      <td>Added Acceptance Criteria US007</td>
+      <td>01/05/2024</td>
+    </tr>
+     <tr>
+      <td>main</td>
+      <td>0ad7d3fb2e258c9edb194e84cf10605015b074b9</td>
+      <td>feat(testing)</td>
+      <td>Added Acceptance Criteria US008</td>
+      <td>01/05/2024</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>80c0d0f6c3d3bce63616fe2798ade53d46eba6a5</td>
+      <td>feat(testing)</td>
+      <td>Added Acceptance CriteriaUS009</td>
+      <td>01/05/2024</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>27a47fa27107ec5b197856462606ee39471673fe</td>
+      <td>feat(testing)</td>
+      <td>Added Acceptance CriteriaUS012</td>
+      <td>01/05/2024</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>337025ba8b8559cc5d29b4fce2e379ccdec9ab47</td>
+      <td>feat(testing)</td>
+      <td>Added Acceptance CriteriaUS013</td>
+      <td>01/05/2024</td>
+    </tr>
+      <tr>
+      <td>main</td>
+      <td>8d0703b4162e02c186a804aa2d9144d046ad322f</td>
+      <td>feat(testing)</td>
+      <td>Added Acceptance CriteriaUS014</td>
+      <td>01/05/2024</td>
+    </tr>
+      <tr>
+      <td>main</td>
+      <td>caadf0c6b8e90e00f6503ee83636c14afe5e9fe4</td>
+      <td>feat(testing)</td>
+      <td>Added Acceptance CriteriaUS015</td>
+      <td>01/05/2024</td>
+    </tr>
+      <tr>
+      <td>main</td>
+      <td>50a3654d2011d17072c81be681227b32374e7df2</td>
+      <td>feat(testing)</td>
+      <td>feat: Added Acceptance CriteriaUS017</td>
+      <td>01/05/2024</td>
+    </tr>
+      <tr>
+      <td>main</td>
+      <td>996f036e6d483ddc085189374d34f3f583d381aa</td>
+      <td>feat(testing)</td>
+      <td>Added Acceptance CriteriaUS018</td>
+      <td>01/05/2024</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+
+Despues de culminar satisfactoriamente el sprint 2, logramos implementar la pantalla de home, login, registro de usuario, vista de criticas y opiniones, búsqueda de empresas remodeldoras, busqueda de portafolios, seguimiento de proyecto, contacto con la empresa.
+Link de la aplicación: https://restyle-app-ca200.web.app
+
+* **Vista de Home de la aplicación:**
+
+![home-vista.png](/assets/img/chapter-V/sprint-2/home-vista.png)
+
+* **Vista de inicio de sesión (login):**
+
+![login-vista.png](/assets/img/chapter-V/sprint-2/login-vista.png)
+
+* **Vista de registro de usuario:**
+
+![registro-usuario-vista.png](/assets/img/chapter-V/sprint-2/registro-usuario-vista.png)
+
+* **Vista de perfil de Usuario:**
+
+![perfil-usuario-vista.png](/assets/img/chapter-V/sprint-2/perfil-usuario-vista.png)
+
+* **Vista de empresas remodeladoras:**
+
+![empresa-remodeladora-vista.png](/assets/img/chapter-V/sprint-2/empresa-remodeladora-vista.png)
+
+* **Busqueda y filtros de empresas remodeladoras:**
+
+![busqueda-filtros-vista.png](/assets/img/chapter-V/sprint-2/busqueda-filtros-vista.png)
+
+* **Vista de portafoliio y reseñas de empresas remodeladoras:**
+
+
+![portafolio-vista.png](/assets/img/chapter-V/sprint-2/portafolio-vista.png)
+
+
+![reseñas-vista.png](/assets/img/chapter-V/sprint-2/reseñas-vista.png)
+
+
+* **Vista de contacto con la empresa:**
+
+![contacto-vista.png](/assets/img/chapter-V/sprint-2/contacto-vista.png)
+
+
+* **Sección de agregar reseña:**
+
+![agregar-reseña-vista.png](/assets/img/chapter-V/sprint-2/agregar-reseña-vista.png)
+
+
+* **Sección de seguimiento de proyecto:**
+
+![tracking-view.png](/assets/img/chapter-V/sprint-2/tracking-view.png)
+
+
+* **Vista de error al no encontrar la ruta ingresada:**
+
+![PageNotFound-vista.png](/assets/img/chapter-V/sprint-2/PageNotFound-vista.png)
+
+* **Vista de coming soon:**
+
+![coming-soon.png](/assets/img/chapter-V/sprint-2/coming-soon-view.png)
+
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+Para el sprint 2 se ha desarrollado **únicamente** el Front-End de la aplicación. Por lo tanto, no se han realizado operaciones con la API. Sin embargo, se ha utilizado una fake-api, con la que hemos implementado la aplicación web. Además, utilizamos la plataforma My Json Server para publicar nuestras Fake-api. A continuación, se mostrarán los Endpoints desarrollados en este sprint.  
+
+<table>
+  <thead>
+    <th>  Endpoint</th>
+    <th> HTTP verb</th>
+    <th> Action</th>
+  </thead>
+  <tbody>
+  <tr>
+      <td>https://sw53-metasoft.github.io/ReStyle-Landing-Page/</td>
+      <td> </td>
+      <td>Muestra la segunda versión de la Landing Page de ReStyle</td>
+    </tr>
+    <tr>
+      <td>https://my-json-server.typicode.com/JanoverSaldana/users/users</td>
+      <td>GET</td>
+      <td>Obtener todos los datos de los usuarios registrados en la aplicación web</td>
+    </tr>
+     <tr>
+      <td>https://my-json-server.typicode.com/JanoverSaldana/remodeler/remodelers</td>
+      <td>GET</td>
+      <td>obtener la información de los remodeladores ya sea general o por ID para ser mostrado en las vistas que lo requieran</td>
+    </tr>
+     <tr>
+      <td>https://my-json-server.typicode.com/JanoverSaldana/contracter/contracters</td>
+      <td>GET</td>
+      <td>obtener la información de los contratistas ya sea general o por ID para ser mostrado en las vistas que lo requieran</td>
+    </tr>
+     <tr>
+      <td>https://my-json-server.typicode.com/alehandraxx/myrepo/remodelers</td>
+      <td>GET</td>
+      <td>Obtener la información de los remodeladores, ya sea todos o por ID.</td>
+    </tr>
+     <tr>
+      <td>https://my-json-server.typicode.com/vargas3470/tracking/procesosRemodelacion</td>
+      <td>GET</td>
+      <td>Obtener la información de las etapas del proyecto.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+Utilizamos Firebase Hosting para el despliegue de la aplicación web. A continuación se mostrarán los pasos para lograr el despliegue
+ 
+1. Creación de un nuevo proyecto en Firebase y elegimos el nombre del producto o alguno que este disponible
+
+<img src="/assets/img/chapter-V/sprint-2/crear-proyecto-firebase.png" alt="Firebase new project"/>
+
+2. Seleccionamos el tipo de sericio que vamos a utilizar, en este caso Hosting
+
+<img src="/assets/img/chapter-V/sprint-2/seleccion-hosting.png" alt="Firebase new project"/>
+
+3. Ejecutamos los comandos de configuración de Firebase en la terminal
+
+<img src="/assets/img/chapter-V/sprint-2/comandos-firebase-1.png" alt="Firebase commands"/>
+
+<img src="/assets/img/chapter-V/sprint-2/comandos-firebase-2.png" alt="Firebase commands"/>
+
+4. Ejecutamos en la terminal el comando "firebase deploy", el cual nos generará una URL para acceder a la aplicación web
+
+<img src="/assets/img/chapter-V/sprint-2/comandos-firebase-3.png" alt="Firebase commands"/>
+
+Finalmente obtenemos el link de nustra aplicación web desplegada en Firebase Hosting: https://restyle-app-ca200.web.app
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+En esta entrega, nuestra meta principal fue la implementación de nuestra aplicación web. Para llevar a cabo este objetivo, hicimos uso de diversas herramientas como GitHub, Visual Studio Code, WebStorm, HTML, CSS y Typescript. A continuación, vamos a presentar los diagramas de flujo que representan los commits realizados por cada miembro del equipo MetaSoft:
+
+A continuación se muestra la cantidad de commits realizadas por cada integrante del equipo durante el desarrollo de la aplicación web.
+
+![PulseSprint2](/assets/img/chapter-V/sprint-2/pulse-sprint2.png)
+
+Los siguientes gráficos ofrecen una representación visual de las clonaciones registradas en nuestro repositorio, junto con la fecha en que cada una de estas acciones se llevó a cabo. Además, se presenta información sobre la cantidad de visitantes que ha tenido el repositorio de nuestro equipo a lo largo del tiempo.
+
+![CloneSprint2](/assets/img/chapter-V/sprint-2/clone-sprint2.png)
 
 
 ## Avance de Conclusiones, Bibliografía y Anexos.
@@ -1271,32 +1979,42 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                 <td>Cantidad de videos: 1 <br> 
                   Nomenclatura: upc-pre-202401-si729-sw53-metasoft-needfinding-sprint-1 <br>
                   Formato: .mp4 <br>
-                  Duración:  min </td>
+                  Duración: 30:56 min </td>
                 <td>Consolida todas las entrevistas realizadas</td>
-                <td>Link: https://shorturl.at/jnt25 
+                <td>Link: https://shorturl.at/acGL6
                   Captura: <br>
-                  <img src="/assets/img/chapter-V/sprint-1/interview-video.png" width="350"></img> </td>
+                  <img src="/assets/img/chapter-V/sprint-2/interview-video.png" width="350"/> </td>
             </tr>
             <tr>
                 <td>Exposicion</td>
                 <td>Cantidad de videos: 1 <br>
                   Nomenclatura: upc-pre-202401-si729-sw53-metasoft-expo-tb1 <br>
                   Formato: .mp4 <br>
-                  Duración: min</td>
+                  Duración: 27:19 min</td>
                 <td>Consolida las exposiciones de la TB1</td>
-                <td>Link: Captura: <br>
-                  <img src="/assets/img/chapter-V/sprint-1/expo-video.png" width="350"></img> </td>
+                <td>Link: https://shorturl.at/kxyF2 Captura: <br>
+                  <img src="/assets/img/chapter-V/sprint-1/expo-video.png" width="350"/> </td>
             </tr>
             <tr>
                 <td>Prototypes Navigation / Product Navigation</td>
                 <td>Cantidad de videos: 1 <br>
                   Nomenclatura: upc-pre-202401-si729-sw53-metasoft-prototype-navigation-sprint-1 <br>
                   Formato: .mp4 <br>
-                  Duración: min</td>
+                  Duración: 4:21 min</td>
                 <td>Consolida demostración del flujo de navegación de las aplicaciones, priorizando los user flows relacionados con el core business.</td>
                 <td>Link: https://shorturl.at/goCR6 Captura: <br>
-                  <img src="/assets/img/chapter-V/sprint-1/prototype-video.png" width="350"></img> </td>
-            </tr>            
+                  <img src="/assets/img/chapter-V/sprint-1/prototype-video.png" width="350"/> </td>
+            </tr> 
+            <tr>
+                <td>Exposicion</td>
+                <td>Cantidad de videos: 1 <br>
+                  Nomenclatura: upc-pre-202401-si729-sw53-metasoft-expo-tp <br>
+                  Formato: .mp4 <br>
+                  Duración: min</td>
+                <td>Consolida las exposiciones del TP</td>
+                <td>Link: https://shorturl.at/ltEW4 Captura: <br>
+                  <img src="/assets/img/chapter-V/sprint-2/exposixión-tp.png" width="350" alt=""/> </td>
+            </tr>           
         </tbody>
-    </table>
+</table>
 

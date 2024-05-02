@@ -286,6 +286,10 @@ Entrevista a Contratistas
                 <th>Entrevistado 1</th>
                 <th>Diego Cantoral</th>
             </tr>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Daniel Valverde</th>
+            </tr>
         </thead>
         <tbody>
             <tr>
@@ -308,11 +312,46 @@ Entrevista a Contratistas
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
+<<<<<<< HEAD
                 <td>4:41min </td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
                 <td> https://shorturl.at/jnt25 </td>
+=======
+                <td>0:00 min</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td>https://shorturl.at/acGL6</td>
+            </tr>
+            <tr>
+                <th>Entrevistado 2</th>
+                <th>Jose Gutierrez</th>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Alejandra Diaz</th>
+            </tr>
+            <tr>
+                <td>Edad</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>Lima</td>
+            </tr>
+            <tr>
+            <td><img src="/assets/img/chapter-II/interviewClient.png" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br>El entrevistado nos comenta que previamente ha contratado servicios de remodelacion, pero estas experiencias han sido de manera presencial y nunca mediante una plataforma online. Ademas, nos cuenta que este proceso ha sido dificil debido a la falta de transparencia y reseñas online que le permitan tomar una decision informada. Finalmente, explica que estaria dispuesto a utilizar una plataforma online para contratar servicios de remodelacion y que le gustaria encontrar reviews y un seguimiento en tiempo real para saber el proceso del proyecto. </td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td>5:08 min</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td>https://shorturl.at/acGL6</td>
+>>>>>>> origin/capitulo-II
             </tr>
         </tbody>
 </table>
@@ -324,6 +363,9 @@ Entrevista a Remodeladores
             <tr>
                 <th>Entrevistado 1</th>
                 <th>Rodrigo Porles</th>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Daniel Valverde</th>
             </tr>
         </thead>
         <tbody>
@@ -348,15 +390,26 @@ Entrevista a Remodeladores
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
+<<<<<<< HEAD
                 <td>0:00 min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
                 <td>https://shorturl.at/jnt25</td>
+=======
+                <td>10:05min</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td>https://shorturl.at/acGL6</td>
+>>>>>>> origin/capitulo-II
             </tr>
             <tr>
                 <th>Entrevistado 2</th>
                 <th>Olga Samanez (Innovacion Interiores)</th>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Alejandra Diaz</th>
             </tr>
             <tr>
                 <td>Edad</td>
@@ -372,11 +425,48 @@ Entrevista a Remodeladores
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
+<<<<<<< HEAD
                 <td>9:50 min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
                 <td>https://shorturl.at/jnt25</td>
+=======
+                <td>14:46 min</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td>https://shorturl.at/acGL6</td>
+            </tr>
+            <tr>
+                <th>Entrevistado 3</th>
+                <th>Victor Eladio Sobrino Chunga</th>
+            <tr>
+                <th>Entrevistador </th>
+                <th> Janover Saldaña</th>
+            </tr>
+            <tr>
+                <td>Edad: </td>
+                <td> 23</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td> Chorrillos - Lima</td>
+            </tr>
+            <tr>
+            <td><img src="/assets/img/chapter-II/entrevista-victor-eladio.png" alt="Foto de entrevista"></td>
+            <td><strong>Resumen: </strong><br>
+                La persona entrevistada mencionó que actualmente trabaja de forma independiente, el entrevistado nos comentó que al momento de brindar servicios suele tener mayor dificultad al momento de llegar a ciertos acuerdos con el cliente con respecto al diseño que está proporcionando como colores, materiales y posiciones, con respecto a la gestión de sus proyectos, el entrevistado suele agendarlo en un calendario virtual, del mismo modo el entrevistado comentó que l calidad es indispensable al momento de realizar sus proyectos es por ello que brinda información de los materiales de mayor calidad al cliente para su consideración, también mencionó que ha tenido pocas incidencias con respecto a quejas de sus clientes, en cuanto a seguridad, el cliente menciona que siempre suele trabajar con un arquitecto de su confianza y saca todos los permisos correspondientes ante las entidades públicas, la diferenciación del entrevistado con respecto a otras personas o empresas es que siempre trata de brindar diseños únicos y utilizar materiales de calidad. 
+            </td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td>20:46 min</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td>https://shorturl.at/acGL6</td>
+>>>>>>> origin/capitulo-II
             </tr>
 </table>
 
@@ -386,22 +476,22 @@ Entrevista a Remodeladores
 Análisis del segmento contratistas
 
 Luego de escuchar y entender a este segmento, pudimos concluir ciertas cifras estadísticas que nos ayudarán posteriormente en el desarrollo de los requisitos.
-El 100% de los entrevistados son mayores de 20 años. El 66% comenta que su red social preferida es Instagram y un 33% prefiere TikTok.
+El 100% de los entrevistados son mayores de 20 años. 
 Además se obtuvo que el 100% de este segmento al menos maneja de forma intermedia los aparatos tecnológicos.
 
-<img src="/assets/img/chapter-II/estadisticaContratistas.png" alt="cuadro estadistico">
+<img src="/assets/img/chapter-II/estadisticaContratistas2.png" alt="cuadro estadistico">
 
-Respecto a la solución propuesta, el 66% se mostró de acuerdo con dos de las principales funcionalidades de la aplicación.
+Respecto a la solución propuesta, el 100% se mostró de acuerdo con dos de las principales funcionalidades de la aplicación.
 
 Análisis del segmento remodeladores
 
 Se realizó una evaluación a partir de las entrevistas realizadas a este segmento. Se determinaron las siguientes 
-estadísticas. El 100% de los entrevistados utilizan las redes sociales para promocionar sus servicios además este mismo porcentaje
+estadísticas. El 66% de los entrevistados utilizan las redes sociales para promocionar sus servicios. El 100% 
 utiliza medios de comunicación virtuales como Whatsapp y también de forma presencial para mantener un contacto directo con sus clientes.
 el 100% concuerda en la necesidad de mejora en el proceso de atención al cliente, refiriendose a la actualización continua de los estados
 de los trabajos de remodelación.
 
-<img src="/assets/img/chapter-II/estadisticaRemodeladores.png" alt="cuadro estadistico">
+<img src="/assets/img/chapter-II/estadisticaRemodeladores2.png" alt="cuadro estadistico">
 
 ## 2.3. Needfinding. 
 
