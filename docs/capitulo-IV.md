@@ -387,6 +387,85 @@ diseño  para optimizar la estructura y la eficiencia del sistema.
 ### 4.7.2. Class Dictionary.
 
 A continuación se presenta el código en formato markdown con las clases, atributos y métodos correspondientes:
+Claro, aquí tienes la tabla por cada clase:
+
+### User
+
+| Atributos           | Tipos    |
+|---------------------|----------|
+| id                  | int      |
+| firstname           | string   |
+| email               | string   |
+| password            | string   |
+| type                | string   |
+| paternalSurname     | string   |
+| maternalSurname     | string   |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| login(username, password) | Verifica las credenciales del usuario. Devuelve true si la autenticación es exitosa. |
+| register(username, password) | Registra un nuevo usuario con el nombre de usuario y la contraseña proporcionados. |
+
+### Remodeler
+
+| Atributos           | Tipos    |
+|---------------------|----------|
+| expertise           | string   |
+| image               | string   |
+| address             | string   |
+| city                | string   |
+| phone               | string   |
+| description         | string   |
+| subscription        | PaymentAdapter |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| createPortfolio()   | Crea un portafolio para el remodelador. |
+| review(id, duration, project, client_name) | Realiza una revisión del proyecto. |
+| publishProject(title, description) | Publica un nuevo proyecto con el título y la descripción proporcionados. |
+
+### Review
+
+| Atributos           | Tipos    |
+|---------------------|----------|
+| id                  | int      |
+| duration            | string   |
+| project             | string   |
+| client_name         | string   |
+| rating              | int      |
+| comment             | string   |
+| image               | string   |
+
+### Project
+
+| Atributos           | Tipos    |
+|---------------------|----------|
+| id                  | int      |
+| name                | string   |
+| image               | string   |
+| description         | string   |
+
+### Portfolio
+
+| Atributos           | Tipos    |
+|---------------------|----------|
+| projects            | List<Project> |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| addProject(project) | Agrega un proyecto al portafolio.     |
+| getAllProjects()    | Obtiene todos los proyectos en el portafolio. |
+
+### Contracter
+
+| Atributos           | Tipos    |
+|---------------------|----------|
+| phone               | string   |
+| description         | string   |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| createReview()      | Crea una revisión.                    |
 
 
 ## 4.8. Database Design.
