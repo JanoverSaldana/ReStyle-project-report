@@ -452,18 +452,18 @@ Entrevista a Remodeladores
 Análisis del segmento contratistas
 
 Luego de escuchar y entender a este segmento, pudimos concluir ciertas cifras estadísticas que nos ayudarán posteriormente en el desarrollo de los requisitos.
-El 100% de los entrevistados son mayores de 20 años. El 66% comenta que su red social preferida es Instagram y un 33% prefiere TikTok.
+El 100% de los entrevistados son mayores de 20 años. 
 Además se obtuvo que el 100% de este segmento al menos maneja de forma intermedia los aparatos tecnológicos.
 
 
 <img src="/assets/img/chapter-II/estadisticaContratistas.png" alt="cuadro estadistico">
 
-Respecto a la solución propuesta, el 66% se mostró de acuerdo con dos de las principales funcionalidades de la aplicación.
+Respecto a la solución propuesta, el 100% se mostró de acuerdo con dos de las principales funcionalidades de la aplicación.
 
 Análisis del segmento remodeladores
 
 Se realizó una evaluación a partir de las entrevistas realizadas a este segmento. Se determinaron las siguientes 
-estadísticas. El 100% de los entrevistados utilizan las redes sociales para promocionar sus servicios además este mismo porcentaje
+estadísticas. El 66% de los entrevistados utilizan las redes sociales para promocionar sus servicios. El 100% 
 utiliza medios de comunicación virtuales como Whatsapp y también de forma presencial para mantener un contacto directo con sus clientes.
 el 100% concuerda en la necesidad de mejora en el proceso de atención al cliente, refiriendose a la actualización continua de los estados
 de los trabajos de remodelación.
