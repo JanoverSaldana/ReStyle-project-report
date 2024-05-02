@@ -361,7 +361,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
     <!-- ESTUDIANTE 4 TB1-->
      <tr>   
       <td><b>Vargas Revollé, Ariana  TP: </b><br>
-        Escribir aquí</td>     
+        Se hizo seguimiento al proyecto realizado mediate reuniones realizadas durante el avanze.
+      </td>     
     </tr>
     <!--SEGUN CRITERIO DE STUDENT OUTCOME-->
     <tr>
@@ -441,7 +442,7 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
     <!-- ESTUDIANTE 4 TB1-->
      <tr>   
       <td><b>Vargas Revollé, Ariana  TP: </b><br>
-        Escribir aquí
+        Se levantaron observaciones hechas en la primera entrega y se programaron las vistas necesarias para el sprint 2
       </td>     
     </tr>
 </table>
