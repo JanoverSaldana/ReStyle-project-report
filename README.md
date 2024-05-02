@@ -62,6 +62,8 @@
 
 ### Project Report Collaboration Insights
 
+* #### Entregable TB1
+
 URL del repositorio para el reporte del proyecto: https://github.com/sw53-metasoft/ReStyle-project-report
 
 Github Collaboration Insights proporciona un cronograma que muestra las principales ramas y los procesos de fusión que han ocurrido. Todas las ramas se han generado siguiendo los principios de GitFlow, lo que garantiza una organización efectiva al utilizar un sistema de control de versiones.
@@ -86,6 +88,39 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
 <img src = "https://i.postimg.cc/tTcy2Rv9/network-tb1-metasoft.png"></img>
 <img src = "https://i.postimg.cc/wB09RQhy/traffic-tb1-metasoft.png"></img>
 
+* #### Entregable TP
+
+URL del repositorio para el reporte del proyecto: https://github.com/sw53-metasoft/ReStyle-project-report
+
+Github Collaboration Insights proporciona un cronograma que muestra las principales ramas y los procesos de fusión que han ocurrido. Todas las ramas se han generado siguiendo los principios de GitFlow, lo que garantiza una organización efectiva al utilizar un sistema de control de versiones.
+
+- Alejanadra Villacrez (alehandraxx)
+- Daniel Valverde (daniel-vl7)
+- Janover Saldaña (JanoverSaldana)
+- Josten Huaman (JostenHuaman) - Retirado
+- Ariana Vargas (vargas3470)
+
+Se divieron las siguientes ramas para la colaboración en el proyecto:
+
+- main
+- capitulo-I
+- capitulo-II
+- capitulo-III
+- capitulo-IV
+- capitulo-V
+- develop
+
+En la siguiente imagen se aprecia las ramas de documentación referente al trabajo realizado en el levantamiento de observaciones y desarrollo de las partes nuevas del entregable del TP en sus respectivas ramas.
+
+![Ramas de trabajo del equipo](./assets/img/readme/network-graph-TP.png)
+
+En esta imagen, se ofrece una representación visual de las fechas en las que se llevaron a cabo cambios en el repositorio de nuestra segundo sprint, junto con la cantidad de modificaciones realizadas en cada uno de los commits. Esta representación gráfica es una herramienta valiosa para comprender la evolución temporal del proyecto y la intensidad del desarrollo a lo largo del tiempo.
+
+![Contributors entregable TP](./assets/img/readme/contributors-TP.png)
+
+Estos gráficos ofrecen una representación visual de las clonaciones registradas en nuestro repositorio, junto con la fecha en que cada una de estas acciones se llevó a cabo. Además, se presenta información sobre la cantidad de visitantes que ha tenido el repositorio de nuestro equipo a lo largo del tiempo.
+
+![trafico de clonación de repositorios y commits](./assets/img/readme/traffic-TP.png)
 
 ## Contenido 
 
