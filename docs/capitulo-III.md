@@ -606,104 +606,122 @@
         </tr>   
         <tr style="text-align:center">
             <td> TS001 </td>
-            <td> Get Portfolios </td>
+            <td> Obtener Portafolios </td>
             <td> 
             <strong> Como </strong> desarrollador backend en reStyle,
-            <strong> quiero </strong> obtener la información del portafolio de los remodeladores
-            a través de una API <strong> para </strong> permitir al equipo de frontend utilizar
-            los datos del portafolio en la interfaz de usuario </td>
+            <strong> quiero </strong> o obtener la información del portafolio de los remodeladores a través de una API <strong> para </strong> permitir al equipo de frontend utilizar los datos del portafolio en la interfaz de usuario. </td>
             <td> 
-            <h5>Escenario 01: </h5>
+            <h5>Escenario 01: Obtener Portafolios Exitosamente</h5>
             <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Portfolio,
-            <strong> Cuando </strong> envío una solicitud para la obtención de datos del portafolio 
-            de los usuarios. <strong> Entonces </strong>  recibo la información de los portafolios en un response 
-            de formato JSON. 
-            <h5>Escenario 02: </h5>            
+            <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del portafolio de los usuarios, <strong> Entonces </strong>  el servidor responde con un código de estado 200 OK <strong> Y </strong> recibo la información de los portafolios en un response de formato JSON que contiene al menos un portafolio con los siguientes campos: <br> 
+            ID: {ID del portafolio}<br>
+            - Nombre: {Nombre del remodelador}<br>
+            - Descripción: {Descripción del portafolio}<br>
+            - Proyectos: [{Lista de proyectos del portafolio}]<br>
+            <h5>Escenario 02: Obtener Portafolios con Parámetro Erróneo</h5>            
             <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Portfolios,
-            <strong> Cuando </strong> envío una solicitud para la obtención de datos del portafolio de los usuarios
-            <strong> Y </strong> el parámetro es erróneo o no exista <strong> Entonces </strong> 
-            recibo una mensaje de error en la solicitud </td>
+            <strong> Cuando </strong>envío una solicitud GET para la obtención de datos del portafolio de los usuarios con un parámetro erróneo o inexistente,
+            <strong> Entonces </strong> 
+            el servidor responde con un código de estado 400 Bad Request <strong> Y </strong> recibo un mensaje de error en el response indicando que el parámetro es incorrecto o no existe.
+            </td>
             <td> </td>
         </tr>
         <tr style="text-align:center">
             <td> TS002 </td>
-            <td> Get Portfolio by User </td>
+            <td> Obtener Portafolio por Usuario </td>
             <td> 
-            <strong> Como </strong> desarrollador backend en reStyle,
-            <strong> quiero </strong> obtener la información del portafolio  por usuario remodelador a través de una API 
-            <strong> para </strong> permitir al equipo de frontend utilizar
-            los datos del portafolio en la interfaz de usuario </td>
+                <strong> Como </strong> desarrollador backend en reStyle,
+                <strong> quiero </strong> obtener la información del portafolio por usuario remodelador a través de una API
+                <strong> para </strong> permitir al equipo de frontend utilizar los datos del portafolio en la interfaz de usuario.
+            </td>
             <td> 
-            <h5> Escenario 01: </h5>
-            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Portfolio by user,
-            <strong> Cuando </strong> envío una solicitud para la obtención de datos del portafolio de un usuario por id
-            <strong> Entonces </strong>  recibo la información del portafolio en un response de formato JSON. 
-            <h5> Escenario 02: </h5>            
-            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Portfolio by user,
-            <strong> Cuando </strong> envío una solicitud para la obtención de datos del portafolio del usuario
-            <strong> Y </strong> el parámetro de ID es erróneo o no exista <strong> Entonces </strong> 
-            recibo una mensaje de error en la solicitud </td>
+                <h5> Escenario 01:  Obtener Portafolio Exitosamente por ID </h5>
+                <strong> Dado </strong> qque tengo autorización en el uso de la API y al endpoint de Portfolio by user,
+                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del portafolio de un usuario por su ID,
+                <strong> Entonces </strong>  el servidor responde con un código de estado 200 OK
+                <strong>Y</strong> recibo la información del portafolio del usuario en un response de formato JSON que contiene los siguientes campos:<br>
+                - ID: {ID del portafolio}<br>
+                - Nombre: {Nombre del remodelador}<br>
+                - Descripción: {Descripción del portafolio}<br>
+                - Proyectos: [{Lista de proyectos del portafolio}]<br>
+                <h5> Escenario 02: Obtener Portafolio con Parámetro de ID Erróneo </h5>            
+                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Portfolio by user,
+                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del portafolio de un usuario con un parámetro de ID erróneo o inexistente,
+                <strong> Entonces </strong> 
+                el servidor responde con un código de estado 400 Bad Request
+                <strong> Y </strong> recibo un mensaje de error en el response indicando que el parámetro de ID es incorrecto o no existe.
+            </td>
             <td> </td>
         </tr>
         <tr style="text-align:center">
             <td> TS003 </td>
-            <td> Get Project by User </td>
+            <td>  Obtener Datos del Proyecto Actual por Usuario </td>
             <td> 
-            <strong> Como </strong> desarrollador backend en reStyle,
-            <strong> quiero </strong> obtener los datos del proyecto actual de un remodelador a través de una API 
-            <strong> para </strong> permitir al equipo de frontend utilizar
-            los datos del proyecto y mostrarlo a los contratistas  </td>
+                <strong> Como </strong> desarrollador backend en reStyle,
+                <strong> quiero </strong> obtener los datos del proyecto actual de un remodelador a través de una API
+                <strong> para </strong> permitir al equipo de frontend utilizar los datos del proyecto y mostrarlo a los contratistas.  
+            </td>
             <td> 
-            <h5> Escenario 01: </h5>
-            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Project by user,
-            <strong> Cuando </strong> envío una solicitud para la obtención de datos del proyecto de un usuario por id
-            <strong> Entonces </strong>  recibo la información del portafolio en un response de formato JSON. 
-            <h5> Escenario 02: </h5>            
-            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Project by user,
-            <strong> Cuando </strong> envío una solicitud para la obtención de datos del proyecto del usuario
-            <strong> Y </strong> el parámetro de ID es erróneo o no exista <strong> Entonces </strong> 
-            recibo una mensaje de error en la solicitud </td>
+                <h5> Escenario 01: Obtener Datos del Proyecto Exitosamente por ID </h5>
+                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Project by user,
+                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del proyecto de un usuario por su ID,
+                <strong> Entonces </strong>  el servidor responde con un código de estado 200 OK <strong> Y </strong> recibo la información del proyecto actual del usuario en un response de formato JSON que contiene los siguientes campos:<br>
+                - ID: {ID del proyecto}<br>
+                - Nombre: {Nombre del proyecto}<br>
+                - Descripción: {Descripción del proyecto}<br>
+                - Fecha de inicio: {Fecha de inicio del proyecto}<br>
+                - Fecha de finalización: {Fecha de finalización del proyecto}<br>
+                <h5> Escenario 02: Obtener Datos del Proyecto con Parámetro de ID Erróneo</h5>            
+                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Project by user,
+                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del proyecto de un usuario con un parámetro de ID erróneo o inexistente,
+                <strong> Entonces </strong> el servidor responde con un código de estado 400 Bad Request
+                <strong> Y </strong> recibo un mensaje de error en el response indicando que el parámetro de ID es incorrecto o no existe.
+            </td>
             <td> </td>
         </tr>
         <tr style="text-align:center">
             <td> TS004 </td>
-            <td> Post Publications </td>
+            <td>  Crear Publicaciones de Oportunidad Laboral </td>
             <td> 
-            <strong> Como </strong> desarrollador backend en reStyle,
-            <strong> quiero </strong> permitir a los contratistas puedan crear publicaciones de oportunidad laboral 
-            <strong> para </strong>  registrarlas en la base de datos 
+                <strong> Como </strong> desarrollador backend en reStyle,
+                <strong> quiero </strong> ppermitir a los contratistas crear publicaciones de oportunidad laboral
+                <strong> para </strong> registrarlas en la base de datos.
             </td>
             <td> 
-            <h5>Escenario 01: </h5>
-            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Publications,
-            <strong> Cuando </strong> envío una solicitud envío una solicitud con datos validados para el
-            registro de una nueva publicación. <strong> Entonces </strong> la información de la publicación se
-            almacenará con éxito en la base de datos de la aplicación.
-            <h5>Escenario 02: </h5>            
-            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Publications,
-            <strong> Cuando </strong> envío una solicitud envío una solicitud sin datos validados 
-            <strong> Entonces </strong> recibo una mensaje de error en la solicitud y esta es rechazada.
+                <h5>Escenario 01: Crear Publicación Exitosamente</h5>
+                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Publications,
+                <strong> Cuando </strong> envío una solicitud con datos validados para el registro de una nueva publicación,
+                registro de una nueva publicación. <strong> Entonces </strong> el servidor responde con un código de estado 201 Created
+                <strong> Y </strong> la información de la publicación se almacena con éxito en la base de datos de la aplicación.
+                <h5>Escenario 02:  Crear Publicación con Datos No Validados</h5>            
+                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Publications,
+                <strong> Cuando </strong> envío una solicitud sin datos validados para el registro de una nueva publicación, 
+                <strong> Entonces </strong> rel servidor responde con un código de estado 400 Bad Request
+                <strong> Y </strong> recibo un mensaje de error en la solicitud indicando que los datos no son válidos
+                <strong> Y </strong> la solicitud es rechazada, sin almacenar la información en la base de datos.
             </td>
             <td> </td>
         </tr>
         <tr style="text-align:center">
             <td> TS005 </td>
-            <td> Post Reviews </td>
+            <td> Crear Reseñas sobre los Remodeladores </td>
             <td> 
-            <strong> Como </strong> desarrollador backend en reStyle,
-            <strong> quiero </strong> permitir a los contratistas crear reseñas sobre los remodeladores a través de una API 
-            <strong> para </strong> permitir a los contratistas compartir su opinión del trabajador contratado 
+                <strong> Como </strong> desarrollador backend en reStyle,
+                <strong> quiero </strong> permitir a los contratistas crear reseñas sobre los remodeladores a través de una API
+                <strong> para </strong> permitir a los contratistas compartir su opinión del trabajador contratado.
             </td>
             <td> 
-            <h5>Escenario 01: </h5>
-            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Post Reviews,
-            <strong> Cuando </strong> envío una solicitud envío una solicitud con datos validados para el
-            registro de una nueva reseña. <strong> Entonces </strong> la información de la reseña se
-            almacenará con éxito en la base de datos de la aplicación.
-            <h5>Escenario 02: </h5>            
-            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Post Reviews,
-            <strong> Cuando </strong> envío una solicitud envío una solicitud sin datos validados 
-            <strong> Entonces </strong> recibo una mensaje de error en la solicitud y esta es rechazada.
+                <h5>Escenario 01: Crear Reseña Exitosamente</h5>
+                <strong>Dado</strong> que tengo autorización en el uso de la API y al endpoint de Post Reviews,
+                <strong>Cuando</strong> envío una solicitud con datos validados para el registro de una nueva reseña,
+                <strong>Entonces</strong> el servidor responde con un código de estado 201 Created
+                <strong>Y</strong> la información de la reseña se almacena con éxito en la base de datos de la aplicación.
+                <h5>Escenario 02: Crear Reseña con Datos No Validados</h5>            
+                <strong>Dado</strong> que tengo autorización en el uso de la API y al endpoint de Post Reviews,
+                <strong>Cuando</strong> envío una solicitud sin datos validados para el registro de una nueva reseña,
+                <strong>Entonces</strong> el servidor responde con un código de estado 400 Bad Request
+                <strong>Y</strong> recibo un mensaje de error en la solicitud indicando que los datos no son válidos
+                <strong>Y</strong> la solicitud es rechazada, sin almacenar la información en la base de datos.
             </td>
             <td> </td>
         </tr>
@@ -711,21 +729,26 @@
             <td> TS006 </td>
             <td> Get Reviews </td>
             <td> 
-            <strong> Como </strong> desarrollador backend en reStyle,
-            <strong> quiero </strong> obtener la información del portafolio de las reseñas creadas por los contratistas
-            a través de una API <strong> para </strong> permitir al equipo de frontend utilizar
-            los datos de la reseña. </td>
+                <strong>Como</strong> desarrollador backend en reStyle,
+                <strong>Quiero</strong> obtener la información del portafolio de las reseñas creadas por los contratistas a través de una API
+                <strong>Para</strong> permitir al equipo de frontend utilizar los datos de la reseña.
+            </td>
             <td> 
-            <h5>Escenario 01: </h5>
-            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Reviews,
-            <strong> Cuando </strong> envío una solicitud para la obtención de datos de las reseñas  
-            de los usuarios. <strong> Entonces </strong>  recibo la información de las reseñas en un response 
-            de formato JSON. 
-            <h5>Escenario 02: </h5>            
-            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Reviews,
-            <strong> Cuando </strong> envío una solicitud para la obtención de datos de las reseñas de los usuarios
-            <strong> Y </strong> el parámetro es erróneo o no exista <strong> Entonces </strong> 
-            recibo una mensaje de error en la solicitud </td>
+                <h5>Escenario 01: Obtener Reseñas Exitosamente</h5>
+                <strong>Dado</strong> que tengo autorización en el uso de la API y al endpoint de Reviews,
+                <strong>Cuando</strong> envío una solicitud GET para la obtención de datos de las reseñas de los usuarios,
+                <strong>Entonces</strong> el servidor responde con un código de estado 200 OK
+                <strong>Y</strong> recibo la información de las reseñas en un response de formato JSON que contiene al menos una reseña con los siguientes campos:<br>
+                - ID: {ID de la reseña}<br>
+                - Contratista: {Nombre del contratista que creó la reseña}<br>
+                - Comentario: {Contenido de la reseña}<br>
+                - Calificación: {Puntuación de la reseña}<br>
+                <h5>Escenario 02: Obtener Reseñas con Parámetro Erróneo</h5>
+                <strong>Dado</strong> que tengo autorización en el uso de la API y al endpoint de Reviews,
+                <strong>Cuando</strong> envío una solicitud GET para la obtención de datos de las reseñas de los usuarios con un parámetro erróneo o inexistente,
+                <strong>Entonces</strong> el servidor responde con un código de estado 400 Bad Request
+                <strong>Y</strong> recibo un mensaje de error en la solicitud indicando que el parámetro es incorrecto o no existe.
+            </td>
             <td> </td>
         </tr>
     </body>
