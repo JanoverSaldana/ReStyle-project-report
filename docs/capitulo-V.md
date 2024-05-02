@@ -1577,7 +1577,7 @@ Link del Tablero de Trello: https://trello.com/b/p6JtnTBC
 
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review.
 
-Para esta entrega el equipo aún no ah realizado prruebas de testing.
+Para esta entrega el equipo aún no han realizado pruebas de testing.
 
 <table>
   <thead>
@@ -1686,6 +1686,7 @@ Despues de culminar satisfactoriamente el sprint 2, logramos implementar la pant
 
 * **Vista de portafoliio y reseñas de empresas remodeladoras:**
 
+
 ![portafolio-vista.png](/assets\img\chapter-V\sprint-2/portafolio-vista.png)
 
 
@@ -1701,9 +1702,19 @@ Despues de culminar satisfactoriamente el sprint 2, logramos implementar la pant
 
 ![agregar-reseña-vista.png](/assets\img\chapter-V\sprint-2/agregar-reseña-vista.png)
 
+
+* **Sección de seguimiento de proyecto:**
+
+![tracking-view.png](/assets\img\chapter-V\sprint-2\tracking-view.png)
+
+
 * **Vista de error al no encontrar la ruta ingresada:**
 
 ![PageNotFound-vista.png](/assets\img\chapter-V\sprint-2/PageNotFound-vista.png)
+
+* **Vista de coming soon:**
+
+![coming-soon.png](/assets\img\chapter-V\sprint-2\coming-soon-view.png)
 
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
@@ -1733,19 +1744,14 @@ Para el sprint 2 se ha desarrollado **únicamente** el Front-End de la aplicaci�
       <td>obtener la información de los contratistas ya sea general o por ID para ser mostrado en las vistas que lo requieran</td>
     </tr>
      <tr>
-      <td></td>
+      <td>https://my-json-server.typicode.com/alehandraxx/myrepo/remodelers</td>
       <td>GET</td>
-      <td></td>
+      <td>Obtener la información de los remodeladores, ya sea todos o por ID.</td>
     </tr>
      <tr>
-      <td></td>
+      <td>https://my-json-server.typicode.com/vargas3470/tracking/procesosRemodelacion</td>
       <td>GET</td>
-      <td></td>
-    </tr>
-     <tr>
-      <td></td>
-      <td>GET</td>
-      <td></td>
+      <td>Obtener la información de las etapas del proyecto.</td>
     </tr>
   </tbody>
 </table>
@@ -1760,11 +1766,11 @@ En esta entrega, nuestra meta principal fue la implementación de nuestra aplica
 
 A continuación se muestra la cantidad de commits realizadas por cada integrante del equipo durante el desarrollo de la aplicación web.
 
-![PulseSprint2](/assets\img\chapter-V\sprint-1\pulse-sprint2.png)
+![PulseSprint2](/assets\img\chapter-V\sprint-2\pulse-sprint2.png)
 
 Los siguientes gráficos ofrecen una representación visual de las clonaciones registradas en nuestro repositorio, junto con la fecha en que cada una de estas acciones se llevó a cabo. Además, se presenta información sobre la cantidad de visitantes que ha tenido el repositorio de nuestro equipo a lo largo del tiempo.
 
-![CloneSprint2](/assets\img\chapter-V\sprint-1\clone-sprint2.png)
+![CloneSprint2](/assets\img\chapter-V\sprint-2\clone-sprint2.png)
 
 
 ## Avance de Conclusiones, Bibliografía y Anexos.
@@ -1808,11 +1814,11 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                 <td>Cantidad de videos: 1 <br> 
                   Nomenclatura: upc-pre-202401-si729-sw53-metasoft-needfinding-sprint-1 <br>
                   Formato: .mp4 <br>
-                  Duración:  min </td>
+                  Duración: 30:56 min </td>
                 <td>Consolida todas las entrevistas realizadas</td>
-                <td>Link: 
+                <td>Link: https://shorturl.at/acGL6
                   Captura: <br>
-                  <img src="/assets/img/chapter-V/sprint-1/interview-video.png" width="350" alt=""/> </td>
+                  <img src="/assets/img/chapter-V/sprint-2/interview-video.png" width="350"/> </td>
             </tr>
             <tr>
                 <td>Exposicion</td>
@@ -1822,7 +1828,7 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                   Duración: 27:19 min</td>
                 <td>Consolida las exposiciones de la TB1</td>
                 <td>Link: https://shorturl.at/kxyF2 Captura: <br>
-                  <img src="/assets/img/chapter-V/sprint-1/expo-video.png" width="350" alt=""/> </td>
+                  <img src="/assets/img/chapter-V/sprint-1/expo-video.png" width="350"/> </td>
             </tr>
             <tr>
                 <td>Prototypes Navigation / Product Navigation</td>
@@ -1832,7 +1838,7 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                   Duración: 4:21 min</td>
                 <td>Consolida demostración del flujo de navegación de las aplicaciones, priorizando los user flows relacionados con el core business.</td>
                 <td>Link: https://shorturl.at/goCR6 Captura: <br>
-                  <img src="/assets/img/chapter-V/sprint-1/prototype-video.png" width="350" alt=""/> </td>
+                  <img src="/assets/img/chapter-V/sprint-1/prototype-video.png" width="350"/> </td>
             </tr> 
             <tr>
                 <td>Exposicion</td>
