@@ -1673,6 +1673,8 @@ Despues de culminar satisfactoriamente el sprint 2, logramos implementar la pant
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
+Para el sprint 2 se ha desarrollado **únicamente** el Front-End de la aplicación. Por lo tanto, no se han realizado operaciones con la API. Sin embargo, se ha utilizado una fake-api, con la que hemos implementado la aplicación web. Además, utilizamos la plataforma My Json Server para publicar nuestras Fake-api. A continuación, se mostrarán los Endpoints desarrollados en este sprint.  
+
 <table>
   <thead>
     <th>  Endpoint</th>
