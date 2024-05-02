@@ -1559,21 +1559,160 @@ Link del Tablero de Trello: https://trello.com/b/p6JtnTBC
   <tr>
   <!-- rowspan="number of rows" -->
     <td rowspan="50">https://github.com/sw53-metasoft/ReStyle-Frontend</td>
+    <td>main</td>
+    <td>4276568e2e22118c837de6e6a287fdddf894949f</td>
+    <td>feat: initial commit</td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>23/04/2024</td>
   </tr>
   <tr>
+    <td>develop</td>
+    <td>6358a15307a44ae909f3c5b980088d11130e297b</td>
+    <td>feat(develop): Added intial structure for the project</td>
     <td></td>
+    <td>24/04/2024</td>
+  </tr>
+  <tr>
+    <td>remodeler-search</td>
+    <td>0e7e50810bd5b590d3972ab6d212849c49e51f53</td>
+    <td>feat(remodeler-search): added remodeler-search feature</td>
     <td></td>
+    <td>29/04/2024</td>
+  </tr>
+  <tr>
+    <td>remodeler-detail</td>
+    <td>7947ac96af230bf5a72c23b522b8e8817ed0712e</td>
+    <td>feat(remodeler-detail): added remodeler-detail feature</td>
     <td></td>
+    <td>29/04/2024</td>
+  </tr>
+  <tr>
+    <td>remodeler-detail</td>
+    <td>b01b942f4b9e4f4a231161a8d69aba629cc8f052</td>
+    <td>fix: components path</td>
     <td></td>
+    <td>30/04/2024</td>
+  </tr>
+  <tr>
+    <td>remodeler-detail</td>
+    <td>a297e20bfe8088f9c9d5258d0167f4ef797032be</td>
+    <td>feat(remodeler-detail): Add remodeler portfolio profile</td>
     <td></td>
+    <td>30/04/2024</td>
+  </tr>
+  <tr>
+    <td>remodeler-detail</td>
+    <td>fb67d68ca0b2c63888733b484c6824c01d84b431</td>
+    <td>feat(remodeler-detail): Add remodeler portfolio projects</td>
+    <td></td>
+    <td>30/04/2024</td>
+  </tr>
+  <tr>
+    <td>remodeler-detail</td>
+    <td>0e792eaeb61cc67fa580129d9e534f92d4e1ace3</td>
+    <td>fix: remove unavailable path</td>
+    <td></td>
+    <td>30/04/2024</td>
+  </tr>
+  <tr>
+    <td>public</td>
+    <td>f9d2a97401332a7fd1b765187c2dcca69fce898b</td>
+    <td>feat(public): added home page.</td>
+    <td></td>
+    <td>30/04/2024</td>
+  </tr>
+  <tr>
+    <td>feature/security</td>
+    <td>0cf7035c24439df7a3bc71df44e0fe6b4a688e91</td>
+    <td>feat(security): added security architecture.</td>
+    <td></td>
+    <td>01/05/2024</td>
+  </tr>
+  <tr>
+    <td>feature/profiles</td>
+    <td>2652963ecdb0b04f8b609e841dfc09c651676591</td>
+    <td>feat(login): added login.</td>
+    <td></td>
+    <td>01/05/2024</td>
+  </tr>
+  <tr>
+    <td>feature/profiles</td>
+    <td>0b8cc4d2823cd77712d259922e6ce2aea2f33f11</td>
+    <td>feat(sign-up): added sign up and updated page not found.</td>
+    <td></td>
+    <td>01/05/2024</td>
+  </tr>
+  <tr>
+    <td>feature/tracking</td>
+    <td>4c0de68cc05a0cda6ef82ea01fb25b97fa96c712</td>
+    <td>feat(feature/tracking): added tracking feature</td>
+    <td></td>
+    <td>01/05/2024</td>
+  </tr>
+  <tr>
+    <td>feature/profiles</td>
+    <td>7b3ddadb6d81f863164c677c16b09d3e83fae70d</td>
+    <td>7b3ddadb6d81f863164c677c16b09d3e83fae70d</td>
+    <td></td>
+    <td>01/05/2024</td>
+  </tr>
+  <tr>
+    <td>feature/profile</td>
+    <td>feeb2e4a2ee4a54df9025126ba1daa21f7cb389b</td>
+    <td>feat(profiles): Added profile contracter and remodeler</td>
+    <td></td>
+    <td>01/05/2024</td>
+  </tr>
+  <tr>
+    <td>feature/profiles</td>
+    <td>8f9969fde011ccce3526430aafc3eb7337ce4690</td>
+    <td>feat(profiles): Add public components in coming-soon component</td>
+    <td></td>
+    <td>01/05/2024</td>
+  </tr>
+   <tr>
+    <td>feature/reviews</td>
+    <td>887e1b90ad702bd69bf96f78308e35a6dd12ca25</td>
+    <td>feat(reviews): Add create review component</td>
+    <td></td>
+    <td>01/05/2024</td>
+  </tr>
+   <tr>
+    <td>feature/reviews</td>
+    <td>b79ffd69a9cb88356f5991aafddaea9cfff1f0d3</td>
+    <td>feat(reviews): Add review snackbar</td>
+    <td></td>
+    <td>01/05/2024</td>
+  </tr>
+   <tr>
+    <td>feature/reviews</td>
+    <td>ef1dbe987eb1a0f0afa3b262a7fbbb4509744651</td>
+    <td>feat(reviews): Add review component to routes</td>
+    <td></td>
+    <td>01/05/2024</td>
+  </tr>
+   <tr>
+    <td>feature/reviews</td>
+    <td>ef78e013ba78a52c912824326a7dab0c0150eb44</td>
+    <td>feat(reviews): Add review component to sidebar component menu</td>
+    <td></td>
+    <td>01/05/2024</td>
+  </tr>
+   <tr>
+    <td>feature/profiles</td>
+    <td>0e051232919bae7d4757d222a7c7764b4aa5da6a</td>
+    <td>feat(profiles): updated components paths</td>
+    <td></td>
+    <td>02/05/2024</td>
+  </tr>
+  <tr>
+    <td>release-v1.0</td>
+    <td>25a07199153297f1f45888adcc3118367117c4b7</td>
+    <td>feat(release-v1.0): Deploy with firebase</td>
+    <td></td>
+    <td>02/05/2024</td>
   </tr>
 </table>
-
 
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review.
 
