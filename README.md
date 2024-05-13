@@ -294,6 +294,24 @@ Estos gráficos ofrecen una representación visual de las clonaciones registrada
 
     5.2.2.8.[Team Collaboration Insights during Sprint.]()
 
+    5.2.3. [Sprint 3]()
+
+    5.2.3.1.[Sprint Planning 3.]()
+
+    5.2.3.2.[Sprint Backlog 3.]()
+
+    5.2.3.3.[Development Evidence for Sprint Review.]()
+
+    5.2.3.4.[Testing Suite Evidence for Sprint Review.]()
+
+    5.2.3.5.[Execution Evidence for Sprint Review.]()
+
+    5.2.3.6.[Services Documentation Evidence for Sprint Review.]()
+
+    5.2.3.7.[Software Deployment Evidence for Sprint Review.]()
+
+    5.2.3.8.[Team Collaboration Insights during Sprint.]()
+
     5.3. [Validation Interviews](/docs/capitulo-V.md#validation-interviews)
 
     5.3.1. [Diseño de Entrevistas](/docs/capitulo-V.md#diseno-entrevistas)
@@ -319,10 +337,10 @@ Estos gráficos ofrecen una representación visual de las clonaciones registrada
       <th>conclusiones</th>
     </tr>
   </thead>
-  <tbogy>
+  <tbody>
     <tr>
      <!--PRIMER CRITERIO DE STUDENT OUTCOME-->
-      <td rowspan="9">
+      <td rowspan="13">
         Comunica oralmente sus ideas
         y/o resultados con objetividad a
         público de diferentes
@@ -386,22 +404,54 @@ Estos gráficos ofrecen una representación visual de las clonaciones registrada
         Se coordinaron reuniones con el equipo para mantenernos al tanto de los progresos continuos durante el sprint. Asimismo, creamos un video de presentación que resume lo logrado durante el segundo sprint.
       </td>   
     </tr>
-    <!-- ESTUDIANTE 3 TB1-->
+    <!-- ESTUDIANTE 3 Tp-->
      <tr>   
       <td>
         <b>Saldaña Vela Janover Gonzalo TP: </b><br>
         Se marcaron roles en la organización del equipo para poder tener una mejor flujo de trabajo al momento de realizar nuestras asignaciones, asi mismo, reportar las incidencias y la predisposicion del equipo para ayudar a resolverlos durante el desarrollo del sprint 2 nos ayudo mucho a aprender unos de otros y concretar con exito el sprint mencionado.
       </td>   
     </tr>
-    <!-- ESTUDIANTE 4 TB1-->
+    <!-- ESTUDIANTE 4 Tp-->
      <tr>   
       <td><b>Vargas Revollé, Ariana  TP: </b><br>
-        Se hizo seguimiento al proyecto realizado mediate reuniones realizadas durante el avanze.
+        Se hizo seguimiento al proyecto realizado mediate reuniones realizadas durante el avance.
       </td>     
     </tr>
-    <!--SEGUN CRITERIO DE STUDENT OUTCOME-->
+     <!--ENTREGA TB2-->
+    <!-- ESTUDIANTE 1 TB2 --> 
+    <tr> 
+      <td> 
+        <b>Díaz Villacrez, María Alejandra TB2:</b><br>
+         contenido
+      </td> 
+      <td rowspan="4">
+        <b>CONCLUSIÓN DEL ENTRGABLE TB2</b><br>
+        contenido
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 2 TB2 --> 
+    <tr> 
+      <td> 
+        <b>Valverde Lopez, Josue Daniel TB2:</b><br>
+        contenido 
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 3 TB2-->
+     <tr>   
+      <td>
+        <b>Saldaña Vela Janover Gonzalo TB2: </b><br>
+        contenido
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 4 TB2-->
+     <tr>   
+      <td><b>Vargas Revollé, Ariana  TB2: </b><br>
+        contenido
+      </td>     
+    </tr>
+    <!--SEGUNDO CRITERIO DE STUDENT OUTCOME-->
     <tr>
-      <td rowspan="9">
+      <td rowspan="13">
         Comunica en forma escrita ideas
         y/o resultados con objetividad a
         público de diferentes
@@ -467,17 +517,49 @@ Estos gráficos ofrecen una representación visual de las clonaciones registrada
         Desarrollé vistas para la sección de contratistas de la aplicación web. Además, documenté el sprint backlog 2, el cual fue agregado en trello para  observar el progreso de elaboración de las funcionalidades del proyecto
       </td>   
     </tr>
-    <!-- ESTUDIANTE 3 TB1-->
+    <!-- ESTUDIANTE 3 tp-->
      <tr>   
       <td>
         <b>Saldaña Vela Janover Gonzalo TP: </b><br>
         Apoyé en la correción de la redacción de technicals stories, desarrollo vistas para ambos segmentos objetivos identificados por el equipo y documenté los mismos para compartirlo con mis compañeros de equipo.
       </td>   
     </tr>
-    <!-- ESTUDIANTE 4 TB1-->
+    <!-- ESTUDIANTE 4 tp-->
      <tr>   
       <td><b>Vargas Revollé, Ariana  TP: </b><br>
         Se levantaron observaciones hechas en la primera entrega y se programaron las vistas necesarias para el sprint 2
+      </td>     
+    </tr>
+     <!--ENTREGA TB2-->
+    <!-- ESTUDIANTE 1 TB2 --> 
+    <tr> 
+      <td> 
+        <b>Díaz Villacrez, María Alejandra TB2:</b><br>
+         contenido
+      </td> 
+      <td rowspan="4">
+        <b>CONCLUSIÓN DEL ENTRGABLE TB2</b><br>
+        contenido
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 2 TB2 --> 
+    <tr> 
+      <td> 
+        <b>Valverde Lopez, Josue Daniel TB2:</b><br>
+        contenido 
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 3 TB2-->
+     <tr>   
+      <td>
+        <b>Saldaña Vela Janover Gonzalo TB2: </b><br>
+        contenido
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 4 TB2-->
+     <tr>   
+      <td><b>Vargas Revollé, Ariana  TB2: </b><br>
+        contenido
       </td>     
     </tr>
 </table>
