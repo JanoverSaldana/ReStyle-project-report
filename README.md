@@ -58,7 +58,8 @@
 | 2.5     | 27/04/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde                | Se agregó la sección de Mobile Mockups, se comenzó la redacción del Sprint 2                                     |
 | 2.6     | 30/04/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde                | Continuación de la redacción del sprint 2                                                                        |
 | 2.7     | 02/05/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde                | Finalización sprint 2 del Capítulo 5                                                                             |
-
+| 3.0     | 13/05/2024 | Daniel Valverde                                                                | Se inició la documentación del sprint 3                                                                          |
+| 3.1     | --/05/2024 | --                                                                             | --                                                                                                               |
 
 ### Project Report Collaboration Insights
 
