@@ -1856,7 +1856,6 @@ Link de la aplicación: https://restyle-app-ca200.web.app
 
 ![coming-soon.png](/assets/img/chapter-V/sprint-2/coming-soon-view.png)
 
-
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
 Para el sprint 2 se ha desarrollado **únicamente** el Front-End de la aplicación. Por lo tanto, no se han realizado operaciones con la API. Sin embargo, se ha utilizado una fake-api, con la que hemos implementado la aplicación web. Además, utilizamos la plataforma My Json Server para publicar nuestras Fake-api. A continuación, se mostrarán los Endpoints desarrollados en este sprint.  
@@ -1896,7 +1895,6 @@ Para el sprint 2 se ha desarrollado **únicamente** el Front-End de la aplicaci�
   </tbody>
 </table>
 
-
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 Utilizamos Firebase Hosting para el despliegue de la aplicación web. A continuación se mostrarán los pasos para lograr el despliegue
  
@@ -1932,6 +1930,385 @@ Los siguientes gráficos ofrecen una representación visual de las clonaciones r
 
 ![CloneSprint2](/assets/img/chapter-V/sprint-2/clone-sprint2.png)
 
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3
+
+En el Sprint Planning 3, se llevó a cabo una sesión de planificación para la elaboración de
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center">Sprint #</th>
+      <th style="text-align:center">Sprint 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Date</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Time</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Location</td>
+      <td style="text-align:center">Discord</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Prepared By</td>
+      <td style="text-align:center">Daniel Valverde</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Attendees</td>
+      <td style="text-align:center">
+      Alejandra Villacrez, Janover Saldaña, Daniel Valverde, Ariana Vargas
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint 3 Review Summary</td>
+      <td>
+        review
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint 2 Retrospective Summary</td>
+      <td>
+        summary
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"  ><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint 3 Goal</td>
+      <td style="text-align:center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint 3 Velocity</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sum of Story Points</td>
+      <td style="text-align:center"></td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.3.2. Sprint Backlog 3
+
+<table>
+  <tr>
+    <td> <strong>Sprint #</strong></td>
+    <td   colspan="7"> <strong>Sprint 3</strong> </td>
+  </tr>
+
+   <tr>
+    <td   colspan="2"> <strong>User Story</strong></td>
+    <td   colspan="6"> <strong>Work-item/Task</strong></td>
+  </tr>
+  <tr>
+    <td  > <strong>ID</strong> </td>
+    <td  > <strong>Title</strong></td>
+    <td  > <strong>ID</strong> </td>
+    <td  > <strong>Title</strong></td>
+    <td  > <strong>Description</strong></td>
+    <td  > <strong>Estimation (Hours)</strong></td>
+    <td  > <strong>Assigned To</strong></td>
+    <td  > <strong> Status (To-do/In-Process/To-Review/Done) </strong></td>
+  </tr>
+  <!---------------------------------------------------------------------- -->
+  <tr>
+    <!--rowspan="number of rows for the tasks" -->
+    <td rowspan="3">us-number</td>
+    <td rowspan="3">us-title</td>
+    <td>ta1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>ta2</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>ta3</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  
+</table>
+
+#### 5.2.3.3. Development Evidence for Sprint Review 
+
+<table>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on (Date)</th>
+  </tr>
+  <tr>
+  <!-- rowspan="number of rows" -->
+    <td rowspan="50"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+#### 5.2.3.4. Testing Suite Evidence for Sprint Review 
+
+<table>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on (Date)</th>
+  </tr>
+  <tr>
+  <!-- rowspan="number of rows" -->
+    <td rowspan="50"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+#### 5.2.3.5. Execution Evidence for Sprint Review 
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review  
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+## 5.3. Validation Interviews
+
+### 5.3.1. Diseño de Entrevistas
+
+### 5.3.2. Registro de Entrevistas
+
+Entrevista a Contratistas
+
+<table>
+        <thead>
+            <tr>
+                <th>Entrevistado 1</th>
+                <th>Nombre</th>
+            </tr>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Nombre</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td><img src="" alt="agregar foto"></td>
+                <td><strong>Resumen:</strong><br>
+                  Resumen
+                </td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <th>Entrevistado 2</th>
+                <th>Nombre</th>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Nombre </th>
+            </tr>
+            <tr>
+                <td>Edad</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>--</td>
+            </tr>
+            <tr>
+            <td><img src="" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br>resumen aqui</td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <th>Entrevistado 3</th>
+                <th>Nombre</th>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Nombre </th>
+            </tr>
+            <tr>
+                <td>Edad</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>--</td>
+            </tr>
+            <tr>
+            <td><img src="" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br>resumen aqui</td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td>--</td>
+            </tr>
+        </tbody>
+</table>
+
+Entrevista a Remodeladores
+
+<table>
+        <thead>
+            <tr>
+                <th>Entrevistado 1</th>
+                <th>Nombre</th>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Nombre</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td><img src="" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br></td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <th>Entrevistado 2</th>
+                <th>Nombre</th>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Nombre </th>
+            </tr>
+            <tr>
+                <td>Edad</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>--</td>
+            </tr>
+            <tr>
+            <td><img src="" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br>resumen aqui</td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <th>Entrevistado 3</th>
+                <th>Nombre</th>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Nombre </th>
+            </tr>
+            <tr>
+                <td>Edad</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>--</td>
+            </tr>
+            <tr>
+            <td><img src="" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br>resumen aqui</td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td>--</td>
+            </tr>
+</table>
+
+### 5.3.3. Evaluaciones según heurísticas
+
+## 5.4. Video About-the-Product
 
 ## Avance de Conclusiones, Bibliografía y Anexos.
 
