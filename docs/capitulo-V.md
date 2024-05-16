@@ -2122,6 +2122,55 @@ En el Sprint Planning 3, se llevó a cabo una sesión de planificación para la 
 
 ### 5.3.1. Diseño de Entrevistas
 
+**Personas que desean remodelar su casa** 
+
+* **Preguntas demográficas:**
+
+1. ¿Cuál es tu nombre?
+2. ¿Qué edad tienes?
+3. ¿Con que genero te identificas?
+4. ¿De qué distrito resides? 
+5. ¿Cuál es tu estado civil?
+6. ¿Cuál es tu nivel educativo más alto alcanzado?
+7. ¿Cuál es tu ocupación?
+
+
+* **Preguntas sobre la solución:**
+
+1. ¿Cómo describirías tu primera impresión al llegar a la landing page?
+2. ¿Fue fácil navegar por la landing page y encontrar la información que buscabas?
+3. ¿Qué tan claro te resultó el proceso para buscar una empresa de remodelación en nuestra aplicación?
+4. ¿Encontraste toda la información que necesitabas sobre los servicios de remodelación?
+5. ¿Qué tan claro te resultó el proceso para solicitar una cotización de remodelación?
+6. ¿Qué tan claro te resultó el proceso para dejar reseñas?
+7. ¿Qué tan satisfecho estás con el diseño y la funcionalidad de la aplicación web?
+8. ¿Recomendarías nuestra landing page y aplicación web a amigos o familiares? ¿Por qué?
+9. ¿Hay algo que te haya resultado confuso o frustrante durante tu experiencia?
+
+**Personas que se dedican a remodelar y reparar cuestiones del hogar**
+
+* **Preguntas demográficas:**
+
+1. ¿Cuál es tu nombre?
+2. ¿Qué edad tienes?
+3. ¿Con que genero te identificas?
+4. ¿De qué distrito resides? 
+5. ¿Cuál es tu estado civil?
+6. ¿Cuál es tu nivel educativo más alto alcanzado?
+7. ¿Cuál es tu ocupación?
+
+* **Preguntas sobre la solución:**
+
+1. ¿Cómo describirías tu primera impresión al llegar a la landing page?
+2. ¿Fue fácil navegar por la landing page y encontrar la información que buscabas?
+3. ¿Qué tan claro te resultó el proceso para registrarte en nuestra aplicación?
+4. ¿Encontraste toda la información que necesitabas para registrar tu empresa?
+5. ¿Te resultó fácil subir fotos de tus proyectos y especificar los detalles del mismo?
+6. ¿Qué tan claro te resultó el proceso para subir tu portafolio?
+7. ¿Qué tan satisfecho estás con el diseño y la funcionalidad de la aplicación web?
+8. ¿Recomendarías nuestra landing page y aplicación web a amigos o familiares? ¿Por qué?
+9. ¿Hay algo que te haya resultado confuso o frustrante durante tu experiencia?
+
 ### 5.3.2. Registro de Entrevistas
 
 Entrevista a Contratistas
@@ -2382,11 +2431,74 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                 <td>Cantidad de videos: 1 <br>
                   Nomenclatura: upc-pre-202401-si729-sw53-metasoft-expo-tp <br>
                   Formato: .mp4 <br>
-                  Duración: min</td>
+                  Duración: 22:34 min</td>
                 <td>Consolida las exposiciones del TP</td>
+                <td>Link: https://shorturl.at/ltEW4 Captura:<br>
+                  <img src="/assets/img/chapter-V/sprint-2/exposixión-tp.png" width="350"/> </td>
+            </tr>      
+            <tr>
+                <td>Validation Interviews</td>
+                <td>Cantidad de videos: 1 <br>
+                  Nomenclatura: upc-pre-202401-si729-sw53-metasoft-validation-sprint-3 <br>
+                  Formato: .mp4 <br>
+                  Duración: min</td>
+                <td>Consolida sesiones y
+                entrevistas de validación en
+                las que usuarios de los
+                segmentos objetivo
+                interactúen con el landing
+                page y con los prototipos de
+                experiencias web,
+                manifestando sus
+                observaciones.
+                </td>
+                <td>Link:  Captura: <br>
+                <img src="" width="350" alt=""/> </td>
+            </tr>     
+            <tr>
+                <td>About the Product</td>
+                <td>Cantidad de videos: 1 <br>
+                  Nomenclatura: upc-pre-202401-si729-sw53-metasoft-about-the-product-sprint-3<br>
+                  Formato: .mp4 <br>
+                  Duración: min</td>
+                <td>Consolida el video promocional, resumiendo el modelo de negocio, las características y beneficios del producto.
+                </td>
+                <td>Link:  Captura: <br>
+                <img src="" width="350" alt=""/> </td>
+            </tr>   
+            <tr>
+                <td>About the Team</td>
+                <td>Cantidad de videos: 1 <br>
+                  Nomenclatura: upc-pre-202401-si729-sw53-metasoft-about-the-team-sprint-3<br>
+                  Formato: .mp4 <br>
+                  Duración: min</td>
+                <td>Video que resume el proceso
+                  de trabajo realizado,
+                  incluyendo escenas de
+                  sesiones de trabajo real del
+                  equipo, complementando con
+                  narración (voz en off) del
+                  proceso. Incluye además el
+                  testimonio ante cámara de
+                  cada participante
+                  describiendo actividades
+                  realizadas, logro de outcomes
+                  y desarrollo de competencias
+                  alcanzados.
+                </td>
+                <td>Link:  Captura: <br>
+                <img src="" width="350" alt=""/> </td>
+            </tr>   
+            <tr>
+                <td>Exposicion</td>
+                <td>Cantidad de videos: 1 <br>
+                  Nomenclatura: upc-pre-202401-si729-sw53-metasoft-expo-tb2 <br>
+                  Formato: .mp4 <br>
+                  Duración: min</td>
+                <td>Consolida las exposiciones del TB2</td>
                 <td>Link:  Captura: <br>
                   <img src="" width="350" alt=""/> </td>
-            </tr>           
+            </tr>   
         </tbody>
 </table>
 
