@@ -2119,57 +2119,46 @@ En el Sprint Planning 3, se llevó a cabo una sesión de planificación para la 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
 ## 5.3. Validation Interviews
+En esta sección se realizarán entrevistas mediante las cuales buscamos recoger opiniones y recomendaciones. Esto asegura
+que la aplicación web no solo cumpla con los requisitos técnicos, sino también con las expectativas de nuestros segmentos
+objetivo. A continuación, se detallan los user goals necesarios para llevar a cabo las entrevistas.
 
 ### 5.3.1. Diseño de Entrevistas
 
-**Personas que desean remodelar su casa** 
+**User Goal: Navegar por la landing page** <br>
+User persona → Remodeladores y contratistas <br>
+Explicación del flujo → El usuario deberá ingresar a la landing page de la aplicación web. En esta, podrá desplazarse y
+visualizar información general sobre los servicios ofrecidos, así como los beneficios de utilizar la aplicación. 
+Además, podrá cambiar el idioma a inglés o español a través de un botón. También, tendrá acceso directo a la aplicación
+web a través de un Call To Action situado en la vista principal de la landing page. 
 
-* **Preguntas demográficas:**
+**User Goal: Iniciar sesión** <br>
+User persona → Remodeladores y contratistas <br>
+Explicación del flujo → Primero, el usuario deberá ingresar a la aplicación desplegada. A continuación, verá en la 
+pantalla un formulario que le pedirá sus datos de inicio de sesión, específicamente su correo electrónico y contraseña.
+Una vez validadas las credenciales, el sistema le permitirá ingresar a la aplicación. En caso el usuario no tenga una
+cuenta, puede registrarse completando otro formulario con sus datos personales.
 
-1. ¿Cuál es tu nombre?
-2. ¿Qué edad tienes?
-3. ¿Con que genero te identificas?
-4. ¿De qué distrito resides? 
-5. ¿Cuál es tu estado civil?
-6. ¿Cuál es tu nivel educativo más alto alcanzado?
-7. ¿Cuál es tu ocupación?
+**User Goal: Ver perfil** <br>
+User persona → Remodeladores y contratistas <br>
+Explicación del flujo → El usuario tiene dos formas de acceder a su perfil. La primera opción es a través de un panel 
+lateral ubicado a la izquierda de la aplicación; al hacer clic en el ícono de la persona, podrá acceder a su perfil, 
+donde verá sus datos personales y detalles de la cuenta. La segunda opción es desde la barra de navegación en la parte 
+superior de la aplicación; al hacer clic en "Mi perfil", accederá a la misma vista mencionada.
 
+**User Goal: Buscar remodeladores** <br>
+User persona → Contratistas <br>
+Explicación del flujo → Primero el usuario puede acceder a la vista de busqueda de remodeladores desde el sidebar lateral,
+donde podrá buscar remodeladores por nombre, distrito, especialidad. Además, podrá filtrar los resultados de la búsqueda.
+Una vez seleccionado un remodelador, podrá ver su portafolio, reseñas y una vista para contactar con el remodelador 
+seleccionado.
 
-* **Preguntas sobre la solución:**
+**User Goal: Administrar proyecto** <br>
+User persona → Remodeladores y contratistas <br>
+Explicación del flujo → En primer lugar, el usuario deberá acceder a la vista de seguimiento de proyecto. En esta, podrá
+ver el estado de los proyectos en los que está involucrado, así como los detalles de cada uno a través de las distintas 
+etapas que se muestran. En caso se trate del remodelador, este podrá actualizar el estado de los proyectos y agregar comentarios. 
 
-1. ¿Cómo describirías tu primera impresión al llegar a la landing page?
-2. ¿Fue fácil navegar por la landing page y encontrar la información que buscabas?
-3. ¿Qué tan claro te resultó el proceso para buscar una empresa de remodelación en nuestra aplicación?
-4. ¿Encontraste toda la información que necesitabas sobre los servicios de remodelación?
-5. ¿Qué tan claro te resultó el proceso para solicitar una cotización de remodelación?
-6. ¿Qué tan claro te resultó el proceso para dejar reseñas?
-7. ¿Qué tan satisfecho estás con el diseño y la funcionalidad de la aplicación web?
-8. ¿Recomendarías nuestra landing page y aplicación web a amigos o familiares? ¿Por qué?
-9. ¿Hay algo que te haya resultado confuso o frustrante durante tu experiencia?
-
-**Personas que se dedican a remodelar y reparar cuestiones del hogar**
-
-* **Preguntas demográficas:**
-
-1. ¿Cuál es tu nombre?
-2. ¿Qué edad tienes?
-3. ¿Con que genero te identificas?
-4. ¿De qué distrito resides? 
-5. ¿Cuál es tu estado civil?
-6. ¿Cuál es tu nivel educativo más alto alcanzado?
-7. ¿Cuál es tu ocupación?
-
-* **Preguntas sobre la solución:**
-
-1. ¿Cómo describirías tu primera impresión al llegar a la landing page?
-2. ¿Fue fácil navegar por la landing page y encontrar la información que buscabas?
-3. ¿Qué tan claro te resultó el proceso para registrarte en nuestra aplicación?
-4. ¿Encontraste toda la información que necesitabas para registrar tu empresa?
-5. ¿Te resultó fácil subir fotos de tus proyectos y especificar los detalles del mismo?
-6. ¿Qué tan claro te resultó el proceso para subir tu portafolio?
-7. ¿Qué tan satisfecho estás con el diseño y la funcionalidad de la aplicación web?
-8. ¿Recomendarías nuestra landing page y aplicación web a amigos o familiares? ¿Por qué?
-9. ¿Hay algo que te haya resultado confuso o frustrante durante tu experiencia?
 
 ### 5.3.2. Registro de Entrevistas
 
