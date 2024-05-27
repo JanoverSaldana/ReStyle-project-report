@@ -2452,8 +2452,8 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                   Duración: min</td>
                 <td>Consolida el video promocional, resumiendo el modelo de negocio, las características y beneficios del producto.
                 </td>
-                <td>Link:  Captura: <br>
-                <img src="" width="350" alt=""/> </td>
+                <td>Link: https://shorturl.at/O4FJW Captura: <br>
+                <img src="/assets/img/chapter-V/sprint-3/about-the-product.png" width="350" alt=""/> </td>
             </tr>   
             <tr>
                 <td>About the Team</td>
