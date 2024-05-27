@@ -2168,21 +2168,21 @@ Entrevista a Contratistas
         <thead>
             <tr>
                 <th>Entrevistado 1</th>
-                <th>Nombre</th>
+                <th>Jose Gutierrez</th>
             </tr>
             <tr>
                 <th>Entrevistador </th>
-                <th>Nombre</th>
+                <th>Alejandra Diaz</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>Edad</td>
-                <td>---</td>
+                <td>26</td>
             </tr>
             <tr>
                 <td>Distrito</td>
-                <td>---</td>
+                <td>Lima</td>
             </tr>
             <tr>
                 <td><img src="" alt="agregar foto"></td>
@@ -2242,7 +2242,7 @@ Entrevista a Contratistas
             </tr>
             <tr>
             <td><img src="" alt="Foto de entrevista"></td>
-                <td><strong>Resumen:</strong><br>resumen aqui</td>
+                <td><strong>Resumen:</strong><br>--</td>
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
@@ -2261,24 +2261,24 @@ Entrevista a Remodeladores
         <thead>
             <tr>
                 <th>Entrevistado 1</th>
-                <th>Nombre</th>
+                <th>Olga Samanez</th>
             <tr>
                 <th>Entrevistador </th>
-                <th>Nombre</th>
+                <th>Alejandra Diaz</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>Edad</td>
-                <td>--</td>
+                <td>52</td>
             </tr>
             <tr>
                 <td>Distrito</td>
-                <td>--</td>
+                <td>Pueblo Libre</td>
             </tr>
             <tr>
                 <td><img src="" alt="Foto de entrevista"></td>
-                <td><strong>Resumen:</strong><br></td>
+                <td><strong>Resumen:</strong><br>La entrevistada logra completar todos los user goals, desde visualizar el landing page, encontrar el boton call to action, iniciar sesion en la aplicacion web, realizar busqueda de remodeladores y utilizar el project management. Finaliza solicitando un tutorial pequeño o flechas que indiquen como utilizar la aplicacion para los visitantes nuevos, tambien solicita colores más llamativos en el sidebar.</td>
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
