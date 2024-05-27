@@ -2185,7 +2185,7 @@ Entrevista a Contratistas
                 <td>Lima</td>
             </tr>
             <tr>
-                <td><img src="" alt="agregar foto"></td>
+                <td><img src="/assets/img/chapter-V/sprint-3/interview-contractor1.png" alt="agregar foto"></td>
                 <td><strong>Resumen:</strong><br>
                   Resumen
                 </td>
@@ -2277,7 +2277,7 @@ Entrevista a Remodeladores
                 <td>Pueblo Libre</td>
             </tr>
             <tr>
-                <td><img src="" alt="Foto de entrevista"></td>
+                <td><img src="/assets/img/chapter-V/sprint-3/interview-remodeler1.png" alt="Foto de entrevista"></td>
                 <td><strong>Resumen:</strong><br>La entrevistada logra completar todos los user goals, desde visualizar el landing page, encontrar el boton call to action, iniciar sesion en la aplicacion web, realizar busqueda de remodeladores y utilizar el project management. Finaliza solicitando un tutorial pequeño o flechas que indiquen como utilizar la aplicacion para los visitantes nuevos, tambien solicita colores más llamativos en el sidebar.</td>
             </tr>
             <tr>
