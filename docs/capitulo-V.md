@@ -2200,30 +2200,34 @@ Entrevista a Contratistas
             </tr>
             <tr>
                 <th>Entrevistado 2</th>
-                <th>Nombre</th>
+                <th>Diego Cantoral</th>
             <tr>
                 <th>Entrevistador </th>
-                <th>Nombre </th>
+                <th>Daniel Valverde </th>
             </tr>
             <tr>
                 <td>Edad</td>
-                <td>---</td>
+                <td>21</td>
             </tr>
             <tr>
                 <td>Distrito</td>
-                <td>--</td>
+                <td>Pueblo Libre</td>
             </tr>
             <tr>
-            <td><img src="" alt="Foto de entrevista"></td>
-                <td><strong>Resumen:</strong><br>resumen aqui</td>
+            <td><img src="/assets/img/chapter-V/sprint-3/fotoEntrvistaValidacionDiego.png" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br>En esta oportunidad el entrevistado pudo completar los user goals diseñados
+                para su segmento. En primer lugar navegó por la landing page para luego acceder a la aplicación de ReStyle
+                desde esta misma. El entrevistado nos compartió su opinión sobre los productos mostrados, estuvo conforme con
+                la mayoría de estilos presentados como la paleta de colores y la tipografía. Por otro lado, también realizó 
+                un par de observaciones en cuestiones de accesibilidad de funciones en los productos mostrados.</td>
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td>--</td>
+                <td>!</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
-                <td>--</td>
+                <td>!</td>
             </tr>
             <tr>
                 <th>Entrevistado 3</th>
