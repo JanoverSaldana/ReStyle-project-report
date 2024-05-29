@@ -631,6 +631,7 @@ la landing page del proyecto. Durante esta reunión, se dividieron las secciones
 además se determinó el plazo de entrega de estas tareas.
 
 
+<!--suppress ALL -->
 <table>
   <thead>
     <tr>
@@ -1897,22 +1898,22 @@ Para el sprint 2 se ha desarrollado **únicamente** el Front-End de la aplicaci�
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 Utilizamos Firebase Hosting para el despliegue de la aplicación web. A continuación se mostrarán los pasos para lograr el despliegue
- 
-1. Creación de un nuevo proyecto en Firebase y elegimos el nombre del producto o alguno que este disponible
+
+##### Creación de un nuevo proyecto en Firebase y elegimos el nombre del producto o alguno que este disponible
 
 <img src="/assets/img/chapter-V/sprint-2/crear-proyecto-firebase.png" alt="Firebase new project"/>
 
-2. Seleccionamos el tipo de sericio que vamos a utilizar, en este caso Hosting
+##### Seleccionamos el tipo de sericio que vamos a utilizar, en este caso Hosting
 
 <img src="/assets/img/chapter-V/sprint-2/seleccion-hosting.png" alt="Firebase new project"/>
 
-3. Ejecutamos los comandos de configuración de Firebase en la terminal
+##### Ejecutamos los comandos de configuración de Firebase en la terminal
 
 <img src="/assets/img/chapter-V/sprint-2/comandos-firebase-1.png" alt="Firebase commands"/>
 
 <img src="/assets/img/chapter-V/sprint-2/comandos-firebase-2.png" alt="Firebase commands"/>
 
-4. Ejecutamos en la terminal el comando "firebase deploy", el cual nos generará una URL para acceder a la aplicación web
+##### Ejecutamos en la terminal el comando "firebase deploy", el cual nos generará una URL para acceder a la aplicación web
 
 <img src="/assets/img/chapter-V/sprint-2/comandos-firebase-3.png" alt="Firebase commands"/>
 
@@ -2366,37 +2367,63 @@ AUDITOR : MetaSoft
 
 CLIENTE(S) : Nombre de las personas que participan en la sesión
 
-SITE o APP A EVALUAR: Nombre de App
+SITE o APP A EVALUAR: ReStyle
 
 TAREAS A EVALUAR:
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
-1. Registro de un usuario nuevo
-2. Publicación de un post
-3. Búsqueda de un paquete turístico
-4. Reserva de un viaje
-5. Cancelación de una reserva
-6. Agregar ítems a un pedido
-7. Pago de un paquete turístico
-8. Etc.
+* Landing Page
+  * i. tarea 1
+  * ii. tarea 2
+  * iii. tarea 3
+* Web Application
+  * i. tarea 1
+  * ii. tarea 2
+  * iii. tarea 3
 
-**ESCALA DE SEVERIDAD:**
+### ESCALA DE SEVERIDAD:
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
-|Nivel|Descripción|
-|-----|-----------|
-|1| Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.|
-|2| Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase.|
-|3| Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.|
-|4| Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.|
 
-**TABLA RESUMEN:**
+| Nivel | Descripción                                                                                                                                                                                     |
+|-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1     | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                   |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                 |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
 
-|#| Problema| Escala de severidad |Heurística/Principio violada(o)|
-|-|---------|---------------------|-------------------------------|
-|1| No hay un control que permita regresar a la tienda durante el trámite de compra |3| Usability: Libertad y control del usuario|
-|2| Se repiten constantemente algunas opciones |1| Usability: Consistencia y estándares|
-|3| Imágenes sin atributo “alt” |3| Inclusive Design: Proporcionaexperiencias comparables|
-|4| Incluye un botón “Ver más” pero no existe contenido al que dirigirse| 3| Information Architecture: Is it usable?|
-|5| No incluye información de los planes de servicio |2| Information Architecture: Is it findable?|
+#### TABLA DE RESUMEN - Landing Page
+
+| # | Problema                                                                        | Escala de severidad | Heurística/Principio violada(o)                       |
+|---|---------------------------------------------------------------------------------|---------------------|-------------------------------------------------------|
+| 1 | No hay un control que permita regresar a la tienda durante el trámite de compra | 3                   | Usability: Libertad y control del usuario             |
+| 2 | Se repiten constantemente algunas opciones                                      | 1                   | Usability: Consistencia y estándares                  |
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1:** No hay un control que permita regresar a la tienda durante el trámite de compra
+
+**Severidad:** 3
+
+**Heurística violada:** Usabilidad - Libertad y control del usuario
+
+**Problema:**
+
+Al momento de ingresar nuestros datos, no podemos regresar a la tienda en caso así lo Una vez el cliente pase al trámite de
+compra, en caso de que este quiera regresar a la tienda, no hay un botón que lo envié al inicio de la web, lo cual nos obliga a
+efectuar el trámite y al momento de elegir más productos, realizar otro, incrementándose así la cantidad de esfuerzo del usuario.
+(Incluir además una captura de pantalla ilustrando el problema).
+
+**Recomendación:**
+
+La más práctica es que al momento en que queramos realizar dicho trámite, el navegador lo abra en una ventana aparte para
+no perder los cambios realizados en nuestro carrito de compras.
+
+#### TABLA DE RESUMEN - Web Application
+
+| # | Problema                                                                        | Escala de severidad | Heurística/Principio violada(o)                       |
+|---|---------------------------------------------------------------------------------|---------------------|-------------------------------------------------------|
+| 1 | No hay un control que permita regresar a la tienda durante el trámite de compra | 3                   | Usability: Libertad y control del usuario             |
+| 2 | Se repiten constantemente algunas opciones                                      | 1                   | Usability: Consistencia y estándares                  |
+| 3 | Imágenes sin atributo “alt”                                                     | 3                   | Inclusive Design: Proporcionaexperiencias comparables |
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
@@ -2420,7 +2447,7 @@ no perder los cambios realizados en nuestro carrito de compras.
 
 ## 5.4. Video About-the-Product
 
-En esta sección tenemos el video about the product. Este consolida una orientación promocional, resumiendo el modelo de nuestro negocio de ReStyle, las características y beneficios del producto, incluyendo algunas escenas deinteracción con el producto y una opinión por cada segmento objetivo, en nuestro caso segmento ojetivo de contratistas y remodeladores.
+En esta sección presentamos el video about the product. Este consolida una orientación promocional, resumiendo el modelo de nuestro negocio de ReStyle, las características y beneficios del producto, incluyendo algunas escenas deinteracción con el producto y una opinión por cada segmento objetivo, en nuestro caso segmento ojetivo de contratistas y remodeladores.
 
 ¿Eres una empresa remodeladora que desea acceder a una amplia gama de clientes o eres un cliente que desea remodelar su propiedad? Te presentamos a ReStyle. ReStyle es nuestra plataforma que te ayuda a encontrar profesionales en la remodelación y reparación de cuestiones del hogar.
 
@@ -2475,7 +2502,7 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                 <td>Consolida todas las entrevistas realizadas</td>
                 <td>Link: https://shorturl.at/acGL6
                   Captura: <br>
-                  <img src="/assets/img/chapter-V/sprint-2/interview-video.png" width="350"/> </td>
+                  <img src="/assets/img/chapter-V/sprint-2/interview-video.png" alt="" width="350"/> </td>
             </tr>
             <tr>
                 <td>Exposicion</td>
@@ -2485,7 +2512,7 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                   Duración: 27:19 min</td>
                 <td>Consolida las exposiciones de la TB1</td>
                 <td>Link: https://shorturl.at/kxyF2 Captura: <br>
-                  <img src="/assets/img/chapter-V/sprint-1/expo-video.png" width="350"/> </td>
+                  <img src="/assets/img/chapter-V/sprint-1/expo-video.png" alt="" width="350"/> </td>
             </tr>
             <tr>
                 <td>Prototypes Navigation / Product Navigation</td>
@@ -2495,7 +2522,7 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                   Duración: 4:21 min</td>
                 <td>Consolida demostración del flujo de navegación de las aplicaciones, priorizando los user flows relacionados con el core business.</td>
                 <td>Link: https://shorturl.at/goCR6 Captura: <br>
-                  <img src="/assets/img/chapter-V/sprint-1/prototype-video.png" width="350"/> </td>
+                  <img src="/assets/img/chapter-V/sprint-1/prototype-video.png" alt="" width="350"/> </td>
             </tr> 
             <tr>
                 <td>Exposicion</td>
@@ -2505,7 +2532,7 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                   Duración: 22:34 min</td>
                 <td>Consolida las exposiciones del TP</td>
                 <td>Link: https://shorturl.at/ltEW4 Captura:<br>
-                  <img src="/assets/img/chapter-V/sprint-2/exposixión-tp.png" width="350"/> </td>
+                  <img src="/assets/img/chapter-V/sprint-2/exposixión-tp.png" alt="" width="350"/> </td>
             </tr>      
             <tr>
                 <td>Validation Interviews</td>
