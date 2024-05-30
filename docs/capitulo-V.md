@@ -1933,9 +1933,11 @@ Los siguientes gráficos ofrecen una representación visual de las clonaciones r
 
 ### 5.2.3. Sprint 3
 
+
 #### 5.2.3.1. Sprint Planning 3
 
-En el Sprint Planning 3, se llevó a cabo una sesión de planificación para la elaboración de
+En el Sprint Planning 3, se llevó a cabo una sesión de planificación para la elaboración del backend de la aplicación
+ReStyle. A continuación, se presentan los detalles de la reunión:
 
 <table>
   <thead>
@@ -1950,11 +1952,11 @@ En el Sprint Planning 3, se llevó a cabo una sesión de planificación para la 
     </tr>
     <tr>
       <td style="text-align:center">Date</td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">23/05/2024</td>
     </tr>
     <tr>
       <td style="text-align:center">Time</td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">8:00 pm</td>
     </tr>
     <tr>
       <td style="text-align:center">Location</td>
@@ -1962,7 +1964,7 @@ En el Sprint Planning 3, se llevó a cabo una sesión de planificación para la 
     </tr>
     <tr>
       <td style="text-align:center">Prepared By</td>
-      <td style="text-align:center">Daniel Valverde</td>
+      <td style="text-align:center">Janover Saldaña</td>
     </tr>
     <tr>
       <td style="text-align:center">Attendees</td>
@@ -1973,13 +1975,13 @@ En el Sprint Planning 3, se llevó a cabo una sesión de planificación para la 
     <tr>
       <td>Sprint 3 Review Summary</td>
       <td>
-        review
+        Durante esta reunión, se establecieron los objetivos, se asignaron las tareas específicas y se discutieron los posibles desafíos técnicos que podrían surgir durante la implementación.
       </td>
     </tr>
     <tr>
       <td>Sprint 2 Retrospective Summary</td>
       <td>
-        summary
+        En el sprint anterior logramos completar la entrega de todas las historias de usuario. La opinión de los segmentos objetivo respecto al progreso alcanzado hasta el entregable anterior fue positiva.
       </td>
     </tr>
     <tr>
@@ -1987,7 +1989,7 @@ En el Sprint Planning 3, se llevó a cabo una sesión de planificación para la 
     </tr>
     <tr>
       <td style="text-align:center">Sprint 3 Goal</td>
-      <td style="text-align:center"> </td>
+      <td style="text-align:center">Desplegar en fase inicial el backend de la aplicación ReStyle</td>
     </tr>
     <tr>
       <td style="text-align:center">Sprint 3 Velocity</td>
@@ -2001,6 +2003,12 @@ En el Sprint Planning 3, se llevó a cabo una sesión de planificación para la 
 </table>
 
 #### 5.2.3.2. Sprint Backlog 3
+
+En el tercer sprint backlog, el equipo completó parcialmente tanto el frontend como el backend de la aplicación web. 
+Para organizar y gestionar al equipo, se utilizó la herramienta Jira. Esta herramienta permitió dividir todas las
+historias de usuario en tareas manejables y asignarlas a los distintos miembros del equipo.
+
+Link de Jira: 
 
 <table>
   <tr>
