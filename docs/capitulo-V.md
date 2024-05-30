@@ -2492,13 +2492,13 @@ SITE o APP A EVALUAR: ReStyle
 TAREAS A EVALUAR:
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 * Landing Page
-  * i. tarea 1
-  * ii. tarea 2
-  * iii. tarea 3
+  * i. Descripción de las características de la aplicación 
+  * ii. Accesibilidad de los botones call to action 
+  * iii. Header adecuado para la Landing Page
 * Web Application
   * i. tarea 1
   * ii. tarea 2
-  * iii. tarea 3
+  * iii. Accesibilidad a la edición de datos personales
 
 ### ESCALA DE SEVERIDAD:
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
