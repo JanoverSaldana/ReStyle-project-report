@@ -2066,7 +2066,119 @@ En el Sprint Planning 3, se llevó a cabo una sesión de planificación para la 
   </tr>
   <tr>
   <!-- rowspan="number of rows" -->
-    <td rowspan="50"></td>
+    <td rowspan="50">https://github.com/sw53-metasoft/ReStyle-backend</td>
+    <td>main</td>
+    <td>ef4fa0b6194880eab94fd856e690c403e761b396</td>
+    <td>Initial commit</td>
+    <td>-</td>
+    <td>24/03/2024</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>556226c49598b03fdd01a63185144f84e0629ee9</td>
+    <td>feat: Update README.md</td>
+    <td>-</td>
+    <td>25/05/2024</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>d8e153935854519008977bf896585b9887c23175</td>
+    <td>chore: Add dependencies</td>
+    <td></td>
+    <td>26/05/2024</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>61e7704cde954a5b767a5e3b462ea16bd8a8193b</td>
+    <td>chore: Add jpa configuration</td>
+    <td></td>
+    <td>26/05/2024</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>247c2abc9b17af65a3e208ee723bb19db9d3d231</td>
+    <td>feat: Add SnakeCasePhysicalNamingStrategy</td>
+    <td></td>
+    <td>26/05/2024</td>
+  </tr>
+  <tr>
+    <td>feature/TS006</td>
+    <td>3b1a67488be12f56733bcfa52136f7e439ae9a15</td>
+    <td>feat(reviews): Add reviews controller</td>
+    <td></td>
+    <td>26/05/2024</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td></td>
     <td></td>
     <td></td>
