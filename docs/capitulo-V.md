@@ -2485,7 +2485,7 @@ PROFESOR : Elio Jefferrson Navarrete Vilca
 
 AUDITOR : MetaSoft
 
-CLIENTE(S) : Nombre de las personas que participan en la sesión
+CLIENTE(S) : Grupo 1
 
 SITE o APP A EVALUAR: ReStyle
 
@@ -2495,10 +2495,13 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
   * i. Descripción de las características de la aplicación 
   * ii. Accesibilidad de los botones call to action 
   * iii. Header adecuado para la Landing Page
+  * iv. Diseño coherente en la Landing Page
 * Web Application
-  * i. tarea 1
-  * ii. tarea 2
+  * i. Diseño responsive para toda la aplicación
+  * ii. Seleccion de un proyecto
   * iii. Accesibilidad a la edición de datos personales
+  * iv. Acceso a los proyectos del contratista
+  * v. Diseño de los botones sign-in y sign-up
 
 ### ESCALA DE SEVERIDAD:
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
@@ -2517,7 +2520,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 | 1 | Los títulos de las secciones, presentan inconsitencia en tamaño y color                              | 2                   | Inclusive Design: Estética y diseño minimalista |
 | 2 | Los Botones de la sección "About the app", no redirigen correctamente a las páginas correspondientes | 3                   | Usability: Control y libertad del usuario       |
 | 3 | Inconsitencia en las tipografía utilizada                                                            | 1                   | Inclusive Design: Estética y diseño minimalista |
-| 4 | -                                                                                                    | -                   | -                                               |
+| 4 | Inconsistencia en el diseño de la sección "Contactanos"                                              | 1                   | Inclusive Design: Estética y diseño minimalista |
 | 5 | -                                                                                                    | -                   | -                                               |
 | 6 | -                                                                                                    | -                   | -                                               |
 | 7 | -                                                                                                    | -                   | -                                               |
@@ -2583,29 +2586,104 @@ Para mejorar la estética y el diseño de la landing page, se recomienda utiliza
 Se sugiere mantener la tipografía principal 'Poppins' en todos los elementos de texto para lograr una apariencia más 
 cohesiva y profesional. Guiarse al pie de la letra de la guía de estilo de la aplicación.
 
+
+**PROBLEMA #4:** Inconsistencia en el diseño de la sección "Contactanos"  
+
+**Severidad:** 1
+
+**Heurística violada:** Inclusive Design: Estética y diseño minimalista
+
+**Problema:**
+En el diseño de la Landing Page se visualiza un estilo sin sombra o 'flat' para los cuadros, imagenes y formularios. Sin embargo,
+en la seccion de "Contactanos" se observa un formulario con sombra. Esto rompe con el diseño original y afecta la estética en general.
+Esta problemática tiene un nivel de severidad 1, ya que, aunque no impide el uso de la aplicación, da una impresión de 
+que diferentes desarrolladores hicieron distintas secciones.
+
+![evidencia del problema](/assets/img/chapter-V/sprint-3/contactanos-inconsistencia.png)
+
+**Recomendación:**
+Para mejorar la estética y el diseño de la landing page, se recomienda utilizar un solo estilo de borde en todo el sitio.
+Se sugiere mantener el estilo principal 'flat' en todos los elementos para lograr una apariencia más 
+cohesiva y profesional. 
+
 #### TABLA DE RESUMEN - Web Application
 
-| # | Problema | Escala de severidad | Heurística/Principio violada(o)           |
-|---|----------|---------------------|-------------------------------------------|
-| 1 | -        | -                   | Usability: Libertad y control del usuario |
-| 2 |          | -                   | Usability: Consistencia y estándares      |
-| 3 | -        | -                   | -                                         |
-| 4 | -        | -                   | -                                         |
+
+| # | Problema                                                                   | Escala de severidad | Heurística/Principio violada(o)                  |
+|---|--------------------------------------------------------------------------- |---------------------|--------------------------------------------------|
+| 1 | Diseño no es responsive para toda la aplicación                            | 3                   | Inclusive Design: Adaptabilidad y Flexibilidad   |
+| 2 | No se pueden seleccionar proyectos para el segmento objetivo de remodelador| 4                   | Usability: Control y libertad del usuario        |
+| 3 | No se puede acceder a proyectos para el segmento objetivo de contratista   | 4                   | Usability: Control y libertad del usuario        |
+| 4 | Botones no dinamicos para el sign-in y sign-up en la vista home            | 1                   | Inclusive Design: Estética y diseño minimalista  |
 | 5 | -        | -                   | -                                         |
 | 6 | -        | -                   | -                                         |
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
-**PROBLEMA #1:** 
+**PROBLEMA #1:** Diseño no es responsive para toda la aplicación  
 
-**Severidad:** 
+**Severidad:** 3
 
-**Heurística violada:** 
+**Heurística violada:** Inclusive Design: Adaptabilidad y Flexibilidad
 
 **Problema:**
+La aplicacion web no es responsive en todas sus pages. Solo el toolbar y sidebar son responsive para todas las pages y la seccion "Remodeladores".
+Esto no permite que los usuarios utilicen correctamente la aplicacion y les evita acceder a secciones claves de la plataforma. Esta problematica
+tiene un nivel de severidad 3, ya que impide el uso de la aplicacion en todo su potencial.
 
+![evidencia del problema](/assets/img/chapter-V/sprint-3/app-web-no-responsive.png)
 
 **Recomendación:**
+Para solucionar el problema se deben agregar atributos responsive a la aplicacion mediante CSS.
+
+**PROBLEMA #2:** No se pueden seleccionar proyectos para el segmento objetivo de remodelador
+
+**Severidad:** 4
+
+**Heurística violada:** Usability: Control y libertad del usuario
+
+**Problema:**
+La aplicacion web no les permite a los usuarios remodeladores escoger el proyecto que desean manejar. Solo se muestra un proyecto en la seccion "Mis Proyectos".
+Esto no permite que los usuarios utilicen correctamente la aplicacion y les evita acceder a secciones claves de la plataforma. Esta problematica
+tiene un nivel de severidad 4, ya que impide el uso de la aplicacion en todo su potencial.
+
+![evidencia del problema](/assets/img/chapter-V/sprint-3/proyectos-remodelador.png)
+
+**Recomendación:**
+Para solucionar el problema se debe agregar una page que permita escoger los proyectos que se desean manejar.
+
+**PROBLEMA #3:** No se puede acceder a proyectos para el segmento objetivo de contratista
+
+**Severidad:** 4
+
+**Heurística violada:** Usability: Control y libertad del usuario
+
+**Problema:**
+La aplicacion web no les permite a los usuarios contratistas acceder a la seccion "Mis Proyectos".
+Esto no permite que los usuarios utilicen correctamente la aplicacion y les evita acceder a secciones claves de la plataforma. Esta problematica
+tiene un nivel de severidad 4, ya que impide el uso de la aplicacion en todo su potencial.
+
+![evidencia del problema](/assets/img/chapter-V/sprint-3/proyectos-contratista.png)
+
+**Recomendación:**
+Para solucionar el problema se debe agregar una page que permita acceder a los proyectos para el segmento de contratistas.
+
+
+**PROBLEMA #4:** Botones no dinamicos para el sign-in y sign-up en la vista home 
+
+**Severidad:** 1
+
+**Heurística violada:** Inclusive Design: Estética y diseño minimalista
+
+**Problema:**
+Los botones de "Ingresar" y "Registrarse" no son dinamicos en la seccion "Home". Sin embargo, los botones en otras secciones si lo son.
+Esto rompe con el diseño de la aplicacion y el estilo de la misma. Esta problematica
+tiene un nivel de severidad 1, ya que no impide el uso de la aplicacion en todo su potencial, pero quiebra el diseño coherente de la misma.
+
+![evidencia del problema](/assets/img/chapter-V/sprint-3/botones-no-dinamicos.png)
+
+**Recomendación:**
+Para solucionar el problema se deben agregar atributos que simulen interaccion con los botones en CSS.
 
 
 ## 5.4. Video About-the-Product
