@@ -2506,64 +2506,107 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 | Nivel | Descripción                                                                                                                                                                                     |
 |-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1     | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                   |
-| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
 | 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                 |
 | 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
 
 #### TABLA DE RESUMEN - Landing Page
 
-| # | Problema                                                                        | Escala de severidad | Heurística/Principio violada(o)                       |
-|---|---------------------------------------------------------------------------------|---------------------|-------------------------------------------------------|
-| 1 | No hay un control que permita regresar a la tienda durante el trámite de compra | 3                   | Usability: Libertad y control del usuario             |
-| 2 | Se repiten constantemente algunas opciones                                      | 1                   | Usability: Consistencia y estándares                  |
+| # | Problema                                                                                             | Escala de severidad | Heurística/Principio violada(o)                 |
+|---|------------------------------------------------------------------------------------------------------|---------------------|-------------------------------------------------|
+| 1 | Los títulos de las secciones, presentan inconsitencia en tamaño y color                              | 2                   | Inclusive Design: Estética y diseño minimalista |
+| 2 | Los Botones de la sección "About the app", no redirigen correctamente a las páginas correspondientes | 3                   | Usability: Control y libertad del usuario       |
+| 3 | Inconsitencia en las tipografía utilizada                                                            | 1                   | Inclusive Design: Estética y diseño minimalista |
+| 4 | -                                                                                                    | -                   | -                                               |
+| 5 | -                                                                                                    | -                   | -                                               |
+| 6 | -                                                                                                    | -                   | -                                               |
+| 7 | -                                                                                                    | -                   | -                                               |
+| 8 | -                                                                                                    | -                   | -                                               |
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
-**PROBLEMA #1:** No hay un control que permita regresar a la tienda durante el trámite de compra
+**PROBLEMA #1:** Los títulos de las secciones, presentan inconsitencia en tamaño y color
+
+**Severidad:** 2
+
+**Heurística violada:** Inclusive Design: Estética y diseño minimalista
+
+**Problema:**
+Los títulos de las secciones de la landing page presentan inconsistencia en tamaño y color, lo cual puede generar 
+confusión en el usuario al momento de navegar por la página. No existe uniformidad en la presentación de los títulos,
+Mostrando un diseño poco atractivo y poco profesional. Esta problemática es de un nivel 2 de severidad, ya que no 
+impide el uso de la aplicación, pero puede afectar la experiencia del usuario.
+
+![evidencia del problema](/assets/img/chapter-V/sprint-3/titulos-inconsistencia.png)
+
+**Recomendación:**
+Para mejorar la experiencia del usuario, se recomienda mantener un diseño uniforme en los títulos de las secciones de
+la landing page. Se sugiere utilizar un tamaño y color de fuente consistentes en todos los títulos, lo cual permitirá
+que el usuario pueda identificar fácilmente las secciones y navegar por la página de manera más eficiente.
+
+**PROBLEMA #2:** Los Botones de la sección "About the app", no redirigen correctamente a las páginas correspondientes
 
 **Severidad:** 3
 
-**Heurística violada:** Usabilidad - Libertad y control del usuario
+**Heurística violada:** Usability: Control y libertad del usuario
 
 **Problema:**
+Los botones de la sección "About the app" no redirigen correctamente a las páginas correspondientes. Al hacer click en
+"App Store" o "Google Play", no se abre una nueva pestaña con la aplicación en la tienda de aplicaciones. Esto puede
+generar confusión en el usuario, ya que no puede acceder directamente a la aplicación desde la landing page. Esta 
+problemática tiene un nivel de severidad 4, ya que impide al usuario acceder a la aplicación y puede afectar negativamente
+su experiencia.
 
-Al momento de ingresar nuestros datos, no podemos regresar a la tienda en caso así lo Una vez el cliente pase al trámite de
-compra, en caso de que este quiera regresar a la tienda, no hay un botón que lo envié al inicio de la web, lo cual nos obliga a
-efectuar el trámite y al momento de elegir más productos, realizar otro, incrementándose así la cantidad de esfuerzo del usuario.
-(Incluir además una captura de pantalla ilustrando el problema).
+![evidencia del problema](/assets/img/chapter-V/sprint-3/botones-sin-redireccion.png)
 
 **Recomendación:**
+Se recomienda corregir los enlaces de los botones de la sección "About the app" para que redirijan correctamente a las 
+páginas correspondientes en la App Store y Google Play. A partir de esta corrección, el usuario podrá acceder directamente
+y no interrumpir su navegación en la landing page.
 
-La más práctica es que al momento en que queramos realizar dicho trámite, el navegador lo abra en una ventana aparte para
-no perder los cambios realizados en nuestro carrito de compras.
+
+**PROBLEMA #3:** Inconsitencia en las tipografía utilizada
+
+**Severidad:** 1
+
+**Heurística violada:** Inclusive Design: Estética y diseño minimalista
+
+**Problema:**
+La tipografía principal elegida fue 'Poppins'. Sin embargo, en la landing page se observan varias tipografías diferentes, 
+lo que genera inconsistencia en el diseño y afecta la estética de la página. Esta problemática tiene un nivel de 
+severidad 1, ya que, aunque no impide el uso de la aplicación, da una impresión de diseño poco atractivo y profesional.
+
+![evidencia del problema](/assets/img/chapter-V/sprint-3/tipografia-irregular.png)
+
+**Recomendación:**
+Para mejorar la estética y el diseño de la landing page, se recomienda utilizar una sola tipografía en todo el sitio.
+Se sugiere mantener la tipografía principal 'Poppins' en todos los elementos de texto para lograr una apariencia más 
+cohesiva y profesional. Guiarse al pie de la letra de la guía de estilo de la aplicación.
 
 #### TABLA DE RESUMEN - Web Application
 
-| # | Problema                                                                        | Escala de severidad | Heurística/Principio violada(o)                       |
-|---|---------------------------------------------------------------------------------|---------------------|-------------------------------------------------------|
-| 1 | No hay un control que permita regresar a la tienda durante el trámite de compra | 3                   | Usability: Libertad y control del usuario             |
-| 2 | Se repiten constantemente algunas opciones                                      | 1                   | Usability: Consistencia y estándares                  |
-| 3 | Imágenes sin atributo “alt”                                                     | 3                   | Inclusive Design: Proporcionaexperiencias comparables |
+| # | Problema | Escala de severidad | Heurística/Principio violada(o)           |
+|---|----------|---------------------|-------------------------------------------|
+| 1 | -        | -                   | Usability: Libertad y control del usuario |
+| 2 |          | -                   | Usability: Consistencia y estándares      |
+| 3 | -        | -                   | -                                         |
+| 4 | -        | -                   | -                                         |
+| 5 | -        | -                   | -                                         |
+| 6 | -        | -                   | -                                         |
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
-**PROBLEMA #1:** No hay un control que permita regresar a la tienda durante el trámite de compra
+**PROBLEMA #1:** 
 
-**Severidad:** 3
+**Severidad:** 
 
-**Heurística violada:** Usabilidad - Libertad y control del usuario
+**Heurística violada:** 
 
 **Problema:**
 
-Al momento de ingresar nuestros datos, no podemos regresar a la tienda en caso así lo Una vez el cliente pase al trámite de
-compra, en caso de que este quiera regresar a la tienda, no hay un botón que lo envié al inicio de la web, lo cual nos obliga a
-efectuar el trámite y al momento de elegir más productos, realizar otro, incrementándose así la cantidad de esfuerzo del usuario.
-(Incluir además una captura de pantalla ilustrando el problema).
 
 **Recomendación:**
 
-La más práctica es que al momento en que queramos realizar dicho trámite, el navegador lo abra en una ventana aparte para
-no perder los cambios realizados en nuestro carrito de compras.
 
 ## 5.4. Video About-the-Product
 
