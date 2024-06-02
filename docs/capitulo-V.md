@@ -1979,9 +1979,9 @@ ReStyle. A continuación, se presentan los detalles de la reunión:
       </td>
     </tr>
     <tr>
-      <td>Sprint 2 Retrospective Summary</td>
+      <td>Sprint 3 Retrospective Summary</td>
       <td>
-        En el sprint anterior logramos completar la entrega de todas las historias de usuario. La opinión de los segmentos objetivo respecto al progreso alcanzado hasta el entregable anterior fue positiva.
+        En el sprint anterior logramos completar la entrega de un gran porcentaje de las historias de usuario. La opinión de los segmentos objetivo respecto al progreso alcanzado hasta el entregable anterior fue positiva.
       </td>
     </tr>
     <tr>
@@ -1993,11 +1993,11 @@ ReStyle. A continuación, se presentan los detalles de la reunión:
     </tr>
     <tr>
       <td style="text-align:center">Sprint 3 Velocity</td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">38</td>
     </tr>
     <tr>
       <td style="text-align:center">Sum of Story Points</td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center"> 3+3+3+3+5+5+8+8 = 38 </td>
     </tr>
   </tbody>
 </table>
@@ -2013,53 +2013,205 @@ Link de Jira:
 <table>
   <tr>
     <td> <strong>Sprint #</strong></td>
-    <td   colspan="7"> <strong>Sprint 3</strong> </td>
+    <td colspan="7"> <strong>Sprint 3</strong> </td>
   </tr>
 
-   <tr>
-    <td   colspan="2"> <strong>User Story</strong></td>
-    <td   colspan="6"> <strong>Work-item/Task</strong></td>
+  <tr>
+    <td colspan="2"> <strong>Technical Story</strong></td>
+    <td colspan="6"> <strong>Work-item/Task</strong></td>
   </tr>
   <tr>
-    <td  > <strong>ID</strong> </td>
-    <td  > <strong>Title</strong></td>
-    <td  > <strong>ID</strong> </td>
-    <td  > <strong>Title</strong></td>
-    <td  > <strong>Description</strong></td>
-    <td  > <strong>Estimation (Hours)</strong></td>
-    <td  > <strong>Assigned To</strong></td>
-    <td  > <strong> Status (To-do/In-Process/To-Review/Done) </strong></td>
+    <td> <strong>ID</strong> </td>
+    <td> <strong>Title</strong></td>
+    <td> <strong>ID</strong> </td>
+    <td> <strong>Title</strong></td>
+    <td> <strong>Description</strong></td>
+    <td> <strong>Estimation (Hours)</strong></td>
+    <td> <strong>Assigned To</strong></td>
+    <td> <strong> Status (To-do/In-Process/To-Review/Done) </strong></td>
   </tr>
   <!---------------------------------------------------------------------- -->
   <tr>
-    <!--rowspan="number of rows for the tasks" -->
-    <td rowspan="3">us-number</td>
-    <td rowspan="3">us-title</td>
-    <td>ta1</td>
+    <td rowspan="3">TS001</td>
+    <td rowspan="3">Obtener Usuarios</td>
+    <td>T1</td>
+    <td>get</td>
     <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="3">3</td>
+    <td rowspan="3">Janover Saldaña</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T2</td>
+    <td>get by id</td>
     <td></td>
     <td>Done</td>
   </tr>
   <tr>
-    <td>ta2</td>
+    <td>T3</td>
+    <td>post</td>
     <td></td>
+    <td>Done</td>
+  </tr>
+  <!------------------------------------------------------------------------>
+  <tr>
+    <td rowspan="2">TS002</td>
+    <td rowspan="2">Obtener Remodeladores</td>
+    <td>T4</td>
+    <td>get</td>
     <td></td>
+    <td rowspan="2">3</td>
+    <td rowspan="2">Janover Saldaña</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T5</td>
+    <td>get by id</td>
     <td></td>
+    <td>Done</td>
+  </tr>
+  <!------------------------------------------------------------------------>
+  <tr>
+    <td rowspan="3">TS003</td>
+    <td rowspan="3">Obtener Contratistas</td>
+    <td>T6</td>
+    <td>get</td>
+    <td></td>
+    <td rowspan="3">3</td>
+    <td rowspan="3">Janover Saldaña</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T7</td>
+    <td>get by id</td>
     <td></td>
     <td>Done</td>
   </tr>
   <tr>
-    <td>ta3</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>T8</td>
+    <td>post</td>
     <td></td>
     <td>Done</td>
   </tr>
-  
+  <!------------------------------------------------------------------------>
+  <tr>
+    <td rowspan="3">TS004</td>
+    <td rowspan="3">Obtener Empresas</td>
+    <td>T9</td>
+    <td>get</td>
+    <td></td>
+    <td rowspan="3">3</td>
+    <td>Alejandra Diaz</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T10</td>
+    <td>get by id</td>
+    <td></td>
+    <td>Daniel Valverde</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T11</td>
+    <td>post</td>
+    <td></td>
+    <td>Daniel Valverde</td>
+    <td>Done</td>
+  </tr>
+  <!------------------------------------------------------------------------>
+  <tr>
+    <td rowspan="3">TS005</td>
+    <td rowspan="3">Obtener Proyectos</td>
+    <td>T12</td>
+    <td>get</td>
+    <td></td>
+    <td rowspan="3">5</td>
+    <td rowspan="3">Alejandra Diaz</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T13</td>
+    <td>get by id</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T14</td>
+    <td>post</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <!------------------------------------------------------------------------>
+  <tr>
+    <td rowspan="3">TS006</td>
+    <td rowspan="3">Obtener Reseñas</td>
+    <td>T15</td>
+    <td>get</td>
+    <td></td>
+    <td rowspan="3">5</td>
+    <td rowspan="3">Daniel Valverde</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T16</td>
+    <td>get by id</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T17</td>
+    <td>post</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <!------------------------------------------------------------------------>
+  <tr>
+    <td rowspan="3">TS007</td>
+    <td rowspan="3">Obtener petición de proyecto</td>
+    <td>T18</td>
+    <td>get</td>
+    <td></td>
+    <td rowspan="3">8</td>
+    <td rowspan="3">Alejandra Diaz</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T19</td>
+    <td>get by id</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T20</td>
+    <td>post</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <!------------------------------------------------------------------------>
+  <tr>
+    <td rowspan="3">TS008</td>
+    <td rowspan="3">Obtener Tracking</td>
+    <td>T21</td>
+    <td>get</td>
+    <td></td>
+    <td rowspan="3">8</td>
+    <td rowspan="3">Ariana Vargas</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T22</td>
+    <td>get by id</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T23</td>
+    <td>post</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
 </table>
+
 
 #### 5.2.3.3. Development Evidence for Sprint Review 
 
@@ -2609,14 +2761,14 @@ cohesiva y profesional.
 #### TABLA DE RESUMEN - Web Application
 
 
-| # | Problema                                                                   | Escala de severidad | Heurística/Principio violada(o)                  |
-|---|--------------------------------------------------------------------------- |---------------------|--------------------------------------------------|
-| 1 | Diseño no es responsive para toda la aplicación                            | 3                   | Inclusive Design: Adaptabilidad y Flexibilidad   |
-| 2 | No se pueden seleccionar proyectos para el segmento objetivo de remodelador| 4                   | Usability: Control y libertad del usuario        |
-| 3 | No se puede acceder a proyectos para el segmento objetivo de contratista   | 4                   | Usability: Control y libertad del usuario        |
-| 4 | Botones no dinamicos para el sign-in y sign-up en la vista home            | 1                   | Inclusive Design: Estética y diseño minimalista  |
-| 5 | -        | -                   | -                                         |
-| 6 | -        | -                   | -                                         |
+| # | Problema                                                                    | Escala de severidad | Heurística/Principio violada(o)                 |
+|---|-----------------------------------------------------------------------------|---------------------|-------------------------------------------------|
+| 1 | Diseño no es responsive para toda la aplicación                             | 3                   | Inclusive Design: Adaptabilidad y Flexibilidad  |
+| 2 | No se pueden seleccionar proyectos para el segmento objetivo de remodelador | 4                   | Usability: Control y libertad del usuario       |
+| 3 | No se puede acceder a proyectos para el segmento objetivo de contratista    | 4                   | Usability: Control y libertad del usuario       |
+| 4 | Botones no dinamicos para el sign-in y sign-up en la vista home             | 1                   | Inclusive Design: Estética y diseño minimalista |
+| 5 | -                                                                           | -                   | -                                               |
+| 6 | -                                                                           | -                   | -                                               |
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
