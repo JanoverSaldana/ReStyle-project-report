@@ -1933,7 +1933,6 @@ Los siguientes gráficos ofrecen una representación visual de las clonaciones r
 
 ### 5.2.3. Sprint 3
 
-
 #### 5.2.3.1. Sprint Planning 3
 
 En el Sprint Planning 3, se llevó a cabo una sesión de planificación para la elaboración del backend de la aplicación
@@ -1985,7 +1984,7 @@ ReStyle. A continuación, se presentan los detalles de la reunión:
       </td>
     </tr>
     <tr>
-      <td colspan="2"  ><strong>Sprint Goal & User Stories</strong></td>
+      <td colspan="2"><strong>Sprint Goal & User Stories</strong></td>
     </tr>
     <tr>
       <td style="text-align:center">Sprint 3 Goal</td>
@@ -2008,7 +2007,11 @@ En el tercer sprint backlog, el equipo completó parcialmente tanto el frontend 
 Para organizar y gestionar al equipo, se utilizó la herramienta Jira. Esta herramienta permitió dividir todas las
 historias de usuario en tareas manejables y asignarlas a los distintos miembros del equipo.
 
-Link de Jira: 
+![backlog-jira](/assets/img/chapter-V/sprint-3/jira-metasoft-backlog.png)
+
+Tablero de Jira
+
+![tablero-jira](/assets/img/chapter-V/sprint-3/jira-metasoft-tablero.png)
 
 <table>
   <tr>
@@ -2212,7 +2215,6 @@ Link de Jira:
   </tr>
 </table>
 
-
 #### 5.2.3.3. Development Evidence for Sprint Review 
 
 <table>
@@ -2262,74 +2264,151 @@ Link de Jira:
     <td>26/05/2024</td>
   </tr>
   <tr>
-    <td>feature/TS006</td>
-    <td>3b1a67488be12f56733bcfa52136f7e439ae9a15</td>
-    <td>feat(reviews): Add reviews controller</td>
+    <td>develop</td>
+    <td>5945ceb334102e7c3cb0c01cb589e8eceefa76ed</td>
+    <td>chore: Add new dependencies</td>
     <td></td>
-    <td>26/05/2024</td>
+    <td>01/06/2024</td>
   </tr>
   <tr>
+    <td>develop</td>
+    <td>7718f0e958b8be766b127ecdcc534c508c5fe78f</td>
+    <td>chore: update database connection properties</td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>01/06/2024</td>
   </tr>
   <tr>
+    <td>develop</td>
+    <td>81574e08e87da725ea4f8e01723dfcb50e00cad9</td>
+    <td>feat(shared): update shared configuration</td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>01/06/2024</td>
   </tr>
   <tr>
+    <td>feature/ts004</td>
+    <td>6e5205fe9e73a4bd90b3fd8b7f1008c0abf39c92</td>
+    <td>feat(ts004): added business ddd template</td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>03/06/2024</td>
   </tr>
   <tr>
+    <td>feature/ts004</td>
+    <td>d34403b5072ff064f83d99b02177766a51a687f2</td>
+    <td>fix(ts004): fixed businessRepository</td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>03/06/2024</td>
   </tr>
   <tr>
+    <td>feature/ts004</td>
+    <td>b8b2ea8a24488bf2a5f96b5a940178b4740a4df4</td>
+    <td>fix(ts004): updated paths for business folder</td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>03/06/2024</td>
   </tr>
   <tr>
+    <td>develop</td>
+    <td>7365d53eb751205ea2229435f9b183b8fde6deda</td>
+    <td>chore: update database connection properties</td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>04/06/2024</td>
   </tr>
   <tr>
+    <td>feature/ts001</td>
+    <td>63fee7c6867176913c447294e8b464ffa4c4b466</td>
+    <td>feat(ts001): Add profile domain</td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>04/06/2024</td>
   </tr>
   <tr>
+    <td>feature/ts001</td>
+    <td>039f9ccf87b83769a97636e1b21d45fbe5550851</td>
+    <td>feat(ts001): Add profile repository</td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>04/06/2024</td>
   </tr>
   <tr>
+    <td>feature/ts001</td>
+    <td>acdbe502161dbe7d8180ea261ad4d00b62bb3d03</td>
+    <td>feat(ts001): Add profile services implementation</td>
     <td></td>
+    <td>04/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts001</td>
+    <td>107ddf05795bf968ce634a9f9b207eaac6ba7681</td>
+    <td>feat(ts001): Add profile interfaces</td>
     <td></td>
+    <td>04/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts005</td>
+    <td>1604e3f6d3d5ad2f39ba8e062ced30d5fd97c623</td>
+    <td>feat(ts005): added projects backend</td>
     <td></td>
+    <td>04/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts005</td>
+    <td>42d4a97934065a0054adb43b403b7fa5b88939df</td>
+    <td>fix(ts005): refactor project folder name</td>
     <td></td>
+    <td>04/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts006</td>
+    <td>44bcfebdaf3fbdf1c79577e1511fc289bfa6b3f6</td>
+    <td>feat(ts006): Add aggregate</td>
     <td></td>
+    <td>04/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts006</td>
+    <td>8d857b901d6a8b672d376227685e2f61b7dcb309</td>
+    <td>feat(ts006): Add review bounded</td>
+    <td></td>
+    <td>04/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts006</td>
+    <td>e6e6494bcffd62d2027ec38801ebd598cfd0cfc2</td>
+    <td>feat(ts006): Update review domain</td>
+    <td></td>
+    <td>05/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts006</td>
+    <td>c2f220aed1b0d4ca4a12667f56ded76a50fe4ee2</td>
+    <td>feat(ts006): Update review repository</td>
+    <td></td>
+    <td>05/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts006</td>
+    <td>a6764bdef9ce3f4b03645b9a15af63f05385bc2f</td>
+    <td>feat(ts006): Add review rest controller</td>
+    <td></td>
+    <td>05/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts006</td>
+    <td>b6694fa4e55ecf509e6207ce18d697044b9fdaba</td>
+    <td>feat(ts006): Add review services implementation</td>
+    <td></td>
+    <td>05/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts001</td>
+    <td>d87216e240339a03d830e100e16fe95692ab8a07</td>
+    <td>feat(ts001): Update profile domain</td>
+    <td></td>
+    <td>05/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts001</td>
+    <td>cfcc2df18cc1cd4876447f56510458b1f63103f3</td>
+    <td>feat(ts001): Update profile interfaces</td>
+    <td></td>
+    <td>05/06/2024</td>
   </tr>
   <tr>
     <td></td>
@@ -2836,7 +2915,6 @@ tiene un nivel de severidad 1, ya que no impide el uso de la aplicacion en todo 
 
 **Recomendación:**
 Para solucionar el problema se deben agregar atributos que simulen interaccion con los botones en CSS.
-
 
 ## 5.4. Video About-the-Product
 
