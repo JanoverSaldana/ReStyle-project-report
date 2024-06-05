@@ -2011,7 +2011,7 @@ historias de usuario en tareas manejables y asignarlas a los distintos miembros 
 
 Tablero de Jira
 
-![tablero-jira](/assets/img/chapter-V/sprint-3/jira-metasoft-tablero.png)
+![tablero-jira](/assets/img/chapter-V/sprint-3/jira-metasoft-tablero2.png)
 
 <table>
   <tr>
@@ -2037,141 +2037,124 @@ Tablero de Jira
   <tr>
     <td rowspan="3">TS001</td>
     <td rowspan="3">Obtener Usuarios</td>
-    <td>T1</td>
-    <td>get</td>
-    <td></td>
+    <td>TA1</td>
+    <td>Get Profiles</td>
+    <td>Endpoint que retorna los perfiles registrados</td>
     <td rowspan="3">3</td>
-    <td rowspan="3">Janover Saldaña</td>
-    <td>Done</td>
+    <td rowspan="3">Daniel Valverde</td>
+    <td rowspan="3">Done</td>
   </tr>
   <tr>
-    <td>T2</td>
-    <td>get by id</td>
-    <td></td>
-    <td>Done</td>
+    <td>TA2</td>
+    <td>Get Profile by Id</td>
+    <td>Endpoint que retorna un perfil dado un Id</td>
   </tr>
   <tr>
-    <td>T3</td>
-    <td>post</td>
-    <td></td>
-    <td>Done</td>
+    <td>TA3</td>
+    <td>Post Profile</td>
+    <td>Endpoint que permite le registro de un nuevo perfil</td>
   </tr>
   <!------------------------------------------------------------------------>
   <tr>
     <td rowspan="2">TS002</td>
     <td rowspan="2">Obtener Remodeladores</td>
-    <td>T4</td>
-    <td>get</td>
-    <td></td>
+    <td>TA4</td>
+    <td>Get remodeler by Id</td>
+    <td>Endpoint que retorna un remodeladores dado un Id</td>
     <td rowspan="2">3</td>
     <td rowspan="2">Janover Saldaña</td>
-    <td>Done</td>
+    <td rowspan="2">Done</td>
   </tr>
   <tr>
-    <td>T5</td>
-    <td>get by id</td>
-    <td></td>
-    <td>Done</td>
-  </tr>
-  <!------------------------------------------------------------------------>
-  <tr>
-    <td rowspan="3">TS003</td>
-    <td rowspan="3">Obtener Contratistas</td>
-    <td>T6</td>
-    <td>get</td>
-    <td></td>
-    <td rowspan="3">3</td>
-    <td rowspan="3">Janover Saldaña</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>T7</td>
-    <td>get by id</td>
-    <td></td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>T8</td>
-    <td>post</td>
-    <td></td>
-    <td>Done</td>
+    <td>TA5</td>
+    <td>Post Remodeler</td>
+    <td>Endpoint  que permite el registro de un nuevo remodelador</td>
   </tr>
   <!------------------------------------------------------------------------>
   <tr>
-    <td rowspan="3">TS004</td>
-    <td rowspan="3">Obtener Empresas</td>
-    <td>T9</td>
-    <td>get</td>
-    <td></td>
-    <td rowspan="3">3</td>
-    <td>Alejandra Diaz</td>
-    <td>Done</td>
+    <td rowspan="2">TS003</td>
+    <td rowspan="2">Obtener Contratistas</td>
+    <td>TA6</td>
+    <td>Get contractor by Id</td>
+    <td>Endpoint que retorna un contratista dado un Id</td>
+    <td rowspan="2">3</td>
+    <td rowspan="2">Janover Saldaña</td>
+    <td rowspan="2">Done</td>
   </tr>
   <tr>
-    <td>T10</td>
-    <td>get by id</td>
-    <td></td>
-    <td>Daniel Valverde</td>
-    <td>Done</td>
+    <td>TA7</td>
+    <td>Post Contractor</td>
+    <td>Endpoint  que permite el registro de un nuevo contratista</td>
+  </tr>
+  <!------------------------------------------------------------------------>
+  <tr>
+    <td rowspan="2">TS004</td>
+    <td rowspan="2">Obtener Empresas</td>
+    <td>TA8</td>
+    <td>Get Business by Id</td>
+    <td>Endpoint que retorna el registro de una empresa dado un Id</td>
+    <td rowspan="2">3</td>
+    <td rowspan="2">Alejandra Diaz</td>
+    <td rowspan="2">Done</td>
   </tr>
   <tr>
-    <td>T11</td>
-    <td>post</td>
-    <td></td>
-    <td>Daniel Valverde</td>
-    <td>Done</td>
+    <td>TA9</td>
+    <td>Post Business</td>
+    <td>Endpoint que permite el registro de una nueva empresa</td>
   </tr>
   <!------------------------------------------------------------------------>
   <tr>
     <td rowspan="3">TS005</td>
     <td rowspan="3">Obtener Proyectos</td>
-    <td>T12</td>
-    <td>get</td>
-    <td></td>
+    <td>TA10</td>
+    <td>Get by Id</td>
+    <td>Endpoint que retorna un proyecto dado un Id</td>
     <td rowspan="3">5</td>
     <td rowspan="3">Alejandra Diaz</td>
-    <td>Done</td>
+    <td rowspan="3">Done</td>
   </tr>
   <tr>
-    <td>T13</td>
-    <td>get by id</td>
-    <td></td>
-    <td>Done</td>
+    <td>TA11</td>
+    <td>Get by businessId</td>
+    <td>Endpoint que retorna un proyecto dado un businessId</td>
   </tr>
   <tr>
-    <td>T14</td>
-    <td>post</td>
-    <td></td>
-    <td>Done</td>
+    <td>TA12</td>
+    <td>Post Project</td>
+    <td>Endpoint que permite el registro de un nuevo proyecto</td>
   </tr>
   <!------------------------------------------------------------------------>
   <tr>
-    <td rowspan="3">TS006</td>
-    <td rowspan="3">Obtener Reseñas</td>
-    <td>T15</td>
-    <td>get</td>
-    <td></td>
-    <td rowspan="3">5</td>
-    <td rowspan="3">Daniel Valverde</td>
-    <td>Done</td>
+    <td rowspan="4">TS006</td>
+    <td rowspan="4">Obtener Reseñas</td>
+    <td>TA13</td>
+    <td>Get by contractorId and projectId</td>
+    <td>Endpoint que retorna una reseña dado un contractorId y un projectId</td>
+    <td rowspan="4">5</td>
+    <td rowspan="4">Daniel Valverde</td>
+    <td>To Review</td>
   </tr>
   <tr>
-    <td>T16</td>
-    <td>get by id</td>
-    <td></td>
-    <td>Done</td>
+    <td>TA14</td>
+    <td>Post Review</td>
+    <td>Endpoint que permite el registro de una nueva reseña</td>
+    <td rowspan="3">Done</td>
   </tr>
   <tr>
-    <td>T17</td>
-    <td>post</td>
-    <td></td>
-    <td>Done</td>
+    <td>TA15</td>
+    <td>Put review by reviewId</td>
+    <td>Endpoint que permite la modificación de una reseña dado un reviewId y los parametros necesarios</td>
+  </tr>
+  <tr>
+    <td>TA16</td>
+    <td>Delete review by reviewId</td>
+    <td>Endpoint que permite la eliminación de una reseña registrada</td>
   </tr>
   <!------------------------------------------------------------------------>
   <tr>
     <td rowspan="3">TS007</td>
     <td rowspan="3">Obtener petición de proyecto</td>
-    <td>T18</td>
+    <td>TA17</td>
     <td>get</td>
     <td></td>
     <td rowspan="3">8</td>
@@ -2179,13 +2162,13 @@ Tablero de Jira
     <td>Done</td>
   </tr>
   <tr>
-    <td>T19</td>
+    <td>TA18</td>
     <td>get by id</td>
     <td></td>
     <td>Done</td>
   </tr>
   <tr>
-    <td>T20</td>
+    <td>TA19</td>
     <td>post</td>
     <td></td>
     <td>Done</td>
@@ -2194,7 +2177,7 @@ Tablero de Jira
   <tr>
     <td rowspan="3">TS008</td>
     <td rowspan="3">Obtener Tracking</td>
-    <td>T21</td>
+    <td>TA20</td>
     <td>get</td>
     <td></td>
     <td rowspan="3">8</td>
@@ -2202,13 +2185,13 @@ Tablero de Jira
     <td>Done</td>
   </tr>
   <tr>
-    <td>T22</td>
+    <td>TA21</td>
     <td>get by id</td>
     <td></td>
     <td>Done</td>
   </tr>
   <tr>
-    <td>T23</td>
+    <td>TA22</td>
     <td>post</td>
     <td></td>
     <td>Done</td>
@@ -2475,19 +2458,19 @@ Tablero de Jira
 En este Sprint, se ha logrado documentar los siguientes Endpoints utilizando OpenAPI. La siguiente 
 tabla resume los Endpoints documentados, las acciones implementadas y ejemplos de su uso.
 
-OpenApi: link
+OpenApi: *Agregar link del backend desplegado*
 
-| Endpoint          | Acción                     | Verbo HTTP | Parámetros                   | Ejemplos       |
-|-------------------|----------------------------|------------|------------------------------|----------------|
-| `/api/users`      | Obtener todos los usuarios | GET        |                              | ![Get Users]() |
-| `/api/users`      | Crear un usuario           | POST       | `{ "name": "New User" }`     | ![Get Users]() |
-| `/api/users/{id}` | Obtener un usuario por ID  | GET        | `id: integer`                | ![Get Users]() |
-| `/api/users/{id}` | Actualizar un usuario      | PUT        | `{ "name": "Updated User" }` | ![Get Users]() |
-| `/api/users/{id}` | Eliminar un usuario        | DELETE     | `id: integer`                | ![Get Users]() |
-|                   |                            |            |                              |                |
-|                   |                            |            |                              |                |
-|                   |                            |            |                              |                |
-|                   |                            |            |                              |                |
+| Endpoint                     | Acción                       | Verbo HTTP | Parámetros / Request Body                                                                                                                            | Ejemplos                                                                    |
+|------------------------------|------------------------------|------------|------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| `/api/v1/profiles`           | Obtener todos los perfiles   | GET        | `null`                                                                                                                                               | ![Get Profiles](/assets/img/chapter-V/sprint-3/get-profiles-swr.png)        |
+| `/api/v1/profiles`           | Crear un perfil              | POST       | `{ "email": "string", "password": "string", "typeUser": "string", "firstName": "string", "paternalSurname": "string", "maternalSurname": "string" }` | ![Post Profiles](/assets/img/chapter-V/sprint-3/post-profile-swr.png)       |
+| `/api/profiles/{profileId}`  | Obtener un usuario por ID    | GET        | `profileId: Integer`                                                                                                                                 | ![Get Profile by id](/assets/img/chapter-V/sprint-3/get-profile-id-swr.png) |
+| `/api/v1/reviews`            | Obtener todas las reseñas    | GET        | `null`                                                                                                                                               | ![Get Reviews](/assets/img/chapter-V/sprint-3/get-reviews.png)              |
+| `/api/v1/reviews`            | Crear una reseña             | POST       | `{"contractorId": Integer, "projectId": Integer, "duration": "string", "rating": Integer, "comment": "string", "image": "string"}`                   | ![Post Reviews](/assets/img/chapter-V/sprint-3/post-review.png)             |
+| `/api/v1/reviews/{reviewId}` | Actualizar una reseña por ID | PUT        | `reviewId: Integer` `{"duration": "string", "comment": "string", "image": "string"}`                                                                 | ![Put Review by id](/assets/img/chapter-V/sprint-3/put-review-id.png)       |
+| `/api/v1/reviews/{reviewId}` | Eliminar una reseña por ID   | DELETE     | `reviewId: Integer`                                                                                                                                  | ![Delete Review by id](/assets/img/chapter-V/sprint-3/delete-review-1.png)  |
+|                              |                              |            |                                                                                                                                                      |                                                                             |
+|                              |                              |            |                                                                                                                                                      |                                                                             |
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
