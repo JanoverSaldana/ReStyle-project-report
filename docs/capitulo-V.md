@@ -2464,7 +2464,30 @@ Tablero de Jira
 
 #### 5.2.3.5. Execution Evidence for Sprint Review 
 
+//landing 
+
+//web application
+
+//web services swagger
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review  
+
+En este Sprint, se ha logrado documentar los siguientes Endpoints utilizando OpenAPI. La siguiente 
+tabla resume los Endpoints documentados, las acciones implementadas y ejemplos de su uso.
+
+OpenApi: link
+
+| Endpoint          | Acción                     | Verbo HTTP | Parámetros                   | Ejemplos       |
+|-------------------|----------------------------|------------|------------------------------|----------------|
+| `/api/users`      | Obtener todos los usuarios | GET        |                              | ![Get Users]() |
+| `/api/users`      | Crear un usuario           | POST       | `{ "name": "New User" }`     | ![Get Users]() |
+| `/api/users/{id}` | Obtener un usuario por ID  | GET        | `id: integer`                | ![Get Users]() |
+| `/api/users/{id}` | Actualizar un usuario      | PUT        | `{ "name": "Updated User" }` | ![Get Users]() |
+| `/api/users/{id}` | Eliminar un usuario        | DELETE     | `id: integer`                | ![Get Users]() |
+|                   |                            |            |                              |                |
+|                   |                            |            |                              |                |
+|                   |                            |            |                              |                |
+|                   |                            |            |                              |                |
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
