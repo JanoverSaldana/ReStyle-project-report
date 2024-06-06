@@ -59,11 +59,18 @@
 | 2.6     | 30/04/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde                | Continuación de la redacción del sprint 2                                                                        |
 | 2.7     | 02/05/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde                | Finalización sprint 2 del Capítulo 5                                                                             |
 | 3.0     | 13/05/2024 | Daniel Valverde                                                                | Se inició la documentación del sprint 3                                                                          |
-| 3.1     | --/05/2024 | --                                                                             | --                                                                                                               |
+| 3.1     | 19/05/2024 | Daniel Valverde                                                                | Continuación de la redacción del sprint 3, agregando tablas para las secciones                                   |
+| 3.2     | 22/05/2024 | Alejandra Diaz                                                                 | Se agregó la sección diseño de entrevistas para las validation interviews                                        |
+| 3.3     | 22/05/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde                | Se continuó la redacción del sprint 3 (sprint planning y sprint backlog)                                         |
+| 3.4     | 27/05/2024 | Ariana Vargas, Alejandra Diaz                                                  | Se agregaron las evidencias de ejecución de la nueva versión de la aplicación web                                |
+| 3.5     | 30/05/2024 | Daniel Valverde, Alejandra Diaz                                                | Se agregó documentación de la evaluación de heuristicas                                                          |
+| 3.6     | 02/06/2024 | Daniel Valverde, Janover Saldaña                                               | Se actualizó la documentación del sprint 3                                                                       |
+| 3.7     | 04/06/2024 | Ariana Vargas                                                                  | Se agregó entrevista para la sección validation interviews                                                       |
+| 3.8     | 05/06/2024 | Gonzalo Saldaña                                                                | Se agregó entrevista para la sección validation interviews                                                       |
+| 3.9     | 07/06/2024 | Ariana Vargas, Gonzalo Saldaña                                                 | Se agregó documentación de la evaluación de heuristicas                                                          |
+| 3.10    | 08/06/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde                | Finalización de la documentación del sprint 3                                                                    |
 
 ### Project Report Collaboration Insights
-
-* #### Entregable TB1
 
 URL del repositorio para el reporte del proyecto: https://github.com/sw53-metasoft/ReStyle-project-report
 
@@ -84,6 +91,13 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
 - capitulo-IV
 - capitulo-V
 - develop
+
+* #### Entregable TB1
+
+A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro 
+primer sprint. Estos gráficos ofrecen una representación visual de la cantidad de contribuciones realizadas por cada
+miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de 
+líneas de código que se han modificado en cada uno de los commits.
 
 <img src = "https://i.postimg.cc/rmsM1RJh/pulse-tb1-metasoft.png"></img>
 <img src = "https://i.postimg.cc/tTcy2Rv9/network-tb1-metasoft.png"></img>
@@ -91,37 +105,23 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
 
 * #### Entregable TP
 
-URL del repositorio para el reporte del proyecto: https://github.com/sw53-metasoft/ReStyle-project-report
-
-Github Collaboration Insights proporciona un cronograma que muestra las principales ramas y los procesos de fusión que han ocurrido. Todas las ramas se han generado siguiendo los principios de GitFlow, lo que garantiza una organización efectiva al utilizar un sistema de control de versiones.
-
-- Alejanadra Villacrez (alehandraxx)
-- Daniel Valverde (daniel-vl7)
-- Janover Saldaña (JanoverSaldana)
-- Josten Huaman (JostenHuaman) - Retirado
-- Ariana Vargas (vargas3470)
-
-Se divieron las siguientes ramas para la colaboración en el proyecto:
-
-- main
-- capitulo-I
-- capitulo-II
-- capitulo-III
-- capitulo-IV
-- capitulo-V
-- develop
-
-En la siguiente imagen se aprecia las ramas de documentación referente al trabajo realizado en el levantamiento de observaciones y desarrollo de las partes nuevas del entregable del TP en sus respectivas ramas.
-
-![Ramas de trabajo del equipo](./assets/img/readme/network-graph-TP.png)
-
 En esta imagen, se ofrece una representación visual de las fechas en las que se llevaron a cabo cambios en el repositorio de nuestra segundo sprint, junto con la cantidad de modificaciones realizadas en cada uno de los commits. Esta representación gráfica es una herramienta valiosa para comprender la evolución temporal del proyecto y la intensidad del desarrollo a lo largo del tiempo.
 
 ![Contributors entregable TP](./assets/img/readme/contributors-TP.png)
 
+![Ramas de trabajo del equipo](./assets/img/readme/network-graph-TP.png)
+
 Estos gráficos ofrecen una representación visual de las clonaciones registradas en nuestro repositorio, junto con la fecha en que cada una de estas acciones se llevó a cabo. Además, se presenta información sobre la cantidad de visitantes que ha tenido el repositorio de nuestro equipo a lo largo del tiempo.
 
 ![trafico de clonación de repositorios y commits](./assets/img/readme/traffic-TP.png)
+
+* #### Entregable TB2
+
+En este gráfico, se muestra la cantidad de contribuciones realizadas por cada miembro del equipo en el repositorio durante 
+nuestro tercer sprint. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en 
+cada uno de los commits. Esta representación visual es una herramienta valiosa para comprender la intensidad del 
+desarrollo y la evolución temporal del proyecto.
+
 
 ## Contenido 
 
@@ -434,7 +434,7 @@ Estos gráficos ofrecen una representación visual de las clonaciones registrada
     <tr> 
       <td> 
         <b>Valverde Lopez, Josue Daniel TB2:</b><br>
-        contenido 
+        Realicé entrevistas de validación con los segmentos objetivos para obtener retroalimentación y priorizar los requisitos según las indicaciones de los clientes. 
       </td>   
     </tr>
     <!-- ESTUDIANTE 3 TB2-->
@@ -547,7 +547,7 @@ Estos gráficos ofrecen una representación visual de las clonaciones registrada
     <tr> 
       <td> 
         <b>Valverde Lopez, Josue Daniel TB2:</b><br>
-        contenido 
+         Gestioné el sprint backlog del sprint 3 y organicé el sprint en Jira para la documentación 
       </td>   
     </tr>
     <!-- ESTUDIANTE 3 TB2-->
