@@ -3037,7 +3037,7 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                 observaciones.
                 </td>
                 <td>Link: https://shorturl.at/pKcgm Captura: <br>
-                <img src="/assets/img/chapter-V/sprint-2/validation-interview-photo.png" width="350" alt=""/> </td>
+                <img src="/assets/img/chapter-V/sprint-3/validation-interview-photo.png" width="350" alt=""/> </td>
             </tr>     
             <tr>
                 <td>About the Product</td>
