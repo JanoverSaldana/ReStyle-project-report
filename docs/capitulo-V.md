@@ -2550,7 +2550,7 @@ Entrevista a Contratistas
             <tr>
                 <td><img src="/assets/img/chapter-V/sprint-3/interview-contractor1.png" alt="agregar foto"></td>
                 <td><strong>Resumen:</strong><br>
-                  Resumen
+                  El usuario pudo completar todos los User Goals, esta contento con el estilo y funcionabilidad de tanto la aplicación como el landing page. Sin embargo, destaca algunos cambios que se pueden realizar en cuanto al diseño de algunas pages de la aplicación para que esta pueda ser más homogénea y se vea más profesional.
                 </td>
             </tr>
             <tr>
@@ -2586,7 +2586,7 @@ Entrevista a Contratistas
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td>0:00min/td>
+                <td>0:00min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
