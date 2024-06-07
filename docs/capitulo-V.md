@@ -2469,8 +2469,13 @@ OpenApi: *Agregar link del backend desplegado*
 | `/api/v1/reviews`            | Crear una reseña             | POST       | `{"contractorId": Integer, "projectId": Integer, "duration": "string", "rating": Integer, "comment": "string", "image": "string"}`                   | ![Post Reviews](/assets/img/chapter-V/sprint-3/post-review.png)             |
 | `/api/v1/reviews/{reviewId}` | Actualizar una reseña por ID | PUT        | `reviewId: Integer` `{"duration": "string", "comment": "string", "image": "string"}`                                                                 | ![Put Review by id](/assets/img/chapter-V/sprint-3/put-review-id.png)       |
 | `/api/v1/reviews/{reviewId}` | Eliminar una reseña por ID   | DELETE     | `reviewId: Integer`                                                                                                                                  | ![Delete Review by id](/assets/img/chapter-V/sprint-3/delete-review-1.png)  |
-|                              |                              |            |                                                                                                                                                      |                                                                             |
-|                              |                              |            |                                                                                                                                                      |                                                                             |
+|`/api/v1/business` | Obtener todas las empresas|GET |`null`| ![Get Business](/assets/img/chapter-V/sprint-3/get-business.png)                                                                            
+|`/api/v1/business/{businessId}` | Obtener una empresa por ID|GET |`businessId: Integer`| ![Get Business](/assets/img/chapter-V/sprint-3/get-business-id.png)|
+`/api/v1/business` | Crear una empresa por ID|POST  |`{"name": "string","description": "string","address": "string","city": "string","image": "string","expertise": "string","remodelerId": 0}`| ![Post Business](/assets/img/chapter-V/sprint-3/post-business.png)|
+`/api/v1/projects/{businessId}` | Obtener todos los proyectos de un remodelador por ID |GET  |`businessId: Integer`| ![Get Project](/assets/img/chapter-V/sprint-3/get-project.png)|   
+`/api/v1/projects` | Crear un proyecto|POST  |`{"name": "string","description": "string","businessId": 0,"contractorId": 0,"startDate": "2024-06-07T06:10:32.596Z","finishDate": "2024-06-07T06:10:32.596Z","image": "string"}`| ![Post Project](/assets/img/chapter-V/sprint-3/post-project.png)|
+`/api/v1/project-requests/{businessId} /api/v1/project-requests/{contractorId}` | Obtener todos los projects requests de un remodelador o contratista por ID |GET  |`businessId: Integer contractorId: Integer`| ![Get Project Request](/assets/img/chapter-V/sprint-3/get-projectrequest.png)|    
+`/api/v1/project-requests` | Crear un project request | POST  |`{"name": "string", "surname": "string","email": "string","phone": "string","address": "string","city": "string","summary": "string","businessId": 0,"contractorId": 0,"deadlineDate": "2024-06-07T06:18:52.812Z","rooms": 0,"budget": 0}`| ![Post Project Request](/assets/img/chapter-V/sprint-3/post-projectrequest.png)|
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -2550,11 +2555,11 @@ Entrevista a Contratistas
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td>---</td>
+                <td>12:53 min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
-                <td>---</td>
+                <td>https://shorturl.at/pKcgm</td>
             </tr>
             <tr>
                 <th>Entrevistado 2</th>
@@ -2581,11 +2586,11 @@ Entrevista a Contratistas
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td>!</td>
+                <td>0:00min/td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
-                <td>!</td>
+                <td>https://shorturl.at/pKcgm</td>
             </tr>
             <tr>
                 <th>Entrevistado 3</th>
@@ -2603,16 +2608,16 @@ Entrevista a Contratistas
                 <td>--</td>
             </tr>
             <tr>
-            <td><img src="" alt="Foto de entrevista"></td>
+            <td><img src="/assets/img/chapter-V/sprint-3/interview-contractor3.png" alt="Foto de entrevista"></td>
                 <td><strong>Resumen:</strong><br>--</td>
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td>--</td>
+                <td>17:10 min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
-                <td>--</td>
+                <td>https://shorturl.at/pKcgm</td>
             </tr>
         </tbody>
 </table>
@@ -2644,11 +2649,11 @@ Entrevista a Remodeladores
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td>--</td>
+                <td>26:33 min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
-                <td>--</td>
+                <td>https://shorturl.at/pKcgm</td>
             </tr>
             <tr>
                 <th>Entrevistado 2</th>
@@ -2675,11 +2680,11 @@ Entrevista a Remodeladores
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td>--</td>
+                <td>57:12 min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
-                <td>--</td>
+                <td>https://shorturl.at/pKcgm</td>
             </tr>
             <tr>
                 <th>Entrevistado 3</th>
@@ -2697,16 +2702,16 @@ Entrevista a Remodeladores
                 <td>--</td>
             </tr>
             <tr>
-            <td><img src="" alt="Foto de entrevista"></td>
+            <td><img src="/assets/img/chapter-V/sprint-3/interview-remodeler2.png" alt="Foto de entrevista"></td>
                 <td><strong>Resumen:</strong><br>resumen aqui</td>
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td>--</td>
+                <td>36:51 min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
-                <td>--</td>
+                <td>https://shorturl.at/pKcgm</td>
             </tr>
 </table>
 
@@ -3031,8 +3036,8 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                 manifestando sus
                 observaciones.
                 </td>
-                <td>Link:  Captura: <br>
-                <img src="" width="350" alt=""/> </td>
+                <td>Link: https://shorturl.at/pKcgm Captura: <br>
+                <img src="/assets/img/chapter-V/sprint-2/validation-interview-photo.png" width="350" alt=""/> </td>
             </tr>     
             <tr>
                 <td>About the Product</td>
