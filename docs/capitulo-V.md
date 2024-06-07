@@ -2652,22 +2652,26 @@ Entrevista a Remodeladores
             </tr>
             <tr>
                 <th>Entrevistado 2</th>
-                <th>Nombre</th>
+                <th>Rodrigo Porles</th>
             <tr>
                 <th>Entrevistador </th>
-                <th>Nombre </th>
+                <th>Daniel Valverde </th>
             </tr>
             <tr>
                 <td>Edad</td>
-                <td>---</td>
+                <td>20</td>
             </tr>
             <tr>
                 <td>Distrito</td>
-                <td>--</td>
+                <td>Santiago de Surco</td>
             </tr>
             <tr>
-            <td><img src="" alt="Foto de entrevista"></td>
-                <td><strong>Resumen:</strong><br>resumen aqui</td>
+            <td><img src="/assets/img/chapter-V/sprint-3/rodrigo-remodelador-vi.png" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br>Se realizó la entrevista de validación, en la cual se pudo completar
+                  los user goals del segmento remodeladores. El flujo fue parecido al realizado por los contratistas. 
+                  Sin embargo, el entrevistado logró el user goal relacionado a la administración de proyectos. El 
+                  entrevistado nos compartió su opinión y se mostró agusto con las funcionalidades presentadas al igual
+                  que le parece una solución innovadora.</td>
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
