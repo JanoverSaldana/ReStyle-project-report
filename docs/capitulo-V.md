@@ -1992,7 +1992,7 @@ ReStyle. A continuación, se presentan los detalles de la reunión:
     </tr>
     <tr>
       <td style="text-align:center">Sprint 3 Velocity</td>
-      <td style="text-align:center">38</td>
+      <td style="text-align:center">30</td>
     </tr>
     <tr>
       <td style="text-align:center">Sum of Story Points</td>
@@ -2152,49 +2152,45 @@ Tablero de Jira
   </tr>
   <!------------------------------------------------------------------------>
   <tr>
-    <td rowspan="3">TS007</td>
-    <td rowspan="3">Obtener petición de proyecto</td>
+    <td rowspan="3">TS005</td>
+    <td rowspan="3">Obtener Request Project</td>
     <td>TA17</td>
-    <td>get</td>
-    <td></td>
+    <td>Get by Id</td>
+    <td>Endpoint que retorna una peticion de proyecto dado un Id</td>
     <td rowspan="3">8</td>
     <td rowspan="3">Alejandra Diaz</td>
-    <td>Done</td>
+    <td rowspan="3">Done</td>
   </tr>
   <tr>
     <td>TA18</td>
-    <td>get by id</td>
-    <td></td>
-    <td>Done</td>
+    <td>Get project-request</td>
+    <td>Endpoint que retorna las peticiones de proyecto registradas</td>
   </tr>
   <tr>
     <td>TA19</td>
-    <td>post</td>
-    <td></td>
-    <td>Done</td>
+    <td>Post Request Project</td>
+    <td>Endpoint que permite el registro de una nueva petición de proyecto</td>
   </tr>
   <!------------------------------------------------------------------------>
   <tr>
     <td rowspan="3">TS008</td>
     <td rowspan="3">Obtener Tracking</td>
     <td>TA20</td>
-    <td>get</td>
-    <td></td>
+    <td>Get Trackings</td>
+    <td>Endpoint que permite obtener todos los trackings registrados</td>
     <td rowspan="3">8</td>
     <td rowspan="3">Ariana Vargas</td>
-    <td>Done</td>
+    <td rowspan="3">In Progress</td>
   </tr>
   <tr>
     <td>TA21</td>
-    <td>get by id</td>
-    <td></td>
-    <td>Done</td>
+    <td>Get Tracking by id</td>
+    <td>Endpoint que permite retorna un tracking según un id</td>
   </tr>
   <tr>
     <td>TA22</td>
-    <td>post</td>
-    <td></td>
-    <td>Done</td>
+    <td>Post Tracking</td>
+    <td>Endpoint que permite crear un nuevo registro de tracking</td>
   </tr>
 </table>
 
@@ -2393,37 +2389,61 @@ Tablero de Jira
     <td></td>
     <td>05/06/2024</td>
   </tr>
+  <tr>
+    <td>feature/ts004</td>
+    <td>b69978c0a4411375f4697ea407a873ff5ff8b0a4</td>
+    <td>feat(ts004): updated businesses controller</td>
+    <td></td>
+    <td>07/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts004</td>
+    <td>d770423b45f5f9552169e496f3d3c31af364f460</td>
+    <td>feat(ts004): updated businesses controller</td>
+    <td></td>
+    <td>07/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts002</td>
+    <td>87d97aed4e41dd3bcdff1cbc3399cbcc86e0411f</td>
+    <td>feat: Added Contractor and Remodeler endpoints with Post and Get requests</td>
+    <td></td>
+    <td>08/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts005</td>
+    <td>ef3625039df0099b9082adf40d46c277d64458dc</td>
+    <td>feat(ts005): added ts005 bounded context</td>
+    <td></td>
+    <td>08/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts007</td>
+    <td>e4ff875049cc9d1cb98cb186dbb3a22832a7481e</td>
+    <td>feat(ts007): added project requests bounded context</td>
+    <td></td>
+    <td>08/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts008</td>
+    <td>d8d349de1ac2ffbf7ca91000cf39787d77a13adb</td>
+    <td>backend(feature/TS008):added Tracking bounded context</td>
+    <td></td>
+    <td>08/06/2024</td>
+  </tr>
+  <tr>
+    <td>Release V1.0</td>
+    <td>e17b108668379618c320f072f1d7ed0a788cc3dd</td>
+    <td>Merge pull request #13 from sw53-metasoft/feature/TS007</td>
+    <td></td>
+    <td>08/06/2024</td>
+  </tr>
 </table>
 
 #### 5.2.3.4. Testing Suite Evidence for Sprint Review 
 
 En esta se entrega no se han realizado tests.
 
-<!--<table>
-  <tr>
-    <th>Repository</th>
-    <th>Branch</th>
-    <th>Commit Id</th>
-    <th>Commit Message</th>
-    <th>Commit Message Body</th>
-    <th>Committed on (Date)</th>
-  </tr>
-  <tr>
-    <td rowspan="50"></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>-->
 
 #### 5.2.3.5. Execution Evidence for Sprint Review 
 
