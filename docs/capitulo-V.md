@@ -2594,22 +2594,25 @@ Entrevista a Contratistas
             </tr>
             <tr>
                 <th>Entrevistado 3</th>
-                <th>Nombre</th>
+                <th>Eva Revollé</th>
             <tr>
                 <th>Entrevistador </th>
-                <th>Nombre </th>
+                <th>Ariana Vargas </th>
             </tr>
             <tr>
                 <td>Edad</td>
-                <td>---</td>
+                <td>49</td>
             </tr>
             <tr>
                 <td>Distrito</td>
-                <td>--</td>
+                <td>No Aplica</td>
             </tr>
             <tr>
             <td><img src="/assets/img/chapter-V/sprint-3/interview-contractor3.png" alt="Foto de entrevista"></td>
-                <td><strong>Resumen:</strong><br>--</td>
+                <td><strong>Resumen:</strong><br>Se pudieron lograr todos los user goals propuestos para el 
+                   entrevistado tanto para el landing page como para la aplicacion web. Mostro satisfaccion 
+                   con le producto pero comento qque le gustaria tener acceso a contenido personalizado como
+                   recomendaciones de proyectos segun tu perfil</td>
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
@@ -2861,7 +2864,7 @@ cohesiva y profesional.
 | 2 | No se pueden seleccionar proyectos para el segmento objetivo de remodelador | 4                   | Usability: Control y libertad del usuario       |
 | 3 | No se puede acceder a proyectos para el segmento objetivo de contratista    | 4                   | Usability: Control y libertad del usuario       |
 | 4 | Botones no dinamicos para el sign-in y sign-up en la vista home             | 1                   | Inclusive Design: Estética y diseño minimalista |
-| 5 | -                                                                           | -                   | -                                               |
+| 5 | Falta de contenido personalizado                                            | 1                   | Usibility: Flexibilidad y eficiencia de uso     |
 | 6 | -                                                                           | -                   | -                                               |
 
 **DESCRIPCIÓN DE PROBLEMAS:**
@@ -2930,6 +2933,24 @@ tiene un nivel de severidad 1, ya que no impide el uso de la aplicacion en todo 
 
 **Recomendación:**
 Para solucionar el problema se deben agregar atributos que simulen interaccion con los botones en CSS.
+
+**PROBLEMA #5:** 
+
+**Severidad:** 1
+
+**Heurística violada:** Usability: Flexibilidad y eficiencia de uso
+
+**Problema:**La aplicacion tiene queries simples y utilitarios que cumples su funcionalidad pero no existe
+personalizacion de contenidos para el usuario como no sugerir proyectos de jardin si es que han establecido 
+como vivienda un departamento por lo que el usuario debera examinar opciones poco perinentes antes de encontrar 
+un proyecto apropiado en caso no utilize el buscador
+
+
+![evidencia del problema](/assets/img/chapter-V/sprint-2/empresa-remodeladora-vista.png)
+
+**Recomendación:**
+Implementar personalizacion de perfil para negocios y usuarios particulares e mostrar los tags autonmaticamente segun preferencia
+
 
 ## 5.4. Video About-the-Product
 
