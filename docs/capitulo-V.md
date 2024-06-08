@@ -3148,8 +3148,8 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                   y desarrollo de competencias
                   alcanzados.
                 </td>
-                <td>Link:  Captura: <br>
-                <img src="" width="350" alt=""/> </td>
+                <td>Link: Streams: https://shorturl.at/vwyHt Youtube: https://youtu.be/RK5ObW8vRoU Captura: <br>
+                <img src="/assets/img/chapter-V/sprint-3/about-the-team.png" width="350" alt=""/> </td>
             </tr>   
             <tr>
                 <td>Exposicion</td>
