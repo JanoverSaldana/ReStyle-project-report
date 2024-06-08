@@ -447,7 +447,7 @@ desarrollo y la evolución temporal del proyecto.
     <!-- ESTUDIANTE 4 TB2-->
      <tr>   
       <td><b>Vargas Revollé, Ariana  TB2: </b><br>
-        contenido
+        Se realizaron entrevistas de validacion para poder evaluar la respuesta del segmento al producto y posibles faltas en heuristicas que el entrevistado pueda percibir
       </td>     
     </tr>
     <!--SEGUNDO CRITERIO DE STUDENT OUTCOME-->
@@ -560,7 +560,7 @@ desarrollo y la evolución temporal del proyecto.
     <!-- ESTUDIANTE 4 TB2-->
      <tr>   
       <td><b>Vargas Revollé, Ariana  TB2: </b><br>
-        contenido
+        Se realizacon las tecnical stories de backend usando Domain Driven Design, entrevistas de validacion y video AboutTheTeam
       </td>     
     </tr>
 </table>
