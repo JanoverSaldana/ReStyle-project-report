@@ -423,11 +423,11 @@ desarrollo y la evolución temporal del proyecto.
     <tr> 
       <td> 
         <b>Díaz Villacrez, María Alejandra TB2:</b><br>
-         contenido
+         Realice entrevistas de validacion para los segmentos objetivos de nuestra solucion. Realice el despliegue de la base de datos MySQL.
       </td> 
       <td rowspan="4">
         <b>CONCLUSIÓN DEL ENTRGABLE TB2</b><br>
-        contenido
+        Se completo el alcance del Sprint 3 para la entrega, se lograron identificar los bounded contexts para luego elaborar el desarrollo de las technical stories.
       </td>   
     </tr>
     <!-- ESTUDIANTE 2 TB2 --> 
@@ -536,11 +536,11 @@ desarrollo y la evolución temporal del proyecto.
     <tr> 
       <td> 
         <b>Díaz Villacrez, María Alejandra TB2:</b><br>
-         contenido
+         Desarrollo y correccion de technical stories de acuerdo a nuestros bounded context y Video About the product.
       </td> 
       <td rowspan="4">
         <b>CONCLUSIÓN DEL ENTRGABLE TB2</b><br>
-        contenido
+        Se completo el desarrollo del backend de nuestra aplicacion, ademas de un despliegue correcto de la base de datos en la nube.
       </td>   
     </tr>
     <!-- ESTUDIANTE 2 TB2 --> 
