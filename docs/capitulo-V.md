@@ -2541,6 +2541,15 @@ Enlace: https://restyle-service.zeabur.app/swagger-ui/index.html#/
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
+En esta entrega, nuestra meta principal fue la implementación de la primera versión de los web services. Para llevar a cabo este objetivo, hicimos uso de diversas herramientas como GitHub, IntellIj, MySql Workbench, Railway, Zeabur y Swagger. A continuación, vamos a presentar los diagramas de flujo que representan los commits realizados por cada miembro del equipo MetaSoft:
+
+A continuación se muestra la cantidad de commits realizadas por cada integrante del equipo durante el desarrollo de los web services.
+![insights-team](/assets/img/chapter-V/sprint-3/commits-sprint3.png)
+
+En esta captura se muestra el flujo de las ramas creadas, su creación y unión con la rama develop. De la cual se crea
+la rama realeaseV1.0 que es la rama que se despliega en la plataforma Zeabur.
+![insights-team](/assets/img/chapter-V/sprint-3/network-sprint3.png)
+
 ## 5.3. Validation Interviews
 En esta sección se realizarán entrevistas mediante las cuales buscamos recoger opiniones y recomendaciones. Esto asegura
 que la aplicación web no solo cumpla con los requisitos técnicos, sino también con las expectativas de nuestros segmentos
