@@ -441,7 +441,7 @@ desarrollo y la evolución temporal del proyecto.
      <tr>   
       <td>
         <b>Saldaña Vela Janover Gonzalo TB2: </b><br>
-        contenido
+        Realicé entrevistas de validación para analizar el proceso en el que se encuentra nuestro software e intervenir en caso nuestros segmentos objetivos encuentren demasiados inconvenientes con respecto a su uso.
       </td>   
     </tr>
     <!-- ESTUDIANTE 4 TB2-->
@@ -554,7 +554,7 @@ desarrollo y la evolución temporal del proyecto.
      <tr>   
       <td>
         <b>Saldaña Vela Janover Gonzalo TB2: </b><br>
-        contenido
+        Durante el desarrollo del TB2 colaboré en la docuemntación de de algunos items del capitulo V y el video de about the team.
       </td>   
     </tr>
     <!-- ESTUDIANTE 4 TB2-->
