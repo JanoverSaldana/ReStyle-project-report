@@ -2476,6 +2476,12 @@ OpenApi: *Agregar link del backend desplegado*
 | `/api/v1/projects`                                                              | Crear un proyecto                                                          | POST       | `{"name": "string","description": "string","businessId": 0,"contractorId": 0,"startDate": "2024-06-07T06:10:32.596Z","finishDate": "2024-06-07T06:10:32.596Z","image": "string"}`                                                          | ![Post Project](/assets/img/chapter-V/sprint-3/post-project.png)                |
 | `/api/v1/project-requests/{businessId} /api/v1/project-requests/{contractorId}` | Obtener todos los projects requests de un remodelador o contratista por ID | GET        | `businessId: Integer contractorId: Integer`                                                                                                                                                                                                | ![Get Project Request](/assets/img/chapter-V/sprint-3/get-projectrequest.png)   |    
 | `/api/v1/project-requests`                                                      | Crear un project request                                                   | POST       | `{"name": "string", "surname": "string","email": "string","phone": "string","address": "string","city": "string","summary": "string","businessId": 0,"contractorId": 0,"deadlineDate": "2024-06-07T06:18:52.812Z","rooms": 0,"budget": 0}` | ![Post Project Request](/assets/img/chapter-V/sprint-3/post-projectrequest.png) |
+|`/api/v1/remodelers` | Crea un nuevo remodelador  | POST | `{ "description": "string", "phoneNumber": 0, "subscription": "string" }` | 
+| `/api/v1/remodelers/{remodelerId}` | obtiene un remodelador con un ID |  GET  | `remodelerId`  |
+| `/api/v1/Contractors` | Obtener todos los Contractors| GET | `null` |
+| `/api/v1/Contractors` | Crear un nuevo Contractor| POST | `{ "description": "string", "phoneNumber": 0 }` |
+| `/api/v1/Contractors/{contractorId}` | obtiene un remodelador con un ID |  GET  | `contractorId`  |
+
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
