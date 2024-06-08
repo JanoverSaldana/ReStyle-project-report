@@ -2393,32 +2393,13 @@ Tablero de Jira
     <td></td>
     <td>05/06/2024</td>
   </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
 </table>
 
 #### 5.2.3.4. Testing Suite Evidence for Sprint Review 
 
-<table>
+En esta se entrega no se han realizado tests.
+
+<!--<table>
   <tr>
     <th>Repository</th>
     <th>Branch</th>
@@ -2428,7 +2409,6 @@ Tablero de Jira
     <th>Committed on (Date)</th>
   </tr>
   <tr>
-  <!-- rowspan="number of rows" -->
     <td rowspan="50"></td>
     <td></td>
     <td></td>
@@ -2443,7 +2423,7 @@ Tablero de Jira
     <td></td>
     <td></td>
   </tr>
-</table>
+</table>-->
 
 #### 5.2.3.5. Execution Evidence for Sprint Review 
 
@@ -2476,7 +2456,7 @@ Evidencias de Swagger conectado a nuestro backend:
 En este Sprint, se ha logrado documentar los siguientes Endpoints utilizando OpenAPI. La siguiente 
 tabla resume los Endpoints documentados, las acciones implementadas y ejemplos de su uso.
 
-OpenApi: *Agregar link del backend desplegado*
+OpenApi: https://restyle-service.zeabur.app/swagger-ui/index.html#/
 
 | Endpoint                                                                        | Acción                                                                     | Verbo HTTP | Parámetros / Request Body                                                                                                                                                                                                                  | Ejemplos                                                                        |
 |---------------------------------------------------------------------------------|----------------------------------------------------------------------------|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
@@ -2830,10 +2810,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 | 2 | Los Botones de la sección "About the app", no redirigen correctamente a las páginas correspondientes | 3                   | Usability: Control y libertad del usuario       |
 | 3 | Inconsitencia en las tipografía utilizada                                                            | 1                   | Inclusive Design: Estética y diseño minimalista |
 | 4 | Inconsistencia en el diseño de la sección "Contactanos"                                              | 1                   | Inclusive Design: Estética y diseño minimalista |
-| 5 | -                                                                                                    | -                   | -                                               |
-| 6 | -                                                                                                    | -                   | -                                               |
-| 7 | -                                                                                                    | -                   | -                                               |
-| 8 | -                                                                                                    | -                   | -                                               |
+
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
@@ -2925,7 +2902,7 @@ cohesiva y profesional.
 | 3 | No se puede acceder a proyectos para el segmento objetivo de contratista    | 4                   | Usability: Control y libertad del usuario       |
 | 4 | Botones no dinamicos para el sign-in y sign-up en la vista home             | 1                   | Inclusive Design: Estética y diseño minimalista |
 | 5 | Falta de contenido personalizado                                            | 1                   | Usibility: Flexibilidad y eficiencia de uso     |
-| 6 | -                                                                           | -                   | -                                               |
+
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
