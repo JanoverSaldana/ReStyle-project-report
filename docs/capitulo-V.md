@@ -2697,22 +2697,22 @@ Entrevista a Remodeladores
             </tr>
             <tr>
                 <th>Entrevistado 3</th>
-                <th>Nombre</th>
+                <th>Victor Eladio Sobrino Chunga</th>
             <tr>
                 <th>Entrevistador </th>
-                <th>Nombre </th>
+                <th>Janover Saldaña </th>
             </tr>
             <tr>
                 <td>Edad</td>
-                <td>---</td>
+                <td>23</td>
             </tr>
             <tr>
                 <td>Distrito</td>
-                <td>--</td>
+                <td>Chorrillos - Lima</td>
             </tr>
             <tr>
             <td><img src="/assets/img/chapter-V/sprint-3/interview-remodeler2.png" alt="Foto de entrevista"></td>
-                <td><strong>Resumen:</strong><br>resumen aqui</td>
+                <td><strong>Resumen:</strong><br>El entrevista mencionó que el software presentado hasta el día de la entrevista si logra cumplir con las necesidades o actividades comunes que suelen realizar el segmento objetivo de remodeladores, si bien es cierto la aplicación tiene algunos errores en cuanto a diseño, estas no perjudican el uso y entendimiento de su uso u¿y funciones.</td>
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
