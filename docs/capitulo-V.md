@@ -98,8 +98,8 @@ GitFlow es un modelo alternativo para la creación de ramas en Git que se ha con
 Como se mencionó previamente, GitFlow opera con ramas o "branches". A continuación, se detallan las ramas que se utilizarán en el flujo de trabajo de nuestro proyecto.
 
 * **Main Branches:**
-    * **Master:** Esta es la rama principal desde la cual se ramifican todas las demás. Contendrá la versión más reciente junto con las versiones anteriores creadas por los desarrolladores. Aquí se mantendrá el historial oficial de las versiones publicadas.
-    * **Develop:** Esta rama puede ser creada a partir de la rama principal (Master) y contendrá todas las características (Features) estables. A través de esta rama, el equipo podrá integrar las funcionalidades de manera efectiva.
+    * **Main:** Esta es la rama principal desde la cual se ramifican todas las demás. Contendrá la versión más reciente junto con las versiones anteriores creadas por los desarrolladores. Aquí se mantendrá el historial oficial de las versiones publicadas.
+    * **Develop:** Esta rama puede ser creada a partir de la rama principal (Main) y contendrá todas las características (Features) estables. A través de esta rama, el equipo podrá integrar las funcionalidades de manera efectiva.
 
 * **Support Branches**
 A diferencia de las ramas principales, estas ramas secundarias tienen una vida útil limitada, ya que se eliminan al fusionarse con sus ramas primarias.
@@ -631,6 +631,7 @@ la landing page del proyecto. Durante esta reunión, se dividieron las secciones
 además se determinó el plazo de entrega de estas tareas.
 
 
+<!--suppress ALL -->
 <table>
   <thead>
     <tr>
@@ -1856,7 +1857,6 @@ Link de la aplicación: https://restyle-app-ca200.web.app
 
 ![coming-soon.png](/assets/img/chapter-V/sprint-2/coming-soon-view.png)
 
-
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
 Para el sprint 2 se ha desarrollado **únicamente** el Front-End de la aplicación. Por lo tanto, no se han realizado operaciones con la API. Sin embargo, se ha utilizado una fake-api, con la que hemos implementado la aplicación web. Además, utilizamos la plataforma My Json Server para publicar nuestras Fake-api. A continuación, se mostrarán los Endpoints desarrollados en este sprint.  
@@ -1901,25 +1901,24 @@ Para el sprint 2 se ha desarrollado **únicamente** el Front-End de la aplicaci�
   </tbody>
 </table>
 
-
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 Utilizamos Firebase Hosting para el despliegue de la aplicación web. A continuación se mostrarán los pasos para lograr el despliegue
- 
-1. Creación de un nuevo proyecto en Firebase y elegimos el nombre del producto o alguno que este disponible
+
+##### Creación de un nuevo proyecto en Firebase y elegimos el nombre del producto o alguno que este disponible
 
 <img src="/assets/img/chapter-V/sprint-2/crear-proyecto-firebase.png" alt="Firebase new project"/>
 
-2. Seleccionamos el tipo de sericio que vamos a utilizar, en este caso Hosting
+##### Seleccionamos el tipo de sericio que vamos a utilizar, en este caso Hosting
 
 <img src="/assets/img/chapter-V/sprint-2/seleccion-hosting.png" alt="Firebase new project"/>
 
-3. Ejecutamos los comandos de configuración de Firebase en la terminal
+##### Ejecutamos los comandos de configuración de Firebase en la terminal
 
 <img src="/assets/img/chapter-V/sprint-2/comandos-firebase-1.png" alt="Firebase commands"/>
 
 <img src="/assets/img/chapter-V/sprint-2/comandos-firebase-2.png" alt="Firebase commands"/>
 
-4. Ejecutamos en la terminal el comando "firebase deploy", el cual nos generará una URL para acceder a la aplicación web
+##### Ejecutamos en la terminal el comando "firebase deploy", el cual nos generará una URL para acceder a la aplicación web
 
 <img src="/assets/img/chapter-V/sprint-2/comandos-firebase-3.png" alt="Firebase commands"/>
 
@@ -1937,6 +1936,1104 @@ Los siguientes gráficos ofrecen una representación visual de las clonaciones r
 
 ![CloneSprint2](/assets/img/chapter-V/sprint-2/clone-sprint2.png)
 
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3
+
+En el Sprint Planning 3, se llevó a cabo una sesión de planificación para la elaboración del backend de la aplicación
+ReStyle. A continuación, se presentan los detalles de la reunión:
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center">Sprint #</th>
+      <th style="text-align:center">Sprint 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Date</td>
+      <td style="text-align:center">23/05/2024</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Time</td>
+      <td style="text-align:center">8:00 pm</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Location</td>
+      <td style="text-align:center">Discord</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Prepared By</td>
+      <td style="text-align:center">Janover Saldaña</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Attendees</td>
+      <td style="text-align:center">
+      Alejandra Villacrez, Janover Saldaña, Daniel Valverde, Ariana Vargas
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint 3 Review Summary</td>
+      <td>
+        Durante esta reunión, se establecieron los objetivos, se asignaron las tareas específicas y se discutieron los posibles desafíos técnicos que podrían surgir durante la implementación.
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint 3 Retrospective Summary</td>
+      <td>
+        En el sprint anterior logramos completar la entrega de un gran porcentaje de las historias de usuario. La opinión de los segmentos objetivo respecto al progreso alcanzado hasta el entregable anterior fue positiva.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint 3 Goal</td>
+      <td style="text-align:center">Desplegar en fase inicial el backend de la aplicación ReStyle</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint 3 Velocity</td>
+      <td style="text-align:center">30</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sum of Story Points</td>
+      <td style="text-align:center"> 3+3+3+3+5+5+8+8 = 38 </td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.3.2. Sprint Backlog 3
+
+En el tercer sprint backlog, el equipo completó parcialmente tanto el frontend como el backend de la aplicación web. 
+Para organizar y gestionar al equipo, se utilizó la herramienta Jira. Esta herramienta permitió dividir todas las
+historias de usuario en tareas manejables y asignarlas a los distintos miembros del equipo.
+
+![backlog-jira](/assets/img/chapter-V/sprint-3/jira-metasoft-backlog.png)
+
+Tablero de Jira
+
+![tablero-jira](/assets/img/chapter-V/sprint-3/jira-metasoft-tablero2.png)
+
+<table>
+  <tr>
+    <td> <strong>Sprint #</strong></td>
+    <td colspan="7"> <strong>Sprint 3</strong> </td>
+  </tr>
+
+  <tr>
+    <td colspan="2"> <strong>Technical Story</strong></td>
+    <td colspan="6"> <strong>Work-item/Task</strong></td>
+  </tr>
+  <tr>
+    <td> <strong>ID</strong> </td>
+    <td> <strong>Title</strong></td>
+    <td> <strong>ID</strong> </td>
+    <td> <strong>Title</strong></td>
+    <td> <strong>Description</strong></td>
+    <td> <strong>Estimation (Hours)</strong></td>
+    <td> <strong>Assigned To</strong></td>
+    <td> <strong> Status (To-do/In-Process/To-Review/Done) </strong></td>
+  </tr>
+  <!---------------------------------------------------------------------- -->
+  <tr>
+    <td rowspan="3">TS001</td>
+    <td rowspan="3">Obtener Usuarios</td>
+    <td>TA1</td>
+    <td>Get Profiles</td>
+    <td>Endpoint que retorna los perfiles registrados</td>
+    <td rowspan="3">3</td>
+    <td rowspan="3">Daniel Valverde</td>
+    <td rowspan="3">Done</td>
+  </tr>
+  <tr>
+    <td>TA2</td>
+    <td>Get Profile by Id</td>
+    <td>Endpoint que retorna un perfil dado un Id</td>
+  </tr>
+  <tr>
+    <td>TA3</td>
+    <td>Post Profile</td>
+    <td>Endpoint que permite le registro de un nuevo perfil</td>
+  </tr>
+  <!------------------------------------------------------------------------>
+  <tr>
+    <td rowspan="2">TS002</td>
+    <td rowspan="2">Obtener Remodeladores</td>
+    <td>TA4</td>
+    <td>Get remodeler by Id</td>
+    <td>Endpoint que retorna un remodeladores dado un Id</td>
+    <td rowspan="2">3</td>
+    <td rowspan="2">Janover Saldaña</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>TA5</td>
+    <td>Post Remodeler</td>
+    <td>Endpoint  que permite el registro de un nuevo remodelador</td>
+  </tr>
+  <!------------------------------------------------------------------------>
+  <tr>
+    <td rowspan="2">TS003</td>
+    <td rowspan="2">Obtener Contratistas</td>
+    <td>TA6</td>
+    <td>Get contractor by Id</td>
+    <td>Endpoint que retorna un contratista dado un Id</td>
+    <td rowspan="2">3</td>
+    <td rowspan="2">Janover Saldaña</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>TA7</td>
+    <td>Post Contractor</td>
+    <td>Endpoint  que permite el registro de un nuevo contratista</td>
+  </tr>
+  <!------------------------------------------------------------------------>
+  <tr>
+    <td rowspan="2">TS004</td>
+    <td rowspan="2">Obtener Empresas</td>
+    <td>TA8</td>
+    <td>Get Business by Id</td>
+    <td>Endpoint que retorna el registro de una empresa dado un Id</td>
+    <td rowspan="2">3</td>
+    <td rowspan="2">Alejandra Diaz</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>TA9</td>
+    <td>Post Business</td>
+    <td>Endpoint que permite el registro de una nueva empresa</td>
+  </tr>
+  <!------------------------------------------------------------------------>
+  <tr>
+    <td rowspan="3">TS005</td>
+    <td rowspan="3">Obtener Proyectos</td>
+    <td>TA10</td>
+    <td>Get by Id</td>
+    <td>Endpoint que retorna un proyecto dado un Id</td>
+    <td rowspan="3">5</td>
+    <td rowspan="3">Alejandra Diaz</td>
+    <td rowspan="3">Done</td>
+  </tr>
+  <tr>
+    <td>TA11</td>
+    <td>Get by businessId</td>
+    <td>Endpoint que retorna un proyecto dado un businessId</td>
+  </tr>
+  <tr>
+    <td>TA12</td>
+    <td>Post Project</td>
+    <td>Endpoint que permite el registro de un nuevo proyecto</td>
+  </tr>
+  <!------------------------------------------------------------------------>
+  <tr>
+    <td rowspan="4">TS006</td>
+    <td rowspan="4">Obtener Reseñas</td>
+    <td>TA13</td>
+    <td>Get by contractorId and projectId</td>
+    <td>Endpoint que retorna una reseña dado un contractorId y un projectId</td>
+    <td rowspan="4">5</td>
+    <td rowspan="4">Daniel Valverde</td>
+    <td>To Review</td>
+  </tr>
+  <tr>
+    <td>TA14</td>
+    <td>Post Review</td>
+    <td>Endpoint que permite el registro de una nueva reseña</td>
+    <td rowspan="3">Done</td>
+  </tr>
+  <tr>
+    <td>TA15</td>
+    <td>Put review by reviewId</td>
+    <td>Endpoint que permite la modificación de una reseña dado un reviewId y los parametros necesarios</td>
+  </tr>
+  <tr>
+    <td>TA16</td>
+    <td>Delete review by reviewId</td>
+    <td>Endpoint que permite la eliminación de una reseña registrada</td>
+  </tr>
+  <!------------------------------------------------------------------------>
+  <tr>
+    <td rowspan="3">TS005</td>
+    <td rowspan="3">Obtener Request Project</td>
+    <td>TA17</td>
+    <td>Get by Id</td>
+    <td>Endpoint que retorna una peticion de proyecto dado un Id</td>
+    <td rowspan="3">8</td>
+    <td rowspan="3">Alejandra Diaz</td>
+    <td rowspan="3">Done</td>
+  </tr>
+  <tr>
+    <td>TA18</td>
+    <td>Get project-request</td>
+    <td>Endpoint que retorna las peticiones de proyecto registradas</td>
+  </tr>
+  <tr>
+    <td>TA19</td>
+    <td>Post Request Project</td>
+    <td>Endpoint que permite el registro de una nueva petición de proyecto</td>
+  </tr>
+  <!------------------------------------------------------------------------>
+  <tr>
+    <td rowspan="3">TS008</td>
+    <td rowspan="3">Obtener Tracking</td>
+    <td>TA20</td>
+    <td>Get Trackings</td>
+    <td>Endpoint que permite obtener todos los trackings registrados</td>
+    <td rowspan="3">8</td>
+    <td rowspan="3">Ariana Vargas</td>
+    <td rowspan="3">In Progress</td>
+  </tr>
+  <tr>
+    <td>TA21</td>
+    <td>Get Tracking by id</td>
+    <td>Endpoint que permite retorna un tracking según un id</td>
+  </tr>
+  <tr>
+    <td>TA22</td>
+    <td>Post Tracking</td>
+    <td>Endpoint que permite crear un nuevo registro de tracking</td>
+  </tr>
+</table>
+
+#### 5.2.3.3. Development Evidence for Sprint Review 
+
+<table>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on (Date)</th>
+  </tr>
+  <tr>
+  <!-- rowspan="number of rows" -->
+    <td rowspan="50">https://github.com/sw53-metasoft/ReStyle-backend</td>
+    <td>main</td>
+    <td>ef4fa0b6194880eab94fd856e690c403e761b396</td>
+    <td>Initial commit</td>
+    <td>-</td>
+    <td>24/03/2024</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>556226c49598b03fdd01a63185144f84e0629ee9</td>
+    <td>feat: Update README.md</td>
+    <td>-</td>
+    <td>25/05/2024</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>d8e153935854519008977bf896585b9887c23175</td>
+    <td>chore: Add dependencies</td>
+    <td></td>
+    <td>26/05/2024</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>61e7704cde954a5b767a5e3b462ea16bd8a8193b</td>
+    <td>chore: Add jpa configuration</td>
+    <td></td>
+    <td>26/05/2024</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>247c2abc9b17af65a3e208ee723bb19db9d3d231</td>
+    <td>feat: Add SnakeCasePhysicalNamingStrategy</td>
+    <td></td>
+    <td>26/05/2024</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>5945ceb334102e7c3cb0c01cb589e8eceefa76ed</td>
+    <td>chore: Add new dependencies</td>
+    <td></td>
+    <td>01/06/2024</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>7718f0e958b8be766b127ecdcc534c508c5fe78f</td>
+    <td>chore: update database connection properties</td>
+    <td></td>
+    <td>01/06/2024</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>81574e08e87da725ea4f8e01723dfcb50e00cad9</td>
+    <td>feat(shared): update shared configuration</td>
+    <td></td>
+    <td>01/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts004</td>
+    <td>6e5205fe9e73a4bd90b3fd8b7f1008c0abf39c92</td>
+    <td>feat(ts004): added business ddd template</td>
+    <td></td>
+    <td>03/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts004</td>
+    <td>d34403b5072ff064f83d99b02177766a51a687f2</td>
+    <td>fix(ts004): fixed businessRepository</td>
+    <td></td>
+    <td>03/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts004</td>
+    <td>b8b2ea8a24488bf2a5f96b5a940178b4740a4df4</td>
+    <td>fix(ts004): updated paths for business folder</td>
+    <td></td>
+    <td>03/06/2024</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>7365d53eb751205ea2229435f9b183b8fde6deda</td>
+    <td>chore: update database connection properties</td>
+    <td></td>
+    <td>04/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts001</td>
+    <td>63fee7c6867176913c447294e8b464ffa4c4b466</td>
+    <td>feat(ts001): Add profile domain</td>
+    <td></td>
+    <td>04/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts001</td>
+    <td>039f9ccf87b83769a97636e1b21d45fbe5550851</td>
+    <td>feat(ts001): Add profile repository</td>
+    <td></td>
+    <td>04/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts001</td>
+    <td>acdbe502161dbe7d8180ea261ad4d00b62bb3d03</td>
+    <td>feat(ts001): Add profile services implementation</td>
+    <td></td>
+    <td>04/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts001</td>
+    <td>107ddf05795bf968ce634a9f9b207eaac6ba7681</td>
+    <td>feat(ts001): Add profile interfaces</td>
+    <td></td>
+    <td>04/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts005</td>
+    <td>1604e3f6d3d5ad2f39ba8e062ced30d5fd97c623</td>
+    <td>feat(ts005): added projects backend</td>
+    <td></td>
+    <td>04/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts005</td>
+    <td>42d4a97934065a0054adb43b403b7fa5b88939df</td>
+    <td>fix(ts005): refactor project folder name</td>
+    <td></td>
+    <td>04/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts006</td>
+    <td>44bcfebdaf3fbdf1c79577e1511fc289bfa6b3f6</td>
+    <td>feat(ts006): Add aggregate</td>
+    <td></td>
+    <td>04/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts006</td>
+    <td>8d857b901d6a8b672d376227685e2f61b7dcb309</td>
+    <td>feat(ts006): Add review bounded</td>
+    <td></td>
+    <td>04/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts006</td>
+    <td>e6e6494bcffd62d2027ec38801ebd598cfd0cfc2</td>
+    <td>feat(ts006): Update review domain</td>
+    <td></td>
+    <td>05/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts006</td>
+    <td>c2f220aed1b0d4ca4a12667f56ded76a50fe4ee2</td>
+    <td>feat(ts006): Update review repository</td>
+    <td></td>
+    <td>05/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts006</td>
+    <td>a6764bdef9ce3f4b03645b9a15af63f05385bc2f</td>
+    <td>feat(ts006): Add review rest controller</td>
+    <td></td>
+    <td>05/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts006</td>
+    <td>b6694fa4e55ecf509e6207ce18d697044b9fdaba</td>
+    <td>feat(ts006): Add review services implementation</td>
+    <td></td>
+    <td>05/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts001</td>
+    <td>d87216e240339a03d830e100e16fe95692ab8a07</td>
+    <td>feat(ts001): Update profile domain</td>
+    <td></td>
+    <td>05/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts001</td>
+    <td>cfcc2df18cc1cd4876447f56510458b1f63103f3</td>
+    <td>feat(ts001): Update profile interfaces</td>
+    <td></td>
+    <td>05/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts004</td>
+    <td>b69978c0a4411375f4697ea407a873ff5ff8b0a4</td>
+    <td>feat(ts004): updated businesses controller</td>
+    <td></td>
+    <td>07/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts004</td>
+    <td>d770423b45f5f9552169e496f3d3c31af364f460</td>
+    <td>feat(ts004): updated businesses controller</td>
+    <td></td>
+    <td>07/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts002</td>
+    <td>87d97aed4e41dd3bcdff1cbc3399cbcc86e0411f</td>
+    <td>feat: Added Contractor and Remodeler endpoints with Post and Get requests</td>
+    <td></td>
+    <td>08/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts005</td>
+    <td>ef3625039df0099b9082adf40d46c277d64458dc</td>
+    <td>feat(ts005): added ts005 bounded context</td>
+    <td></td>
+    <td>08/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts007</td>
+    <td>e4ff875049cc9d1cb98cb186dbb3a22832a7481e</td>
+    <td>feat(ts007): added project requests bounded context</td>
+    <td></td>
+    <td>08/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/ts008</td>
+    <td>d8d349de1ac2ffbf7ca91000cf39787d77a13adb</td>
+    <td>backend(feature/TS008):added Tracking bounded context</td>
+    <td></td>
+    <td>08/06/2024</td>
+  </tr>
+  <tr>
+    <td>Release V1.0</td>
+    <td>e17b108668379618c320f072f1d7ed0a788cc3dd</td>
+    <td>Merge pull request #13 from sw53-metasoft/feature/TS007</td>
+    <td></td>
+    <td>08/06/2024</td>
+  </tr>
+</table>
+
+#### 5.2.3.4. Testing Suite Evidence for Sprint Review 
+
+En esta se entrega no se han realizado tests.
+
+
+#### 5.2.3.5. Execution Evidence for Sprint Review 
+
+- Landing Page Execution 
+
+Evidencias de ultima version de Landing Page con secciones About the product y About the team:
+
+![LandingPageProduct](/assets/img/chapter-V/sprint-3/landing-product.png)
+
+![LandingPageTeam](/assets/img/chapter-V/sprint-3/landing-team.png)
+
+- Web Application Execution
+
+Evidencias de ultima version de la aplicacion con secciones de Mis proyectos para segmento objetivo de remodeladores y Solicitud de proyecto para el segmento objetivo de contratistas:
+
+![WebApp](/assets/img/chapter-V/sprint-3/web-app-projects.png)
+
+![WebApp](/assets/img/chapter-V/sprint-3/web-app-request.png)
+
+- Web Services Execution
+
+Evidencias de Swagger conectado a nuestro backend:
+
+![SwaggerWebServices](/assets/img/chapter-V/sprint-3/swagger-web-1.png)
+
+![SwaggerWebServices](/assets/img/chapter-V/sprint-3/swagger-web-2.png)
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review  
+
+En este Sprint, se ha logrado documentar los siguientes Endpoints utilizando OpenAPI. La siguiente 
+tabla resume los Endpoints documentados, las acciones implementadas y ejemplos de su uso.
+
+OpenApi: https://restyle-service.zeabur.app/swagger-ui/index.html#/
+
+| Endpoint                                                                        | Acción                                                                     | Verbo HTTP | Parámetros / Request Body                                                                                                                                                                                                                  | Ejemplos                                                                        |
+|---------------------------------------------------------------------------------|----------------------------------------------------------------------------|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| `/api/v1/profiles`                                                              | Obtener todos los perfiles                                                 | GET        | `null`                                                                                                                                                                                                                                     | ![Get Profiles](/assets/img/chapter-V/sprint-3/get-profiles-swr.png)            |
+| `/api/v1/profiles`                                                              | Crear un perfil                                                            | POST       | `{ "email": "string", "password": "string", "typeUser": "string", "firstName": "string", "paternalSurname": "string", "maternalSurname": "string" }`                                                                                       | ![Post Profiles](/assets/img/chapter-V/sprint-3/post-profile-swr.png)           |
+| `/api/profiles/{profileId}`                                                     | Obtener un usuario por ID                                                  | GET        | `profileId: Integer`                                                                                                                                                                                                                       | ![Get Profile by id](/assets/img/chapter-V/sprint-3/get-profile-id-swr.png)     |
+| `/api/v1/reviews`                                                               | Obtener todas las reseñas                                                  | GET        | `null`                                                                                                                                                                                                                                     | ![Get Reviews](/assets/img/chapter-V/sprint-3/get-reviews.png)                  |
+| `/api/v1/reviews`                                                               | Crear una reseña                                                           | POST       | `{"contractorId": Integer, "projectId": Integer, "duration": "string", "rating": Integer, "comment": "string", "image": "string"}`                                                                                                         | ![Post Reviews](/assets/img/chapter-V/sprint-3/post-review.png)                 |
+| `/api/v1/reviews/{reviewId}`                                                    | Actualizar una reseña por ID                                               | PUT        | `reviewId: Integer` `{"duration": "string", "comment": "string", "image": "string"}`                                                                                                                                                       | ![Put Review by id](/assets/img/chapter-V/sprint-3/put-review-id.png)           |
+| `/api/v1/reviews/{reviewId}`                                                    | Eliminar una reseña por ID                                                 | DELETE     | `reviewId: Integer`                                                                                                                                                                                                                        | ![Delete Review by id](/assets/img/chapter-V/sprint-3/delete-review-1.png)      |
+| `/api/v1/business`                                                              | Obtener todas las empresas                                                 | GET        | `null`                                                                                                                                                                                                                                     | ![Get Business](/assets/img/chapter-V/sprint-3/get-business.png)                |
+| `/api/v1/business/{businessId}`                                                 | Obtener una empresa por ID                                                 | GET        | `businessId: Integer`                                                                                                                                                                                                                      | ![Get Business](/assets/img/chapter-V/sprint-3/get-business-id.png)             |
+| `/api/v1/business`                                                              | Crear una empresa por ID                                                   | POST       | `{"name": "string","description": "string","address": "string","city": "string","image": "string","expertise": "string","remodelerId": 0}`                                                                                                 | ![Post Business](/assets/img/chapter-V/sprint-3/post-business.png)              |
+| `/api/v1/projects/{businessId}`                                                 | Obtener todos los proyectos de un remodelador por ID                       | GET        | `businessId: Integer`                                                                                                                                                                                                                      | ![Get Project](/assets/img/chapter-V/sprint-3/get-project.png)                  |   
+| `/api/v1/projects`                                                              | Crear un proyecto                                                          | POST       | `{"name": "string","description": "string","businessId": 0,"contractorId": 0,"startDate": "2024-06-07T06:10:32.596Z","finishDate": "2024-06-07T06:10:32.596Z","image": "string"}`                                                          | ![Post Project](/assets/img/chapter-V/sprint-3/post-project.png)                |
+| `/api/v1/project-requests/{businessId} /api/v1/project-requests/{contractorId}` | Obtener todos los projects requests de un remodelador o contratista por ID | GET        | `businessId: Integer contractorId: Integer`                                                                                                                                                                                                | ![Get Project Request](/assets/img/chapter-V/sprint-3/get-projectrequest.png)   |    
+| `/api/v1/project-requests`                                                      | Crear un project request                                                   | POST       | `{"name": "string", "surname": "string","email": "string","phone": "string","address": "string","city": "string","summary": "string","businessId": 0,"contractorId": 0,"deadlineDate": "2024-06-07T06:18:52.812Z","rooms": 0,"budget": 0}` | ![Post Project Request](/assets/img/chapter-V/sprint-3/post-projectrequest.png) |
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+En esta sección se mostrará cómo se logró el despligue de los servicios creados para este sprint. Se describirá generalmente los pasos y plataformas utilizadas.
+
+- Despligue de la base de datos
+
+![Railwaydb](/assets/img/chapter-V/sprint-3/railway-0.png)
+
+Para el despligue de la base de datos utilizamos la plataforma Railway, esta plataforma nos permite crear soluciones en la nube
+
+Creamos el proyecto seleccionando el servicio que necesitamos
+
+![Railwaydb](/assets/img/chapter-V/sprint-3/railway-1.png)
+
+Esperamos a que termine de levantarse y se mostrarán los datos para la conexión remota
+
+![Railwaydb](/assets/img/chapter-V/sprint-3/railway-2.png)
+
+Por último usamos MySQL Workbench para ingresar los datos de conexión
+
+![Railwaydb](/assets/img/chapter-V/sprint-3/railway-3.png)
+
+- Despligue de la aplicación spring boot
+
+Para el despliegue del servicio backend utilizamos Zeabur, la cual es una plataforma que nos ayuda a implementar los servicios de forma muy sencilla.
+
+Primero debemos seleccionar la región
+
+![Zeabur](/assets/img/chapter-V/sprint-3/zeabur-0.png)
+
+Seleccionamos la fuente del servicio a desplegar, en este caso un repositorio de Github
+
+![Zeabur](/assets/img/chapter-V/sprint-3/zeabur-1.png)
+
+![Zeabur](/assets/img/chapter-V/sprint-3/zeabur-2.png)
+
+Luego se verifica el despliegue
+
+![Zeabur](/assets/img/chapter-V/sprint-3/zeabur-3.png)
+
+Por útlimo, configuramos el dominio para acceder al servicio por medio de una enlace público
+
+Enlace: https://restyle-service.zeabur.app/swagger-ui/index.html#/
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+En esta entrega, nuestra meta principal fue la implementación de la primera versión de los web services. Para llevar a cabo este objetivo, hicimos uso de diversas herramientas como GitHub, IntellIj, MySql Workbench, Railway, Zeabur y Swagger. A continuación, vamos a presentar los diagramas de flujo que representan los commits realizados por cada miembro del equipo MetaSoft:
+
+A continuación se muestra la cantidad de commits realizadas por cada integrante del equipo durante el desarrollo de los web services.
+![insights-team](/assets/img/chapter-V/sprint-3/commits-sprint3.png)
+
+En esta captura se muestra el flujo de las ramas creadas, su creación y unión con la rama develop. De la cual se crea
+la rama realeaseV1.0 que es la rama que se despliega en la plataforma Zeabur.
+![insights-team](/assets/img/chapter-V/sprint-3/network-sprint3.png)
+
+## 5.3. Validation Interviews
+En esta sección se realizarán entrevistas mediante las cuales buscamos recoger opiniones y recomendaciones. Esto asegura
+que la aplicación web no solo cumpla con los requisitos técnicos, sino también con las expectativas de nuestros segmentos
+objetivo. A continuación, se detallan los user goals necesarios para llevar a cabo las entrevistas.
+
+### 5.3.1. Diseño de Entrevistas
+
+**User Goal: Navegar por la landing page** <br>
+User persona → Remodeladores y contratistas <br>
+Explicación del flujo → El usuario deberá ingresar a la landing page de la aplicación web. En esta, podrá desplazarse y
+visualizar información general sobre los servicios ofrecidos, así como los beneficios de utilizar la aplicación. 
+Además, podrá cambiar el idioma a inglés o español a través de un botón. También, tendrá acceso directo a la aplicación
+web a través de un Call To Action situado en la vista principal de la landing page. 
+
+**User Goal: Iniciar sesión** <br>
+User persona → Remodeladores y contratistas <br>
+Explicación del flujo → Primero, el usuario deberá ingresar a la aplicación desplegada. A continuación, verá en la 
+pantalla un formulario que le pedirá sus datos de inicio de sesión, específicamente su correo electrónico y contraseña.
+Una vez validadas las credenciales, el sistema le permitirá ingresar a la aplicación. En caso el usuario no tenga una
+cuenta, puede registrarse completando otro formulario con sus datos personales.
+
+**User Goal: Ver perfil** <br>
+User persona → Remodeladores y contratistas <br>
+Explicación del flujo → El usuario tiene dos formas de acceder a su perfil. La primera opción es a través de un panel 
+lateral ubicado a la izquierda de la aplicación; al hacer clic en el ícono de la persona, podrá acceder a su perfil, 
+donde verá sus datos personales y detalles de la cuenta. La segunda opción es desde la barra de navegación en la parte 
+superior de la aplicación; al hacer clic en "Mi perfil", accederá a la misma vista mencionada.
+
+**User Goal: Buscar remodeladores** <br>
+User persona → Contratistas <br>
+Explicación del flujo → Primero el usuario puede acceder a la vista de busqueda de remodeladores desde el sidebar lateral,
+donde podrá buscar remodeladores por nombre, distrito, especialidad. Además, podrá filtrar los resultados de la búsqueda.
+Una vez seleccionado un remodelador, podrá ver su portafolio, reseñas y una vista para contactar con el remodelador 
+seleccionado.
+
+**User Goal: Administrar proyecto** <br>
+User persona → Remodeladores y contratistas <br>
+Explicación del flujo → En primer lugar, el usuario deberá acceder a la vista de seguimiento de proyecto. En esta, podrá
+ver el estado de los proyectos en los que está involucrado, así como los detalles de cada uno a través de las distintas 
+etapas que se muestran. En caso se trate del remodelador, este podrá actualizar el estado de los proyectos y agregar comentarios. 
+
+
+### 5.3.2. Registro de Entrevistas
+
+Entrevista a Contratistas
+
+<table>
+        <thead>
+            <tr>
+                <th>Entrevistado 1</th>
+                <th>Jose Gutierrez</th>
+            </tr>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Alejandra Diaz</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>Lima</td>
+            </tr>
+            <tr>
+                <td><img src="/assets/img/chapter-V/sprint-3/interview-contractor1.png" alt="agregar foto"></td>
+                <td><strong>Resumen:</strong><br>
+                  El usuario pudo completar todos los User Goals, esta contento con el estilo y funcionabilidad de tanto la aplicación como el landing page. Sin embargo, destaca algunos cambios que se pueden realizar en cuanto al diseño de algunas pages de la aplicación para que esta pueda ser más homogénea y se vea más profesional.
+                </td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td>12:53 min</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td>https://shorturl.at/pKcgm</td>
+            </tr>
+            <tr>
+                <th>Entrevistado 2</th>
+                <th>Diego Cantoral</th>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Daniel Valverde </th>
+            </tr>
+            <tr>
+                <td>Edad</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>Pueblo Libre</td>
+            </tr>
+            <tr>
+            <td><img src="/assets/img/chapter-V/sprint-3/fotoEntrvistaValidacionDiego.png" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br>En esta oportunidad el entrevistado pudo completar los user goals diseñados
+                para su segmento. En primer lugar navegó por la landing page para luego acceder a la aplicación de ReStyle
+                desde esta misma. El entrevistado nos compartió su opinión sobre los productos mostrados, estuvo conforme con
+                la mayoría de estilos presentados como la paleta de colores y la tipografía. Por otro lado, también realizó 
+                un par de observaciones en cuestiones de accesibilidad de funciones en los productos mostrados.</td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td>0:00min</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td>https://shorturl.at/pKcgm</td>
+            </tr>
+            <tr>
+                <th>Entrevistado 3</th>
+                <th>Eva Revollé</th>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Ariana Vargas </th>
+            </tr>
+            <tr>
+                <td>Edad</td>
+                <td>49</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>No Aplica</td>
+            </tr>
+            <tr>
+            <td><img src="/assets/img/chapter-V/sprint-3/interview-contractor3.png" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br>Se pudieron lograr todos los user goals propuestos para el 
+                   entrevistado tanto para el landing page como para la aplicacion web. Mostro satisfaccion 
+                   con le producto pero comento qque le gustaria tener acceso a contenido personalizado como
+                   recomendaciones de proyectos segun tu perfil</td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td>17:10 min</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td>https://shorturl.at/pKcgm</td>
+            </tr>
+        </tbody>
+</table>
+
+Entrevista a Remodeladores
+
+<table>
+        <thead>
+            <tr>
+                <th>Entrevistado 1</th>
+                <th>Olga Samanez</th>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Alejandra Diaz</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad</td>
+                <td>52</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>Pueblo Libre</td>
+            </tr>
+            <tr>
+                <td><img src="/assets/img/chapter-V/sprint-3/interview-remodeler1.png" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br>La entrevistada logra completar todos los user goals, desde visualizar el landing page, encontrar el boton call to action, iniciar sesion en la aplicacion web, realizar busqueda de remodeladores y utilizar el project management. Finaliza solicitando un tutorial pequeño o flechas que indiquen como utilizar la aplicacion para los visitantes nuevos, tambien solicita colores más llamativos en el sidebar.</td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td>26:33 min</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td>https://shorturl.at/pKcgm</td>
+            </tr>
+            <tr>
+                <th>Entrevistado 2</th>
+                <th>Rodrigo Porles</th>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Daniel Valverde </th>
+            </tr>
+            <tr>
+                <td>Edad</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>Santiago de Surco</td>
+            </tr>
+            <tr>
+            <td><img src="/assets/img/chapter-V/sprint-3/rodrigo-remodelador-vi.png" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br>Se realizó la entrevista de validación, en la cual se pudo completar
+                  los user goals del segmento remodeladores. El flujo fue parecido al realizado por los contratistas. 
+                  Sin embargo, el entrevistado logró el user goal relacionado a la administración de proyectos. El 
+                  entrevistado nos compartió su opinión y se mostró agusto con las funcionalidades presentadas al igual
+                  que le parece una solución innovadora.</td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td>57:12 min</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td>https://shorturl.at/pKcgm</td>
+            </tr>
+            <tr>
+                <th>Entrevistado 3</th>
+                <th>Victor Eladio Sobrino Chunga</th>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Janover Saldaña </th>
+            </tr>
+            <tr>
+                <td>Edad</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>Chorrillos - Lima</td>
+            </tr>
+            <tr>
+            <td><img src="/assets/img/chapter-V/sprint-3/interview-remodeler2.png" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br>El entrevista mencionó que el software presentado hasta el día de la entrevista si logra cumplir con las necesidades o actividades comunes que suelen realizar el segmento objetivo de remodeladores, si bien es cierto la aplicación tiene algunos errores en cuanto a diseño, estas no perjudican el uso y entendimiento de su uso u¿y funciones.</td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td>36:51 min</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td>https://shorturl.at/pKcgm</td>
+            </tr>
+</table>
+
+### 5.3.3. Evaluaciones según heurísticas
+
+**UX Heuristics & Principles Evaluation**
+
+**Usability – Inclusive Design – Information Architecture**
+
+CARRERA : Ingeniería de Software
+
+CURSO : Desarrollo de Aplicaciones Open Source
+
+SECCIÓN : SW53
+
+PROFESOR : Elio Jefferrson Navarrete Vilca
+
+AUDITOR : MetaSoft
+
+CLIENTE(S) : Grupo 1
+
+SITE o APP A EVALUAR: ReStyle
+
+TAREAS A EVALUAR:
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+* Landing Page
+  * i. Descripción de las características de la aplicación 
+  * ii. Accesibilidad de los botones call to action 
+  * iii. Header adecuado para la Landing Page
+  * iv. Diseño coherente en la Landing Page
+* Web Application
+  * i. Diseño responsive para toda la aplicación
+  * ii. Seleccion de un proyecto
+  * iii. Accesibilidad a la edición de datos personales
+  * iv. Acceso a los proyectos del contratista
+  * v. Diseño de los botones sign-in y sign-up
+
+### ESCALA DE SEVERIDAD:
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción                                                                                                                                                                                     |
+|-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1     | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                   |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                 |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
+
+#### TABLA DE RESUMEN - Landing Page
+
+| # | Problema                                                                                             | Escala de severidad | Heurística/Principio violada(o)                 |
+|---|------------------------------------------------------------------------------------------------------|---------------------|-------------------------------------------------|
+| 1 | Los títulos de las secciones, presentan inconsitencia en tamaño y color                              | 2                   | Inclusive Design: Estética y diseño minimalista |
+| 2 | Los Botones de la sección "About the app", no redirigen correctamente a las páginas correspondientes | 3                   | Usability: Control y libertad del usuario       |
+| 3 | Inconsitencia en las tipografía utilizada                                                            | 1                   | Inclusive Design: Estética y diseño minimalista |
+| 4 | Inconsistencia en el diseño de la sección "Contactanos"                                              | 1                   | Inclusive Design: Estética y diseño minimalista |
+
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1:** Los títulos de las secciones, presentan inconsitencia en tamaño y color
+
+**Severidad:** 2
+
+**Heurística violada:** Inclusive Design: Estética y diseño minimalista
+
+**Problema:**
+Los títulos de las secciones de la landing page presentan inconsistencia en tamaño y color, lo cual puede generar 
+confusión en el usuario al momento de navegar por la página. No existe uniformidad en la presentación de los títulos,
+Mostrando un diseño poco atractivo y poco profesional. Esta problemática es de un nivel 2 de severidad, ya que no 
+impide el uso de la aplicación, pero puede afectar la experiencia del usuario.
+
+![evidencia del problema](/assets/img/chapter-V/sprint-3/titulos-inconsistencia.png)
+
+**Recomendación:**
+Para mejorar la experiencia del usuario, se recomienda mantener un diseño uniforme en los títulos de las secciones de
+la landing page. Se sugiere utilizar un tamaño y color de fuente consistentes en todos los títulos, lo cual permitirá
+que el usuario pueda identificar fácilmente las secciones y navegar por la página de manera más eficiente.
+
+**PROBLEMA #2:** Los Botones de la sección "About the app", no redirigen correctamente a las páginas correspondientes
+
+**Severidad:** 3
+
+**Heurística violada:** Usability: Control y libertad del usuario
+
+**Problema:**
+Los botones de la sección "About the app" no redirigen correctamente a las páginas correspondientes. Al hacer click en
+"App Store" o "Google Play", no se abre una nueva pestaña con la aplicación en la tienda de aplicaciones. Esto puede
+generar confusión en el usuario, ya que no puede acceder directamente a la aplicación desde la landing page. Esta 
+problemática tiene un nivel de severidad 4, ya que impide al usuario acceder a la aplicación y puede afectar negativamente
+su experiencia.
+
+![evidencia del problema](/assets/img/chapter-V/sprint-3/botones-sin-redireccion.png)
+
+**Recomendación:**
+Se recomienda corregir los enlaces de los botones de la sección "About the app" para que redirijan correctamente a las 
+páginas correspondientes en la App Store y Google Play. A partir de esta corrección, el usuario podrá acceder directamente
+y no interrumpir su navegación en la landing page.
+
+
+**PROBLEMA #3:** Inconsitencia en las tipografía utilizada
+
+**Severidad:** 1
+
+**Heurística violada:** Inclusive Design: Estética y diseño minimalista
+
+**Problema:**
+La tipografía principal elegida fue 'Poppins'. Sin embargo, en la landing page se observan varias tipografías diferentes, 
+lo que genera inconsistencia en el diseño y afecta la estética de la página. Esta problemática tiene un nivel de 
+severidad 1, ya que, aunque no impide el uso de la aplicación, da una impresión de diseño poco atractivo y profesional.
+
+![evidencia del problema](/assets/img/chapter-V/sprint-3/tipografia-irregular.png)
+
+**Recomendación:**
+Para mejorar la estética y el diseño de la landing page, se recomienda utilizar una sola tipografía en todo el sitio.
+Se sugiere mantener la tipografía principal 'Poppins' en todos los elementos de texto para lograr una apariencia más 
+cohesiva y profesional. Guiarse al pie de la letra de la guía de estilo de la aplicación.
+
+
+**PROBLEMA #4:** Inconsistencia en el diseño de la sección "Contactanos"  
+
+**Severidad:** 1
+
+**Heurística violada:** Inclusive Design: Estética y diseño minimalista
+
+**Problema:**
+En el diseño de la Landing Page se visualiza un estilo sin sombra o 'flat' para los cuadros, imagenes y formularios. Sin embargo,
+en la seccion de "Contactanos" se observa un formulario con sombra. Esto rompe con el diseño original y afecta la estética en general.
+Esta problemática tiene un nivel de severidad 1, ya que, aunque no impide el uso de la aplicación, da una impresión de 
+que diferentes desarrolladores hicieron distintas secciones.
+
+![evidencia del problema](/assets/img/chapter-V/sprint-3/contactanos-inconsistencia.png)
+
+**Recomendación:**
+Para mejorar la estética y el diseño de la landing page, se recomienda utilizar un solo estilo de borde en todo el sitio.
+Se sugiere mantener el estilo principal 'flat' en todos los elementos para lograr una apariencia más 
+cohesiva y profesional. 
+
+#### TABLA DE RESUMEN - Web Application
+
+
+| # | Problema                                                                    | Escala de severidad | Heurística/Principio violada(o)                 |
+|---|-----------------------------------------------------------------------------|---------------------|-------------------------------------------------|
+| 1 | Diseño no es responsive para toda la aplicación                             | 3                   | Inclusive Design: Adaptabilidad y Flexibilidad  |
+| 2 | No se pueden seleccionar proyectos para el segmento objetivo de remodelador | 4                   | Usability: Control y libertad del usuario       |
+| 3 | No se puede acceder a proyectos para el segmento objetivo de contratista    | 4                   | Usability: Control y libertad del usuario       |
+| 4 | Botones no dinamicos para el sign-in y sign-up en la vista home             | 1                   | Inclusive Design: Estética y diseño minimalista |
+| 5 | Falta de contenido personalizado                                            | 1                   | Usibility: Flexibilidad y eficiencia de uso     |
+
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1:** Diseño no es responsive para toda la aplicación  
+
+**Severidad:** 3
+
+**Heurística violada:** Inclusive Design: Adaptabilidad y Flexibilidad
+
+**Problema:**
+La aplicacion web no es responsive en todas sus pages. Solo el toolbar y sidebar son responsive para todas las pages y la seccion "Remodeladores".
+Esto no permite que los usuarios utilicen correctamente la aplicacion y les evita acceder a secciones claves de la plataforma. Esta problematica
+tiene un nivel de severidad 3, ya que impide el uso de la aplicacion en todo su potencial.
+
+![evidencia del problema](/assets/img/chapter-V/sprint-3/app-web-no-responsive.png)
+
+**Recomendación:**
+Para solucionar el problema se deben agregar atributos responsive a la aplicacion mediante CSS.
+
+**PROBLEMA #2:** No se pueden seleccionar proyectos para el segmento objetivo de remodelador
+
+**Severidad:** 4
+
+**Heurística violada:** Usability: Control y libertad del usuario
+
+**Problema:**
+La aplicacion web no les permite a los usuarios remodeladores escoger el proyecto que desean manejar. Solo se muestra un proyecto en la seccion "Mis Proyectos".
+Esto no permite que los usuarios utilicen correctamente la aplicacion y les evita acceder a secciones claves de la plataforma. Esta problematica
+tiene un nivel de severidad 4, ya que impide el uso de la aplicacion en todo su potencial.
+
+![evidencia del problema](/assets/img/chapter-V/sprint-3/proyectos-remodelador.png)
+
+**Recomendación:**
+Para solucionar el problema se debe agregar una page que permita escoger los proyectos que se desean manejar.
+
+**PROBLEMA #3:** No se puede acceder a proyectos para el segmento objetivo de contratista
+
+**Severidad:** 4
+
+**Heurística violada:** Usability: Control y libertad del usuario
+
+**Problema:**
+La aplicacion web no les permite a los usuarios contratistas acceder a la seccion "Mis Proyectos".
+Esto no permite que los usuarios utilicen correctamente la aplicacion y les evita acceder a secciones claves de la plataforma. Esta problematica
+tiene un nivel de severidad 4, ya que impide el uso de la aplicacion en todo su potencial.
+
+![evidencia del problema](/assets/img/chapter-V/sprint-3/proyectos-contratista.png)
+
+**Recomendación:**
+Para solucionar el problema se debe agregar una page que permita acceder a los proyectos para el segmento de contratistas.
+
+
+**PROBLEMA #4:** Botones no dinamicos para el sign-in y sign-up en la vista home 
+
+**Severidad:** 1
+
+**Heurística violada:** Inclusive Design: Estética y diseño minimalista
+
+**Problema:**
+Los botones de "Ingresar" y "Registrarse" no son dinamicos en la seccion "Home". Sin embargo, los botones en otras secciones si lo son.
+Esto rompe con el diseño de la aplicacion y el estilo de la misma. Esta problematica
+tiene un nivel de severidad 1, ya que no impide el uso de la aplicacion en todo su potencial, pero quiebra el diseño coherente de la misma.
+
+![evidencia del problema](/assets/img/chapter-V/sprint-3/botones-no-dinamicos.png)
+
+**Recomendación:**
+Para solucionar el problema se deben agregar atributos que simulen interaccion con los botones en CSS.
+
+**PROBLEMA #5:** 
+
+**Severidad:** 1
+
+**Heurística violada:** Usability: Flexibilidad y eficiencia de uso
+
+**Problema:**La aplicacion tiene queries simples y utilitarios que cumples su funcionalidad pero no existe
+personalizacion de contenidos para el usuario como no sugerir proyectos de jardin si es que han establecido 
+como vivienda un departamento por lo que el usuario debera examinar opciones poco perinentes antes de encontrar 
+un proyecto apropiado en caso no utilize el buscador
+
+
+![evidencia del problema](/assets/img/chapter-V/sprint-2/empresa-remodeladora-vista.png)
+
+**Recomendación:**
+Implementar personalizacion de perfil para negocios y usuarios particulares e mostrar los tags autonmaticamente segun preferencia
+
+
+## 5.4. Video About-the-Product
+
+En esta sección presentamos el video about the product. Este consolida una orientación promocional, resumiendo el modelo de nuestro negocio de ReStyle, las características y beneficios del producto, incluyendo algunas escenas deinteracción con el producto y una opinión por cada segmento objetivo, en nuestro caso segmento ojetivo de contratistas y remodeladores.
+
+¿Eres una empresa remodeladora que desea acceder a una amplia gama de clientes o eres un cliente que desea remodelar su propiedad? Te presentamos a ReStyle. ReStyle es nuestra plataforma que te ayuda a encontrar profesionales en la remodelación y reparación de cuestiones del hogar.
+
+<img src="/assets/img/chapter-V/sprint-3/about-the-product.png" alt="Foto de video about-the-product">
+
+Link de Microsoft Stream: https://shorturl.at/df2vW
+
+Link de Youtube: https://youtu.be/H3xHZWDBIy0
 
 ## Avance de Conclusiones, Bibliografía y Anexos.
 
@@ -1983,7 +3080,7 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                 <td>Consolida todas las entrevistas realizadas</td>
                 <td>Link: https://shorturl.at/acGL6
                   Captura: <br>
-                  <img src="/assets/img/chapter-V/sprint-2/interview-video.png" width="350"/> </td>
+                  <img src="/assets/img/chapter-V/sprint-2/interview-video.png" alt="" width="350"/> </td>
             </tr>
             <tr>
                 <td>Exposicion</td>
@@ -1993,7 +3090,7 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                   Duración: 27:19 min</td>
                 <td>Consolida las exposiciones de la TB1</td>
                 <td>Link: https://shorturl.at/kxyF2 Captura: <br>
-                  <img src="/assets/img/chapter-V/sprint-1/expo-video.png" width="350"/> </td>
+                  <img src="/assets/img/chapter-V/sprint-1/expo-video.png" alt="" width="350"/> </td>
             </tr>
             <tr>
                 <td>Prototypes Navigation / Product Navigation</td>
@@ -2003,18 +3100,87 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                   Duración: 4:21 min</td>
                 <td>Consolida demostración del flujo de navegación de las aplicaciones, priorizando los user flows relacionados con el core business.</td>
                 <td>Link: https://shorturl.at/goCR6 Captura: <br>
-                  <img src="/assets/img/chapter-V/sprint-1/prototype-video.png" width="350"/> </td>
+                  <img src="/assets/img/chapter-V/sprint-1/prototype-video.png" alt="" width="350"/> </td>
             </tr> 
             <tr>
                 <td>Exposicion</td>
                 <td>Cantidad de videos: 1 <br>
                   Nomenclatura: upc-pre-202401-si729-sw53-metasoft-expo-tp <br>
                   Formato: .mp4 <br>
-                  Duración: min</td>
+                  Duración: 22:34 min</td>
                 <td>Consolida las exposiciones del TP</td>
+<<<<<<< HEAD
                 <td>Link: https://shorturl.at/ltEW4 Captura: <br>
                   <img src="/assets/img/chapter-V/sprint-2/exposixión-tp.png" width="350" alt=""/> </td>
             </tr>           
+=======
+                <td>Link: https://shorturl.at/ltEW4 Captura:<br>
+                  <img src="/assets/img/chapter-V/sprint-2/exposixión-tp.png" alt="" width="350"/> </td>
+            </tr>      
+            <tr>
+                <td>Validation Interviews</td>
+                <td>Cantidad de videos: 1 <br>
+                  Nomenclatura: upc-pre-202401-si729-sw53-metasoft-validation-sprint-3 <br>
+                  Formato: .mp4 <br>
+                  Duración: min</td>
+                <td>Consolida sesiones y
+                entrevistas de validación en
+                las que usuarios de los
+                segmentos objetivo
+                interactúen con el landing
+                page y con los prototipos de
+                experiencias web,
+                manifestando sus
+                observaciones.
+                </td>
+                <td>Link: https://shorturl.at/pKcgm Captura: <br>
+                <img src="/assets/img/chapter-V/sprint-3/validation-interview-photo.png" width="350" alt=""/> </td>
+            </tr>     
+            <tr>
+                <td>About the Product</td>
+                <td>Cantidad de videos: 1 <br>
+                  Nomenclatura: upc-pre-202401-si729-sw53-metasoft-about-the-product-sprint-3<br>
+                  Formato: .mp4 <br>
+                  Duración: min</td>
+                <td>Consolida el video promocional, resumiendo el modelo de negocio, las características y beneficios del producto.
+                </td>
+                <td>Link: Stream: https://shorturl.at/O4FJW Youtube: https://youtu.be/H3xHZWDBIy0 Captura: <br>
+                <img src="/assets/img/chapter-V/sprint-3/about-the-product.png" width="350" alt=""/> </td>
+            </tr>   
+            <tr>
+                <td>About the Team</td>
+                <td>Cantidad de videos: 1 <br>
+                  Nomenclatura: upc-pre-202401-si729-sw53-metasoft-about-the-team-sprint-3<br>
+                  Formato: .mp4 <br>
+                  Duración: min</td>
+                <td>Video que resume el proceso
+                  de trabajo realizado,
+                  incluyendo escenas de
+                  sesiones de trabajo real del
+                  equipo, complementando con
+                  narración (voz en off) del
+                  proceso. Incluye además el
+                  testimonio ante cámara de
+                  cada participante
+                  describiendo actividades
+                  realizadas, logro de outcomes
+                  y desarrollo de competencias
+                  alcanzados.
+                </td>
+                <td>Link: Streams: https://shorturl.at/vwyHt Youtube: https://youtu.be/RK5ObW8vRoU Captura: <br>
+                <img src="/assets/img/chapter-V/sprint-3/about-the-team.png" width="350" alt=""/> </td>
+            </tr>   
+            <tr>
+                <td>Exposicion</td>
+                <td>Cantidad de videos: 1 <br>
+                  Nomenclatura: upc-pre-202401-si729-sw53-metasoft-expo-tb2 <br>
+                  Formato: .mp4 <br>
+                  Duración: min</td>
+                <td>Consolida las exposiciones del TB2</td>
+                <td>Link: https://shorturl.at/wr8bA Captura: <br>
+                  <img src="/assets/img/chapter-V/sprint-3/tb2-expo.png" width="350" alt=""/> </td>
+            </tr>   
+>>>>>>> origin/capitulo-V
         </tbody>
 </table>
 
