@@ -2447,11 +2447,29 @@ Tablero de Jira
 
 #### 5.2.3.5. Execution Evidence for Sprint Review 
 
-//landing 
+- Landing Page Execution 
 
-//web application
+Evidencias de ultima version de Landing Page con secciones About the product y About the team:
 
-//web services swagger
+![LandingPageProduct](/assets/img/chapter-V/sprint-3/landing-product.png)
+
+![LandingPageTeam](/assets/img/chapter-V/sprint-3/landing-team.png)
+
+- Web Application Execution
+
+Evidencias de ultima version de la aplicacion con secciones de Mis proyectos para segmento objetivo de remodeladores y Solicitud de proyecto para el segmento objetivo de contratistas:
+
+![WebApp](/assets/img/chapter-V/sprint-3/web-app-projects.png)
+
+![WebApp](/assets/img/chapter-V/sprint-3/web-app-request.png)
+
+- Web Services Execution
+
+Evidencias de Swagger conectado a nuestro backend:
+
+![SwaggerWebServices](/assets/img/chapter-V/sprint-3/swagger-web-1.png)
+
+![SwaggerWebServices](/assets/img/chapter-V/sprint-3/swagger-web-2.png)
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review  
 
@@ -2476,14 +2494,50 @@ OpenApi: *Agregar link del backend desplegado*
 | `/api/v1/projects`                                                              | Crear un proyecto                                                          | POST       | `{"name": "string","description": "string","businessId": 0,"contractorId": 0,"startDate": "2024-06-07T06:10:32.596Z","finishDate": "2024-06-07T06:10:32.596Z","image": "string"}`                                                          | ![Post Project](/assets/img/chapter-V/sprint-3/post-project.png)                |
 | `/api/v1/project-requests/{businessId} /api/v1/project-requests/{contractorId}` | Obtener todos los projects requests de un remodelador o contratista por ID | GET        | `businessId: Integer contractorId: Integer`                                                                                                                                                                                                | ![Get Project Request](/assets/img/chapter-V/sprint-3/get-projectrequest.png)   |    
 | `/api/v1/project-requests`                                                      | Crear un project request                                                   | POST       | `{"name": "string", "surname": "string","email": "string","phone": "string","address": "string","city": "string","summary": "string","businessId": 0,"contractorId": 0,"deadlineDate": "2024-06-07T06:18:52.812Z","rooms": 0,"budget": 0}` | ![Post Project Request](/assets/img/chapter-V/sprint-3/post-projectrequest.png) |
-|`/api/v1/remodelers` | Crea un nuevo remodelador  | POST | `{ "description": "string", "phoneNumber": 0, "subscription": "string" }` | 
-| `/api/v1/remodelers/{remodelerId}` | obtiene un remodelador con un ID |  GET  | `remodelerId`  |
-| `/api/v1/Contractors` | Obtener todos los Contractors| GET | `null` |
-| `/api/v1/Contractors` | Crear un nuevo Contractor| POST | `{ "description": "string", "phoneNumber": 0 }` |
-| `/api/v1/Contractors/{contractorId}` | obtiene un remodelador con un ID |  GET  | `contractorId`  |
-
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+En esta sección se mostrará cómo se logró el despligue de los servicios creados para este sprint. Se describirá generalmente los pasos y plataformas utilizadas.
+
+- Despligue de la base de datos
+
+![Railwaydb](/assets/img/chapter-V/sprint-3/railway-0.png)
+
+Para el despligue de la base de datos utilizamos la plataforma Railway, esta plataforma nos permite crear soluciones en la nube
+
+Creamos el proyecto seleccionando el servicio que necesitamos
+
+![Railwaydb](/assets/img/chapter-V/sprint-3/railway-1.png)
+
+Esperamos a que termine de levantarse y se mostrarán los datos para la conexión remota
+
+![Railwaydb](/assets/img/chapter-V/sprint-3/railway-2.png)
+
+Por último usamos MySQL Workbench para ingresar los datos de conexión
+
+![Railwaydb](/assets/img/chapter-V/sprint-3/railway-3.png)
+
+- Despligue de la aplicación spring boot
+
+Para el despliegue del servicio backend utilizamos Zeabur, la cual es una plataforma que nos ayuda a implementar los servicios de forma muy sencilla.
+
+Primero debemos seleccionar la región
+
+![Zeabur](/assets/img/chapter-V/sprint-3/zeabur-0.png)
+
+Seleccionamos la fuente del servicio a desplegar, en este caso un repositorio de Github
+
+![Zeabur](/assets/img/chapter-V/sprint-3/zeabur-1.png)
+
+![Zeabur](/assets/img/chapter-V/sprint-3/zeabur-2.png)
+
+Luego se verifica el despliegue
+
+![Zeabur](/assets/img/chapter-V/sprint-3/zeabur-3.png)
+
+Por útlimo, configuramos el dominio para acceder al servicio por medio de una enlace público
+
+Enlace: https://restyle-service.zeabur.app/swagger-ui/index.html#/
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
