@@ -2550,6 +2550,178 @@ En esta captura se muestra el flujo de las ramas creadas, su creación y unión 
 la rama realeaseV1.0 que es la rama que se despliega en la plataforma Zeabur.
 ![insights-team](/assets/img/chapter-V/sprint-3/network-sprint3.png)
 
+
+### 5.2.4. Sprint 4
+El objetivo de este sprint es desplgar la versión final de los servicios backend y frontend de la aplicación ReStyle.
+Para lograr este objetivo se culminarán las historias de usuario restantes.
+
+##### 5.2.4.1. Sprint Planning 4
+
+Para lograr el objetivo de este sprint, primero se realizó una reunión de planificación. En esta reunión,
+se establecieron fechas y tareas especificas para cada uno de los integrantes del equipo.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center">Sprint #</th>
+      <th style="text-align:center">Sprint 4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Date</td>
+      <td style="text-align:center">17/06/2024</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Time</td>
+      <td style="text-align:center">9:00 pm</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Location</td>
+      <td style="text-align:center">Discord</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Prepared By</td>
+      <td style="text-align:center">Alejandra Villacrez</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Attendees</td>
+      <td style="text-align:center">
+      Alejandra Villacrez, Janover Saldaña, Daniel Valverde, Ariana Vargas
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint 4 Review Summary</td>
+      <td>
+        Durante esta reunión, se establecieron los objetivos, se asignaron las tareas específicas y se discutieron los posibles desafíos técnicos que podrían surgir durante la implementación.
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint 4 Retrospective Summary</td>
+      <td>
+        En el sprint anterior logramos completar la entrega de un gran porcentaje de las historias de usuario. La opinión de los segmentos objetivo respecto al progreso alcanzado hasta el entregable anterior fue positiva.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint 4 Goal</td>
+      <td style="text-align:center">Desplegar la versión final de los servicios bakcend y frotend de ReStyle</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint 4 Velocity</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sum of Story Points</td>
+      <td style="text-align:center">  </td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.4.2. Sprint Backlog 4
+
+<table>
+  <tr>
+    <td> <strong>Sprint #</strong></td>
+    <td colspan="7"> <strong>Sprint 4</strong> </td>
+  </tr>
+
+  <tr>
+    <td colspan="2"> <strong>Technical Story</strong></td>
+    <td colspan="6"> <strong>Work-item/Task</strong></td>
+  </tr>
+  <tr>
+    <td> <strong>ID</strong> </td>
+    <td> <strong>Title</strong></td>
+    <td> <strong>ID</strong> </td>
+    <td> <strong>Title</strong></td>
+    <td> <strong>Description</strong></td>
+    <td> <strong>Estimation (Hours)</strong></td>
+    <td> <strong>Assigned To</strong></td>
+    <td> <strong> Status (To-do/In-Process/To-Review/Done) </strong></td>
+  </tr>
+  <!---------------------------------------------------------------------- -->
+  <tr>
+    <td rowspan="3">TS001</td>
+    <td rowspan="3">Obtener Usuarios</td>
+    <td>TA1</td>
+    <td>Get Profiles</td>
+    <td>Endpoint que retorna los perfiles registrados</td>
+    <td rowspan="3">3</td>
+    <td rowspan="3">Daniel Valverde</td>
+    <td rowspan="3">Done</td>
+  </tr>
+  <tr>
+    <td>TA2</td>
+    <td>Get Profile by Id</td>
+    <td>Endpoint que retorna un perfil dado un Id</td>
+  </tr>
+  <tr>
+    <td>TA3</td>
+    <td>Post Profile</td>
+    <td>Endpoint que permite le registro de un nuevo perfil</td>
+  </tr>
+  <!------------------------------------------------------------------------>
+  <tr>
+    <td rowspan="2"></td>
+    <td rowspan="2"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td rowspan="2"></td>
+    <td rowspan="2"></td>
+    <td rowspan="2"></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+
+#### 5.2.4.3. Development Evidence for Sprint Review
+
+<table>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on (Date)</th>
+  </tr>
+  <tr>
+  <!-- rowspan="number of rows" -->
+    <td rowspan="50"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+#### 5.2.4.4. Testing Suite Evidence for Sprint Review
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+
+| Endpoint           | Acción  | Verbo HTTP | Parámetros / Request Body | Imagen |
+|--------------------|---------|------------|---------------------------|--------|
+| `/api/v1/endpoint` | Obtener | GET        | `null`                    |        |
+
+#### 5.2.4.7 Software Deployment Evidence for Sprint Review
+
+#### 5.2.4.8 Team Collaboration Insights during Sprint
+
 ## 5.3. Validation Interviews
 En esta sección se realizarán entrevistas mediante las cuales buscamos recoger opiniones y recomendaciones. Esto asegura
 que la aplicación web no solo cumpla con los requisitos técnicos, sino también con las expectativas de nuestros segmentos
