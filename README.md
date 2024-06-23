@@ -68,7 +68,15 @@
 | 3.7     | 04/06/2024 | Ariana Vargas                                                                  | Se agregó entrevista para la sección validation interviews                                                       |
 | 3.8     | 05/06/2024 | Gonzalo Saldaña                                                                | Se agregó entrevista para la sección validation interviews                                                       |
 | 3.9     | 07/06/2024 | Ariana Vargas, Gonzalo Saldaña                                                 | Se agregó documentación de la evaluación de heuristicas                                                          |
-| 3.10    | 08/06/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde                | Finalización de la documentación del sprint 3                                                                    |
+| 3.10    | 08/06/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde | Finalización de la documentación del sprint 3  |
+| 4.0 | 15/062024 | Daniel valverde | Se inicio la documentación del Sprint 4 |
+| 4.1 | 17/06/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde | Se coordinó y redacto el contenido de las tablas de sprint planning y sprint backlog | 
+| 4.1 | 17/06/2024 | Janover Saldaña, Daniel valverde | Se docuementó las US y TS a realizar para el sprint 4 | 
+| 4.2 | 21/06/2024 | Alejandra Diaz | Se agregaron evidencias de la ejecución de lo acordado en el Sprint 4| 
+| 4.3 | 22/06/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde  | Se agregaron evidencias de la ejecución de la app web integrada con el BackEnd| 
+| 4.4 | 23/06/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde | DSe culminó la documentación del Sprint 4| 
+
+
 
 ### Project Report Collaboration Insights
 
@@ -121,6 +129,21 @@ En este gráfico, se muestra la cantidad de contribuciones realizadas por cada m
 nuestro tercer sprint. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en 
 cada uno de los commits. Esta representación visual es una herramienta valiosa para comprender la intensidad del 
 desarrollo y la evolución temporal del proyecto.
+
+
+
+* #### Entregable TF
+
+En esta imagen, se ofrece una representación visual de las fechas en las que se llevaron a cabo cambios en el repositorio de nuestra segundo sprint, junto con la cantidad de modificaciones realizadas en cada uno de los commits. Esta representación gráfica es una herramienta valiosa para comprender la evolución temporal del proyecto y la intensidad del desarrollo a lo largo del tiempo.
+
+# **imagen Contributors**
+
+# **imagen Network**
+
+Estos gráficos ofrecen una representación visual de las clonaciones registradas en nuestro repositorio, junto con la fecha en que cada una de estas acciones se llevó a cabo. Además, se presenta información sobre la cantidad de visitantes que ha tenido el repositorio de nuestro equipo a lo largo del tiempo.
+
+# **imagen traffic**
+
 
 
 ## Contenido 
@@ -341,7 +364,7 @@ desarrollo y la evolución temporal del proyecto.
   <tbody>
     <tr>
      <!--PRIMER CRITERIO DE STUDENT OUTCOME-->
-      <td rowspan="13">
+      <td rowspan="17">
         Comunica oralmente sus ideas
         y/o resultados con objetividad a
         público de diferentes
@@ -450,9 +473,41 @@ desarrollo y la evolución temporal del proyecto.
         Se realizaron entrevistas de validacion para poder evaluar la respuesta del segmento al producto y posibles faltas en heuristicas que el entrevistado pueda percibir
       </td>     
     </tr>
+    <!--ENTREGA TF-->
+    <!-- ESTUDIANTE 1 TF --> 
+    <tr> 
+      <td> 
+        <b>Díaz Villacrez, María Alejandra TF:</b><br>
+         Descripción
+      </td> 
+      <td rowspan="4">
+        <b>CONCLUSIÓN DEL ENTRGABLE TF</b><br>
+       Descripción
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 2 TF --> 
+    <tr> 
+      <td> 
+        <b>Valverde Lopez, Josue Daniel TF:</b><br>
+        Descripción
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 3 TF-->
+     <tr>   
+      <td>
+        <b>Saldaña Vela Janover Gonzalo TF: </b><br>
+        Descripción
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 4 TF-->
+     <tr>   
+      <td><b>Vargas Revollé, Ariana  TF: </b><br>
+        Descripción
+      </td>     
+    </tr>
     <!--SEGUNDO CRITERIO DE STUDENT OUTCOME-->
     <tr>
-      <td rowspan="13">
+      <td rowspan="17">
         Comunica en forma escrita ideas
         y/o resultados con objetividad a
         público de diferentes
@@ -560,7 +615,39 @@ desarrollo y la evolución temporal del proyecto.
     <!-- ESTUDIANTE 4 TB2-->
      <tr>   
       <td><b>Vargas Revollé, Ariana  TB2: </b><br>
-        Se realizacon las tecnical stories de backend usando Domain Driven Design, entrevistas de validacion y video AboutTheTeam
+       Descripción
+      </td>     
+    </tr>
+    <!--ENTREGA TF-->
+    <!-- ESTUDIANTE 1 TF --> 
+    <tr> 
+      <td> 
+        <b>Díaz Villacrez, María Alejandra TF:</b><br>
+         Descripción
+      </td> 
+      <td rowspan="4">
+        <b>CONCLUSIÓN DEL ENTRGABLE TF</b><br>
+       Descripción
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 2 TF --> 
+    <tr> 
+      <td> 
+        <b>Valverde Lopez, Josue Daniel TF:</b><br>
+        Descripción
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 3 TF-->
+     <tr>   
+      <td>
+        <b>Saldaña Vela Janover Gonzalo TF: </b><br>
+        Descripción
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 4 TF-->
+     <tr>   
+      <td><b>Vargas Revollé, Ariana  TF: </b><br>
+        Descripción
       </td>     
     </tr>
 </table>
