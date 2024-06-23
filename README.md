@@ -478,11 +478,11 @@ Estos gráficos ofrecen una representación visual de las clonaciones registrada
     <tr> 
       <td> 
         <b>Díaz Villacrez, María Alejandra TF:</b><br>
-         Descripción
+         Realice validaciones del frontend y backend de la aplicacion, pude desplegar ambas exitosamente y completar los servicios de nuestro proyecto.
       </td> 
       <td rowspan="4">
         <b>CONCLUSIÓN DEL ENTRGABLE TF</b><br>
-       Descripción
+       Gracias a lo desarrollado durante este ultimo sprint, como grupo fuimos capaces de solucionar los problemas que aparecieron durante el control de versiones de nuestro codigo y la comunicacion fue clara para abordar cualquier malentendido durante el ciclo de vida del proyecto.
       </td>   
     </tr>
     <!-- ESTUDIANTE 2 TF --> 
@@ -623,11 +623,11 @@ Estos gráficos ofrecen una representación visual de las clonaciones registrada
     <tr> 
       <td> 
         <b>Díaz Villacrez, María Alejandra TF:</b><br>
-         Descripción
+         Durante el desarrollo del trabajo final, colabore en la continuacion de mejoras del backend y frontend, pudiendo juntar ambos para el despliegue de la aplicacion.
       </td> 
       <td rowspan="4">
         <b>CONCLUSIÓN DEL ENTRGABLE TF</b><br>
-       Descripción
+       Gracias a lo desarrollado durante este ultimo sprint, pudimos como grupo tener un mejor entendimiento de ambas capas de front y back end de las aplicaciones open source.
       </td>   
     </tr>
     <!-- ESTUDIANTE 2 TF --> 
