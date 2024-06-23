@@ -2555,6 +2555,425 @@ En esta captura se muestra el flujo de las ramas creadas, su creación y unión 
 la rama realeaseV1.0 que es la rama que se despliega en la plataforma Zeabur.
 ![insights-team](/assets/img/chapter-V/sprint-3/network-sprint3.png)
 
+
+### 5.2.4. Sprint 4
+El objetivo de este sprint es desplgar la versión final de los servicios backend y frontend de la aplicación ReStyle.
+Para lograr este objetivo se culminarán las historias de usuario restantes.
+
+##### 5.2.4.1. Sprint Planning 4
+
+Para lograr el objetivo de este sprint, primero se realizó una reunión de planificación. En esta reunión,
+se establecieron fechas y tareas especificas para cada uno de los integrantes del equipo.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center">Sprint #</th>
+      <th style="text-align:center">Sprint 4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Date</td>
+      <td style="text-align:center">17/06/2024</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Time</td>
+      <td style="text-align:center">9:00 pm</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Location</td>
+      <td style="text-align:center">Discord</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Prepared By</td>
+      <td style="text-align:center">Alejandra Villacrez</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Attendees</td>
+      <td style="text-align:center">
+      Alejandra Villacrez, Janover Saldaña, Daniel Valverde, Ariana Vargas
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint 4 Review Summary</td>
+      <td>
+        Durante esta reunión, se establecieron los objetivos, se asignaron las tareas específicas y se discutieron los posibles desafíos técnicos que podrían surgir durante la implementación.
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint 4 Retrospective Summary</td>
+      <td>
+        En el sprint anterior logramos completar la entrega de un gran porcentaje de las historias de usuario. La opinión de los segmentos objetivo respecto al progreso alcanzado hasta el entregable anterior fue positiva.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint 4 Goal</td>
+      <td style="text-align:center">Desplegar la versión final de los servicios bakcend y frotend de ReStyle</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint 4 Velocity</td>
+      <td style="text-align:center">Para este sprint se propuso completar un total de 14 puntos</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sum of Story Points</td>
+      <td style="text-align:center"> 3 + 3 + 5 + 3 = 14</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.4.2. Sprint Backlog 4
+
+<table>
+  <tr>
+    <td> <strong>Sprint #</strong></td>
+    <td colspan="7"> <strong>Sprint 4</strong> </td>
+  </tr>
+
+  <tr>
+    <td colspan="2"> <strong>Technical Story</strong></td>
+    <td colspan="6"> <strong>Work-item/Task</strong></td>
+  </tr>
+  <tr>
+    <td> <strong>ID</strong> </td>
+    <td> <strong>Title</strong></td>
+    <td> <strong>ID</strong> </td>
+    <td> <strong>Title</strong></td>
+    <td> <strong>Description</strong></td>
+    <td> <strong>Estimation (Hours)</strong></td>
+    <td> <strong>Assigned To</strong></td>
+    <td> <strong> Status (To-do/In-Process/To-Review/Done) </strong></td>
+  </tr>
+  <!---------------------------------------------------------------------- -->
+  <tr>
+    <td rowspan="3">TS001</td>
+    <td rowspan="3">Obtener Usuarios</td>
+    <td>TA1</td>
+    <td>Get Profiles</td>
+    <td>Endpoint que retorna los perfiles registrados</td>
+    <td rowspan="3">3</td>
+    <td rowspan="3">Daniel Valverde</td>
+    <td rowspan="3">Done</td>
+  </tr>
+  <tr>
+    <td>TA2</td>
+    <td>Get Profile by Id</td>
+    <td>Endpoint que retorna un perfil dado un Id</td>
+  </tr>
+  <tr>
+    <td>TA3</td>
+    <td>Post Profile</td>
+    <td>Endpoint que permite le registro de un nuevo perfil</td>
+  </tr>
+  <!------------------------------------------------------------------------>
+  <tr>
+    <td rowspan="1">US-006</td>
+    <td rowspan="1">Subir contenido a un portafolio</td>
+    <td>TA1</td>
+    <td>Post Project</td>
+    <td>Crear un page que permita subir el contenido de un projecto al portafolio de un remodelador</td>
+    <td rowspan="1">3</td>
+    <td rowspan="1">Ariana Vargas</td>
+    <td rowspan="1">Done</td>
+  </tr>
+    <!------------------------------------------------------------------------>
+  <tr>
+    <td rowspan="3">US-011</td>
+    <td rowspan="3">Autorización y seguridad de acceso al API</td>
+    <td>TA1</td>
+    <td>Post sign-up</td>
+    <td>Endpoint que registra un user</td>
+    <td rowspan="3">5</td>
+    <td rowspan="3">Alejandra Diaz, Daniel Valverde</td>
+    <td rowspan="3">Done</td>
+  </tr>
+  <tr>
+    <td>TA2</td>
+    <td>Post sign-up</td>
+    <td>Endpoint que logea a un user</td>
+  </tr>
+  <tr>
+    <td>TA3</td>
+    <td>Sign-up y Sign-in frontend</td>
+    <td>Vincular Backend con Frontend</td>
+  </tr>
+      <!------------------------------------------------------------------------>
+  <tr>
+    <td rowspan="3">US-022</td>
+    <td rowspan="3">Integración de Validators en Formularios de la App Web</td>
+    <td>TA1</td>
+    <td>Validacion de formularios</td>
+    <td>Validar campos requeridos en los formularios</td>
+    <td rowspan="3">3</td>
+    <td rowspan="3">Gonzalo Saldaña</td>
+    <td rowspan="3">Done</td>
+  </tr>
+  <tr>
+    <td>TA2</td>
+    <td>Enviar formulario correctamente</td>
+    <td>Validar que se envie un formulario correctamente</td>
+  </tr>
+  <tr>
+    <td>TA3</td>
+    <td>Diseño homogéneo</td>
+    <td>Validar atributos CSS y HTML</td>
+  </tr>
+</table>
+
+
+#### 5.2.4.3. Development Evidence for Sprint Review
+
+<table>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on (Date)</th>
+  </tr>
+  <tr>
+  <!-- rowspan="number of rows" -->
+    <td rowspan="10">https://github.com/sw53-metasoft/ReStyle-backend</td>
+    <td>release-v1.0</td>
+    <td>bde121e3033dccc7e1f828973b8e5e9d142a8a60</td>
+    <td> fixed GetAllBusinessesQuery</td>
+    <td>-</td>
+    <td>18/06/2024</td>  
+  </tr>
+  <tr>
+    <td>release-v1.0</td>
+    <td>fixed GetAllBusinessesQuery</td>
+    <td>4da772d739cd79caa9e48d866cb3ffdb196ffebf</td>
+    <td>-</td>
+    <td>18/06/2024</td>
+  </tr>
+    <tr>
+    <td>hotfix</td>
+    <td>added iam bounded context</td>
+    <td>5ae64079a9ea88e55f176698a13f899d9fe75198</td>
+    <td>-</td>
+    <td>22/06/2024</td>
+  </tr>
+  <tr>
+    <td>iam</td>
+    <td>Upadte iam configuration</td>
+    <td>888ea4c7d63b655a33ea19315c60fec59d3f6898</td>
+    <td>-</td>
+    <td>22/06/2024</td>
+  </tr>
+  <tr>
+    <td>iam</td>
+    <td>delete applicationReady event and fix execution issue</td>
+    <td>f29c0d2eb43dafd97d13e8fafee5ad1272eb1770</td>
+    <td>-</td>
+    <td>22/06/2024</td>
+  </tr>
+  <tr>
+    <td>hotfix</td>
+    <td>updated controllers</td>
+    <td>ab2c903360d7186acd06434de6d74d48c478e518</td>
+    <td>-</td>
+    <td>22/06/2024</td>
+  </tr>
+  <tr>
+    <td>hotfix</td>
+    <td>updated Role entity</td>
+    <td>5300d3d1051b9256f817cb0911240b2a8c33f710</td>
+    <td>-</td>
+    <td>22/06/2024</td>
+  </tr>
+  <tr>
+    <td>hotfix</td>
+    <td>updated ProjectQueryService</td>
+    <td>c8dbe2c223338c1a20ea26870bc0b40829553619</td>
+    <td>-</td>
+    <td>23/06/2024</td>
+  </tr>
+  <tr>
+    <td>hotfix</td>
+    <td>updated BusinessResource</td>
+    <td>3f6a880450028f69d6a8e825ad7106fb030baa6f</td>
+    <td>-</td>
+    <td>23/06/2024</td>
+  </tr>
+    <tr>
+    <td>hotfix</td>
+    <td>updated BusinessResource</td>
+    <td>393167f530c80b9c70c2419cd623b8ac2dc1c9cc</td>
+    <td>-</td>
+    <td>23/06/2024</td>
+  </tr>
+  <tr>
+  <!-- rowspan="number of rows" -->
+    <td rowspan="20">https://github.com/sw53-metasoft/ReStyle-Frontend.git</td>
+    <td>feature/validator</td>
+    <td>feat(feature/validators):updated side-bar support and projects</td>
+    <td>39fc79dc12cd0b34b9b90d93b73727ccc630dc74</td>
+    <td>-</td>
+    <td>19/0&2024</td>  
+  </tr>
+  <tr>
+    <td>feature/validator</td>
+    <td>feat(feature/validator):updated side bar, support and project</td>
+    <td>3e1d3158e6fc668e9add1df509295d6dab0f6410</td>
+    <td>-</td>
+    <td>19/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/validator</td>
+    <td>feat: added validators and snack-bard.</td>
+    <td>064ba96a2ba339da118f1104673aae34303e759b</td>
+    <td>-</td>
+    <td>21/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/validator</td>
+    <td>feat(feature/validator): updated shared services</td>
+    <td>3f6ea5b1f605cef6d0a70b53f4e1d2b83adc939a</td>
+    <td>-</td>
+    <td>22/06/2024</td>
+  </tr>
+  <tr>
+    <td>feature/validator</td>
+    <td>feat(feature/validator): updated portfolio support form</td>
+    <td>a9eabd5bcf0b03966132cc63d8058f0a85346274</td>
+    <td>-</td>
+    <td>22/06/2024</td>
+  </tr>
+  <tr>
+    <td>hotfix1.0</td>
+    <td>fix(hotfix1.0): fixed sign in component</td>
+    <td>f8a0f7841fe05e419ee10599cce9adf1c50d6f89</td>
+    <td>-</td>
+    <td>22/06/2024</td>
+  </tr>
+  <tr>
+    <td>hotfix1.0</td>
+    <td>fix(hotfix1.0): fixed sign up component</td>
+    <td>78ec37101aea418852c328f4e287f80f3475489f</td>
+    <td>-</td>
+    <td>22/06/2024</td>
+  </tr>
+  <tr>
+    <td>hotfix1.0</td>
+    <td>fix(hotfix1.0): fixed remodeler search component</td>
+    <td>38577757d801674b93f8b321a59962c81508ca3d</td>
+    <td>-</td>
+    <td>23/06/2024</td>
+  </tr>
+  <tr>
+    <td>hotfix1.0</td>
+    <td>fix(hotfix1.0): fixed sign-up component</td>
+    <td>086668b765c0a0c68b6d79c9d807f9844115da11</td>
+    <td>-</td>
+    <td>23/06/2024</td>
+  </tr>
+  <tr>
+    <td>hotfix1.0</td>
+    <td>fix(sign-up): update services, basePath and entities</td>
+    <td>aa73cc341938db561e8e93d27f8b9016b86873c9</td>
+    <td>-</td>
+    <td>23/06/2024</td>
+  </tr>
+   <tr>
+    <td>hotfix1.0</td>
+    <td>feat(sign-up): add profile info</td>
+    <td>efd1764359c11cb78523640cc46d6d3392e01603</td>
+    <td>-</td>
+    <td>23/06/2024</td>
+  </tr>
+</table>
+
+#### 5.2.4.4. Testing Suite Evidence for Sprint Review
+
+No se realizaron tests durante este Sprint.
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+* **Landing Page Execution**
+
+Despliegue: https://sw53-metasoft.github.io/ReStyle-Landing-Page/
+
+![landing-page](/assets/img/chapter-V/sprint-4/landing-page-deployment.png)
+![landing-page](/assets/img/chapter-V/sprint-4/landing-page1.png)
+
+* **Web Application Execution**
+
+Despliegue: 
+
+![web-app1.png](/assets/img/chapter-V/sprint-4/web-app1.png)
+![web-app2.png](/assets/img/chapter-V/sprint-4/web-app2.png)
+![web-app3.png](/assets/img/chapter-V/sprint-4/web-app3.png)
+
+
+
+* **Web Services Execution** 
+
+Despliegue: https://restyle-backend-service.zeabur.app/swagger-ui/index.html#/ 
+
+![backend1.png](/assets/img/chapter-V/sprint-4/backend1.png)
+
+![backend2.png](/assets/img/chapter-V/sprint-4/backend2.png)
+
+![backend3.png](/assets/img/chapter-V/sprint-4/backend3.png)
+
+![backend4.png](/assets/img/chapter-V/sprint-4/backend5.png)
+
+![backend5.png](/assets/img/chapter-V/sprint-4/backend5.png)
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Se continuo con los servicios previamente documentados durante el sprint 3, agregando los siguientes endpoints:
+
+| Endpoint           | Acción  | Verbo HTTP | Parámetros / Request Body | Imagen |
+|--------------------|---------|------------|---------------------------|--------|
+| `/api/v1/users` | Obtener | GET        | `null`                    |![get-users](/assets/img/chapter-V/sprint-4/get-users.png)|
+| `/api/v1/users/{userId}` | Obtener | GET        | `userId`         |![get-users-id](/assets/img/chapter-V/sprint-4/get-users-id.png)|
+| `/api/v1/roles` | Obtener | GET        | `null`                    |![get-roles](/assets/img/chapter-V/sprint-4/get-roles.png)|
+| `/api/v1/authentication/sign-up` | Crear | POST        | `{"username": "string","password": "string","roles": ["string"]}`|![post-sign-up](/assets/img/chapter-V/sprint-4/post-signup.png)|
+| `/api/v1/authentication/sign-in` | Crear | POST        | `{"username": "string","password": "string"}`|![post-sign-in](/assets/img/chapter-V/sprint-4/post-signin.png)|
+#### 5.2.4.7 Software Deployment Evidence for Sprint Review
+
+En esta sección se mostrará cómo se logró el despligue de los servicios creados para este sprint. Se describirá generalmente los pasos y plataformas utilizadas.
+
+- Despligue de la base de datos
+
+Previamente se habia logrado el despliege de la base de datos en la plataforma de Railway en el sprint 3.
+
+![Railwaydb](/assets/img/chapter-V/sprint-3/railway-0.png)
+
+- Despligue de la aplicación spring boot
+
+Para el despliegue del servicio backend utilizamos Zeabur, la cual es una plataforma que nos ayuda a implementar los servicios de forma muy sencilla.
+
+![Zeabur](/assets/img/chapter-V/sprint-4/zeabur-deployment.png)
+
+Enlace: https://restyle-backend-service.zeabur.app/swagger-ui/index.html#/
+
+- Despligue de la aplicación frontend
+
+
+Enlace: https://restyle-app-ca200.web.app/
+
+#### 5.2.4.8 Team Collaboration Insights during Sprint
+
+En esta entrega, nuestra meta principal fue la culminar los servicios tanto del frontend y backend. Se representan los commits realizados por cada miembro del equipo MetaSoft:
+
+A continuación se muestra la cantidad de clonaciones realizadas por cada integrante del equipo durante el desarrollo de los services.
+![insights-team](/assets/img/chapter-V/sprint-4/traffic.png)
+
+En esta captura se muestra el flujo de las ramas creadas, su creación. 
+![insights-team](/assets/img/chapter-V/sprint-4/network-4.png)
+
+
+
 ## 5.3. Validation Interviews
 En esta sección se realizarán entrevistas mediante las cuales buscamos recoger opiniones y recomendaciones. Esto asegura
 que la aplicación web no solo cumpla con los requisitos técnicos, sino también con las expectativas de nuestros segmentos
@@ -3031,9 +3450,9 @@ En esta sección presentamos el video about the product. Este consolida una orie
 
 <img src="/assets/img/chapter-V/sprint-3/about-the-product.png" alt="Foto de video about-the-product">
 
-Link de Microsoft Stream: https://shorturl.at/df2vW
+Link de Microsoft Stream: [https://shorturl.at/df2vW](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a928_upc_edu_pe/EYjH9-gGbAJAt3F9tu7VPvoBRZH3CrEa8T4jJBqFu0WaQw?e=eLBE3P&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-Link de Youtube: https://youtu.be/H3xHZWDBIy0
+Link de Youtube: [https://youtu.be/H3xHZWDBIy0](https://youtu.be/p18k0HVXzYI)
 
 ## Avance de Conclusiones, Bibliografía y Anexos.
 
@@ -3144,7 +3563,7 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                   Duración: min</td>
                 <td>Consolida el video promocional, resumiendo el modelo de negocio, las características y beneficios del producto.
                 </td>
-                <td>Link: Stream: https://shorturl.at/O4FJW Youtube: https://youtu.be/H3xHZWDBIy0 Captura: <br>
+                <td>Link: Stream: https://shorturl.at/0saZn Youtube:  https://youtu.be/EkHSKg4Oicc  Captura: <br>
                 <img src="/assets/img/chapter-V/sprint-3/about-the-product.png" width="350" alt=""/> </td>
             </tr>   
             <tr>
@@ -3180,6 +3599,19 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                 <td>Link: https://shorturl.at/wr8bA Captura: <br>
                   <img src="/assets/img/chapter-V/sprint-3/tb2-expo.png" width="350" alt=""/> </td>
             </tr>   
+<<<<<<< HEAD
+>>>>>>> origin/capitulo-V
+=======
+           <tr>
+                <td>Exposicion</td>
+                <td>Cantidad de videos: 1 <br>
+                  Nomenclatura: upc-pre-202401-si729-sw53-metasoft-expo-tf <br>
+                  Formato: .mp4 <br>
+                  Duración: min</td>
+                <td>Consolida las exposiciones del TF</td>
+                <td>Link: https://shorturl.at/uQzoe Captura: <br>
+                  <img src="/assets/img/chapter-V/sprint-4/tf-expo.png"width="350" alt=""/> </td>
+            </tr>  
 >>>>>>> origin/capitulo-V
         </tbody>
 </table>
