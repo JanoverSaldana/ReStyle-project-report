@@ -495,8 +495,8 @@ Estos gráficos ofrecen una representación visual de las clonaciones registrada
     <!-- ESTUDIANTE 3 TF-->
      <tr>   
       <td>
-        <b>Saldaña Vela Janover Gonzalo TF: </b><br>
-        Descripción
+      <b>Saldaña Vela Janover Gonzalo TF: </b><br>
+        Se mantuvo un orden de jerarquia y asignaciones de tareas para una mejor coordinación de los diferentes aspectos del desarrollo del proyecto, tan para la parte de FrontEnd y BackEnd.
       </td>   
     </tr>
     <!-- ESTUDIANTE 4 TF-->
@@ -640,8 +640,8 @@ Estos gráficos ofrecen una representación visual de las clonaciones registrada
     <!-- ESTUDIANTE 3 TF-->
      <tr>   
       <td>
-        <b>Saldaña Vela Janover Gonzalo TF: </b><br>
-        Descripción
+      <b>Saldaña Vela Janover Gonzalo TF: </b><br>
+        Se conclusión con la correción de estilos, y componentes que mejoren la experiencia de usuario del FrontEnd de la aplicación web, según especificación de la auditoria y recomendaciones de nuestros segmentos objetivos.
       </td>   
     </tr>
     <!-- ESTUDIANTE 4 TF-->
