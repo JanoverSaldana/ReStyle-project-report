@@ -3217,9 +3217,9 @@ En esta sección presentamos el video about the product. Este consolida una orie
 
 <img src="/assets/img/chapter-V/sprint-3/about-the-product.png" alt="Foto de video about-the-product">
 
-Link de Microsoft Stream: https://shorturl.at/df2vW
+Link de Microsoft Stream: [https://shorturl.at/df2vW](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a928_upc_edu_pe/EYjH9-gGbAJAt3F9tu7VPvoBRZH3CrEa8T4jJBqFu0WaQw?e=eLBE3P&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-Link de Youtube: https://youtu.be/H3xHZWDBIy0
+Link de Youtube: [https://youtu.be/H3xHZWDBIy0](https://youtu.be/p18k0HVXzYI)
 
 ## Avance de Conclusiones, Bibliografía y Anexos.
 
