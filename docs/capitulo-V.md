@@ -2711,6 +2711,35 @@ se establecieron fechas y tareas especificas para cada uno de los integrantes de
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
+
+* **Landing Page Execution**
+
+
+
+* **Web Application Execution**
+
+Despliegue: 
+
+![web-app1.png](/assets/img/chapter-V/sprint-4/web-app1.png)
+
+![web-app2.png](/assets/img/chapter-V/sprint-4/web-app2.png)
+
+
+
+* **Web Services Execution** 
+
+Despliegue: https://restyle-backend-service.zeabur.app/swagger-ui/index.html#/ 
+
+![backend1.png](/assets/img/chapter-V/sprint-4/backend1.png)
+
+![backend2.png](/assets/img/chapter-V/sprint-4/backend2.png)
+
+![backend3.png](/assets/img/chapter-V/sprint-4/backend3.png)
+
+![backend4.png](/assets/img/chapter-V/sprint-4/backend5.png)
+
+![backend5.png](/assets/img/chapter-V/sprint-4/backend5.png)
+
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
 
