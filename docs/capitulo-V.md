@@ -2720,6 +2720,25 @@ se establecieron fechas y tareas especificas para cada uno de los integrantes de
 
 #### 5.2.4.7 Software Deployment Evidence for Sprint Review
 
+En esta sección se mostrará cómo se logró el despligue de los servicios creados para este sprint. Se describirá generalmente los pasos y plataformas utilizadas.
+
+- Despligue de la base de datos
+
+Previamente se habia logrado el despliege de la base de datos en la plataforma de Railway en el sprint 3.
+
+![Railwaydb](/assets/img/chapter-V/sprint-3/railway-0.png)
+
+- Despligue de la aplicación spring boot
+
+Para el despliegue del servicio backend utilizamos Zeabur, la cual es una plataforma que nos ayuda a implementar los servicios de forma muy sencilla.
+
+![Zeabur](/assets/img/chapter-V/sprint-4/zeabur-deployment.png)
+
+Enlace: https://restyle-backend-service.zeabur.app/swagger-ui/index.html#/
+
+- Despligue de la aplicación frontend
+
+
 #### 5.2.4.8 Team Collaboration Insights during Sprint
 
 ## 5.3. Validation Interviews
@@ -3342,6 +3361,16 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                 <td>Link: https://shorturl.at/wr8bA Captura: <br>
                   <img src="/assets/img/chapter-V/sprint-3/tb2-expo.png" width="350" alt=""/> </td>
             </tr>   
+           <tr>
+                <td>Exposicion</td>
+                <td>Cantidad de videos: 1 <br>
+                  Nomenclatura: upc-pre-202401-si729-sw53-metasoft-expo-tf <br>
+                  Formato: .mp4 <br>
+                  Duración: min</td>
+                <td>Consolida las exposiciones del TF</td>
+                <td>Link:  Captura: <br>
+                  <img src="/assets/img/chapter-V/sprint-4/tf-expo.png" width="350" alt=""/> </td>
+            </tr>  
         </tbody>
 </table>
 
