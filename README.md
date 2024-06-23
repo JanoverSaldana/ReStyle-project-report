@@ -489,7 +489,7 @@ Estos gráficos ofrecen una representación visual de las clonaciones registrada
     <tr> 
       <td> 
         <b>Valverde Lopez, Josue Daniel TF:</b><br>
-        Descripción
+        Realice los despliegues del frontend y backend, pude implementar los bounded context de iam en el backend. Investigue sobre las tecnologias de Java y OpenApi.
       </td>   
     </tr>
     <!-- ESTUDIANTE 3 TF-->
@@ -634,7 +634,7 @@ Estos gráficos ofrecen una representación visual de las clonaciones registrada
     <tr> 
       <td> 
         <b>Valverde Lopez, Josue Daniel TF:</b><br>
-        Descripción
+        Desarrolle los bounded contexts planteados en el sprint 4, pude completar los requisitos para cerrar el ciclo de vida del proyecto. 
       </td>   
     </tr>
     <!-- ESTUDIANTE 3 TF-->
