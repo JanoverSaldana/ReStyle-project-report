@@ -2698,11 +2698,146 @@ se establecieron fechas y tareas especificas para cada uno de los integrantes de
   </tr>
   <tr>
   <!-- rowspan="number of rows" -->
-    <td rowspan="50"></td>
+    <td rowspan="10">https://github.com/sw53-metasoft/ReStyle-backend</td>
+    <td>release-v1.0</td>
+    <td>bde121e3033dccc7e1f828973b8e5e9d142a8a60</td>
+    <td> fixed GetAllBusinessesQuery</td>
+    <td>-</td>
+    <td>18/06/2024</td>  
+  </tr>
+  <tr>
+    <td>release-v1.0</td>
+    <td>fixed GetAllBusinessesQuery</td>
+    <td>4da772d739cd79caa9e48d866cb3ffdb196ffebf</td>
+    <td>-</td>
+    <td>18/06/2024</td>
+  </tr>
+    <tr>
+    <td>hotfix</td>
+    <td>added iam bounded context</td>
+    <td>5ae64079a9ea88e55f176698a13f899d9fe75198</td>
+    <td>-</td>
+    <td>22/06/2024</td>
+  </tr>
+  <tr>
+    <td>iam</td>
+    <td>Upadte iam configuration</td>
+    <td>888ea4c7d63b655a33ea19315c60fec59d3f6898</td>
+    <td>-</td>
+    <td>22/06/2024</td>
+  </tr>
+  <tr>
+    <td>iam</td>
+    <td>delete applicationReady event and fix execution issue</td>
+    <td>f29c0d2eb43dafd97d13e8fafee5ad1272eb1770</td>
+    <td>-</td>
+    <td>22/06/2024</td>
+  </tr>
+  <tr>
+    <td>hotfix</td>
+    <td>updated controllers</td>
+    <td>ab2c903360d7186acd06434de6d74d48c478e518</td>
+    <td>-</td>
+    <td>22/06/2024</td>
+  </tr>
+  <tr>
+    <td>hotfix</td>
+    <td>updated Role entity</td>
+    <td>5300d3d1051b9256f817cb0911240b2a8c33f710</td>
+    <td>-</td>
+    <td>22/06/2024</td>
+  </tr>
+  <tr>
+    <td>hotfix</td>
+    <td>updated ProjectQueryService</td>
+    <td>c8dbe2c223338c1a20ea26870bc0b40829553619</td>
+    <td>-</td>
+    <td>23/06/2024</td>
+  </tr>
+  <tr>
+    <td>hotfix</td>
+    <td>updated BusinessResource</td>
+    <td>3f6a880450028f69d6a8e825ad7106fb030baa6f</td>
+    <td>-</td>
+    <td>23/06/2024</td>
+  </tr>
+    <tr>
+    <td>hotfix</td>
+    <td>updated BusinessResource</td>
+    <td>393167f530c80b9c70c2419cd623b8ac2dc1c9cc</td>
+    <td>-</td>
+    <td>23/06/2024</td>
+  </tr>
+  <tr>
+  <!-- rowspan="number of rows" -->
+    <td rowspan="10">https://github.com/sw53-metasoft/ReStyle-Frontend.git</td>
     <td></td>
     <td></td>
     <td></td>
+    <td>-</td>
+    <td></td>  
+  </tr>
+  <tr>
     <td></td>
+    <td></td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>-</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>-</td>
     <td></td>
   </tr>
 </table>
@@ -2723,6 +2858,8 @@ Despliegue:
 ![web-app1.png](/assets/img/chapter-V/sprint-4/web-app1.png)
 
 ![web-app2.png](/assets/img/chapter-V/sprint-4/web-app2.png)
+
+![web-app3.png](/assets/img/chapter-V/sprint-4/web-app3.png)
 
 
 
