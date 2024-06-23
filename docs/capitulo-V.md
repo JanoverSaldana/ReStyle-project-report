@@ -2807,75 +2807,82 @@ se establecieron fechas y tareas especificas para cada uno de los integrantes de
   </tr>
   <tr>
   <!-- rowspan="number of rows" -->
-    <td rowspan="10">https://github.com/sw53-metasoft/ReStyle-Frontend.git</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="20">https://github.com/sw53-metasoft/ReStyle-Frontend.git</td>
+    <td>feature/validator</td>
+    <td>feat(feature/validators):updated side-bar support and projects</td>
+    <td>39fc79dc12cd0b34b9b90d93b73727ccc630dc74</td>
     <td>-</td>
-    <td></td>  
+    <td>19/0&2024</td>  
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>feature/validator</td>
+    <td>feat(feature/validator):updated side bar, support and project</td>
+    <td>3e1d3158e6fc668e9add1df509295d6dab0f6410</td>
     <td>-</td>
-    <td></td>
+    <td>19/06/2024</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>feature/validator</td>
+    <td>feat: added validators and snack-bard.</td>
+    <td>064ba96a2ba339da118f1104673aae34303e759b</td>
     <td>-</td>
-    <td></td>
+    <td>21/06/2024</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>feature/validator</td>
+    <td>feat(feature/validator): updated shared services</td>
+    <td>3f6ea5b1f605cef6d0a70b53f4e1d2b83adc939a</td>
     <td>-</td>
-    <td></td>
+    <td>22/06/2024</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>feature/validator</td>
+    <td>feat(feature/validator): updated portfolio support form</td>
+    <td>a9eabd5bcf0b03966132cc63d8058f0a85346274</td>
     <td>-</td>
-    <td></td>
+    <td>22/06/2024</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>hotfix1.0</td>
+    <td>fix(hotfix1.0): fixed sign in component</td>
+    <td>f8a0f7841fe05e419ee10599cce9adf1c50d6f89</td>
     <td>-</td>
-    <td></td>
+    <td>22/06/2024</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>hotfix1.0</td>
+    <td>fix(hotfix1.0): fixed sign up component</td>
+    <td>78ec37101aea418852c328f4e287f80f3475489f</td>
     <td>-</td>
-    <td></td>
+    <td>22/06/2024</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>hotfix1.0</td>
+    <td>fix(hotfix1.0): fixed remodeler search component</td>
+    <td>38577757d801674b93f8b321a59962c81508ca3d</td>
     <td>-</td>
-    <td></td>
+    <td>23/06/2024</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>hotfix1.0</td>
+    <td>fix(hotfix1.0): fixed sign-up component</td>
+    <td>086668b765c0a0c68b6d79c9d807f9844115da11</td>
     <td>-</td>
-    <td></td>
+    <td>23/06/2024</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>hotfix1.0</td>
+    <td>fix(sign-up): update services, basePath and entities</td>
+    <td>aa73cc341938db561e8e93d27f8b9016b86873c9</td>
     <td>-</td>
-    <td></td>
+    <td>23/06/2024</td>
+  </tr>
+   <tr>
+    <td>hotfix1.0</td>
+    <td>feat(sign-up): add profile info</td>
+    <td>efd1764359c11cb78523640cc46d6d3392e01603</td>
+    <td>-</td>
+    <td>23/06/2024</td>
   </tr>
 </table>
 
@@ -2947,11 +2954,20 @@ Enlace: https://restyle-backend-service.zeabur.app/swagger-ui/index.html#/
 
 - Despligue de la aplicación frontend
 
-![frontend]()
 
-Enlace:
+Enlace: https://restyle-app-ca200.web.app/
 
 #### 5.2.4.8 Team Collaboration Insights during Sprint
+
+En esta entrega, nuestra meta principal fue la culminar los servicios tanto del frontend y backend. Se representan los commits realizados por cada miembro del equipo MetaSoft:
+
+A continuación se muestra la cantidad de clonaciones realizadas por cada integrante del equipo durante el desarrollo de los services.
+![insights-team](/assets/img/chapter-V/sprint-4/traffic.png)
+
+En esta captura se muestra el flujo de las ramas creadas, su creación. 
+![insights-team](/assets/img/chapter-V/sprint-4/network-4.png)
+
+
 
 ## 5.3. Validation Interviews
 En esta sección se realizarán entrevistas mediante las cuales buscamos recoger opiniones y recomendaciones. Esto asegura
@@ -3537,7 +3553,7 @@ Terrel E. (2023). Cinco razones por las que los peruanos eligen remodelar su viv
                   Duración: min</td>
                 <td>Consolida el video promocional, resumiendo el modelo de negocio, las características y beneficios del producto.
                 </td>
-                <td>Link: Stream: https://shorturl.at/O4FJW Youtube: https://youtu.be/H3xHZWDBIy0 Captura: <br>
+                <td>Link: Stream: https://shorturl.at/0saZn Youtube:  https://youtu.be/EkHSKg4Oicc  Captura: <br>
                 <img src="/assets/img/chapter-V/sprint-3/about-the-product.png" width="350" alt=""/> </td>
             </tr>   
             <tr>
