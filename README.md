@@ -502,7 +502,7 @@ Estos gráficos ofrecen una representación visual de las clonaciones registrada
     <!-- ESTUDIANTE 4 TF-->
      <tr>   
       <td><b>Vargas Revollé, Ariana  TF: </b><br>
-        Descripción
+        Se distribuyeron las actividades pendientes para la conclusion del proyecto ReStyle y fue este concluido hasta el alcanze  deseado
       </td>     
     </tr>
     <!--SEGUNDO CRITERIO DE STUDENT OUTCOME-->
@@ -615,7 +615,7 @@ Estos gráficos ofrecen una representación visual de las clonaciones registrada
     <!-- ESTUDIANTE 4 TB2-->
      <tr>   
       <td><b>Vargas Revollé, Ariana  TB2: </b><br>
-       Descripción
+       Se desarolló parcialemente un bounded context necesario para el backend de la aplicacion en desarrollo
       </td>     
     </tr>
     <!--ENTREGA TF-->
@@ -647,7 +647,7 @@ Estos gráficos ofrecen una representación visual de las clonaciones registrada
     <!-- ESTUDIANTE 4 TF-->
      <tr>   
       <td><b>Vargas Revollé, Ariana  TF: </b><br>
-        Descripción
+        Se concluyo el desarrollo de el Front-End de la aplicacion con secciones personalizadas para cada tipo de usuario considerado segun el parametro de mejora continua, de igual menara se trabajo en el video About-the-product
       </td>     
     </tr>
 </table>
