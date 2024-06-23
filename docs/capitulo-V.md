@@ -2614,11 +2614,11 @@ se establecieron fechas y tareas especificas para cada uno de los integrantes de
     </tr>
     <tr>
       <td style="text-align:center">Sprint 4 Velocity</td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">Para este sprint se propuso completar un total de 14 puntos</td>
     </tr>
     <tr>
       <td style="text-align:center">Sum of Story Points</td>
-      <td style="text-align:center">  </td>
+      <td style="text-align:center"> 3 + 3 + 5 + 3 = 14</td>
     </tr>
   </tbody>
 </table>
@@ -2668,19 +2668,56 @@ se establecieron fechas y tareas especificas para cada uno de los integrantes de
   </tr>
   <!------------------------------------------------------------------------>
   <tr>
-    <td rowspan="2"></td>
-    <td rowspan="2"></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td rowspan="2"></td>
-    <td rowspan="2"></td>
-    <td rowspan="2"></td>
+    <td rowspan="1">US-006</td>
+    <td rowspan="1">Subir contenido a un portafolio</td>
+    <td>TA1</td>
+    <td>Post Project</td>
+    <td>Crear un page que permita subir el contenido de un projecto al portafolio de un remodelador</td>
+    <td rowspan="1">3</td>
+    <td rowspan="1">Ariana Vargas</td>
+    <td rowspan="1">Done</td>
+  </tr>
+    <!------------------------------------------------------------------------>
+  <tr>
+    <td rowspan="3">US-011</td>
+    <td rowspan="3">Autorización y seguridad de acceso al API</td>
+    <td>TA1</td>
+    <td>Post sign-up</td>
+    <td>Endpoint que registra un user</td>
+    <td rowspan="3">5</td>
+    <td rowspan="3">Alejandra Diaz, Daniel Valverde</td>
+    <td rowspan="3">Done</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>TA2</td>
+    <td>Post sign-up</td>
+    <td>Endpoint que logea a un user</td>
+  </tr>
+  <tr>
+    <td>TA3</td>
+    <td>Sign-up y Sign-in frontend</td>
+    <td>Vincular Backend con Frontend</td>
+  </tr>
+      <!------------------------------------------------------------------------>
+  <tr>
+    <td rowspan="3">US-022</td>
+    <td rowspan="3">Integración de Validators en Formularios de la App Web</td>
+    <td>TA1</td>
+    <td>Validacion de formularios</td>
+    <td>Validar campos requeridos en los formularios</td>
+    <td rowspan="3">3</td>
+    <td rowspan="3">Gonzalo Saldaña</td>
+    <td rowspan="3">Done</td>
+  </tr>
+  <tr>
+    <td>TA2</td>
+    <td>Enviar formulario correctamente</td>
+    <td>Validar que se envie un formulario correctamente</td>
+  </tr>
+  <tr>
+    <td>TA3</td>
+    <td>Diseño homogéneo</td>
+    <td>Validar atributos CSS y HTML</td>
   </tr>
 </table>
 
@@ -2844,21 +2881,23 @@ se establecieron fechas y tareas especificas para cada uno de los integrantes de
 
 #### 5.2.4.4. Testing Suite Evidence for Sprint Review
 
-#### 5.2.4.5. Execution Evidence for Sprint Review
+No se realizaron tests durante este Sprint.
 
+#### 5.2.4.5. Execution Evidence for Sprint Review
 
 * **Landing Page Execution**
 
+Despliegue: https://sw53-metasoft.github.io/ReStyle-Landing-Page/
 
+![landing-page](/assets/img/chapter-V/sprint-4/landing-page-deployment.png)
+![landing-page](/assets/img/chapter-V/sprint-4/landing-page1.png)
 
 * **Web Application Execution**
 
 Despliegue: 
 
 ![web-app1.png](/assets/img/chapter-V/sprint-4/web-app1.png)
-
 ![web-app2.png](/assets/img/chapter-V/sprint-4/web-app2.png)
-
 ![web-app3.png](/assets/img/chapter-V/sprint-4/web-app3.png)
 
 
@@ -2879,11 +2918,15 @@ Despliegue: https://restyle-backend-service.zeabur.app/swagger-ui/index.html#/
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
+Se continuo con los servicios previamente documentados durante el sprint 3, agregando los siguientes endpoints:
 
 | Endpoint           | Acción  | Verbo HTTP | Parámetros / Request Body | Imagen |
 |--------------------|---------|------------|---------------------------|--------|
-| `/api/v1/endpoint` | Obtener | GET        | `null`                    |        |
-
+| `/api/v1/users` | Obtener | GET        | `null`                    |![get-users](/assets/img/chapter-V/sprint-4/get-users.png)|
+| `/api/v1/users/{userId}` | Obtener | GET        | `userId`         |![get-users-id](/assets/img/chapter-V/sprint-4/get-users-id.png)|
+| `/api/v1/roles` | Obtener | GET        | `null`                    |![get-roles](/assets/img/chapter-V/sprint-4/get-roles.png)|
+| `/api/v1/authentication/sign-up` | Crear | POST        | `{"username": "string","password": "string","roles": ["string"]}`|![post-sign-up](/assets/img/chapter-V/sprint-4/post-signup.png)|
+| `/api/v1/authentication/sign-in` | Crear | POST        | `{"username": "string","password": "string"}`|![post-sign-in](/assets/img/chapter-V/sprint-4/post-signin.png)|
 #### 5.2.4.7 Software Deployment Evidence for Sprint Review
 
 En esta sección se mostrará cómo se logró el despligue de los servicios creados para este sprint. Se describirá generalmente los pasos y plataformas utilizadas.
@@ -2904,6 +2947,9 @@ Enlace: https://restyle-backend-service.zeabur.app/swagger-ui/index.html#/
 
 - Despligue de la aplicación frontend
 
+![frontend]()
+
+Enlace:
 
 #### 5.2.4.8 Team Collaboration Insights during Sprint
 
