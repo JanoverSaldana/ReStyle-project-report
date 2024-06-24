@@ -603,7 +603,31 @@
             <strong>Entonces</strong> su mensajé no será enviado
             </td>
             <td> EPIC-004</td>
-        </tr>   
+        </tr> 
+        <tr style="text-align:center">
+            <td>US-022</td>
+            <td>Integración de Validators en Formularios de la App Web</td>
+            <!-- Descripción -->
+            <td>
+            <strong>Como</strong> usuario de ReStyle, 
+            <strong>quiero</strong> que los formularios en la app web tengan validadores integrados
+            <strong>para</strong> pasegurar la integridad de los datos que ingreso.
+            </td>
+            <!-- Criterios de Aceptación -->
+            <td> 
+            <h5>Escenario 1: Validar campos requeridos</h5>
+            <strong>Dado</strong> que estoy en cualquier formulario de la web app
+            <strong>Cuando</strong> iintento enviar el formulario sin completar campos requeridos
+            <strong>Entonces</strong> debo ver un mensaje de error que indique los campos que necesitan ser completados
+            <strong>Y</strong> los datos del formulario se tienen que eliminar para un nuevo regisro
+            <h5>Escenario 2: Enviar formulario correctamente</h5>
+            <strong>Dado</strong> que estoy en cualquier formulario de la web app
+            <strong>Cuando</strong> ingreso datos válidos en todos los campos
+            <strong>Entonces</strong> debo poder enviar el formulario correctamente
+            <strong>Y</strong> el sistema muestra un mensaje de éxito
+            </td>
+            <td> EPIC-004</td>
+        </tr>    
         <tr style="text-align:center">
             <td> TS001 </td>
             <td> Obtener Usuarios </td>
