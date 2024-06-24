@@ -68,13 +68,13 @@
 | 3.7     | 04/06/2024 | Ariana Vargas                                                                  | Se agregó entrevista para la sección validation interviews                                                       |
 | 3.8     | 05/06/2024 | Gonzalo Saldaña                                                                | Se agregó entrevista para la sección validation interviews                                                       |
 | 3.9     | 07/06/2024 | Ariana Vargas, Gonzalo Saldaña                                                 | Se agregó documentación de la evaluación de heuristicas                                                          |
-| 3.10    | 08/06/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde | Finalización de la documentación del sprint 3  |
-| 4.0 | 15/062024 | Daniel valverde | Se inicio la documentación del Sprint 4 |
-| 4.1 | 17/06/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde | Se coordinó y redacto el contenido de las tablas de sprint planning y sprint backlog | 
-| 4.1 | 17/06/2024 | Janover Saldaña, Daniel valverde | Se docuementó las US y TS a realizar para el sprint 4 | 
-| 4.2 | 21/06/2024 | Alejandra Diaz | Se agregaron evidencias de la ejecución de lo acordado en el Sprint 4| 
-| 4.3 | 22/06/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde  | Se agregaron evidencias de la ejecución de la app web integrada con el BackEnd| 
-| 4.4 | 23/06/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde | DSe culminó la documentación del Sprint 4| 
+| 3.10    | 08/06/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde                | Finalización de la documentación del sprint 3                                                                    |
+| 4.0     | 15/062024  | Daniel valverde                                                                | Se inicio la documentación del Sprint 4                                                                          |
+| 4.1     | 17/06/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde                | Se coordinó y redacto el contenido de las tablas de sprint planning y sprint backlog                             | 
+| 4.1     | 17/06/2024 | Janover Saldaña, Daniel valverde                                               | Se docuementó las US y TS a realizar para el sprint 4                                                            | 
+| 4.2     | 21/06/2024 | Alejandra Diaz                                                                 | Se agregaron evidencias de la ejecución de lo acordado en el Sprint 4                                            | 
+| 4.3     | 22/06/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde                | Se agregaron evidencias de la ejecución de la app web integrada con el BackEnd                                   | 
+| 4.4     | 23/06/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde                | DSe culminó la documentación del Sprint 4                                                                        | 
 
 
 
@@ -87,7 +87,6 @@ Github Collaboration Insights proporciona un cronograma que muestra las principa
 - Alejanadra Villacrez (alehandraxx)
 - Daniel Valverde (daniel-vl7)
 - Janover Saldaña (JanoverSaldana)
-- Josten Huaman (JostenHuaman) - Retirado
 - Ariana Vargas (vargas3470)
 
 Se divieron las siguientes ramas para la colaboración en el proyecto:
@@ -113,38 +112,30 @@ líneas de código que se han modificado en cada uno de los commits.
 
 * #### Entregable TP
 
-En esta imagen, se ofrece una representación visual de las fechas en las que se llevaron a cabo cambios en el repositorio de nuestra segundo sprint, junto con la cantidad de modificaciones realizadas en cada uno de los commits. Esta representación gráfica es una herramienta valiosa para comprender la evolución temporal del proyecto y la intensidad del desarrollo a lo largo del tiempo.
+En esta imagen, se ofrece una representación visual de las fechas en las que se llevaron a cabo cambios en el repositorio
+de nuestra segundo sprint, junto con la cantidad de modificaciones realizadas en cada uno de los commits. Esta representación
+gráfica es una herramienta valiosa para comprender la evolución temporal del proyecto y la intensidad del desarrollo a lo largo del tiempo.
 
 ![Contributors entregable TP](./assets/img/readme/contributors-TP.png)
 
 ![Ramas de trabajo del equipo](./assets/img/readme/network-graph-TP.png)
 
-Estos gráficos ofrecen una representación visual de las clonaciones registradas en nuestro repositorio, junto con la fecha en que cada una de estas acciones se llevó a cabo. Además, se presenta información sobre la cantidad de visitantes que ha tenido el repositorio de nuestro equipo a lo largo del tiempo.
+Estos gráficos ofrecen una representación visual de las clonaciones registradas en nuestro repositorio, junto con la 
+fecha en que cada una de estas acciones se llevó a cabo. Además, se presenta información sobre la cantidad de visitantes
+que ha tenido el repositorio de nuestro equipo a lo largo del tiempo.
 
 ![trafico de clonación de repositorios y commits](./assets/img/readme/traffic-TP.png)
-
-* #### Entregable TB2
-
-En este gráfico, se muestra la cantidad de contribuciones realizadas por cada miembro del equipo en el repositorio durante 
-nuestro tercer sprint. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en 
-cada uno de los commits. Esta representación visual es una herramienta valiosa para comprender la intensidad del 
-desarrollo y la evolución temporal del proyecto.
-
 
 
 * #### Entregable TF
 
-En esta imagen, se ofrece una representación visual de las fechas en las que se llevaron a cabo cambios en el repositorio de nuestra segundo sprint, junto con la cantidad de modificaciones realizadas en cada uno de los commits. Esta representación gráfica es una herramienta valiosa para comprender la evolución temporal del proyecto y la intensidad del desarrollo a lo largo del tiempo.
+En esta imagen, se ofrece una representación visual de las fechas en las que se llevaron a cabo cambios en el repositorio
+de nuestra segundo sprint, junto con la cantidad de modificaciones realizadas en cada uno de los commits. Esta representación
+gráfica es una herramienta valiosa para comprender la evolución temporal del proyecto y la intensidad del desarrollo a lo largo del tiempo.
 
-# **imagen Contributors**
-
-# **imagen Network**
-
-Estos gráficos ofrecen una representación visual de las clonaciones registradas en nuestro repositorio, junto con la fecha en que cada una de estas acciones se llevó a cabo. Además, se presenta información sobre la cantidad de visitantes que ha tenido el repositorio de nuestro equipo a lo largo del tiempo.
-
-# **imagen traffic**
-
-
+<img src = "https://i.postimg.cc/9fPCwnbh/pulse-TF.png"></img>
+<img src = "https://i.postimg.cc/TwCxC5BN/commits-TF.png"></img>
+<img src = "https://i.postimg.cc/L8QNyRVT/network-TF.png"></img>
 
 ## Contenido 
 
@@ -174,195 +165,195 @@ Estos gráficos ofrecen una representación visual de las clonaciones registrada
 
 2. [Capítulo II: Requirements Elicitation & Analysis](/docs/capitulo-II.md)
    
-    2.1. [Competidores](/docs/capitulo-II.md#competidores)
+    2.1. [Competidores](https://github.com/sw53-metasoft/ReStyle-project-report/blob/main/docs/capitulo-II.md#21-competidores)
     
-    2.1.1. [Análisis competitivo](/docs/capitulo-II.md#analisis-competitivo)
+    2.1.1. [Análisis competitivo](https://github.com/sw53-metasoft/ReStyle-project-report/blob/main/docs/capitulo-II.md#211-an%C3%A1lisis-competitivo)
    
-    2.1.2. [Estrategias y tácticas frente a competidores](/docs/capitulo-II.md#estrategias-tacticas-competidores)
+    2.1.2. [Estrategias y tácticas frente a competidores](https://github.com/sw53-metasoft/ReStyle-project-report/blob/main/docs/capitulo-II.md#212-estrategias-y-t%C3%A1cticas-frente-a-competidores)
    
-    2.2. [Entrevistas](/docs/capitulo-II.md#entrevistas)
+    2.2. [Entrevistas](https://github.com/sw53-metasoft/ReStyle-project-report/blob/main/docs/capitulo-II.md#22-entrevistas)
    
-    2.2.1. [Diseño de entrevistas](/docs/capitulo-II.md#diseno-entrevistas)
+    2.2.1. [Diseño de entrevistas](https://github.com/sw53-metasoft/ReStyle-project-report/blob/main/docs/capitulo-II.md#221-diseño-de-entrevistas)
    
-    2.2.2. [Registro de entrevistas](/docs/capitulo-II.md#registro-entrevistas)
+    2.2.2. [Registro de entrevistas](https://github.com/sw53-metasoft/ReStyle-project-report/blob/main/docs/capitulo-II.md#222-registro-de-entrevistas)
    
-    2.2.3. [Análisis de entrevistas](/docs/capitulo-II.md#analisis-entrevistas)
+    2.2.3. [Análisis de entrevistas](https://github.com/sw53-metasoft/ReStyle-project-report/blob/main/docs/capitulo-II.md#223-analisis-de-entrevistas)
     
-    2.3. [Needfinding](/docs/capitulo-II.md#needfinding)
+    2.3. [Needfinding](https://github.com/sw53-metasoft/ReStyle-project-report/blob/main/docs/capitulo-II.md#23-needfinding)
     
-    2.3.1. [User Personas](/docs/capitulo-II.md#user-personas)
+    2.3.1. [User Personas](https://github.com/sw53-metasoft/ReStyle-project-report/blob/main/docs/capitulo-II.md#231-user-personas)
     
-    2.3.2. [User Task Matrix](/docs/capitulo-II.md#user-task-matrix)
+    2.3.2. [User Task Matrix](https://github.com/sw53-metasoft/ReStyle-project-report/blob/main/docs/capitulo-II.md#232-user-task-matrix)
     
-    2.3.3. [User Journey Mapping](/docs/capitulo-II.md#user-journey-mapping)
+    2.3.3. [User Journey Mapping](https://github.com/sw53-metasoft/ReStyle-project-report/blob/main/docs/capitulo-II.md#233-user-journey-mapping)
     
-    2.3.4. [Empathy Mapping](/docs/capitulo-II.md#empathy-mapping)
+    2.3.4. [Empathy Mapping](https://github.com/sw53-metasoft/ReStyle-project-report/blob/main/docs/capitulo-II.md#234-empathy-mapping)
     
-    2.3.5. [As-is Scenario Mapping](/docs/capitulo-II.md#as-is-scenario-mapping)
+    2.3.5. [As-is Scenario Mapping](https://github.com/sw53-metasoft/ReStyle-project-report/blob/main/docs/capitulo-II.md#235-as-is-scenario-mapping)
     
-    2.4. [Ubiquitous Language](/docs/capitulo-II.md#ubiquitous-language)
+    2.4. [Ubiquitous Language](https://github.com/sw53-metasoft/ReStyle-project-report/blob/main/docs/capitulo-II.md#24-ubiquitous-language)
 
 3. [Capítulo III: Requirements Specification](/docs/capitulo-III.md)
 
-    3.1. [To-Be Scenario Mapping](/docs/capitulo-III.md#to-be-scenario-mapping)
+    3.1. [To-Be Scenario Mapping](/docs/capitulo-III.md#31-to-be-scenario-mapping)
 
-    3.2. [User Stories](/docs/capitulo-III.md#user-stories)
+    3.2. [User Stories](https://github.com/sw53-metasoft/ReStyle-project-report/blob/main/docs/capitulo-III.md#32-user-stories)
    
-    3.3. [Impact Mapping](/docs/capitulo-III.md#impact-mapping)
+    3.3. [Impact Mapping](/docs/capitulo-III.md#33-impact-mapping)
    
-    3.4. [Product Backlog](/docs/capitulo-III.md#product-backlog)
+    3.4. [Product Backlog](/docs/capitulo-III.md#34-product-backlog)
 
 4. [Capítulo IV: Product Design](/docs/capitulo-IV.md)
 
-    4.1. [Style Guidelines](/docs/capitulo-IV.md#style-guidelines)
+    4.1. [Style Guidelines](/docs/capitulo-IV.md#41-style-guidelines-)
 
-    4.1.1. [General Style Guidelines](/docs/capitulo-IV.md#general-style-guidelines)
+    4.1.1. [General Style Guidelines](/docs/capitulo-IV.md#411-general-style-guidelines)
 
-    4.1.2. [Web Style Guidelines](/docs/capitulo-IV.md#web-style-guidelines)
+    4.1.2. [Web Style Guidelines](/docs/capitulo-IV.md#412-web-style-guidelines)
 
-    4.2. [Information Architecture](/docs/capitulo-IV.md#information-architecture)
+    4.2. [Information Architecture](/docs/capitulo-IV.md#42-information-architecture)
 
-    4.2.1. [Organization Systems](/docs/capitulo-IV.md#organization-systems)
+    4.2.1. [Organization Systems](/docs/capitulo-IV.md#421-organization-systems)
 
-    4.2.2. [Labeling Systems](/docs/capitulo-IV.md#labeling-systems)
+    4.2.2. [Labeling Systems](/docs/capitulo-IV.md#422-labeling-systems)
 
-    4.2.3. [SEO Tags and Meta Tags](/docs/capitulo-IV.md#seo-tags-meta-tags)
+    4.2.3. [SEO Tags and Meta Tags](/docs/capitulo-IV.md#423-seo-tags-and-meta-tags)
 
-    4.2.4. [Searching Systems](/docs/capitulo-IV.md#searching-systems)
+    4.2.4. [Searching Systems](/docs/capitulo-IV.md#424-searching-systems)
 
-    4.2.5. [Navigation Systems](/docs/capitulo-IV.md#navigation-systems)
+    4.2.5. [Navigation Systems](/docs/capitulo-IV.md#425-navigation-systems)
 
-    4.3. [Landing Page UI Design](/docs/capitulo-IV.md#landing-page-ui-design)
+    4.3. [Landing Page UI Design](/docs/capitulo-IV.md#43-landing-page-ui-design)
 
-    4.3.1. [Landing Page Wireframe](/docs/capitulo-IV.md#landing-page-wireframe)
+    4.3.1. [Landing Page Wireframe](/docs/capitulo-IV.md#431-landing-page-wireframe)
 
-    4.3.2. [Landing Page Mock-up](/docs/capitulo-IV.md#landing-page-mock-up)
+    4.3.2. [Landing Page Mock-up](/docs/capitulo-IV.md#432-landing-page-mock-up)
 
-    4.4. [Web Applications UX/UI Design](/docs/capitulo-IV.md#web-applications-ux-ui-design)
+    4.4. [Web Applications UX/UI Design](/docs/capitulo-IV.md#44-web-applications-uxui-design)
 
-    4.4.1. [Web Applications Wireframes](/docs/capitulo-IV.md#web-applications-wireframes)
+    4.4.1. [Web Applications Wireframes](/docs/capitulo-IV.md#441-web-applications-wireframes)
 
-    4.4.2. [Web Applications Wireflow Diagrams](/docs/capitulo-IV.md#web-applications-wireflow-diagrams)
+    4.4.2. [Web Applications Wireflow Diagrams](/docs/capitulo-IV.md#442-web-applications-wireflow-diagrams)
 
-    4.4.3. [Web Applications Mock-ups](/docs/capitulo-IV.md#web-applications-mock-ups)
+    4.4.3. [Web Applications Mock-ups](https://github.com/sw53-metasoft/ReStyle-project-report/blob/main/docs/capitulo-IV.md#443-web-applications-user-flow-diagrams)
 
-    4.4.4. [Web Applications User Flow Diagrams](/docs/capitulo-IV.md#web-applications-user-flow-diagrams)
+    4.4.4. [Web Applications User Flow Diagrams](/docs/capitulo-IV.md#444-web-applications-user-flow-diagrams)
 
-    4.5. [Web Applications Prototyping](/docs/capitulo-IV.md#web-applications-prototyping)
+    4.5. [Web Applications Prototyping](/docs/capitulo-IV.md#45-web-applications-prototyping)
 
-    4.6. [Domain-Driven Software Architecture](/docs/capitulo-IV.md#domain-driven-software-architecture)
+    4.6. [Domain-Driven Software Architecture](/docs/capitulo-IV.md#46-domain-driven-software-architecture)
 
-    4.6.1. [Software Architecture Context Diagram](/docs/capitulo-IV.md#software-architecture-context-diagram)
+    4.6.1. [Software Architecture Context Diagram](/docs/capitulo-IV.md#461-software-architecture-context-diagram)
 
-    4.6.2. [Software Architecture Container Diagrams](/docs/capitulo-IV.md#software-architecture-container-diagrams)
+    4.6.2. [Software Architecture Container Diagrams](/docs/capitulo-IV.md#462-software-architecture-container-diagrams)
 
-    4.6.3. [Software Architecture Components Diagrams](/docs/capitulo-IV.md#software-architecture-components-diagrams)
+    4.6.3. [Software Architecture Components Diagrams](/docs/capitulo-IV.md#463-software-architecture-components-diagrams)
 
-    4.7. [Software Object-Oriented Design](/docs/capitulo-IV.md#software-object-oriented-design)
+    4.7. [Software Object-Oriented Design](/docs/capitulo-IV.md#47-software-object-oriented-design)
 
-    4.7.1. [Class Diagrams](/docs/capitulo-IV.md#class-diagrams)
+    4.7.1. [Class Diagrams](/docs/capitulo-IV.md#471-class-diagrams)
 
-    4.7.2. [Class Dictionary](/docs/capitulo-IV.md#class-dictionary)
+    4.7.2. [Class Dictionary](/docs/capitulo-IV.md#472-class-dictionary)
 
-    4.8. [Database Design](/docs/capitulo-IV.md#database-design)
+    4.8. [Database Design](/docs/capitulo-IV.md#48-database-design)
 
-    4.8.1. [Database Diagram](/docs/capitulo-IV.md#database-diagram)
+    4.8.1. [Database Diagram](/docs/capitulo-IV.md#481-database-diagram)
 
 5. [Capítulo V: Product Implementation, Validation & Deployment](/docs/capitulo-V.md)
 
-    5.1. [Software Configuration Management](/docs/capitulo-V.md#software-configuration-management)
+    5.1. [Software Configuration Management](/docs/capitulo-V.md#51-software-configuration-management-)
 
-    5.1.1. [Software Development Environment Configuration](/docs/capitulo-V.md#software-development-environment-configuration)
+    5.1.1. [Software Development Environment Configuration](/docs/capitulo-V.md#511-software-development-environment-configuration)
 
-    5.1.2. [Source Code Management](/docs/capitulo-V.md#source-code-management)
+    5.1.2. [Source Code Management](/docs/capitulo-V.md#512-source-code-management)
 
-    5.1.3. [Source Code Style Guide & Conventions](/docs/capitulo-V.md#source-code-style-guide-conventions)
+    5.1.3. [Source Code Style Guide & Conventions](/docs/capitulo-V.md#513-source-code-style-guide-&-conventions)
 
-    5.1.4. [Software Deployment Configuration](/docs/capitulo-V.md#software-deployment-configuration)
+    5.1.4. [Software Deployment Configuration](/docs/capitulo-V.md#514-software-deployment-configuration)
 
-    5.2. [Landing Page, Services & Applications Implementation](/docs/capitulo-V.md#landing-page-services)
+    5.2. [Landing Page, Services & Applications Implementation](https://github.com/sw53-metasoft/ReStyle-project-report/blob/main/docs/capitulo-V.md#52-landing-page-services--applications-implementation)
 
-    5.2.1. [Sprint 1](/docs/capitulo-V.md#sprint-1)
+    5.2.1. [Sprint 1](/docs/capitulo-V.md#521-sprint-1)
 
-    5.2.1.1. [Sprint Planning 1](/docs/capitulo-V.md#sprint-planning-1)
+    5.2.1.1. [Sprint Planning 1](/docs/capitulo-V.md#5211-sprint-planning-1)
 
-    5.2.1.2. [Sprint Backlog 1](/docs/capitulo-V.md#sprint-backlog-1)
+    5.2.1.2. [Sprint Backlog 1](/docs/capitulo-V.md#5212-sprint-backlog-1)
 
-    5.2.1.3. [Development Evidence for Sprint Review](/docs/capitulo-V.md#development-evidence-sprint-1)
+    5.2.1.3. [Development Evidence for Sprint Review](/docs/capitulo-V.md#5213-development-evidence-for-sprint-review)
 
-    5.2.1.4. [Testing Suite Evidence for Sprint Review](/docs/capitulo-V.md#testing-suite-evidence-sprint-1)
+    5.2.1.4. [Testing Suite Evidence for Sprint Review](/docs/capitulo-V.md#5214-testing-suite-evidence-for-sprint-review)
 
-    5.2.1.5. [Execution Evidence for Sprint Review](/docs/capitulo-V.md#execution-evidence-sprint-1)
+    5.2.1.5. [Execution Evidence for Sprint Review](/docs/capitulo-V.md#5215-execution-evidence-for-sprint-review)
 
-    5.2.1.6. [Services Documentation Evidence for Sprint Review](/docs/capitulo-V.md#services-documentation-evidence-sprint-1)
+    5.2.1.6. [Services Documentation Evidence for Sprint Review](/docs/capitulo-V.md#5216-services-documentation-evidence-for-sprint-review)
 
-    5.2.1.7. [Software Deployment Evidence for Sprint Review](/docs/capitulo-V.md#software-deployment-evidence-sprint-1)
+    5.2.1.7. [Software Deployment Evidence for Sprint Review](/docs/capitulo-V.md#5217-software-deployment-evidence-for-sprint-review)
 
-    5.2.1.8. [Team Collaboration Insights during Sprint](/docs/capitulo-V.md#team-collaboration-insights-1)
+    5.2.1.8. [Team Collaboration Insights during Sprint](/docs/capitulo-V.md#5218-team-collaboration-insights-during-sprint)
 
-    5.2.2. [Sprint 2]()
+   5.2.2. [Sprint 2](/docs/capitulo-V.md#522-sprint-2)
 
-    5.2.2.1.[Sprint Planning 2.]()
+   5.2.2.1. [Sprint Planning 2.](/docs/capitulo-V.md#5221-sprint-planning-2)
 
-    5.2.2.2.[Sprint Backlog 2.]()
+   5.2.2.2. [Sprint Backlog 2.](/docs/capitulo-V.md#5222-sprint-backlog-2)
 
-    5.2.2.3.[Development Evidence for Sprint Review.]()
+   5.2.2.3. [Development Evidence for Sprint Review.](/docs/capitulo-V.md#5223-development-evidence-for-sprint-review)
 
-    5.2.2.4.[Testing Suite Evidence for Sprint Review.]()
+   5.2.2.4. [Testing Suite Evidence for Sprint Review.](/docs/capitulo-V.md#5224-testing-suite-evidence-for-sprint-review)
 
-    5.2.2.5.[Execution Evidence for Sprint Review.]()
+   5.2.2.5. [Execution Evidence for Sprint Review.](/docs/capitulo-V.md#5225-execution-evidence-for-sprint-review)
+
+   5.2.2.6. [Services Documentation Evidence for Sprint Review.](/docs/capitulo-V.md#5226-services-documentation-evidence-for-sprint-review)
+
+   5.2.2.7. [Software Deployment Evidence for Sprint Review.](/docs/capitulo-V.md#5227-software-deployment-evidence-for-sprint-review)
+
+   5.2.2.8. [Team Collaboration Insights during Sprint.](/docs/capitulo-V.md#5228-team-collaboration-insights-during-sprint)
+
+   5.2.3. [Sprint 3](/docs/capitulo-V.md#523-sprint-3)
+
+    5.2.3.1. [Sprint Planning 3.](/docs/capitulo-V.md#5231-sprint-planning-3)
     
-    5.2.2.6.[Services Documentation Evidence for Sprint Review.]()
+    5.2.3.2. [Sprint Backlog 3.](/docs/capitulo-V.md#5232-sprint-backlog-3)
+    
+    5.2.3.3. [Development Evidence for Sprint Review.](/docs/capitulo-V.md#5233-development-evidence-for-sprint-review-)
+    
+    5.2.3.4. [Testing Suite Evidence for Sprint Review.](/docs/capitulo-V.md#5234-testing-suite-evidence-for-sprint-review-)
+    
+    5.2.3.5. [Execution Evidence for Sprint Review.](/docs/capitulo-V.md#5235-execution-evidence-for-sprint-review-)
+    
+    5.2.3.6. [Services Documentation Evidence for Sprint Review.](/docs/capitulo-V.md#5236-services-documentation-evidence-for-sprint-review-)
+    
+    5.2.3.7. [Software Deployment Evidence for Sprint Review.](/docs/capitulo-V.md#5237-software-deployment-evidence-for-sprint-review)
+    
+    5.2.3.8. [Team Collaboration Insights during Sprint.](/docs/capitulo-V.md#5238-team-collaboration-insights-during-sprint)
 
-    5.2.2.7.[Software Deployment Evidence for Sprint Review.]()
+   5.2.4. [Sprint 4](/docs/capitulo-V.md#524-sprint-4)
 
-    5.2.2.8.[Team Collaboration Insights during Sprint.]()
+    5.2.4.1. [Sprint Planning 4.](/docs/capitulo-V.md#5241-sprint-planning-4)
+    
+    5.2.4.2. [Sprint Backlog 4.](/docs/capitulo-V.md#5242-sprint-backlog-4)
+    
+    5.2.4.3. [Development Evidence for Sprint Review.](/docs/capitulo-V.md#5243-development-evidence-for-sprint-review)
+    
+    5.2.4.4. [Testing Suite Evidence for Sprint Review.](/docs/capitulo-V.md#5244-testing-suite-evidence-for-sprint-review)
+    
+    5.2.4.5. [Execution Evidence for Sprint Review.](/docs/capitulo-V.md#5245-execution-evidence-for-sprint-review)
+    
+    5.2.4.6. [Services Documentation Evidence for Sprint Review.](/docs/capitulo-V.md#5246-services-documentation-evidence-for-sprint-review)
+    
+    5.2.4.7. [Software Deployment Evidence for Sprint Review.](/docs/capitulo-V.md#5247-software-deployment-evidence-for-sprint-review)
+    
+    5.2.4.8. [Team Collaboration Insights during Sprint.](/docs/capitulo-V.md#5248-team-collaboration-insights-during-sprint)
 
-    5.2.3. [Sprint 3]()
+    5.3. [Validation Interviews](/docs/capitulo-V.md#53-validation-interviews)
 
-    5.2.3.1.[Sprint Planning 3.]()
+    5.3.1. [Diseño de Entrevistas](/docs/capitulo-V.md#531-diseño-de-entrevistas)
 
-    5.2.3.2.[Sprint Backlog 3.]()
+    5.3.2. [Registro de Entrevistas](/docs/capitulo-V.md#532-registro-de-entrevistas)
 
-    5.2.3.3.[Development Evidence for Sprint Review.]()
+    5.3.3. [Evaluaciones según heurísticas](/docs/capitulo-V.md#533-evaluaciones-según-heurísticas)
 
-    5.2.3.4.[Testing Suite Evidence for Sprint Review.]()
-
-    5.2.3.5.[Execution Evidence for Sprint Review.]()
-
-    5.2.3.6.[Services Documentation Evidence for Sprint Review.]()
-
-    5.2.3.7.[Software Deployment Evidence for Sprint Review.]()
-
-    5.2.3.8.[Team Collaboration Insights during Sprint.]()
-
-    5.2.4. [Sprint 3]()
-
-    5.2.4.1.[Sprint Planning 4.]()
-
-    5.2.4.2.[Sprint Backlog 4.]()
-
-    5.2.4.3.[Development Evidence for Sprint Review.]()
-
-    5.2.4.4.[Testing Suite Evidence for Sprint Review.]()
-
-    5.2.4.5.[Execution Evidence for Sprint Review.]()
-
-    5.2.4.6.[Services Documentation Evidence for Sprint Review.]()
-
-    5.2.4.7.[Software Deployment Evidence for Sprint Review.]()
-
-    5.2.4.8.[Team Collaboration Insights during Sprint.]()
-
-    5.3. [Validation Interviews](/docs/capitulo-V.md#validation-interviews)
-
-    5.3.1. [Diseño de Entrevistas](/docs/capitulo-V.md#diseno-entrevistas)
-
-    5.3.2. [Registro de Entrevistas](/docs/capitulo-V.md#registro-entrevistas)
-
-    5.3.3. [Evaluaciones según heurísticas](/docs/capitulo-V.md#evaluaciones-heuristicas)
-
-    5.4. [Video About-the-Product](/docs/capitulo-V.md#video-about-the-product)
+    5.4. [Video About-the-Product](/docs/capitulo-V.md#54-video-about-the-product)
 
 6. [Conclusiones](/docs/capitulo-V.md#conclusiones)
 7. [Bibliografía](/docs/capitulo-V.md#bibliografía)
