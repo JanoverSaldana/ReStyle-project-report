@@ -58,11 +58,27 @@
 | 2.5     | 27/04/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde                | Se agregó la sección de Mobile Mockups, se comenzó la redacción del Sprint 2                                     |
 | 2.6     | 30/04/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde                | Continuación de la redacción del sprint 2                                                                        |
 | 2.7     | 02/05/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde                | Finalización sprint 2 del Capítulo 5                                                                             |
+| 3.0     | 13/05/2024 | Daniel Valverde                                                                | Se inició la documentación del sprint 3                                                                          |
+| 3.1     | 19/05/2024 | Daniel Valverde                                                                | Continuación de la redacción del sprint 3, agregando tablas para las secciones                                   |
+| 3.2     | 22/05/2024 | Alejandra Diaz                                                                 | Se agregó la sección diseño de entrevistas para las validation interviews                                        |
+| 3.3     | 22/05/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde                | Se continuó la redacción del sprint 3 (sprint planning y sprint backlog)                                         |
+| 3.4     | 27/05/2024 | Ariana Vargas, Alejandra Diaz                                                  | Se agregaron las evidencias de ejecución de la nueva versión de la aplicación web                                |
+| 3.5     | 30/05/2024 | Daniel Valverde, Alejandra Diaz                                                | Se agregó documentación de la evaluación de heuristicas                                                          |
+| 3.6     | 02/06/2024 | Daniel Valverde, Janover Saldaña                                               | Se actualizó la documentación del sprint 3                                                                       |
+| 3.7     | 04/06/2024 | Ariana Vargas                                                                  | Se agregó entrevista para la sección validation interviews                                                       |
+| 3.8     | 05/06/2024 | Gonzalo Saldaña                                                                | Se agregó entrevista para la sección validation interviews                                                       |
+| 3.9     | 07/06/2024 | Ariana Vargas, Gonzalo Saldaña                                                 | Se agregó documentación de la evaluación de heuristicas                                                          |
+| 3.10    | 08/06/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde | Finalización de la documentación del sprint 3  |
+| 4.0 | 15/062024 | Daniel valverde | Se inicio la documentación del Sprint 4 |
+| 4.1 | 17/06/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde | Se coordinó y redacto el contenido de las tablas de sprint planning y sprint backlog | 
+| 4.1 | 17/06/2024 | Janover Saldaña, Daniel valverde | Se docuementó las US y TS a realizar para el sprint 4 | 
+| 4.2 | 21/06/2024 | Alejandra Diaz | Se agregaron evidencias de la ejecución de lo acordado en el Sprint 4| 
+| 4.3 | 22/06/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde  | Se agregaron evidencias de la ejecución de la app web integrada con el BackEnd| 
+| 4.4 | 23/06/2024 | Alejandra Diaz, Gonzalo Saldaña, Ariana Vargas, Daniel Valverde | DSe culminó la documentación del Sprint 4| 
+
 
 
 ### Project Report Collaboration Insights
-
-* #### Entregable TB1
 
 URL del repositorio para el reporte del proyecto: https://github.com/sw53-metasoft/ReStyle-project-report
 
@@ -83,6 +99,13 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
 - capitulo-IV
 - capitulo-V
 - develop
+
+* #### Entregable TB1
+
+A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro 
+primer sprint. Estos gráficos ofrecen una representación visual de la cantidad de contribuciones realizadas por cada
+miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de 
+líneas de código que se han modificado en cada uno de los commits.
 
 <img src = "https://i.postimg.cc/rmsM1RJh/pulse-tb1-metasoft.png"></img>
 <img src = "https://i.postimg.cc/tTcy2Rv9/network-tb1-metasoft.png"></img>
@@ -90,37 +113,38 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
 
 * #### Entregable TP
 
-URL del repositorio para el reporte del proyecto: https://github.com/sw53-metasoft/ReStyle-project-report
-
-Github Collaboration Insights proporciona un cronograma que muestra las principales ramas y los procesos de fusión que han ocurrido. Todas las ramas se han generado siguiendo los principios de GitFlow, lo que garantiza una organización efectiva al utilizar un sistema de control de versiones.
-
-- Alejanadra Villacrez (alehandraxx)
-- Daniel Valverde (daniel-vl7)
-- Janover Saldaña (JanoverSaldana)
-- Josten Huaman (JostenHuaman) - Retirado
-- Ariana Vargas (vargas3470)
-
-Se divieron las siguientes ramas para la colaboración en el proyecto:
-
-- main
-- capitulo-I
-- capitulo-II
-- capitulo-III
-- capitulo-IV
-- capitulo-V
-- develop
-
-En la siguiente imagen se aprecia las ramas de documentación referente al trabajo realizado en el levantamiento de observaciones y desarrollo de las partes nuevas del entregable del TP en sus respectivas ramas.
-
-![Ramas de trabajo del equipo](./assets/img/readme/network-graph-TP.png)
-
 En esta imagen, se ofrece una representación visual de las fechas en las que se llevaron a cabo cambios en el repositorio de nuestra segundo sprint, junto con la cantidad de modificaciones realizadas en cada uno de los commits. Esta representación gráfica es una herramienta valiosa para comprender la evolución temporal del proyecto y la intensidad del desarrollo a lo largo del tiempo.
 
 ![Contributors entregable TP](./assets/img/readme/contributors-TP.png)
 
+![Ramas de trabajo del equipo](./assets/img/readme/network-graph-TP.png)
+
 Estos gráficos ofrecen una representación visual de las clonaciones registradas en nuestro repositorio, junto con la fecha en que cada una de estas acciones se llevó a cabo. Además, se presenta información sobre la cantidad de visitantes que ha tenido el repositorio de nuestro equipo a lo largo del tiempo.
 
 ![trafico de clonación de repositorios y commits](./assets/img/readme/traffic-TP.png)
+
+* #### Entregable TB2
+
+En este gráfico, se muestra la cantidad de contribuciones realizadas por cada miembro del equipo en el repositorio durante 
+nuestro tercer sprint. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en 
+cada uno de los commits. Esta representación visual es una herramienta valiosa para comprender la intensidad del 
+desarrollo y la evolución temporal del proyecto.
+
+
+
+* #### Entregable TF
+
+En esta imagen, se ofrece una representación visual de las fechas en las que se llevaron a cabo cambios en el repositorio de nuestra segundo sprint, junto con la cantidad de modificaciones realizadas en cada uno de los commits. Esta representación gráfica es una herramienta valiosa para comprender la evolución temporal del proyecto y la intensidad del desarrollo a lo largo del tiempo.
+
+# **imagen Contributors**
+
+# **imagen Network**
+
+Estos gráficos ofrecen una representación visual de las clonaciones registradas en nuestro repositorio, junto con la fecha en que cada una de estas acciones se llevó a cabo. Además, se presenta información sobre la cantidad de visitantes que ha tenido el repositorio de nuestro equipo a lo largo del tiempo.
+
+# **imagen traffic**
+
+
 
 ## Contenido 
 
@@ -294,6 +318,42 @@ Estos gráficos ofrecen una representación visual de las clonaciones registrada
 
     5.2.2.8.[Team Collaboration Insights during Sprint.]()
 
+    5.2.3. [Sprint 3]()
+
+    5.2.3.1.[Sprint Planning 3.]()
+
+    5.2.3.2.[Sprint Backlog 3.]()
+
+    5.2.3.3.[Development Evidence for Sprint Review.]()
+
+    5.2.3.4.[Testing Suite Evidence for Sprint Review.]()
+
+    5.2.3.5.[Execution Evidence for Sprint Review.]()
+
+    5.2.3.6.[Services Documentation Evidence for Sprint Review.]()
+
+    5.2.3.7.[Software Deployment Evidence for Sprint Review.]()
+
+    5.2.3.8.[Team Collaboration Insights during Sprint.]()
+
+    5.2.4. [Sprint 3]()
+
+    5.2.4.1.[Sprint Planning 4.]()
+
+    5.2.4.2.[Sprint Backlog 4.]()
+
+    5.2.4.3.[Development Evidence for Sprint Review.]()
+
+    5.2.4.4.[Testing Suite Evidence for Sprint Review.]()
+
+    5.2.4.5.[Execution Evidence for Sprint Review.]()
+
+    5.2.4.6.[Services Documentation Evidence for Sprint Review.]()
+
+    5.2.4.7.[Software Deployment Evidence for Sprint Review.]()
+
+    5.2.4.8.[Team Collaboration Insights during Sprint.]()
+
     5.3. [Validation Interviews](/docs/capitulo-V.md#validation-interviews)
 
     5.3.1. [Diseño de Entrevistas](/docs/capitulo-V.md#diseno-entrevistas)
@@ -319,10 +379,10 @@ Estos gráficos ofrecen una representación visual de las clonaciones registrada
       <th>conclusiones</th>
     </tr>
   </thead>
-  <tbogy>
+  <tbody>
     <tr>
      <!--PRIMER CRITERIO DE STUDENT OUTCOME-->
-      <td rowspan="9">
+      <td rowspan="17">
         Comunica oralmente sus ideas
         y/o resultados con objetividad a
         público de diferentes
@@ -386,22 +446,86 @@ Estos gráficos ofrecen una representación visual de las clonaciones registrada
         Se coordinaron reuniones con el equipo para mantenernos al tanto de los progresos continuos durante el sprint. Asimismo, creamos un video de presentación que resume lo logrado durante el segundo sprint.
       </td>   
     </tr>
-    <!-- ESTUDIANTE 3 TB1-->
+    <!-- ESTUDIANTE 3 Tp-->
      <tr>   
       <td>
         <b>Saldaña Vela Janover Gonzalo TP: </b><br>
         Se marcaron roles en la organización del equipo para poder tener una mejor flujo de trabajo al momento de realizar nuestras asignaciones, asi mismo, reportar las incidencias y la predisposicion del equipo para ayudar a resolverlos durante el desarrollo del sprint 2 nos ayudo mucho a aprender unos de otros y concretar con exito el sprint mencionado.
       </td>   
     </tr>
-    <!-- ESTUDIANTE 4 TB1-->
+    <!-- ESTUDIANTE 4 Tp-->
      <tr>   
       <td><b>Vargas Revollé, Ariana  TP: </b><br>
-        Se hizo seguimiento al proyecto realizado mediate reuniones realizadas durante el avanze.
+        Se hizo seguimiento al proyecto realizado mediate reuniones realizadas durante el avance.
       </td>     
     </tr>
-    <!--SEGUN CRITERIO DE STUDENT OUTCOME-->
+     <!--ENTREGA TB2-->
+    <!-- ESTUDIANTE 1 TB2 --> 
+    <tr> 
+      <td> 
+        <b>Díaz Villacrez, María Alejandra TB2:</b><br>
+         Realice entrevistas de validacion para los segmentos objetivos de nuestra solucion. Realice el despliegue de la base de datos MySQL.
+      </td> 
+      <td rowspan="4">
+        <b>CONCLUSIÓN DEL ENTRGABLE TB2</b><br>
+        Se completo el alcance del Sprint 3 para la entrega, se lograron identificar los bounded contexts para luego elaborar el desarrollo de las technical stories.
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 2 TB2 --> 
+    <tr> 
+      <td> 
+        <b>Valverde Lopez, Josue Daniel TB2:</b><br>
+        Realicé entrevistas de validación con los segmentos objetivos para obtener retroalimentación y priorizar los requisitos según las indicaciones de los clientes. 
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 3 TB2-->
+     <tr>   
+      <td>
+        <b>Saldaña Vela Janover Gonzalo TB2: </b><br>
+        Realicé entrevistas de validación para analizar el proceso en el que se encuentra nuestro software e intervenir en caso nuestros segmentos objetivos encuentren demasiados inconvenientes con respecto a su uso.
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 4 TB2-->
+     <tr>   
+      <td><b>Vargas Revollé, Ariana  TB2: </b><br>
+        Se realizaron entrevistas de validacion para poder evaluar la respuesta del segmento al producto y posibles faltas en heuristicas que el entrevistado pueda percibir
+      </td>     
+    </tr>
+    <!--ENTREGA TF-->
+    <!-- ESTUDIANTE 1 TF --> 
+    <tr> 
+      <td> 
+        <b>Díaz Villacrez, María Alejandra TF:</b><br>
+         Realice validaciones del frontend y backend de la aplicacion, pude desplegar ambas exitosamente y completar los servicios de nuestro proyecto.
+      </td> 
+      <td rowspan="4">
+        <b>CONCLUSIÓN DEL ENTRGABLE TF</b><br>
+       Gracias a lo desarrollado durante este ultimo sprint, como grupo fuimos capaces de solucionar los problemas que aparecieron durante el control de versiones de nuestro codigo y la comunicacion fue clara para abordar cualquier malentendido durante el ciclo de vida del proyecto.
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 2 TF --> 
+    <tr> 
+      <td> 
+        <b>Valverde Lopez, Josue Daniel TF:</b><br>
+        Realice los despliegues del frontend y backend, pude implementar los bounded context de iam en el backend. Investigue sobre las tecnologias de Java y OpenApi.
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 3 TF-->
+     <tr>   
+      <td>
+      <b>Saldaña Vela Janover Gonzalo TF: </b><br>
+        Se mantuvo un orden de jerarquia y asignaciones de tareas para una mejor coordinación de los diferentes aspectos del desarrollo del proyecto, tan para la parte de FrontEnd y BackEnd.
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 4 TF-->
+     <tr>   
+      <td><b>Vargas Revollé, Ariana  TF: </b><br>
+        Se distribuyeron las actividades pendientes para la conclusion del proyecto ReStyle y fue este concluido hasta el alcanze  deseado
+      </td>     
+    </tr>
+    <!--SEGUNDO CRITERIO DE STUDENT OUTCOME-->
     <tr>
-      <td rowspan="9">
+      <td rowspan="17">
         Comunica en forma escrita ideas
         y/o resultados con objetividad a
         público de diferentes
@@ -467,17 +591,81 @@ Estos gráficos ofrecen una representación visual de las clonaciones registrada
         Desarrollé vistas para la sección de contratistas de la aplicación web. Además, documenté el sprint backlog 2, el cual fue agregado en trello para  observar el progreso de elaboración de las funcionalidades del proyecto
       </td>   
     </tr>
-    <!-- ESTUDIANTE 3 TB1-->
+    <!-- ESTUDIANTE 3 tp-->
      <tr>   
       <td>
         <b>Saldaña Vela Janover Gonzalo TP: </b><br>
         Apoyé en la correción de la redacción de technicals stories, desarrollo vistas para ambos segmentos objetivos identificados por el equipo y documenté los mismos para compartirlo con mis compañeros de equipo.
       </td>   
     </tr>
-    <!-- ESTUDIANTE 4 TB1-->
+    <!-- ESTUDIANTE 4 tp-->
      <tr>   
       <td><b>Vargas Revollé, Ariana  TP: </b><br>
         Se levantaron observaciones hechas en la primera entrega y se programaron las vistas necesarias para el sprint 2
+      </td>     
+    </tr>
+     <!--ENTREGA TB2-->
+    <!-- ESTUDIANTE 1 TB2 --> 
+    <tr> 
+      <td> 
+        <b>Díaz Villacrez, María Alejandra TB2:</b><br>
+         Desarrollo y correccion de technical stories de acuerdo a nuestros bounded context y Video About the product.
+      </td> 
+      <td rowspan="4">
+        <b>CONCLUSIÓN DEL ENTRGABLE TB2</b><br>
+        Se completo el desarrollo del backend de nuestra aplicacion, ademas de un despliegue correcto de la base de datos en la nube.
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 2 TB2 --> 
+    <tr> 
+      <td> 
+        <b>Valverde Lopez, Josue Daniel TB2:</b><br>
+         Gestioné el sprint backlog del sprint 3 y organicé el sprint en Jira para la documentación 
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 3 TB2-->
+     <tr>   
+      <td>
+        <b>Saldaña Vela Janover Gonzalo TB2: </b><br>
+        Durante el desarrollo del TB2 colaboré en la docuemntación de de algunos items del capitulo V y el video de about the team.
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 4 TB2-->
+     <tr>   
+      <td><b>Vargas Revollé, Ariana  TB2: </b><br>
+       Se desarolló parcialemente un bounded context necesario para el backend de la aplicacion en desarrollo
+      </td>     
+    </tr>
+    <!--ENTREGA TF-->
+    <!-- ESTUDIANTE 1 TF --> 
+    <tr> 
+      <td> 
+        <b>Díaz Villacrez, María Alejandra TF:</b><br>
+         Durante el desarrollo del trabajo final, colabore en la continuacion de mejoras del backend y frontend, pudiendo juntar ambos para el despliegue de la aplicacion.
+      </td> 
+      <td rowspan="4">
+        <b>CONCLUSIÓN DEL ENTRGABLE TF</b><br>
+       Gracias a lo desarrollado durante este ultimo sprint, pudimos como grupo tener un mejor entendimiento de ambas capas de front y back end de las aplicaciones open source.
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 2 TF --> 
+    <tr> 
+      <td> 
+        <b>Valverde Lopez, Josue Daniel TF:</b><br>
+        Desarrolle los bounded contexts planteados en el sprint 4, pude completar los requisitos para cerrar el ciclo de vida del proyecto. 
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 3 TF-->
+     <tr>   
+      <td>
+      <b>Saldaña Vela Janover Gonzalo TF: </b><br>
+        Se conclusión con la correción de estilos, y componentes que mejoren la experiencia de usuario del FrontEnd de la aplicación web, según especificación de la auditoria y recomendaciones de nuestros segmentos objetivos.
+      </td>   
+    </tr>
+    <!-- ESTUDIANTE 4 TF-->
+     <tr>   
+      <td><b>Vargas Revollé, Ariana  TF: </b><br>
+        Se concluyo el desarrollo de el Front-End de la aplicacion con secciones personalizadas para cada tipo de usuario considerado segun el parametro de mejora continua, de igual menara se trabajo en el video About-the-product
       </td>     
     </tr>
 </table>

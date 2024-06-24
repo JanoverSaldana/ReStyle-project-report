@@ -606,21 +606,25 @@
         </tr>   
         <tr style="text-align:center">
             <td> TS001 </td>
-            <td> Obtener Portafolios </td>
+            <td> Obtener Usuarios </td>
             <td> 
             <strong> Como </strong> desarrollador backend en reStyle,
-            <strong> quiero </strong> o obtener la información del portafolio de los remodeladores a través de una API <strong> para </strong> permitir al equipo de frontend utilizar los datos del portafolio en la interfaz de usuario. </td>
+            <strong> quiero </strong> obtener la información de los usuarios remodeladores y contratistas a través de una API <strong> para </strong> permitir al equipo de frontend utilizar los datos del usuario en la interfaz. </td>
             <td> 
-            <h5>Escenario 01: Obtener Portafolios Exitosamente</h5>
-            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Portfolio,
-            <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del portafolio de los usuarios, <strong> Entonces </strong>  el servidor responde con un código de estado 200 OK <strong> Y </strong> recibo la información de los portafolios en un response de formato JSON que contiene al menos un portafolio con los siguientes campos: <br> 
-            ID: {ID del portafolio}<br>
-            - Nombre: {Nombre del remodelador}<br>
-            - Descripción: {Descripción del portafolio}<br>
-            - Proyectos: [{Lista de proyectos del portafolio}]<br>
-            <h5>Escenario 02: Obtener Portafolios con Parámetro Erróneo</h5>            
-            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Portfolios,
-            <strong> Cuando </strong>envío una solicitud GET para la obtención de datos del portafolio de los usuarios con un parámetro erróneo o inexistente,
+            <h5>Escenario 01: Obtener Usuarios Exitosamente</h5>
+            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Usuarios,
+            <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del usuario, <strong> Entonces </strong>  el servidor responde con un código de estado 200 OK <strong> Y </strong> recibo la información de los usuarios en un response de formato JSON que contiene al menos un usuario con los siguientes campos: <br> 
+            - Id: {ID del usuario}<br>
+            - Email: {Email del usuario}<br>
+            - Password: {Contraseña del usuario}<br>
+            - Type: {Segmento objetivo del usuario}<br>
+            - First name: {Nombre del usuario}<br>
+            - Paternal Surname: {Apellido paterno del usuario}<br>
+            - Maternal Surname: {Apellido materno del usuario}<br>
+            - Image: {Foto del usuario}<br>
+            <h5>Escenario 02: Obtener Usuarios con Parámetro Erróneo</h5>            
+            <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Usuarios,
+            <strong> Cuando </strong>envío una solicitud GET para la obtención de datos del usuario con un parámetro erróneo o inexistente,
             <strong> Entonces </strong> 
             el servidor responde con un código de estado 400 Bad Request <strong> Y </strong> recibo un mensaje de error en el response indicando que el parámetro es incorrecto o no existe.
             </td>
@@ -628,25 +632,33 @@
         </tr>
         <tr style="text-align:center">
             <td> TS002 </td>
-            <td> Obtener Portafolio por Usuario </td>
+            <td> Obtener Remodeladores</td>
             <td> 
                 <strong> Como </strong> desarrollador backend en reStyle,
-                <strong> quiero </strong> obtener la información del portafolio por usuario remodelador a través de una API
-                <strong> para </strong> permitir al equipo de frontend utilizar los datos del portafolio en la interfaz de usuario.
+                <strong> quiero </strong> obtener la información de los remodeladores a través de una API
+                <strong> para </strong> permitir al equipo de frontend utilizar los datos del remodelador en la interfaz de usuario.
             </td>
             <td> 
-                <h5> Escenario 01:  Obtener Portafolio Exitosamente por ID </h5>
-                <strong> Dado </strong> qque tengo autorización en el uso de la API y al endpoint de Portfolio by user,
-                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del portafolio de un usuario por su ID,
+                <h5> Escenario 01:  Obtener Remodeladores </h5>
+                <strong> Dado </strong> qque tengo autorización en el uso de la API y al endpoint de Remodeladores,
+                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del remodelador,
                 <strong> Entonces </strong>  el servidor responde con un código de estado 200 OK
-                <strong>Y</strong> recibo la información del portafolio del usuario en un response de formato JSON que contiene los siguientes campos:<br>
-                - ID: {ID del portafolio}<br>
-                - Nombre: {Nombre del remodelador}<br>
-                - Descripción: {Descripción del portafolio}<br>
-                - Proyectos: [{Lista de proyectos del portafolio}]<br>
-                <h5> Escenario 02: Obtener Portafolio con Parámetro de ID Erróneo </h5>            
-                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Portfolio by user,
-                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del portafolio de un usuario con un parámetro de ID erróneo o inexistente,
+                <strong>Y</strong> recibo la información del remodelador en un response de formato JSON que contiene los siguientes campos:<br>
+                - ID: {ID del remodelador}<br>
+                - User Id: {Id de usuario del remodelador}<br>
+                - Phone: {Numero de telefono del remodelador}<br>
+                - Description: {Descripción del remodelador}<br>
+                - Subscription: {Subscripción del remodelador}<br>
+                - Business Id: {Id de la empresa del remodelador}<br>
+                <h5> Escenario 02: Obtener Remodeladores con Parámetro de ID</h5>            
+                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Remodeladores by ID,
+                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del remodelador con un parámetro de ID correcto,
+                <strong> Entonces </strong> 
+                el servidor responde con un código de estado 200 OK
+                <strong> Y </strong> recibo la información del remodelador correspondiente en un response de formato JSON.
+                <h5> Escenario 03: Obtener Remodeladores con Parámetro de ID Erróneo o inexistente</h5>            
+                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Remodeladores by ID,
+                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del remodelador con un parámetro de ID erróneo o inexistente,
                 <strong> Entonces </strong> 
                 el servidor responde con un código de estado 400 Bad Request
                 <strong> Y </strong> recibo un mensaje de error en el response indicando que el parámetro de ID es incorrecto o no existe.
@@ -655,79 +667,100 @@
         </tr>
         <tr style="text-align:center">
             <td> TS003 </td>
-            <td>  Obtener Datos del Proyecto Actual por Usuario </td>
+            <td>  Obtener Contratistas </td>
             <td> 
                 <strong> Como </strong> desarrollador backend en reStyle,
-                <strong> quiero </strong> obtener los datos del proyecto actual de un remodelador a través de una API
-                <strong> para </strong> permitir al equipo de frontend utilizar los datos del proyecto y mostrarlo a los contratistas.  
+                <strong> quiero </strong> obtener los datos de los contratistas a través de una API
+                <strong> para </strong> permitir al equipo de frontend utilizar los datos del contratista y mostrarlo a los usuarios  
             </td>
             <td> 
-                <h5> Escenario 01: Obtener Datos del Proyecto Exitosamente por ID </h5>
-                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Project by user,
-                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del proyecto de un usuario por su ID,
-                <strong> Entonces </strong>  el servidor responde con un código de estado 200 OK <strong> Y </strong> recibo la información del proyecto actual del usuario en un response de formato JSON que contiene los siguientes campos:<br>
-                - ID: {ID del proyecto}<br>
-                - Nombre: {Nombre del proyecto}<br>
-                - Descripción: {Descripción del proyecto}<br>
-                - Fecha de inicio: {Fecha de inicio del proyecto}<br>
-                - Fecha de finalización: {Fecha de finalización del proyecto}<br>
-                <h5> Escenario 02: Obtener Datos del Proyecto con Parámetro de ID Erróneo</h5>            
-                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Project by user,
-                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del proyecto de un usuario con un parámetro de ID erróneo o inexistente,
+                <h5> Escenario 02: Obtener Datos de los contratistas</h5>
+                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Contratistas,
+                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del contratista,
+                <strong> Entonces </strong>  el servidor responde con un código de estado 200 OK <strong> Y </strong> recibo la información de los Contratistas actuales en un response de formato JSON que contiene los siguientes campos:<br>
+                - ID: {ID del contratista}<br>
+                - User Id: {Id de usuario del contratista}<br>
+                - Phone: {Numero de telefono del contratista}<br>
+                - Description: {Descripción del contratista}<br>
+                <h5> Escenario 02: Obtener Datos del contratista Exitosamente por ID </h5>
+                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Contratistas by ID,
+                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del contratista por su ID,
+                <strong> Entonces </strong>  el servidor responde con un código de estado 200 OK <strong> Y </strong> recibo la información del contratista actual en un response de formato JSON.<br>
+                <h5> Escenario 03: Obtener Datos del contratista con Parámetro de ID Erróneo</h5>            
+                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Contratistas by ID,
+                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del contratista con un parámetro de ID erróneo o inexistente,
+                <strong> Entonces </strong> el servidor responde con un código de estado 400 Bad Request
+                <strong> Y </strong> recibo un mensaje de error en el response indicando que el parámetro de ID es incorrecto o no existe.
+            </td>
+            <td> </td>
+        </tr>
+          <tr style="text-align:center">
+            <td> TS004 </td>
+            <td>  Obtener Empresas </td>
+            <td> 
+                <strong> Como </strong> desarrollador backend en reStyle,
+                <strong> quiero </strong> obtener los datos de las Empresas a través de una API
+                <strong> para </strong> permitir al equipo de frontend utilizar los datos de la empresa y mostrarlo a los usuarios  
+            </td>
+            <td> 
+                <h5> Escenario 02: Obtener Datos de las Empresas</h5>
+                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Empresas,
+                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos de la empresa,
+                <strong> Entonces </strong>  el servidor responde con un código de estado 200 OK <strong> Y </strong> recibo la información de las Empresas actuales en un response de formato JSON que contiene los siguientes campos:<br>
+                - ID: {ID de la empresa}<br>
+                - Remodeler Id: {Id de remodeler de la empresa}<br>
+                - Expertise: {Expertise de la empresa}<br>
+                - Address: {Direccion de la empresa}<br>
+                - City: {Ciudad donde se ubica la empresa}<br>
+                - Name: {Nombre de la empresa}<br>
+                - Image: {Foto de la empresa}<br>
+                - Description: {Descripción de la empresa}<br>
+                <h5> Escenario 02: Obtener Datos de la empresa Exitosamente por ID </h5>
+                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Empresas by ID,
+                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos de la empresa por su ID,
+                <strong> Entonces </strong>  el servidor responde con un código de estado 200 OK <strong> Y </strong> recibo la información de la empresa actual en un response de formato JSON.<br>
+                <h5> Escenario 03: Obtener Datos de la empresa con Parámetro de ID Erróneo</h5>            
+                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Empresas by ID,
+                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos de la empresa con un parámetro de ID erróneo o inexistente,
                 <strong> Entonces </strong> el servidor responde con un código de estado 400 Bad Request
                 <strong> Y </strong> recibo un mensaje de error en el response indicando que el parámetro de ID es incorrecto o no existe.
             </td>
             <td> </td>
         </tr>
         <tr style="text-align:center">
-            <td> TS004 </td>
-            <td>  Crear Publicaciones de Oportunidad Laboral </td>
-            <td> 
-                <strong> Como </strong> desarrollador backend en reStyle,
-                <strong> quiero </strong> ppermitir a los contratistas crear publicaciones de oportunidad laboral
-                <strong> para </strong> registrarlas en la base de datos.
-            </td>
-            <td> 
-                <h5>Escenario 01: Crear Publicación Exitosamente</h5>
-                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Publications,
-                <strong> Cuando </strong> envío una solicitud con datos validados para el registro de una nueva publicación,
-                registro de una nueva publicación. <strong> Entonces </strong> el servidor responde con un código de estado 201 Created
-                <strong> Y </strong> la información de la publicación se almacena con éxito en la base de datos de la aplicación.
-                <h5>Escenario 02:  Crear Publicación con Datos No Validados</h5>            
-                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Publications,
-                <strong> Cuando </strong> envío una solicitud sin datos validados para el registro de una nueva publicación, 
-                <strong> Entonces </strong> rel servidor responde con un código de estado 400 Bad Request
-                <strong> Y </strong> recibo un mensaje de error en la solicitud indicando que los datos no son válidos
-                <strong> Y </strong> la solicitud es rechazada, sin almacenar la información en la base de datos.
-            </td>
-            <td> </td>
-        </tr>
-        <tr style="text-align:center">
             <td> TS005 </td>
-            <td> Crear Reseñas sobre los Remodeladores </td>
+            <td>  Obtener Proyectos </td>
             <td> 
                 <strong> Como </strong> desarrollador backend en reStyle,
-                <strong> quiero </strong> permitir a los contratistas crear reseñas sobre los remodeladores a través de una API
-                <strong> para </strong> permitir a los contratistas compartir su opinión del trabajador contratado.
+                <strong> quiero </strong> obtener los datos de los Proyectos a través de una API
+                <strong> para </strong> permitir al equipo de frontend utilizar los datos del proyecto y mostrarlo a los usuarios  
             </td>
             <td> 
-                <h5>Escenario 01: Crear Reseña Exitosamente</h5>
-                <strong>Dado</strong> que tengo autorización en el uso de la API y al endpoint de Post Reviews,
-                <strong>Cuando</strong> envío una solicitud con datos validados para el registro de una nueva reseña,
-                <strong>Entonces</strong> el servidor responde con un código de estado 201 Created
-                <strong>Y</strong> la información de la reseña se almacena con éxito en la base de datos de la aplicación.
-                <h5>Escenario 02: Crear Reseña con Datos No Validados</h5>            
-                <strong>Dado</strong> que tengo autorización en el uso de la API y al endpoint de Post Reviews,
-                <strong>Cuando</strong> envío una solicitud sin datos validados para el registro de una nueva reseña,
-                <strong>Entonces</strong> el servidor responde con un código de estado 400 Bad Request
-                <strong>Y</strong> recibo un mensaje de error en la solicitud indicando que los datos no son válidos
-                <strong>Y</strong> la solicitud es rechazada, sin almacenar la información en la base de datos.
-            </td>
-            <td> </td>
+                <h5> Escenario 02: Obtener Datos de las Proyectos</h5>
+                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Proyectos,
+                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del proyecto,
+                <strong> Entonces </strong>  el servidor responde con un código de estado 200 OK <strong> Y </strong> recibo la información de los Proyectos actuales en un response de formato JSON que contiene los siguientes campos:<br>
+                - ID: {ID del proyecto}<br>
+                - Business Id: {Id de empresa que realiza el proyecto}<br>
+                - Contractor Id: {Id del contratista que solicito el proyecto}<br>
+                - Start Date: {Fecha de inicio del proyecto}<br>
+                - Finish Date: {Fecha de fin del proyecto}<br>
+                - Name: {Nombre del proyecto}<br>
+                - Image: {Foto del proyecto}<br>
+                - Description: {Descripción del proyecto}<br>
+                <h5> Escenario 02: Obtener Datos del proyecto Exitosamente por ID </h5>
+                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Proyectos by ID,
+                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del proyecto por su ID,
+                <strong> Entonces </strong>  el servidor responde con un código de estado 200 OK <strong> Y </strong> recibo la información del proyecto actual en un response de formato JSON.<br>
+                <h5> Escenario 03: Obtener Datos del proyecto con Parámetro de ID Erróneo</h5>            
+                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Proyectos by ID,
+                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del proyecto con un parámetro de ID erróneo o inexistente,
+                <strong> Entonces </strong> el servidor responde con un código de estado 400 Bad Request
+                <strong> Y </strong> recibo un mensaje de error en el response indicando que el parámetro de ID es incorrecto o no existe.
         </tr>
         <tr style="text-align:center">
             <td> TS006 </td>
-            <td> Get Reviews </td>
+            <td> Obtener Reviews </td>
             <td> 
                 <strong>Como</strong> desarrollador backend en reStyle,
                 <strong>Quiero</strong> obtener la información del portafolio de las reseñas creadas por los contratistas a través de una API
@@ -740,14 +773,102 @@
                 <strong>Entonces</strong> el servidor responde con un código de estado 200 OK
                 <strong>Y</strong> recibo la información de las reseñas en un response de formato JSON que contiene al menos una reseña con los siguientes campos:<br>
                 - ID: {ID de la reseña}<br>
-                - Contratista: {Nombre del contratista que creó la reseña}<br>
-                - Comentario: {Contenido de la reseña}<br>
-                - Calificación: {Puntuación de la reseña}<br>
+                - Contractor Id: {Id del contratista que creó la reseña}<br>
+                - Project Id: {Id del proyecto del que se creó la reseña}<br>
+                - Comment: {Contenido de la reseña}<br>
+                - Image: {Foto de la reseña}<br>
+                - Duration: {Duracion del proyecto}<br>
+                - Rating: {Puntuación de la reseña}<br>
                 <h5>Escenario 02: Obtener Reseñas con Parámetro Erróneo</h5>
                 <strong>Dado</strong> que tengo autorización en el uso de la API y al endpoint de Reviews,
                 <strong>Cuando</strong> envío una solicitud GET para la obtención de datos de las reseñas de los usuarios con un parámetro erróneo o inexistente,
                 <strong>Entonces</strong> el servidor responde con un código de estado 400 Bad Request
                 <strong>Y</strong> recibo un mensaje de error en la solicitud indicando que el parámetro es incorrecto o no existe.
+            </td>
+            <td> </td>
+        </tr>
+      <tr style="text-align:center">
+            <td> TS007 </td>
+            <td> Obtener Projects Requests </td>
+            <td> 
+                <strong>Como</strong> desarrollador backend en reStyle,
+                <strong>Quiero</strong> obtener la información de los Projects Requests creados por los contratistas a través de una API
+                <strong>Para</strong> permitir al equipo de frontend utilizar los datos del mismo.
+            </td>
+            <td> 
+                <h5>Escenario 01: Obtener Projects Request Exitosamente</h5>
+                <strong>Dado</strong> que tengo autorización en el uso de la API y al endpoint de Projects Request,
+                <strong>Cuando</strong> envío una solicitud GET para la obtención de datos de los Projects Request,
+                <strong>Entonces</strong> el servidor responde con un código de estado 200 OK
+                <strong>Y</strong> recibo la información de los Projects Request en un response de formato JSON que contiene al menos una solicitud con los siguientes campos:<br>
+                - ID: {ID de la solicitud}<br>
+                - Contractor Id: {Id del contratista que creó la solicitud}<br>
+                - Business Id: {Id de la empresa a la que se le solicita el proyecto}<br>
+                - Name: {Nombre del contratista}<br>
+                - Surname: {Apellido del contratista}<br>
+                - Email: {Email del contratista}<br>
+                - Phone: {Telefono del contratista}<br>
+                - Address: {Direccion del contratista}<br>
+                - City: {Ciudad donde reside el contratista}<br>
+                - Deadline Date: {Fecha para la que se necesita el proyecto}<br>
+                - Budget: {Presupuesto para el proyecto}<br>
+                - Rooms: {Numero de cuartos para el proyecto}<br>
+                - Summary: {Descripcion de la solicitud para el proyecto}<br>
+                <h5> Escenario 02: Obtener Projects Request Exitosamente por ID </h5>
+                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de  Projects Request by ID,
+                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del Project Request por su ID,
+                <strong> Entonces </strong>  el servidor responde con un código de estado 200 OK <strong> Y </strong> recibo la información del Project Request actual en un response de formato JSON.<br>
+                <h5>Escenario 03: Obtener Projects Request por ID con Parámetro Erróneo </h5>
+                <strong>Dado</strong> que tengo autorización en el uso de la API y al endpoint de Projects Request by ID,
+                <strong>Cuando</strong> envío una solicitud GET para la obtención de datos del Project Request con un ID de parámetro erróneo o inexistente,
+                <strong>Entonces</strong> el servidor responde con un código de estado 400 Bad Request
+                <strong>Y</strong> recibo un mensaje de error en la solicitud indicando que el ID de parámetro es incorrecto o no existe.
+            </td>
+            <td> </td>
+        </tr>
+           <tr style="text-align:center">
+            <td> TS008 </td>
+            <td> Obtener Tracking </td>
+            <td> 
+                <strong>Como</strong> desarrollador backend en reStyle,
+                <strong>Quiero</strong> obtener la información de Tracking creados por los remodeladores a través de una API
+                <strong>Para</strong> permitir al equipo de frontend utilizar los datos del mismo.
+            </td>
+            <td> 
+                <h5>Escenario 01: Obtener Tracking Exitosamente</h5>
+                <strong>Dado</strong> que tengo autorización en el uso de la API y al endpoint de Tracking,
+                <strong>Cuando</strong> envío una solicitud GET para la obtención de datos de Tracking,
+                <strong>Entonces</strong> el servidor responde con un código de estado 200 OK
+                <strong>Y</strong> recibo la información del Tracking en un response de formato JSON que contiene al menos un Tracking con los siguientes campos:<br>
+                - ID: {ID de Trackingd}<br>
+                - Contractor Id: {Id del contratista}<br>
+                - Remodeler Id: {Id del remodelador que realizo el proyecto}<br>
+                - Requirements: {
+                  - Job Title: {Nombre de la tarea}<br>
+                  - Job Description: {Descripcion de la tarea}<br>
+                  - Job Requirements: {Requerimientos de la tarea}<br>
+                  - Accepted: {Estado de finalizacion la tarea}<br>
+                }<br>
+                - Technical Visit: {
+                  - Price: {Precio de la visita tecnica}<br>
+                  - Date: {Fecha de la visita tecnica}<br>
+                  - Additional Details: {Detalles de la visita tecnica}<br>
+                }<br>
+                - Quote: [{
+                  - Price: {Precio de la cotizacion}<br>
+                  - Description: {Descripcion de la cotizacion}<br>
+                  - Details: {Detalles de la cotizacion}<br>
+                }]<br>
+                - Project Approval: {Aprobacion del proyecto}<br>
+                <h5> Escenario 02: Obtener Tracking Exitosamente por ID </h5>
+                <strong> Dado </strong> que tengo autorización en el uso de la API y al endpoint de Tracking by ID,
+                <strong> Cuando </strong> envío una solicitud GET para la obtención de datos del Tracking por su ID,
+                <strong> Entonces </strong>  el servidor responde con un código de estado 200 OK <strong> Y </strong> recibo la información del Tracking actual en un response de formato JSON.<br>
+                <h5>Escenario 03: Obtener Tracking por ID con Parámetro Erróneo </h5>
+                <strong>Dado</strong> que tengo autorización en el uso de la API y al endpoint de Tracking by ID,
+                <strong>Cuando</strong> envío una solicitud GET para la obtención de datos del Tracking con un ID de parámetro erróneo o inexistente,
+                <strong>Entonces</strong> el servidor responde con un código de estado 400 Bad Request
+                <strong>Y</strong> recibo un mensaje de error en la solicitud indicando que el ID de parámetro es incorrecto o no existe.
             </td>
             <td> </td>
         </tr>
